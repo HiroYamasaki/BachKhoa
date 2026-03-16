@@ -74,8 +74,8 @@
 <link rel='stylesheet' id='baumeister-mikado-style-dynamic-responsive-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/style_dynamic_responsive.css?ver=1639748974' type='text/css' media='all' />
 <link rel='stylesheet' id='baumeister-mikado-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C500%7CPoppins%3A300%2C400%2C500&#038;subset=latin-ext&#038;ver=1.0.0' type='text/css' media='all' />
 <link rel='stylesheet' id='js_composer_front-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.10.0' type='text/css' media='all' />
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://code.jquery.com/jquery-3.6.0.min.js' id='jquery-core-js' crossorigin='anonymous'></script>
+<script type='text/javascript' src='https://code.jquery.com/jquery-migrate-3.3.2.min.js' id='jquery-migrate-js' crossorigin='anonymous'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.5' async id='tp-tools-js'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.5' async id='revmin-js'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.0.0' id='jquery-blockui-js'></script>
@@ -1428,7 +1428,6 @@
 -->						</rs-slide>
 					</rs-slides>
 				</rs-module>
-				<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 			</rs-module-wrap>
 			<!-- END REVOLUTION SLIDER -->
 </div><div class="mkd-row-grid-section-wrapper mkd-content-aligment-center" ><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1511953772720" ><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center " style="background-color: #ffffff" data-item-class="mkd-eh-custom-1017">
@@ -2290,7 +2289,6 @@
 			</div> <!-- close div.mkd-wrapper-inner  -->
 </div> <!-- close div.mkd-wrapper -->
 
-		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 		<div class="rbt-toolbar" data-theme="Baumeister" data-featured="" data-button-position="70%" data-button-horizontal="right" data-button-alt="no" ></div>
 <!-- GTM Container placement set to footer -->
 <!-- Google Tag Manager (noscript) -->
