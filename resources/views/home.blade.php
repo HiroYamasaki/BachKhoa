@@ -493,7 +493,7 @@
         target = Math.min(target + Math.random() * 8 + 2, 85);
     }, 300);
 
-    window.addEventListener('load', function() {
+    function hidePreloader() {
         clearInterval(fakeTimer);
         target = 100;
         setTimeout(function() {
@@ -504,6 +504,14 @@
                 setTimeout(function() { preloader.style.display = 'none'; }, 800);
             }
         }, 500);
+    }
+
+    // Ẩn loading screen sau tối đa 3 giây, không chờ external resources
+    var maxTimer = setTimeout(hidePreloader, 3000);
+
+    window.addEventListener('load', function() {
+        clearTimeout(maxTimer);
+        hidePreloader();
     });
 })();
 </script>
