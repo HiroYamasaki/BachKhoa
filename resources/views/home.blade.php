@@ -1,0 +1,2456 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+				
+			<meta property="og:url" content="https://baumeister.qodeinteractive.com/"/>
+			<meta property="og:type" content="article"/>
+			<meta property="og:title" content="Main Home"/>
+			<meta property="og:description" content="A Powerful Theme for Industry and Manufacturing"/>
+			<meta property="og:image" content=""/>
+		
+				
+		<meta charset="UTF-8"/>
+		<link rel="profile" href="https://gmpg.org/xfn/11" />
+			
+				<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+		<title>Baumeister &#8211; A Powerful Theme for Industry and Manufacturing</title>
+<meta name='robots' content='max-image-preview:large' />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=VJDJ5z9IIpI2P2EJZcelmmI-ICOleOPIVLYqVEycVL718y3KWNZ3C7U0wLB4TrhIjbH2Edg7qmSmQvLnp1_N-Q" charset="UTF-8"></script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel='dns-prefetch' href='//export.qodethemes.com' />
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Baumeister &raquo; Feed" href="https://baumeister.qodeinteractive.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Baumeister &raquo; Comments Feed" href="https://baumeister.qodeinteractive.com/comments/feed/" />
+
+<link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all" />
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://baumeister.qodeinteractive.com/wp-includes/css/dist/block-library/style.min.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-vendors-style-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-style-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.5.1' type='text/css' media='all' />
+
+<link rel='stylesheet' id='titan-adminbar-styles-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/anti-spam/assets/css/admin-bar.css?ver=7.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='rabbit_css-css'  href='https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=6.0.11' type='text/css' media='all' />
+
+<link rel='stylesheet' id='ppress-frontend-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/css/frontend.min.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ppress-flatpickr-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ppress-select2-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='baumeister-mikado-default-style-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/style.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='baumeister-mikado-modules-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/modules.min.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-font_awesome-css'  href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-font_elegant-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/elegant-icons/style.min.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-ion_icons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/ion-icons/css/ionicons.min.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-linea_icons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/linea-icons/style.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-linear_icons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/linear-icons/style.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-simple_line_icons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/simple-line-icons/simple-line-icons.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-dripicons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/dripicons/dripicons.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.16' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='baumeister-mikado-woo-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/woocommerce.min.css?ver=6.0.11' type='text/css' media='all' />
+
+<link rel='stylesheet' id='baumeister-mikado-woo-responsive-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/woocommerce-responsive.min.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='baumeister-mikado-style-dynamic-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/style_dynamic.css?ver=1639748974' type='text/css' media='all' />
+<link rel='stylesheet' id='baumeister-mikado-modules-responsive-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/modules-responsive.min.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='baumeister-mikado-style-dynamic-responsive-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/style_dynamic_responsive.css?ver=1639748974' type='text/css' media='all' />
+<link rel='stylesheet' id='baumeister-mikado-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C500%7CPoppins%3A300%2C400%2C500&#038;subset=latin-ext&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.10.0' type='text/css' media='all' />
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.5' async id='tp-tools-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.5' async id='revmin-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.0.0' id='jquery-blockui-js'></script>
+
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.0.0' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.js?ver=4.3.0' id='ppress-flatpickr-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.js?ver=4.3.0' id='ppress-select2-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=6.10.0' id='vc_woocommerce-add-to-cart-js-js'></script>
+<link rel="https://api.w.org/" href="https://baumeister.qodeinteractive.com/wp-json/" /><link rel="alternate" type="application/json" href="https://baumeister.qodeinteractive.com/wp-json/wp/v2/pages/385" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://baumeister.qodeinteractive.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://baumeister.qodeinteractive.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 6.0.11" />
+<meta name="generator" content="WooCommerce 7.0.0" />
+<link rel="canonical" href="https://baumeister.qodeinteractive.com/" />
+<link rel='shortlink' href='https://baumeister.qodeinteractive.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://baumeister.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbaumeister.qodeinteractive.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://baumeister.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbaumeister.qodeinteractive.com%2F&#038;format=xml" />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to footer -->
+
+
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 6.6.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/cropped-favicon-img-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/cropped-favicon-img-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/cropped-favicon-img-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/cropped-favicon-img-1-270x270.png" />
+
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+
+</head>
+<body class="home page-template page-template-full-width page-template-full-width-php page page-id-385 theme-baumeister mkd-core-1.2.3 woocommerce-no-js baumeister-ver-1.6 mkd-grid-1300 mkd-content-is-behind-header mkd-disable-global-padding-bottom mkd-light-header mkd-sticky-header-on-scroll-down-up mkd-dropdown-animate-height mkd-header-box mkd-menu-area-shadow-disable mkd-menu-area-in-grid-shadow-disable mkd-menu-area-border-disable mkd-menu-area-in-grid-border-disable mkd-logo-area-border-disable mkd-logo-area-in-grid-border-disable mkd-header-vertical-shadow-disable mkd-header-vertical-border-disable mkd-side-menu-slide-from-right mkd-woocommerce-columns-3 mkd-woo-normal-space mkd-woo-pl-info-below-image mkd-woo-single-thumb-below-image mkd-woo-single-has-pretty-photo mkd-default-mobile-header mkd-sticky-up-mobile-header mkd-header-top-enabled mkd-search-covers-header wpb-js-composer js-comp-ver-6.10.0 vc_responsive" itemscope itemtype="http://schema.org/WebPage">
+
+<!-- ===== LOADING SCREEN ===== -->
+<div id="bkd-preloader">
+    <style>
+        #bkd-preloader {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 999999;
+            overflow: hidden;
+            transition: opacity 0.7s ease, visibility 0.7s ease;
+        }
+        #bkd-preloader.bkd-loaded {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        /* --- Dot grid background --- */
+        #bkd-preloader::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(circle, #e8e8e8 1.5px, transparent 1.5px);
+            background-size: 28px 28px;
+        }
+
+        /* --- Scan line quét từ trên xuống --- */
+        /* Wrap trung tâm */
+        .bkd-loader-wrap {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* === LOGO === */
+        .bkd-loader-logo {
+            width: 86px; height: 86px;
+            animation: bkd-pulse 2s ease-in-out infinite;
+            filter: drop-shadow(0 6px 20px rgba(232,97,45,0.25));
+        }
+        @keyframes bkd-pulse {
+            0%, 100% { transform: scale(1); }
+            50%       { transform: scale(1.06); }
+        }
+
+        /* === BRAND NAME: gradient text === */
+        .bkd-brand-name {
+            font-family: 'Oswald', 'Montserrat', Arial, sans-serif;
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            background: linear-gradient(135deg, #E8612D 0%, #C0392B 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* === TAGLINE: typewriter === */
+        .bkd-tagline {
+            font-family: 'Courier New', monospace;
+            font-size: 11px;
+            color: #999;
+            letter-spacing: 2px;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 2px solid #E8612D;
+            width: 0;
+            animation: bkd-type 2.2s steps(26) 0.4s forwards, bkd-cursor 0.7s step-end infinite;
+        }
+        @keyframes bkd-type   { to { width: 220px; } }
+        @keyframes bkd-cursor {
+            0%, 100% { border-right-color: #E8612D; }
+            50%       { border-right-color: transparent; }
+        }
+
+        /* === PROGRESS AREA === */
+        .bkd-progress-wrap {
+            width: 340px;
+            position: relative;
+        }
+
+        /* Track */
+        .bkd-progress-track {
+            position: relative;
+            height: 10px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: inset 0 1px 4px rgba(0,0,0,0.08);
+            overflow: visible;
+        }
+
+        /* Fill */
+        .bkd-progress-fill {
+            position: absolute;
+            top: 0; left: 0; bottom: 0;
+            width: 0%;
+            background: linear-gradient(90deg, #E8612D 0%, #C0392B 100%);
+            border-radius: 10px;
+            box-shadow: 2px 0 10px rgba(232,97,45,0.45);
+            transition: width 0.1s linear;
+        }
+        /* Shimmer trên fill */
+        .bkd-progress-fill::after {
+            content: '';
+            position: absolute;
+            top: 0; bottom: 0;
+            left: -80px;
+            width: 80px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35), transparent);
+            animation: bkd-shimmer 1.3s ease-in-out infinite;
+            border-radius: 10px;
+        }
+        @keyframes bkd-shimmer {
+            0%   { left: -80px; }
+            100% { left: 100%; }
+        }
+
+        /* Các vạch chia trên track */
+        .bkd-track-marks {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            padding: 0 12%;
+            pointer-events: none;
+        }
+        .bkd-track-marks i {
+            display: block;
+            width: 1px;
+            background: rgba(255,255,255,0.5);
+            margin: 2px 0;
+            border-radius: 1px;
+        }
+
+        /* === RUNNER CHARACTER === */
+        .bkd-runner {
+            position: absolute;
+            left: 0;                         /* updated by JS */
+            bottom: calc(100% + 4px);        /* ngồi ngay trên bar */
+            transform: translateX(-50%);
+            transition: left 0.1s linear;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 10;
+            animation: bkd-bob 0.32s ease-in-out infinite;
+            pointer-events: none;
+        }
+        @keyframes bkd-bob {
+            0%, 100% { transform: translateX(-50%) translateY(0px);  }
+            50%       { transform: translateX(-50%) translateY(-4px); }
+        }
+
+        /* Đầu */
+        .bkd-rhead {
+            width: 18px; height: 18px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #E8612D, #C0392B);
+            position: relative;
+            box-shadow: 0 2px 6px rgba(232,97,45,0.4);
+        }
+        /* Mắt */
+        .bkd-rhead::before {
+            content: '';
+            position: absolute;
+            width: 4px; height: 4px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.95);
+            top: 5px; right: 3px;
+        }
+        /* Miệng cười */
+        .bkd-rhead::after {
+            content: '';
+            position: absolute;
+            width: 6px; height: 3px;
+            border: 1.5px solid rgba(255,255,255,0.7);
+            border-top: none;
+            border-radius: 0 0 4px 4px;
+            bottom: 3px; left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Cổ */
+        .bkd-rneck {
+            width: 5px; height: 3px;
+            background: #C0392B;
+        }
+
+        /* Thân */
+        .bkd-rbody {
+            position: relative;
+            width: 16px; height: 16px;
+            background: linear-gradient(180deg, #E8612D 0%, #C0392B 100%);
+            border-radius: 4px 4px 3px 3px;
+            box-shadow: 0 3px 8px rgba(192,57,43,0.3);
+            overflow: visible;
+        }
+        /* Tay trái */
+        .bkd-rbody::before {
+            content: '';
+            position: absolute;
+            width: 6px; height: 12px;
+            background: linear-gradient(180deg, #d4522a, #a83020);
+            border-radius: 0 0 5px 5px;
+            top: 2px; left: -7px;
+            transform-origin: top center;
+            animation: bkd-arm-l 0.32s ease-in-out infinite;
+        }
+        /* Tay phải */
+        .bkd-rbody::after {
+            content: '';
+            position: absolute;
+            width: 6px; height: 12px;
+            background: linear-gradient(180deg, #d4522a, #a83020);
+            border-radius: 0 0 5px 5px;
+            top: 2px; right: -7px;
+            transform-origin: top center;
+            animation: bkd-arm-r 0.32s ease-in-out infinite;
+        }
+        @keyframes bkd-arm-l {
+            0%, 100% { transform: rotate(-55deg); }
+            50%       { transform: rotate(45deg);  }
+        }
+        @keyframes bkd-arm-r {
+            0%, 100% { transform: rotate(45deg);  }
+            50%       { transform: rotate(-55deg); }
+        }
+
+        /* Chân */
+        .bkd-rlegs {
+            display: flex;
+            gap: 3px;
+            margin-top: 1px;
+        }
+        .bkd-rleg {
+            width: 6px; height: 14px;
+            background: linear-gradient(180deg, #2c2c2c, #444);
+            border-radius: 0 0 5px 5px;
+            transform-origin: top center;
+        }
+        .bkd-rleg.l { animation: bkd-leg-l 0.32s ease-in-out infinite; }
+        .bkd-rleg.r { animation: bkd-leg-r 0.32s ease-in-out infinite; }
+        @keyframes bkd-leg-l {
+            0%, 100% { transform: rotate(-38deg); }
+            50%       { transform: rotate(44deg);  }
+        }
+        @keyframes bkd-leg-r {
+            0%, 100% { transform: rotate(44deg);  }
+            50%       { transform: rotate(-38deg); }
+        }
+
+        /* Bóng đổ dưới nhân vật */
+        .bkd-rshad {
+            position: absolute;
+            bottom: -6px;
+            left: 50%; transform: translateX(-50%);
+            width: 18px; height: 5px;
+            border-radius: 50%;
+            background: radial-gradient(ellipse, rgba(232,97,45,0.3) 0%, transparent 70%);
+            animation: bkd-shad 0.32s ease-in-out infinite;
+        }
+        @keyframes bkd-shad {
+            0%, 100% { width: 18px; opacity: 0.6; }
+            50%       { width: 11px; opacity: 0.25; }
+        }
+
+        /* Footer thanh progress: label + % */
+        .bkd-progress-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 14px;
+        }
+        .bkd-progress-label {
+            font-family: 'Courier New', monospace;
+            font-size: 10px;
+            color: #ccc;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .bkd-progress-pct {
+            font-family: 'Oswald', Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: #E8612D;
+            letter-spacing: 1px;
+        }
+
+        /* Góc trang trí */
+        .bkd-corner {
+            position: absolute;
+            width: 22px; height: 22px;
+        }
+        .bkd-corner::before, .bkd-corner::after {
+            content: '';
+            position: absolute;
+            background: rgba(232,97,45,0.35);
+        }
+        .bkd-corner::before { width: 100%; height: 2px; top: 0; left: 0; }
+        .bkd-corner::after  { width: 2px; height: 100%; top: 0; left: 0; }
+        .bkd-corner.tl { top: 20px; left: 20px; }
+        .bkd-corner.tr { top: 20px; right: 20px; transform: scaleX(-1); }
+        .bkd-corner.bl { bottom: 20px; left: 20px; transform: scaleY(-1); }
+        .bkd-corner.br { bottom: 20px; right: 20px; transform: scale(-1); }
+    </style>
+
+    <!-- Góc trang trí -->
+    <div class="bkd-corner tl"></div>
+    <div class="bkd-corner tr"></div>
+    <div class="bkd-corner bl"></div>
+    <div class="bkd-corner br"></div>
+
+    <!-- Nội dung trung tâm -->
+    <div class="bkd-loader-wrap">
+
+        <!-- Logo Bach Khoa Digital -->
+        <div class="bkd-loader-logo">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="bkd-lg" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#E8612D"/>
+                        <stop offset="100%" stop-color="#C0392B"/>
+                    </linearGradient>
+                </defs>
+                <rect x="12" y="12" width="76" height="76" rx="10" fill="url(#bkd-lg)" transform="rotate(45 50 50)"/>
+                <text x="50" y="67" text-anchor="middle" font-family="Oswald,Arial,sans-serif" font-size="54" font-weight="700" fill="#ffffff">B</text>
+            </svg>
+        </div>
+
+        <!-- Tên thương hiệu -->
+        <div class="bkd-brand-name">BACH KHOA DIGITAL</div>
+
+        <!-- Tagline typewriter -->
+        <div class="bkd-tagline">TIÊN PHONG CHUYỂN ĐỔI SỐ</div>
+
+        <!-- Progress bar + runner -->
+        <div class="bkd-progress-wrap">
+            <div class="bkd-progress-track" id="bkd-track">
+                <!-- Fill bar -->
+                <div class="bkd-progress-fill" id="bkd-fill"></div>
+                <!-- Vạch chia -->
+                <div class="bkd-track-marks">
+                    <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+                <!-- Nhân vật chạy -->
+                <div class="bkd-runner" id="bkd-runner">
+                    <div class="bkd-rhead"></div>
+                    <div class="bkd-rneck"></div>
+                    <div class="bkd-rbody"></div>
+                    <div class="bkd-rlegs">
+                        <div class="bkd-rleg l"></div>
+                        <div class="bkd-rleg r"></div>
+                    </div>
+                    <div class="bkd-rshad"></div>
+                </div>
+            </div>
+            <div class="bkd-progress-footer">
+                <span class="bkd-progress-label">Loading...</span>
+                <span class="bkd-progress-pct" id="bkd-pct">0%</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    var fill   = document.getElementById('bkd-fill');
+    var runner = document.getElementById('bkd-runner');
+    var pct    = document.getElementById('bkd-pct');
+    var cur    = 0, target = 0, raf;
+
+    function setProgress(val) {
+        if (fill)   fill.style.width  = val + '%';
+        if (runner) runner.style.left = val + '%';
+        if (pct)    pct.textContent   = Math.round(val) + '%';
+    }
+    function animateProgress() {
+        if (cur < target) {
+            cur += (target - cur) * 0.06 + 0.3;
+            if (cur > target) cur = target;
+            setProgress(cur);
+        }
+        raf = requestAnimationFrame(animateProgress);
+    }
+    animateProgress();
+
+    var fakeTimer = setInterval(function() {
+        target = Math.min(target + Math.random() * 8 + 2, 85);
+    }, 300);
+
+    window.addEventListener('load', function() {
+        clearInterval(fakeTimer);
+        target = 100;
+        setTimeout(function() {
+            cancelAnimationFrame(raf);
+            var preloader = document.getElementById('bkd-preloader');
+            if (preloader) {
+                preloader.classList.add('bkd-loaded');
+                setTimeout(function() { preloader.style.display = 'none'; }, 800);
+            }
+        }, 500);
+    });
+})();
+</script>
+<!-- ===== END LOADING SCREEN ===== -->
+
+	<section class="mkd-side-menu">
+	<div class="mkd-close-side-menu-holder">
+		<a class="mkd-close-side-menu" href="#" target="_self">
+			<span aria-hidden="true" class="mkd-icon-font-elegant icon_close " ></span>		</a>
+	</div>
+	<div id="media_image-4" class="widget mkd-sidearea widget_media_image"><img width="217" height="38" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/sidearea-img.png" class="image wp-image-3390  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div><div id="text-7" class="widget mkd-sidearea widget_text">			<div class="textwidget"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt et.</p>
+</div>
+		</div><div id="text-8" class="widget mkd-sidearea widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Contact</h4></div>			<div class="textwidget"></div>
+		</div>
+        <a class="mkd-icon-widget-holder"            href="#"
+            target="_self" style="margin: -20px 0 0 0">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">620 Eighth Avenue, New York,</span></span>        </a>
+    
+        <a class="mkd-icon-widget-holder"            href="#"
+            target="_self" style="margin: -20px 0 0 20px">
+                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">United States of America</span></span>        </a>
+    
+        <a class="mkd-icon-widget-holder"            href="tel:+555786978"
+            target="_self" style="margin: 20px 0px 0">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">+ 555 786 897</span></span>        </a>
+    
+        <a class="mkd-icon-widget-holder"            href="#"
+            target="_self" style="margin: 0 0 20px 28px">
+                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Mon-Sat, 9:00 am-7:00 pm</span></span>        </a>
+    
+        <a class="mkd-icon-widget-holder" href="/cdn-cgi/l/email-protection#d6b4b7a3bbb3bfa5a2b3a4f8a7b9b2b3bfb8a2b3a4b7b5a2bfa0b3f8b5b9bb" target="_self" style="margin: 0 0 50px 0">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">baumeister.qodeinteractive.com</span></span>        </a>
+    <div id="text-9" class="widget mkd-sidearea widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Share</h4></div>			<div class="textwidget"></div>
+		</div>		
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 0 0;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-facebook     "></span>		</a>
+				
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 18px 0px;" href="https://plus.google.com/" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-google-plus     "></span>		</a>
+				
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 0 0;" href="https://www.instagram.com/qodeinteractive/" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-instagram     "></span>		</a>
+				
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 0 0 20px;" href="https://www.pinterest.com/qodeinteractive/" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-pinterest     "></span>		</a>
+		</section>
+    <div class="mkd-wrapper">
+        <div class="mkd-wrapper-inner">
+            	
+			<div class="mkd-top-bar-background"></div>
+		
+	<div class="mkd-top-bar">
+				
+					<div class="mkd-grid">
+						
+			<div class="mkd-vertical-align-containers">
+				<div class="mkd-position-left">
+					<div class="mkd-position-left-inner">
+													
+        <a class="mkd-icon-widget-holder"            href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.951"
+            target="_blank" style="margin: 0 17px 0 0">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-truck      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">9 Crosby Street, New York City</span></span>        </a>
+    <div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
+	<div class="mkd-separator" style="border-color: rgba(255,255,255,0.25);border-style: solid;width: 1px;border-bottom-width: 20px"></div>
+</div>
+</div>
+        <a class="mkd-icon-widget-holder"            href="tel:+134458597"
+            target="_self" style="margin: 0 17px">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">+1 | 344 5678</span></span>        </a>
+    <div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
+	<div class="mkd-separator" style="border-color: rgba(255,255,255,0.25);border-style: solid;width: 1px;border-bottom-width: 20px"></div>
+</div>
+</div>
+        <a class="mkd-icon-widget-holder" href="/cdn-cgi/l/email-protection#f29093879f979b81869780b2839d96979b9c8697809391869b8497dc919d9f" target="_self" style="margin: 0 0 0 17px">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff"><span class="__cf_email__" data-cfemail="3d5f5c485058544e49584f7d4c525958545349584f5c5e49544b58135e5250">[email&#160;protected]</span></span></span>        </a>
+    											</div>
+				</div>
+				<div class="mkd-position-right">
+					<div class="mkd-position-right-inner">
+															
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px" href="https://twitter.com/QodeInteractive" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-twitter     "></span>		</a>
+				
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: 0 15px;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-facebook     "></span>		</a>
+				
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: 0 15px 0 0;" href="https://plus.google.com/discover" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-google-plus     "></span>		</a>
+				
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: 0 15px 0 0;" href="https://www.linkedin.com/company/qode-themes/" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-linkedin     "></span>		</a>
+		<div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
+	<div class="mkd-separator" style="border-color: rgba(255,255,255,0.25);border-style: solid;width: 1px;border-bottom-width: 20px"></div>
+</div>
+</div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
+	<div class="mkd-separator" style="border-color: rgba(255,255,255,0);border-style: solid;width: 15px"></div>
+</div>
+</div><div id="media_image-5" class="widget widget_media_image mkd-top-bar-widget"><img width="49" height="25" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/topbar-img-1.png" class="image wp-image-1063  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div>											</div>
+				</div>
+			</div>
+				
+					</div>
+				
+			</div>
+	
+	
+    <header class="mkd-page-header">
+        
+        
+                        <div class="mkd-grid">
+                
+                <div class="mkd-menu-area mkd-menu-center">
+                    
+                    <div class="mkd-vertical-align-containers">
+                        <div class="mkd-position-left">
+                            <div class="mkd-position-left-inner">
+                                
+
+<div class="mkd-logo-wrapper">
+    <a itemprop="url" href="https://baumeister.qodeinteractive.com/" style="height: 25px;">
+        <img itemprop="image" class="mkd-normal-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png"  alt="logo"/>
+        <img itemprop="image" class="mkd-dark-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png"  alt="dark logo"/>        <img itemprop="image" class="mkd-light-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo_white.png"  alt="light logo"/>    </a>
+</div>
+
+                                                            </div>
+                        </div>
+                                                    <div class="mkd-position-center">
+                                <div class="mkd-position-center-inner">
+                                    
+<nav class="mkd-main-menu mkd-drop-down mkd-default-nav">
+    <ul id="menu-main-menu-navigation" class="clearfix"><li id="nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkd-active-item has_sub narrow"><a href="#" class=" current "><span class="item_outer"><span class="item_text">Home</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-385 current_page_item "><a href="https://baumeister.qodeinteractive.com/" class=""><span class="item_outer"><span class="item_text">Main Home</span></span></a></li>
+	<li id="nav-menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/energy-home/" class=""><span class="item_outer"><span class="item_text">Energy Home</span></span></a></li>
+	<li id="nav-menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contractor-home/" class=""><span class="item_outer"><span class="item_text">Contractor Home</span></span></a></li>
+	<li id="nav-menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/builder-home/" class=""><span class="item_outer"><span class="item_text">Builder Home</span></span></a></li>
+	<li id="nav-menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/tool-shop-home/" class=""><span class="item_outer"><span class="item_text">Tool Shop Home</span></span></a></li>
+	<li id="nav-menu-item-722" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/steelwork-home/" class=""><span class="item_outer"><span class="item_text">Steelwork Home</span></span></a></li>
+	<li id="nav-menu-item-2165" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-showcase/" class=""><span class="item_outer"><span class="item_text">Product Showcase</span></span></a></li>
+	<li id="nav-menu-item-972" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/sawmill-home/" class=""><span class="item_outer"><span class="item_text">Sawmill Home</span></span></a></li>
+	<li id="nav-menu-item-903" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/transport-home/" class=""><span class="item_outer"><span class="item_text">Transport Home</span></span></a></li>
+	<li id="nav-menu-item-3068" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/landing/" class=""><span class="item_outer"><span class="item_text">Landing</span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Pages</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/about-us/" class=""><span class="item_outer"><span class="item_text">About Us</span></span></a></li>
+	<li id="nav-menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-team/" class=""><span class="item_outer"><span class="item_text">Our Team</span></span></a></li>
+	<li id="nav-menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/meet-the-crew/" class=""><span class="item_outer"><span class="item_text">Meet the Crew</span></span></a></li>
+	<li id="nav-menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-services/" class=""><span class="item_outer"><span class="item_text">Our Services</span></span></a></li>
+	<li id="nav-menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/pricing-plans/" class=""><span class="item_outer"><span class="item_text">Pricing Plans</span></span></a></li>
+	<li id="nav-menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-clients/" class=""><span class="item_outer"><span class="item_text">Our Clients</span></span></a></li>
+	<li id="nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contact-us/" class=""><span class="item_outer"><span class="item_text">Contact Us</span></span></a></li>
+	<li id="nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/faq-page/" class=""><span class="item_outer"><span class="item_text">FAQ Page</span></span></a></li>
+	<li id="nav-menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/coming-soon/" class=""><span class="item_outer"><span class="item_text">Coming Soon</span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-2364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Standard</span></span></a>
+	<ul>
+		<li id="nav-menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span></span></a></li>
+		<li id="nav-menu-item-2366" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Gallery</span></span></a>
+	<ul>
+		<li id="nav-menu-item-2418" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span></span></a></li>
+		<li id="nav-menu-item-2414" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-in-grid/" class=""><span class="item_outer"><span class="item_text">Joined/In Grid</span></span></a></li>
+		<li id="nav-menu-item-2417" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span></span></a></li>
+		<li id="nav-menu-item-2415" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-wide/" class=""><span class="item_outer"><span class="item_text">Joined/Wide</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-2423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Masonry</span></span></a>
+	<ul>
+		<li id="nav-menu-item-2422" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span></span></a></li>
+		<li id="nav-menu-item-2803" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-in-grid/" class=""><span class="item_outer"><span class="item_text">Joined/In Grid</span></span></a></li>
+		<li id="nav-menu-item-2421" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span></span></a></li>
+		<li id="nav-menu-item-2802" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-wide/" class=""><span class="item_outer"><span class="item_text">Joined/Wide</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Layouts</span></span></a>
+	<ul>
+		<li id="nav-menu-item-2407" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns/" class=""><span class="item_outer"><span class="item_text">3 Columns</span></span></a></li>
+		<li id="nav-menu-item-2406" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns-wide/" class=""><span class="item_outer"><span class="item_text">3 Columns Wide</span></span></a></li>
+		<li id="nav-menu-item-2412" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns/" class=""><span class="item_outer"><span class="item_text">4 Columns</span></span></a></li>
+		<li id="nav-menu-item-2411" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">4 Columns Wide</span></span></a></li>
+		<li id="nav-menu-item-2419" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">5 Columns Wide</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-2541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Single</span></span></a>
+	<ul>
+		<li id="nav-menu-item-2558" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/innovative-project/" class=""><span class="item_outer"><span class="item_text">Small Images</span></span></a></li>
+		<li id="nav-menu-item-2560" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/construction-sites/" class=""><span class="item_outer"><span class="item_text">Small Slider</span></span></a></li>
+		<li id="nav-menu-item-2554" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/new-structures/" class=""><span class="item_outer"><span class="item_text">Big Images</span></span></a></li>
+		<li id="nav-menu-item-2555" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/heavy-equipment/" class=""><span class="item_outer"><span class="item_text">Big Slider</span></span></a></li>
+		<li id="nav-menu-item-2556" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/frame-construction/" class=""><span class="item_outer"><span class="item_text">Gallery</span></span></a></li>
+		<li id="nav-menu-item-2557" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/wood-flooring/" class=""><span class="item_outer"><span class="item_text">Masonry</span></span></a></li>
+	</ul>
+</li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Blog</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-2597" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/masonry-list/" class=""><span class="item_outer"><span class="item_text">Masonry List</span></span></a></li>
+	<li id="nav-menu-item-3139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Standard List</span></span></a>
+	<ul>
+		<li id="nav-menu-item-2598" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/standard-list/" class=""><span class="item_outer"><span class="item_text">Right Sidebar</span></span></a></li>
+		<li id="nav-menu-item-3137" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/left-sidebar/" class=""><span class="item_outer"><span class="item_text">Left Sidebar</span></span></a></li>
+		<li id="nav-menu-item-3138" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/no-sidebar/" class=""><span class="item_outer"><span class="item_text">No Sidebar</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-2600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Post Types</span></span></a>
+	<ul>
+		<li id="nav-menu-item-2601" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/10-different-sizes/" class=""><span class="item_outer"><span class="item_text">Standard</span></span></a></li>
+		<li id="nav-menu-item-2602" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/expensive-buildings-projects/" class=""><span class="item_outer"><span class="item_text">Gallery</span></span></a></li>
+		<li id="nav-menu-item-2604" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/buildings-under-construction/" class=""><span class="item_outer"><span class="item_text">Link</span></span></a></li>
+		<li id="nav-menu-item-2605" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/industry/" class=""><span class="item_outer"><span class="item_text">Quote</span></span></a></li>
+		<li id="nav-menu-item-2607" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/details-roof-structure/" class=""><span class="item_outer"><span class="item_text">Audio</span></span></a></li>
+		<li id="nav-menu-item-2606" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/simplified-building/" class=""><span class="item_outer"><span class="item_text">Video</span></span></a></li>
+	</ul>
+</li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span></span></a></li>
+	<li id="nav-menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://baumeister.qodeinteractive.com/product/electric-drill/" class=""><span class="item_outer"><span class="item_text">Single Product</span></span></a></li>
+	<li id="nav-menu-item-1198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop Layouts</span></span></a>
+	<ul>
+		<li id="nav-menu-item-1196" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/three-columns/" class=""><span class="item_outer"><span class="item_text">3 Columns</span></span></a></li>
+		<li id="nav-menu-item-1195" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/four-columns/" class=""><span class="item_outer"><span class="item_text">4 Columns</span></span></a></li>
+		<li id="nav-menu-item-1194" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/full-width/" class=""><span class="item_outer"><span class="item_text">Full Width</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-1199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop Pages</span></span></a>
+	<ul>
+		<li id="nav-menu-item-1208" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/my-account/" class=""><span class="item_outer"><span class="item_text">My Account</span></span></a></li>
+		<li id="nav-menu-item-1207" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/cart/" class=""><span class="item_outer"><span class="item_text">Cart</span></span></a></li>
+		<li id="nav-menu-item-1206" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/checkout/" class=""><span class="item_outer"><span class="item_text">Checkout</span></span></a></li>
+	</ul>
+</li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide"><a href="#" class=""><span class="item_outer"><span class="item_text">Elements</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-1991" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Classic</span></span></a>
+	<ul>
+		<li id="nav-menu-item-1337" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/accordions/" class=""><span class="item_outer"><span class="item_text">Accordions</span></span></a></li>
+		<li id="nav-menu-item-1335" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/tabs/" class=""><span class="item_outer"><span class="item_text">Tabs</span></span></a></li>
+		<li id="nav-menu-item-1336" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/buttons/" class=""><span class="item_outer"><span class="item_text">Buttons</span></span></a></li>
+		<li id="nav-menu-item-1432" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-with-text/" class=""><span class="item_outer"><span class="item_text">Icon With Text</span></span></a></li>
+		<li id="nav-menu-item-1479" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/contact-form/" class=""><span class="item_outer"><span class="item_text">Contact Form</span></span></a></li>
+		<li id="nav-menu-item-2370" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/call-to-action/" class=""><span class="item_outer"><span class="item_text">Call To Action</span></span></a></li>
+		<li id="nav-menu-item-2079" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/blog-list/" class=""><span class="item_outer"><span class="item_text">Blog List</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-1992" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Presentation</span></span></a>
+	<ul>
+		<li id="nav-menu-item-1852" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/image-with-text-slider/" class=""><span class="item_outer"><span class="item_text">Image With Text Slider</span></span></a></li>
+		<li id="nav-menu-item-1853" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/interactive-box/" class=""><span class="item_outer"><span class="item_text">Interactive Box</span></span></a></li>
+		<li id="nav-menu-item-1851" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/team/" class=""><span class="item_outer"><span class="item_text">Team</span></span></a></li>
+		<li id="nav-menu-item-1478" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/testimonials/" class=""><span class="item_outer"><span class="item_text">Testimonials</span></span></a></li>
+		<li id="nav-menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span></span></a></li>
+		<li id="nav-menu-item-2371" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/portfolio-list/" class=""><span class="item_outer"><span class="item_text">Portfolio List</span></span></a></li>
+		<li id="nav-menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/carousel/" class=""><span class="item_outer"><span class="item_text">Carousel</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-1993" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Infographic</span></span></a>
+	<ul>
+		<li id="nav-menu-item-1624" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pricing-table/" class=""><span class="item_outer"><span class="item_text">Pricing Table</span></span></a></li>
+		<li id="nav-menu-item-1623" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/progress-bar/" class=""><span class="item_outer"><span class="item_text">Progress Bar</span></span></a></li>
+		<li id="nav-menu-item-1621" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pie-charts/" class=""><span class="item_outer"><span class="item_text">Pie Charts</span></span></a></li>
+		<li id="nav-menu-item-1622" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/counters/" class=""><span class="item_outer"><span class="item_text">Counters</span></span></a></li>
+		<li id="nav-menu-item-1660" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/countdown/" class=""><span class="item_outer"><span class="item_text">Countdown</span></span></a></li>
+		<li id="nav-menu-item-1620" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/process-item/" class=""><span class="item_outer"><span class="item_text">Process Item</span></span></a></li>
+		<li id="nav-menu-item-1450" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/google-maps/" class=""><span class="item_outer"><span class="item_text">Google Maps</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-1994" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Typography</span></span></a>
+	<ul>
+		<li id="nav-menu-item-2062" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/headings/" class=""><span class="item_outer"><span class="item_text">Headings</span></span></a></li>
+		<li id="nav-menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/highlights/" class=""><span class="item_outer"><span class="item_text">Highlights</span></span></a></li>
+		<li id="nav-menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/columns/" class=""><span class="item_outer"><span class="item_text">Columns</span></span></a></li>
+		<li id="nav-menu-item-1679" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/dropcaps/" class=""><span class="item_outer"><span class="item_text">Dropcaps</span></span></a></li>
+		<li id="nav-menu-item-2373" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/section-title/" class=""><span class="item_outer"><span class="item_text">Section Title</span></span></a></li>
+		<li id="nav-menu-item-1849" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/custom-font/" class=""><span class="item_outer"><span class="item_text">Custom Font</span></span></a></li>
+		<li id="nav-menu-item-1850" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-list-item/" class=""><span class="item_outer"><span class="item_text">Icon List Item</span></span></a></li>
+	</ul>
+</li>
+</ul></div></div>
+</li>
+</ul></nav>
+
+                                </div>
+                            </div>
+                                                <div class="mkd-position-right">
+                            <div class="mkd-position-right-inner">
+                                                                		
+		<a   class="mkd-search-opener mkd-icon-has-hover" href="javascript:void(0)">
+            <span class="mkd-search-opener-wrapper">
+                <i class="mkd-icon-font-awesome fa fa-search "></i>	                        </span>
+		</a>
+	            <div class="mkd-shopping-cart-holder" style="padding: 0 24px 0 10px">
+                <div class="mkd-shopping-cart-inner">
+                    <a itemprop="url" class="mkd-header-cart"
+                    href="https://baumeister.qodeinteractive.com/cart/">
+                        <span class="mkd-cart-icon fa fa-shopping-cart">
+                    <span
+                        class="mkd-cart-number">0</span>
+                </span>
+                    </a>
+
+                    <div class="mkd-shopping-cart-dropdown">
+                        <ul>
+                                                            <li class="mkd-empty-cart">No products in the cart.</li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+        		
+		<a class="mkd-side-menu-button-opener mkd-icon-has-hover"  href="javascript:void(0)" >
+						<span class="mkd-side-menu-icon">
+        		<i class="mkd-icon-font-awesome fa fa-bars " ></i>        	</span>
+		</a>
+	                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                            </div>
+        
+            
+        
+    <div class="mkd-sticky-header">
+                <div class="mkd-sticky-holder mkd-menu-center">
+                        <div class="mkd-grid">
+                                <div class="mkd-vertical-align-containers">
+                    <div class="mkd-position-left">
+                        <div class="mkd-position-left-inner">
+                            
+
+<div class="mkd-logo-wrapper">
+    <a itemprop="url" href="https://baumeister.qodeinteractive.com/" style="height: 25px;">
+        <img itemprop="image" class="mkd-normal-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png"  alt="logo"/>
+        <img itemprop="image" class="mkd-dark-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png"  alt="dark logo"/>        <img itemprop="image" class="mkd-light-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo_white.png"  alt="light logo"/>    </a>
+</div>
+
+                                                    </div>
+                    </div>
+                                            <div class="mkd-position-center">
+                            <div class="mkd-position-center-inner">
+                                
+<nav class="mkd-main-menu mkd-drop-down mkd-sticky-nav">
+    <ul id="menu-main-menu-navigation-1" class="clearfix"><li id="sticky-nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkd-active-item has_sub narrow"><a href="#" class=" current "><span class="item_outer"><span class="item_text">Home</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="sticky-nav-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-385 current_page_item "><a href="https://baumeister.qodeinteractive.com/" class=""><span class="item_outer"><span class="item_text">Main Home</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/energy-home/" class=""><span class="item_outer"><span class="item_text">Energy Home</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contractor-home/" class=""><span class="item_outer"><span class="item_text">Contractor Home</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/builder-home/" class=""><span class="item_outer"><span class="item_text">Builder Home</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/tool-shop-home/" class=""><span class="item_outer"><span class="item_text">Tool Shop Home</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-722" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/steelwork-home/" class=""><span class="item_outer"><span class="item_text">Steelwork Home</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-2165" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-showcase/" class=""><span class="item_outer"><span class="item_text">Product Showcase</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-972" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/sawmill-home/" class=""><span class="item_outer"><span class="item_text">Sawmill Home</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-903" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/transport-home/" class=""><span class="item_outer"><span class="item_text">Transport Home</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-3068" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/landing/" class=""><span class="item_outer"><span class="item_text">Landing</span><span class="plus"></span></span></a></li>
+</ul></div></div>
+</li>
+<li id="sticky-nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Pages</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="sticky-nav-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/about-us/" class=""><span class="item_outer"><span class="item_text">About Us</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-team/" class=""><span class="item_outer"><span class="item_text">Our Team</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/meet-the-crew/" class=""><span class="item_outer"><span class="item_text">Meet the Crew</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-services/" class=""><span class="item_outer"><span class="item_text">Our Services</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/pricing-plans/" class=""><span class="item_outer"><span class="item_text">Pricing Plans</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-clients/" class=""><span class="item_outer"><span class="item_text">Our Clients</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contact-us/" class=""><span class="item_outer"><span class="item_text">Contact Us</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/faq-page/" class=""><span class="item_outer"><span class="item_text">FAQ Page</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/coming-soon/" class=""><span class="item_outer"><span class="item_text">Coming Soon</span><span class="plus"></span></span></a></li>
+</ul></div></div>
+</li>
+<li id="sticky-nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="sticky-nav-menu-item-2364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2366" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+	<li id="sticky-nav-menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-2418" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2414" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-in-grid/" class=""><span class="item_outer"><span class="item_text">Joined/In Grid</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2417" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2415" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-wide/" class=""><span class="item_outer"><span class="item_text">Joined/Wide</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+	<li id="sticky-nav-menu-item-2423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Masonry</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-2422" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2803" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-in-grid/" class=""><span class="item_outer"><span class="item_text">Joined/In Grid</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2421" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2802" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-wide/" class=""><span class="item_outer"><span class="item_text">Joined/Wide</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+	<li id="sticky-nav-menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Layouts</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-2407" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns/" class=""><span class="item_outer"><span class="item_text">3 Columns</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2406" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns-wide/" class=""><span class="item_outer"><span class="item_text">3 Columns Wide</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2412" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns/" class=""><span class="item_outer"><span class="item_text">4 Columns</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2411" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">4 Columns Wide</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2419" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">5 Columns Wide</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+	<li id="sticky-nav-menu-item-2541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Single</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-2558" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/innovative-project/" class=""><span class="item_outer"><span class="item_text">Small Images</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2560" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/construction-sites/" class=""><span class="item_outer"><span class="item_text">Small Slider</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2554" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/new-structures/" class=""><span class="item_outer"><span class="item_text">Big Images</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2555" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/heavy-equipment/" class=""><span class="item_outer"><span class="item_text">Big Slider</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2556" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/frame-construction/" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2557" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/wood-flooring/" class=""><span class="item_outer"><span class="item_text">Masonry</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+</ul></div></div>
+</li>
+<li id="sticky-nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Blog</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="sticky-nav-menu-item-2597" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/masonry-list/" class=""><span class="item_outer"><span class="item_text">Masonry List</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-3139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Standard List</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-2598" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/standard-list/" class=""><span class="item_outer"><span class="item_text">Right Sidebar</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-3137" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/left-sidebar/" class=""><span class="item_outer"><span class="item_text">Left Sidebar</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-3138" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/no-sidebar/" class=""><span class="item_outer"><span class="item_text">No Sidebar</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+	<li id="sticky-nav-menu-item-2600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Post Types</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-2601" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/10-different-sizes/" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2602" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/expensive-buildings-projects/" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2604" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/buildings-under-construction/" class=""><span class="item_outer"><span class="item_text">Link</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2605" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/industry/" class=""><span class="item_outer"><span class="item_text">Quote</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2607" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/details-roof-structure/" class=""><span class="item_outer"><span class="item_text">Audio</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2606" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/simplified-building/" class=""><span class="item_outer"><span class="item_text">Video</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+</ul></div></div>
+</li>
+<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="sticky-nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://baumeister.qodeinteractive.com/product/electric-drill/" class=""><span class="item_outer"><span class="item_text">Single Product</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-1198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop Layouts</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-1196" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/three-columns/" class=""><span class="item_outer"><span class="item_text">3 Columns</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1195" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/four-columns/" class=""><span class="item_outer"><span class="item_text">4 Columns</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1194" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/full-width/" class=""><span class="item_outer"><span class="item_text">Full Width</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+	<li id="sticky-nav-menu-item-1199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop Pages</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-1208" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/my-account/" class=""><span class="item_outer"><span class="item_text">My Account</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1207" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/cart/" class=""><span class="item_outer"><span class="item_text">Cart</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1206" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/checkout/" class=""><span class="item_outer"><span class="item_text">Checkout</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+</ul></div></div>
+</li>
+<li id="sticky-nav-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide"><a href="#" class=""><span class="item_outer"><span class="item_text">Elements</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="sticky-nav-menu-item-1991" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Classic</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-1337" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/accordions/" class=""><span class="item_outer"><span class="item_text">Accordions</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1335" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/tabs/" class=""><span class="item_outer"><span class="item_text">Tabs</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1336" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/buttons/" class=""><span class="item_outer"><span class="item_text">Buttons</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1432" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-with-text/" class=""><span class="item_outer"><span class="item_text">Icon With Text</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1479" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/contact-form/" class=""><span class="item_outer"><span class="item_text">Contact Form</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2370" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/call-to-action/" class=""><span class="item_outer"><span class="item_text">Call To Action</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2079" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/blog-list/" class=""><span class="item_outer"><span class="item_text">Blog List</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+	<li id="sticky-nav-menu-item-1992" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Presentation</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-1852" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/image-with-text-slider/" class=""><span class="item_outer"><span class="item_text">Image With Text Slider</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1853" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/interactive-box/" class=""><span class="item_outer"><span class="item_text">Interactive Box</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1851" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/team/" class=""><span class="item_outer"><span class="item_text">Team</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1478" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/testimonials/" class=""><span class="item_outer"><span class="item_text">Testimonials</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2371" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/portfolio-list/" class=""><span class="item_outer"><span class="item_text">Portfolio List</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/carousel/" class=""><span class="item_outer"><span class="item_text">Carousel</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+	<li id="sticky-nav-menu-item-1993" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Infographic</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-1624" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pricing-table/" class=""><span class="item_outer"><span class="item_text">Pricing Table</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1623" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/progress-bar/" class=""><span class="item_outer"><span class="item_text">Progress Bar</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1621" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pie-charts/" class=""><span class="item_outer"><span class="item_text">Pie Charts</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1622" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/counters/" class=""><span class="item_outer"><span class="item_text">Counters</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1660" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/countdown/" class=""><span class="item_outer"><span class="item_text">Countdown</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1620" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/process-item/" class=""><span class="item_outer"><span class="item_text">Process Item</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1450" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/google-maps/" class=""><span class="item_outer"><span class="item_text">Google Maps</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+	<li id="sticky-nav-menu-item-1994" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Typography</span><span class="plus"></span></span></a>
+	<ul>
+		<li id="sticky-nav-menu-item-2062" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/headings/" class=""><span class="item_outer"><span class="item_text">Headings</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/highlights/" class=""><span class="item_outer"><span class="item_text">Highlights</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/columns/" class=""><span class="item_outer"><span class="item_text">Columns</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1679" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/dropcaps/" class=""><span class="item_outer"><span class="item_text">Dropcaps</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-2373" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/section-title/" class=""><span class="item_outer"><span class="item_text">Section Title</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1849" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/custom-font/" class=""><span class="item_outer"><span class="item_text">Custom Font</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-1850" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-list-item/" class=""><span class="item_outer"><span class="item_text">Icon List Item</span><span class="plus"></span></span></a></li>
+	</ul>
+</li>
+</ul></div></div>
+</li>
+</ul></nav>
+
+                            </div>
+                        </div>
+                                        <div class="mkd-position-right">
+                        <div class="mkd-position-right-inner">
+                                                                                        		
+		<a  style="margin: 0 24px 4px 0;" class="mkd-search-opener mkd-icon-has-hover" href="javascript:void(0)">
+            <span class="mkd-search-opener-wrapper">
+                <i class="mkd-icon-font-awesome fa fa-search "></i>	                        </span>
+		</a>
+			
+		<a class="mkd-side-menu-button-opener mkd-icon-has-hover"  href="javascript:void(0)" >
+						<span class="mkd-side-menu-icon">
+        		<i class="mkd-icon-font-awesome fa fa-bars " ></i>        	</span>
+		</a>
+	                                                    </div>
+                    </div>
+                </div>
+                            </div>
+                </div>
+            </div>
+
+
+        <form action="https://baumeister.qodeinteractive.com/" class="mkd-search-cover" method="get">
+		<div class="mkd-container">
+		<div class="mkd-container-inner clearfix">
+				<div class="mkd-form-holder-outer">
+				<div class="mkd-form-holder">
+					<div class="mkd-form-holder-inner">
+						<input type="text" placeholder="Search" name="s" class="mkd_search_field" autocomplete="off" />
+						<div class="mkd-search-close">
+							<a href="#">
+								<i class="mkd-icon-font-awesome fa fa-times "></i>							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+	</div>
+	</form>    </header>
+
+
+<header class="mkd-mobile-header">
+		
+	<div class="mkd-mobile-header-inner">
+		<div class="mkd-mobile-header-holder">
+			<div class="mkd-grid">
+				<div class="mkd-vertical-align-containers">
+					<div class="mkd-vertical-align-containers">
+													<div class="mkd-mobile-menu-opener">
+								<a href="javascript:void(0)">
+									<span class="mkd-mobile-menu-icon">
+										<span aria-hidden="true" class="mkd-icon-font-elegant icon_menu " ></span>									</span>
+																	</a>
+							</div>
+												<div class="mkd-position-center">
+							<div class="mkd-position-center-inner">
+								
+
+<div class="mkd-mobile-logo-wrapper">
+    <a itemprop="url" href="https://baumeister.qodeinteractive.com/" style="height: 25px">
+        <img itemprop="image" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png"  alt="Mobile Logo"/>
+    </a>
+</div>
+
+							</div>
+						</div>
+						<div class="mkd-position-right">
+							<div class="mkd-position-right-inner">
+															</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+    <nav class="mkd-mobile-nav">
+        <div class="mkd-grid">
+            <ul id="menu-main-menu-navigation-2" class=""><li id="mobile-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkd-active-item has_sub"><a href="#" class=" current  mkd-mobile-no-link"><span>Home</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-385 current_page_item "><a href="https://baumeister.qodeinteractive.com/" class=""><span>Main Home</span></a></li>
+	<li id="mobile-menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/energy-home/" class=""><span>Energy Home</span></a></li>
+	<li id="mobile-menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contractor-home/" class=""><span>Contractor Home</span></a></li>
+	<li id="mobile-menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/builder-home/" class=""><span>Builder Home</span></a></li>
+	<li id="mobile-menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/tool-shop-home/" class=""><span>Tool Shop Home</span></a></li>
+	<li id="mobile-menu-item-722" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/steelwork-home/" class=""><span>Steelwork Home</span></a></li>
+	<li id="mobile-menu-item-2165" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-showcase/" class=""><span>Product Showcase</span></a></li>
+	<li id="mobile-menu-item-972" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/sawmill-home/" class=""><span>Sawmill Home</span></a></li>
+	<li id="mobile-menu-item-903" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/transport-home/" class=""><span>Transport Home</span></a></li>
+	<li id="mobile-menu-item-3068" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/landing/" class=""><span>Landing</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Pages</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/about-us/" class=""><span>About Us</span></a></li>
+	<li id="mobile-menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-team/" class=""><span>Our Team</span></a></li>
+	<li id="mobile-menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/meet-the-crew/" class=""><span>Meet the Crew</span></a></li>
+	<li id="mobile-menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-services/" class=""><span>Our Services</span></a></li>
+	<li id="mobile-menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/pricing-plans/" class=""><span>Pricing Plans</span></a></li>
+	<li id="mobile-menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-clients/" class=""><span>Our Clients</span></a></li>
+	<li id="mobile-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contact-us/" class=""><span>Contact Us</span></a></li>
+	<li id="mobile-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/faq-page/" class=""><span>FAQ Page</span></a></li>
+	<li id="mobile-menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/coming-soon/" class=""><span>Coming Soon</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Portfolio</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-2364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Standard</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-in-grid/" class=""><span>In Grid</span></a></li>
+		<li id="mobile-menu-item-2366" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-wide/" class=""><span>Wide</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Gallery</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-2418" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-in-grid/" class=""><span>In Grid</span></a></li>
+		<li id="mobile-menu-item-2414" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-in-grid/" class=""><span>Joined/In Grid</span></a></li>
+		<li id="mobile-menu-item-2417" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-wide/" class=""><span>Wide</span></a></li>
+		<li id="mobile-menu-item-2415" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-wide/" class=""><span>Joined/Wide</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-2423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Masonry</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-2422" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-in-grid/" class=""><span>In Grid</span></a></li>
+		<li id="mobile-menu-item-2803" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-in-grid/" class=""><span>Joined/In Grid</span></a></li>
+		<li id="mobile-menu-item-2421" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-wide/" class=""><span>Wide</span></a></li>
+		<li id="mobile-menu-item-2802" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-wide/" class=""><span>Joined/Wide</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Portfolio Layouts</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-2407" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns/" class=""><span>3 Columns</span></a></li>
+		<li id="mobile-menu-item-2406" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns-wide/" class=""><span>3 Columns Wide</span></a></li>
+		<li id="mobile-menu-item-2412" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns/" class=""><span>4 Columns</span></a></li>
+		<li id="mobile-menu-item-2411" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns-wide/" class=""><span>4 Columns Wide</span></a></li>
+		<li id="mobile-menu-item-2419" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/five-columns-wide/" class=""><span>5 Columns Wide</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-2541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Portfolio Single</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-2558" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/innovative-project/" class=""><span>Small Images</span></a></li>
+		<li id="mobile-menu-item-2560" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/construction-sites/" class=""><span>Small Slider</span></a></li>
+		<li id="mobile-menu-item-2554" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/new-structures/" class=""><span>Big Images</span></a></li>
+		<li id="mobile-menu-item-2555" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/heavy-equipment/" class=""><span>Big Slider</span></a></li>
+		<li id="mobile-menu-item-2556" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/frame-construction/" class=""><span>Gallery</span></a></li>
+		<li id="mobile-menu-item-2557" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/wood-flooring/" class=""><span>Masonry</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="mobile-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Blog</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-2597" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/masonry-list/" class=""><span>Masonry List</span></a></li>
+	<li id="mobile-menu-item-3139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Standard List</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-2598" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/standard-list/" class=""><span>Right Sidebar</span></a></li>
+		<li id="mobile-menu-item-3137" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/left-sidebar/" class=""><span>Left Sidebar</span></a></li>
+		<li id="mobile-menu-item-3138" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/no-sidebar/" class=""><span>No Sidebar</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-2600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Post Types</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-2601" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/10-different-sizes/" class=""><span>Standard</span></a></li>
+		<li id="mobile-menu-item-2602" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/expensive-buildings-projects/" class=""><span>Gallery</span></a></li>
+		<li id="mobile-menu-item-2604" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/buildings-under-construction/" class=""><span>Link</span></a></li>
+		<li id="mobile-menu-item-2605" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/industry/" class=""><span>Quote</span></a></li>
+		<li id="mobile-menu-item-2607" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/details-roof-structure/" class=""><span>Audio</span></a></li>
+		<li id="mobile-menu-item-2606" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/simplified-building/" class=""><span>Video</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="mobile-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Shop</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/" class=""><span>Product List</span></a></li>
+	<li id="mobile-menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://baumeister.qodeinteractive.com/product/electric-drill/" class=""><span>Single Product</span></a></li>
+	<li id="mobile-menu-item-1198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Shop Layouts</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-1196" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/three-columns/" class=""><span>3 Columns</span></a></li>
+		<li id="mobile-menu-item-1195" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/four-columns/" class=""><span>4 Columns</span></a></li>
+		<li id="mobile-menu-item-1194" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/full-width/" class=""><span>Full Width</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-1199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Shop Pages</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-1208" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/my-account/" class=""><span>My Account</span></a></li>
+		<li id="mobile-menu-item-1207" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/cart/" class=""><span>Cart</span></a></li>
+		<li id="mobile-menu-item-1206" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/checkout/" class=""><span>Checkout</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="mobile-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Elements</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-1991" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h6><span>Classic</span></h6><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-1337" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/accordions/" class=""><span>Accordions</span></a></li>
+		<li id="mobile-menu-item-1335" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/tabs/" class=""><span>Tabs</span></a></li>
+		<li id="mobile-menu-item-1336" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/buttons/" class=""><span>Buttons</span></a></li>
+		<li id="mobile-menu-item-1432" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-with-text/" class=""><span>Icon With Text</span></a></li>
+		<li id="mobile-menu-item-1479" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/contact-form/" class=""><span>Contact Form</span></a></li>
+		<li id="mobile-menu-item-2370" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/call-to-action/" class=""><span>Call To Action</span></a></li>
+		<li id="mobile-menu-item-2079" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/blog-list/" class=""><span>Blog List</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-1992" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h6><span>Presentation</span></h6><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-1852" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/image-with-text-slider/" class=""><span>Image With Text Slider</span></a></li>
+		<li id="mobile-menu-item-1853" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/interactive-box/" class=""><span>Interactive Box</span></a></li>
+		<li id="mobile-menu-item-1851" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/team/" class=""><span>Team</span></a></li>
+		<li id="mobile-menu-item-1478" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/testimonials/" class=""><span>Testimonials</span></a></li>
+		<li id="mobile-menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/product-list/" class=""><span>Product List</span></a></li>
+		<li id="mobile-menu-item-2371" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/portfolio-list/" class=""><span>Portfolio List</span></a></li>
+		<li id="mobile-menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/carousel/" class=""><span>Carousel</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-1993" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h6><span>Infographic</span></h6><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-1624" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pricing-table/" class=""><span>Pricing Table</span></a></li>
+		<li id="mobile-menu-item-1623" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/progress-bar/" class=""><span>Progress Bar</span></a></li>
+		<li id="mobile-menu-item-1621" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pie-charts/" class=""><span>Pie Charts</span></a></li>
+		<li id="mobile-menu-item-1622" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/counters/" class=""><span>Counters</span></a></li>
+		<li id="mobile-menu-item-1660" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/countdown/" class=""><span>Countdown</span></a></li>
+		<li id="mobile-menu-item-1620" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/process-item/" class=""><span>Process Item</span></a></li>
+		<li id="mobile-menu-item-1450" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/google-maps/" class=""><span>Google Maps</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-1994" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h6><span>Typography</span></h6><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-2062" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/headings/" class=""><span>Headings</span></a></li>
+		<li id="mobile-menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/highlights/" class=""><span>Highlights</span></a></li>
+		<li id="mobile-menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/columns/" class=""><span>Columns</span></a></li>
+		<li id="mobile-menu-item-1679" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/dropcaps/" class=""><span>Dropcaps</span></a></li>
+		<li id="mobile-menu-item-2373" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/section-title/" class=""><span>Section Title</span></a></li>
+		<li id="mobile-menu-item-1849" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/custom-font/" class=""><span>Custom Font</span></a></li>
+		<li id="mobile-menu-item-1850" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-list-item/" class=""><span>Icon List Item</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul>        </div>
+    </nav>
+
+	</div>
+	
+	<form action="https://baumeister.qodeinteractive.com/" class="mkd-search-cover" method="get">
+		<div class="mkd-container">
+		<div class="mkd-container-inner clearfix">
+				<div class="mkd-form-holder-outer">
+				<div class="mkd-form-holder">
+					<div class="mkd-form-holder-inner">
+						<input type="text" placeholder="Search" name="s" class="mkd_search_field" autocomplete="off" />
+						<div class="mkd-search-close">
+							<a href="#">
+								<i class="mkd-icon-font-awesome fa fa-times "></i>							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+	</div>
+	</form></header>
+
+			<a id='mkd-back-to-top' href='#' style="background-color: #E8612D !important;">
+                <span class="mkd-icon-stack">
+                     <i class="mkd-icon-font-awesome fa fa-long-arrow-up " style="color: #ffffff;"></i>                </span>
+			</a>
+			        
+            <div class="mkd-content" style="margin-top: -160px">
+                <div class="mkd-content-inner">
+<div class="mkd-full-width">
+    	<div class="mkd-full-width-inner">
+        					<div class="mkd-grid-row">
+				<div class="mkd-page-content-holder mkd-grid-col-12">
+					<section class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid" style="background-color:#24272a"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_revslider_element wpb_content_element">
+			<!-- START Main Home REVOLUTION SLIDER 6.6.5 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="rev_slider_1_1" style="" data-version="6.6.5">
+					<rs-slides style="overflow: hidden; position: absolute;">
+						<rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" data-thumb="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-1-background-img-100x50.jpg" data-out="x:100%;">
+							<img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Main Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-1-background-img.jpg" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-1-slide-1-layer-1" 
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-1px,0,0,0;y:m;yo:-80px,-55px,-55px,-15px;"
+								data-text="w:nowrap,nowrap,normal,normal;s:130,90,90,60;l:145,105,105,75;fw:500;a:inherit,inherit,center,center;"
+								data-dim="w:auto,auto,596px,301px;"
+								data-frame_0="o:1;tp:600;"
+								data-frame_0_words="d:10;y:50px;o:0;"
+								data-frame_1="tp:600;e:sine.out;st:500;sR:500;"
+								data-frame_1_words="d:10;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
+								style="z-index:5;font-family:'Oswald';text-transform:uppercase;"
+							>Building The Future 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-1-slide-1-layer-2" 
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:0,0,0,481px;y:m;yo:60px,60px,130px,36px;"
+								data-text="w:normal;s:25,25,25,16;l:36,36,36,30;fw:300;a:center;"
+								data-dim="w:781px,781px,568px,303px;"
+								data-vbility="t,t,t,f"
+								data-frame_0="y:50px;tp:600;"
+								data-frame_1="tp:600;e:sine.out;st:700;sR:700;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
+								style="z-index:6;font-family:'Poppins';"
+							>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt et dolore magna aliqua.  
+							</rs-layer><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-12" data-title="Slide" data-thumb="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-2-background-img-100x50.jpg" data-out="x:100%;">
+							<img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Main Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-2-background-img.jpg" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-1-slide-12-layer-1" 
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-1px,0,0,0;y:m;yo:-80px,-55px,-55px,-15px;"
+								data-text="w:nowrap,nowrap,normal,normal;s:130,90,90,50;l:145,105,105,65;fw:500;a:inherit,inherit,center,center;"
+								data-dim="w:auto,auto,596px,301px;"
+								data-frame_0="o:1;tp:600;"
+								data-frame_0_words="d:10;y:50px;o:0;"
+								data-frame_1="tp:600;e:sine.out;st:500;sR:500;"
+								data-frame_1_words="d:10;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2100;"
+								style="z-index:5;font-family:'Oswald';text-transform:uppercase;"
+							>Urbanization Now 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-1-slide-12-layer-2" 
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:0,0,0,481px;y:m;yo:60px,60px,130px,36px;"
+								data-text="w:normal;s:25,25,25,16;l:36,36,36,30;fw:300;a:center;"
+								data-dim="w:781px,781px,568px,303px;"
+								data-vbility="t,t,t,f"
+								data-frame_0="y:50px;tp:600;"
+								data-frame_1="tp:600;e:sine.out;st:700;sR:700;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
+								style="z-index:6;font-family:'Poppins';"
+							>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt et dolore magna aliqua.  
+							</rs-layer><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-13" data-title="Slide" data-thumb="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-3-background-img-100x50.jpg" data-out="x:100%;">
+							<img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Main Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-3-background-img.jpg" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-1-slide-13-layer-1" 
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-1px,0,0,0;y:m;yo:-80px,-55px,-55px,-15px;"
+								data-text="w:nowrap,nowrap,normal,normal;s:130,90,90,60;l:145,105,105,75;fw:500;a:inherit,inherit,center,center;"
+								data-dim="w:auto,auto,596px,300px;h:auto,auto,auto,226px;"
+								data-frame_0="o:1;tp:600;"
+								data-frame_0_words="d:10;y:50px;o:0;"
+								data-frame_1="tp:600;e:sine.out;st:500;sR:500;"
+								data-frame_1_words="d:10;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
+								style="z-index:5;font-family:'Oswald';text-transform:uppercase;"
+							>61850 highway miles 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-1-slide-13-layer-2" 
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:0,0,0,481px;y:m;yo:60px,60px,130px,36px;"
+								data-text="w:normal;s:25,25,25,16;l:36,36,36,30;fw:300;a:center;"
+								data-dim="w:781px,781px,568px,303px;"
+								data-vbility="t,t,t,f"
+								data-frame_0="y:50px;tp:600;"
+								data-frame_1="tp:600;e:sine.out;st:700;sR:700;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
+								style="z-index:6;font-family:'Poppins';"
+							>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt et dolore magna aliqua.  
+							</rs-layer><!--
+-->						</rs-slide>
+					</rs-slides>
+				</rs-module>
+				<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+</div><div class="mkd-row-grid-section-wrapper mkd-content-aligment-center" ><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1511953772720" ><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center " style="background-color: #ffffff" data-item-class="mkd-eh-custom-1017">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-1017" style="padding: 20px 20px">
+			<div class="mkd-single-image-holder   ">
+    <div class="mkd-si-inner" style="background-image: url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-3.jpg)">
+                                    <img width="584" height="430" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-3.jpg" class="attachment-full size-full" alt="a" loading="lazy" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-3.jpg 584w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-3-300x221.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />                        </div>
+</div>		</div>
+
+	</div>
+
+    </div></div><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item    " style="background-color: #ffffff" data-item-class="mkd-eh-custom-2277" data-768-1024="0 15%" data-680-768="0 8%" data-680="0 5%">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-2277" style="padding: 0 12%">
+			<div class="vc_empty_space"   style="height: 30px"><span class="vc_empty_space_inner"></span></div><div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: center">
+	<div class="mkd-st-inner">
+					<h3 class="mkd-st-title" >
+				High standard			</h3>
+							<p class="mkd-st-text" style="margin-top: 22px">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.			</p>
+			</div>
+</div><div class="vc_empty_space"   style="height: 62px"><span class="vc_empty_space_inner"></span></div>		</div>
+
+	</div>
+
+    </div></div><div class="vc_empty_space"   style="height: 33px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " style="background-color: #ffffff"><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-3038">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-3038" style="padding: 20px 20px">
+			<div class="mkd-single-image-holder   ">
+    <div class="mkd-si-inner" style="background-image: url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-4.jpg)">
+                                    <img width="584" height="430" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-4.jpg" class="attachment-full size-full" alt="a" loading="lazy" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-4.jpg 584w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-4-300x221.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />                        </div>
+</div>		</div>
+
+	</div>
+
+    </div></div><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center " style="background-color: #ffffff" data-item-class="mkd-eh-custom-6709" data-768-1024="0 15%" data-680-768="0 8%" data-680="0 5%">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-6709" style="padding: 0 12%">
+			<div class="vc_empty_space"   style="height: 30px"><span class="vc_empty_space_inner"></span></div><div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: center">
+	<div class="mkd-st-inner">
+					<h3 class="mkd-st-title" >
+				Reconstruction			</h3>
+							<p class="mkd-st-text" style="margin-top: 22px">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.			</p>
+			</div>
+</div><div class="vc_empty_space"   style="height: 62px"><span class="vc_empty_space_inner"></span></div>		</div>
+
+	</div>
+
+    </div></div><div class="vc_empty_space"   style="height: 33px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " style="background-color: #ffffff"><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-5244">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-5244" style="padding: 20px 20px">
+			<div class="mkd-single-image-holder   ">
+    <div class="mkd-si-inner" style="background-image: url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-5.jpg)">
+                                    <img width="584" height="430" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-5.jpg" class="attachment-full size-full" alt="a" loading="lazy" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-5.jpg 584w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-5-300x221.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />                        </div>
+</div>		</div>
+
+	</div>
+
+    </div></div><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center " style="background-color: #ffffff" data-item-class="mkd-eh-custom-7352" data-768-1024="0 15%" data-680-768="0 8%" data-680="0 5%">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-7352" style="padding: 0 12%">
+			<div class="vc_empty_space"   style="height: 30px"><span class="vc_empty_space_inner"></span></div><div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: center">
+	<div class="mkd-st-inner">
+					<h3 class="mkd-st-title" >
+				Execution			</h3>
+							<p class="mkd-st-text" style="margin-top: 22px">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.			</p>
+			</div>
+</div><div class="vc_empty_space"   style="height: 62px"><span class="vc_empty_space_inner"></span></div>		</div>
+
+	</div>
+
+    </div></div><div class="vc_empty_space"   style="height: 33px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper " ><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1511784322626" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-four-columns  mkd-responsive-mode-1024 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-2202" data-768-1024="0 22%" data-680-768="0 22%" data-680="0 5%">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-2202" style="padding: 0 5%">
+			<div class="mkd-iwt clearfix  mkd-iwt-icon-top mkd-iwt-icon-small">
+	<div class="mkd-iwt-icon">
+					<a itemprop="url" href="#" target="_self">
+									<img width="150" height="140" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-iwt-img-1.png" class="attachment-full size-full" alt="a" loading="lazy" />								</a>
+			</div>
+	<div class="mkd-iwt-content" >
+					<h4 class="mkd-iwt-title" style="color: #ffffff">
+									<a itemprop="url" href="#" target="_self">
+								<span class="mkd-iwt-title-text">Fuel Can</span>
+									</a>
+							</h4>
+							<p class="mkd-iwt-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+			</div>
+</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div>		</div>
+
+	</div>
+
+    </div><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-7254" data-768-1024="0 22%" data-680-768="0 22%" data-680="0 5%">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-7254" style="padding: 0 5%">
+			<div class="mkd-iwt clearfix  mkd-iwt-icon-top mkd-iwt-icon-small">
+	<div class="mkd-iwt-icon">
+					<a itemprop="url" href="#" target="_self">
+									<img width="150" height="140" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-iwt-img-2.png" class="attachment-full size-full" alt="a" loading="lazy" />								</a>
+			</div>
+	<div class="mkd-iwt-content" >
+					<h4 class="mkd-iwt-title" style="color: #ffffff">
+									<a itemprop="url" href="#" target="_self">
+								<span class="mkd-iwt-title-text">Feel the Power</span>
+									</a>
+							</h4>
+							<p class="mkd-iwt-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+			</div>
+</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div>		</div>
+
+	</div>
+
+    </div><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-6896" data-768-1024="0 22%" data-680-768="0 22%">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-6896" style="padding: 0 5%">
+			<div class="mkd-iwt clearfix  mkd-iwt-icon-top mkd-iwt-icon-small">
+	<div class="mkd-iwt-icon">
+					<a itemprop="url" href="#" target="_self">
+									<img width="150" height="140" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-iwt-img-3.png" class="attachment-full size-full" alt="a" loading="lazy" />								</a>
+			</div>
+	<div class="mkd-iwt-content" >
+					<h4 class="mkd-iwt-title" style="color: #ffffff">
+									<a itemprop="url" href="#" target="_self">
+								<span class="mkd-iwt-title-text">Pump Stations</span>
+									</a>
+							</h4>
+							<p class="mkd-iwt-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+			</div>
+</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div>		</div>
+
+	</div>
+
+    </div><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-7016" data-768-1024="0 22%" data-680-768="0 22%" data-680="0 5%">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-7016" style="padding: 0 5%">
+			<div class="mkd-iwt clearfix  mkd-iwt-icon-top mkd-iwt-icon-small">
+	<div class="mkd-iwt-icon">
+					<a itemprop="url" href="#" target="_self">
+									<img width="150" height="140" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-iwt-img-2.png" class="attachment-full size-full" alt="a" loading="lazy" />								</a>
+			</div>
+	<div class="mkd-iwt-content" >
+					<h4 class="mkd-iwt-title" style="color: #ffffff">
+									<a itemprop="url" href="#" target="_self">
+								<span class="mkd-iwt-title-text">Easy Import</span>
+									</a>
+							</h4>
+							<p class="mkd-iwt-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+			</div>
+</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div>		</div>
+
+	</div>
+
+    </div></div></div></div></div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-two-columns  mkd-responsive-mode-1024 " ><div class="mkd-eh-item    " style="background-color: #2e3338" data-item-class="mkd-eh-custom-8718" data-1280-1600="0 21% 4% 9%" data-1024-1280="0 8% 4% 13%" data-768-1024="12% 35% 15% 12%" data-680-768="16% 22% 20% 10%" data-680="50% 5% 53% 5%">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-8718" style="padding: 0 21% 3% 25%">
+			<div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space mkd-st-disable-title-break" style="text-align: left">
+	<div class="mkd-st-inner">
+					<h2 class="mkd-st-title" style="color: #ffffff">
+				Gas and oil<br /> platform research			</h2>
+							<p class="mkd-st-text" style="margin-top: 34px">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.			</p>
+			</div>
+</div><div class="vc_empty_space"   style="height: 56px"><span class="vc_empty_space_inner"></span></div><a itemprop="url" href="https://baumeister.qodeinteractive.com/expensive-buildings-projects/" target="_blank"  class="mkd-btn mkd-btn-medium mkd-btn-solid mkd-btn-icon" style="background-color: #E8612D !important; background-image: linear-gradient(135deg, #E8612D 0%, #C0392B 100%) !important; border-color: #E8612D !important;">
+    <span class="mkd-btn-text" style="color: #ffffff !important;">Read more</span>
+    <span class="mkd-btn-icon" style="background-color: #C0392B !important;"><i class="mkd-icon-font-awesome fa fa-long-arrow-right" style="color: #ffffff !important;"></i></span>
+</a>		</div>
+
+	</div>
+
+    </div><div class="mkd-eh-item    " style="background-image: url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-img-1.jpg)" data-item-class="mkd-eh-custom-1154" data-1024-1280="55% 0">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-1154" style="padding: 42% 0">
+					</div>
+
+	</div>
+
+    </div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper mkd-parallax-row-holder" data-parallax-bg-image=https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-parallax-img-1.jpg data-parallax-bg-speed=1 ><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1511263259529" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid" ><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-2 vc_col-lg-8"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: center">
+	<div class="mkd-st-inner">
+					<h1 class="mkd-st-title" >
+				Our services			</h1>
+							<p class="mkd-st-text" style="font-size: 21px;line-height: 36px;margin-top: 25px">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.			</p>
+			</div>
+</div></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1511262217025" ><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-4 vc_col-md-offset-0 vc_col-md-4 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-ib-holder">
+
+	<div class="mkd-ib-content" data-title_hover_color="#ffffff">
+
+					<div class="mkd-ib-icon" >
+				    <span class="mkd-icon-shortcode mkd-normal   "  >
+                    <i class="mkd-icon-font-awesome fa fa-home mkd-icon-element" style="" ></i>            </span>
+			</div>
+		
+            <h4 class="mkd-ib-title"  style="color:#ffffff">
+
+                Inovation model
+            </h4>
+
+        
+             <p class="mkd-ib-text"  >
+
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            </p>
+
+                    <a class="mkd-ib-link" href="#" target="_self"></a>
+        
+    </div>
+
+    <div class="mkd-ib-content-background" style="background-color:#24272a">
+    </div>
+
+    <div class="mkd-ib-hover-image" style="background-image: url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-box-img-1.jpg)">
+    </div>
+
+</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-4 vc_col-md-offset-0 vc_col-md-4 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-ib-holder">
+
+	<div class="mkd-ib-content" data-title_hover_color="#ffffff">
+
+					<div class="mkd-ib-icon" >
+				    <span class="mkd-icon-shortcode mkd-normal   "  >
+                    <i class="mkd-icon-font-awesome fa fa-info-circle mkd-icon-element" style="" ></i>            </span>
+			</div>
+		
+            <h4 class="mkd-ib-title"  style="color:#ffffff">
+
+                Best Support
+            </h4>
+
+        
+             <p class="mkd-ib-text"  >
+
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            </p>
+
+                    <a class="mkd-ib-link" href="#" target="_self"></a>
+        
+    </div>
+
+    <div class="mkd-ib-content-background" style="background-color:#24272a">
+    </div>
+
+    <div class="mkd-ib-hover-image" style="background-image: url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-box-img-2.jpg)">
+    </div>
+
+</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-4 vc_col-md-offset-0 vc_col-md-4 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-ib-holder">
+
+	<div class="mkd-ib-content" data-title_hover_color="#ffffff">
+
+					<div class="mkd-ib-icon" >
+				    <span class="mkd-icon-shortcode mkd-normal   "  >
+                    <i class="mkd-icon-font-awesome fa fa-object-ungroup mkd-icon-element" style="" ></i>            </span>
+			</div>
+		
+            <h4 class="mkd-ib-title"  style="color:#ffffff">
+
+                Inovation model
+            </h4>
+
+        
+             <p class="mkd-ib-text"  >
+
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            </p>
+
+                    <a class="mkd-ib-link" href="#" target="_self"></a>
+        
+    </div>
+
+    <div class="mkd-ib-content-background" style="background-color:#24272a">
+    </div>
+
+    <div class="mkd-ib-hover-image" style="background-image: url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-box-img-3.jpg)">
+    </div>
+
+</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper "  style="background-color:#24272a"><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1512557666795" ><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4 vc_col-md-12 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1512487624426" >
+		<div class="wpb_wrapper">
+			<h2><span style="color: #ffffff;">Latest news</span></h2>
+
+		</div>
+	</div>
+<div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item    "  data-item-class="mkd-eh-custom-9287" data-1280-1600="11% 10% 0 4%" data-1024-1280="11% 10% 0 4%" data-768-1024="5% 20% 10% 2.5%" data-680-768="5% 3% 12% 3%" data-680="5% 5% 10% 6%">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-9287" style="padding: 11% 15% 0 4%">
+			<div class="mkd-blog-list-holder mkd-bl-minimal mkd-bl-three-columns mkd-normal-space mkd-bl-pag-no-pagination mkd-bl-pag-skin-light"  data-type=minimal data-number-of-posts=3 data-number-of-columns=3 data-space-between-items=normal data-category=electricity data-orderby=date data-order=ASC data-image-size=full data-title-tag=h4 data-excerpt-length=11 data-post-info-section=yes data-post-info-image=yes data-post-info-author=yes data-post-info-date=yes data-post-info-category=yes data-post-info-comments=no data-post-info-like=no data-post-info-share=no data-pagination-type=no-pagination data-skin=skin-light data-max-num-pages=5 data-next-page=2>
+	<div class="mkd-bl-wrapper mkd-outer-space">
+		<ul class="mkd-blog-list">
+			<li class="mkd-bl-item mkd-item-space clearfix">
+	<div class="mkd-bli-inner">
+		<div class="mkd-bli-content">
+			
+<h4 itemprop="name" class="entry-title mkd-post-title" >
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/wood-under-construction/" title="Wood Under Construction">
+            Wood Under Construction            </a>
+    </h4>					<div class="mkd-post-excerpt-holder">
+			<p itemprop="description" class="mkd-post-excerpt">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod			</p>
+		</div>
+				<div class="mkd-bli-info">
+				<div class="mkd-post-info-author">
+    <a itemprop="author" class="mkd-post-info-author-link" href="https://baumeister.qodeinteractive.com/author/bryan_mills/">
+        Bryan Mills    </a>
+</div>					<div class="mkd-post-info-comments-holder">
+		<a itemprop="url" class="mkd-post-info-comments" href="https://baumeister.qodeinteractive.com/wood-under-construction/#comments" target="_self">
+			1 		</a>
+	</div>
+			</div>
+		</div>
+	</div>
+</li><li class="mkd-bl-item mkd-item-space clearfix">
+	<div class="mkd-bli-inner">
+		<div class="mkd-bli-content">
+			
+<h4 itemprop="name" class="entry-title mkd-post-title" >
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/construction-technique/" title="Construction Technique">
+            Construction Technique            </a>
+    </h4>					<div class="mkd-post-excerpt-holder">
+			<p itemprop="description" class="mkd-post-excerpt">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod			</p>
+		</div>
+				<div class="mkd-bli-info">
+				<div class="mkd-post-info-author">
+    <a itemprop="author" class="mkd-post-info-author-link" href="https://baumeister.qodeinteractive.com/author/bryan_mills/">
+        Bryan Mills    </a>
+</div>					<div class="mkd-post-info-comments-holder">
+		<a itemprop="url" class="mkd-post-info-comments" href="https://baumeister.qodeinteractive.com/construction-technique/#comments" target="_self">
+			3 		</a>
+	</div>
+			</div>
+		</div>
+	</div>
+</li><li class="mkd-bl-item mkd-item-space clearfix">
+	<div class="mkd-bli-inner">
+		<div class="mkd-bli-content">
+			
+<h4 itemprop="name" class="entry-title mkd-post-title" >
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/using-cinder-blocks/" title="Using Cinder Blocks">
+            Using Cinder Blocks            </a>
+    </h4>					<div class="mkd-post-excerpt-holder">
+			<p itemprop="description" class="mkd-post-excerpt">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod			</p>
+		</div>
+				<div class="mkd-bli-info">
+				<div class="mkd-post-info-author">
+    <a itemprop="author" class="mkd-post-info-author-link" href="https://baumeister.qodeinteractive.com/author/bryan_mills/">
+        Bryan Mills    </a>
+</div>					<div class="mkd-post-info-comments-holder">
+		<a itemprop="url" class="mkd-post-info-comments" href="https://baumeister.qodeinteractive.com/using-cinder-blocks/#comments" target="_self">
+			1 		</a>
+	</div>
+			</div>
+		</div>
+	</div>
+</li>		</ul>
+	</div>
+	</div>		</div>
+
+	</div>
+
+    </div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-8 vc_col-md-12 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-blog-list-holder mkd-bl-boxed mkd-bl-two-columns mkd-normal-space mkd-bl-pag-no-pagination mkd-bl-pag-"  data-type=boxed data-number-of-posts=4 data-number-of-columns=2 data-space-between-items=normal data-category=reconstruction data-orderby=date data-order=ASC data-image-size=baumeister_mikado_portrait data-title-tag=h3 data-excerpt-length=23 data-post-info-section=yes data-post-info-image=yes data-post-info-author=yes data-post-info-date=yes data-post-info-category=yes data-post-info-comments=no data-post-info-like=no data-post-info-share=no data-pagination-type=no-pagination data-max-num-pages=2 data-next-page=2>
+	<div class="mkd-bl-wrapper mkd-outer-space">
+		<ul class="mkd-blog-list">
+			
+<li class="mkd-bl-item mkd-item-space clearfix">
+    <div class="mkd-bli-inner">
+        <div class="mkd-bli-content" style="background-image:url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/blog-post-14-550x765.jpg)">
+            <div class="mkd-bli-content-inner">
+                                    <div class="mkd-bli-info-top">
+                        <div class="mkd-post-info-category">
+    <a href="https://baumeister.qodeinteractive.com/category/reconstruction/" rel="category tag">Reconstruction</a></div>                    </div>
+                                
+<h3 itemprop="name" class="entry-title mkd-post-title" >
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/roads-photography/" title="Roads Photography">
+            Roads Photography            </a>
+    </h3>
+                <div class="mkd-bli-excerpt">
+                    		<div class="mkd-post-excerpt-holder">
+			<p itemprop="description" class="mkd-post-excerpt">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna liqua. Ut enim ad minim			</p>
+		</div>
+	                </div>
+                                    <div class="mkd-bli-info">
+                        <div itemprop="dateCreated" class="mkd-post-info-date entry-date published updated">
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/2017/11/">
+    
+        November 30, 2017        </a>
+    <meta itemprop="interactionCount" content="UserComments: 0"/>
+</div><div class="mkd-post-info-author">
+    <a itemprop="author" class="mkd-post-info-author-link" href="https://baumeister.qodeinteractive.com/author/bryan_mills/">
+        Bryan Mills    </a>
+</div>                    </div>
+                            </div>
+        </div>
+    </div>
+</li>
+
+
+<li class="mkd-bl-item mkd-item-space clearfix">
+    <div class="mkd-bli-inner">
+        <div class="mkd-bli-content" style="background-image:url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/blog-post-15-550x765.jpg)">
+            <div class="mkd-bli-content-inner">
+                                    <div class="mkd-bli-info-top">
+                        <div class="mkd-post-info-category">
+    <a href="https://baumeister.qodeinteractive.com/category/reconstruction/" rel="category tag">Reconstruction</a></div>                    </div>
+                                
+<h3 itemprop="name" class="entry-title mkd-post-title" >
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/road-trip-attractions/" title="Road Trip Attractions">
+            Road Trip Attractions            </a>
+    </h3>
+                <div class="mkd-bli-excerpt">
+                    		<div class="mkd-post-excerpt-holder">
+			<p itemprop="description" class="mkd-post-excerpt">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna liqua. Ut enim ad minim			</p>
+		</div>
+	                </div>
+                                    <div class="mkd-bli-info">
+                        <div itemprop="dateCreated" class="mkd-post-info-date entry-date published updated">
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/2017/11/">
+    
+        November 30, 2017        </a>
+    <meta itemprop="interactionCount" content="UserComments: 0"/>
+</div><div class="mkd-post-info-author">
+    <a itemprop="author" class="mkd-post-info-author-link" href="https://baumeister.qodeinteractive.com/author/bryan_mills/">
+        Bryan Mills    </a>
+</div>                    </div>
+                            </div>
+        </div>
+    </div>
+</li>
+
+
+<li class="mkd-bl-item mkd-item-space clearfix">
+    <div class="mkd-bli-inner">
+        <div class="mkd-bli-content" style="background-image:url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/blog-post-16-550x765.jpg)">
+            <div class="mkd-bli-content-inner">
+                                    <div class="mkd-bli-info-top">
+                        <div class="mkd-post-info-category">
+    <a href="https://baumeister.qodeinteractive.com/category/reconstruction/" rel="category tag">Reconstruction</a></div>                    </div>
+                                
+<h3 itemprop="name" class="entry-title mkd-post-title" >
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/construction-lesson/" title="Construction Lesson">
+            Construction Lesson            </a>
+    </h3>
+                <div class="mkd-bli-excerpt">
+                    		<div class="mkd-post-excerpt-holder">
+			<p itemprop="description" class="mkd-post-excerpt">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna liqua. Ut enim ad minim			</p>
+		</div>
+	                </div>
+                                    <div class="mkd-bli-info">
+                        <div itemprop="dateCreated" class="mkd-post-info-date entry-date published updated">
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/2017/11/">
+    
+        November 30, 2017        </a>
+    <meta itemprop="interactionCount" content="UserComments: 0"/>
+</div><div class="mkd-post-info-author">
+    <a itemprop="author" class="mkd-post-info-author-link" href="https://baumeister.qodeinteractive.com/author/bryan_mills/">
+        Bryan Mills    </a>
+</div>                    </div>
+                            </div>
+        </div>
+    </div>
+</li>
+
+
+<li class="mkd-bl-item mkd-item-space clearfix">
+    <div class="mkd-bli-inner">
+        <div class="mkd-bli-content" style="background-image:url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/blog-post-17-550x765.jpg)">
+            <div class="mkd-bli-content-inner">
+                                    <div class="mkd-bli-info-top">
+                        <div class="mkd-post-info-category">
+    <a href="https://baumeister.qodeinteractive.com/category/reconstruction/" rel="category tag">Reconstruction</a></div>                    </div>
+                                
+<h3 itemprop="name" class="entry-title mkd-post-title" >
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/road-reconstruction/" title="Road Reconstruction">
+            Road Reconstruction            </a>
+    </h3>
+                <div class="mkd-bli-excerpt">
+                    		<div class="mkd-post-excerpt-holder">
+			<p itemprop="description" class="mkd-post-excerpt">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna liqua. Ut enim ad minim			</p>
+		</div>
+	                </div>
+                                    <div class="mkd-bli-info">
+                        <div itemprop="dateCreated" class="mkd-post-info-date entry-date published updated">
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/2017/11/">
+    
+        November 30, 2017        </a>
+    <meta itemprop="interactionCount" content="UserComments: 0"/>
+</div><div class="mkd-post-info-author">
+    <a itemprop="author" class="mkd-post-info-author-link" href="https://baumeister.qodeinteractive.com/author/bryan_mills/">
+        Bryan Mills    </a>
+</div>                    </div>
+                            </div>
+        </div>
+    </div>
+</li>
+
+		</ul>
+	</div>
+	</div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper "  style="background-color:#ffffff"><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1511263281614" ><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner vc_custom_1511262599053"><div class="wpb_wrapper"><div class="mkd-pie-chart-holder ">
+	<div class="mkd-pc-percentage" data-percent="83" data-bar-color="#E8612D" data-track-color="#ffffff">
+		<span class="mkd-pc-percent" >83</span>
+	</div>
+			<div class="mkd-pc-text-holder">
+							<h4 class="mkd-pc-title" >Capacity</h4>
+										<p class="mkd-pc-text" >Lorem ipsum dolor amet consectetur adipisicing elit, sed do eiusmod tempor</p>
+					</div>
+	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner vc_custom_1511262606291"><div class="wpb_wrapper"><div class="mkd-pie-chart-holder ">
+	<div class="mkd-pc-percentage" data-percent="75" data-bar-color="#E8612D" data-track-color="#ffffff">
+		<span class="mkd-pc-percent" >75</span>
+	</div>
+			<div class="mkd-pc-text-holder">
+							<h4 class="mkd-pc-title" >Industry projects</h4>
+										<p class="mkd-pc-text" >Lorem ipsum dolor amet consectetur adipisicing elit, sed do eiusmod tempor</p>
+					</div>
+	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner vc_custom_1511262614279"><div class="wpb_wrapper"><div class="mkd-pie-chart-holder ">
+	<div class="mkd-pc-percentage" data-percent="40" data-bar-color="#E8612D" data-track-color="#ffffff">
+		<span class="mkd-pc-percent" >40</span>
+	</div>
+			<div class="mkd-pc-text-holder">
+							<h4 class="mkd-pc-title" >Energy saving </h4>
+										<p class="mkd-pc-text" >Lorem ipsum dolor amet consectetur adipisicing elit, sed do eiusmod tempor</p>
+					</div>
+	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner vc_custom_1511262634224"><div class="wpb_wrapper"><div class="mkd-pie-chart-holder ">
+	<div class="mkd-pc-percentage" data-percent="75" data-bar-color="#E8612D" data-track-color="#ffffff">
+		<span class="mkd-pc-percent" >75</span>
+	</div>
+			<div class="mkd-pc-text-holder">
+							<h4 class="mkd-pc-title" >Efficiency</h4>
+										<p class="mkd-pc-text" >Lorem ipsum dolor amet consectetur adipisicing elit, sed do eiusmod tempor</p>
+					</div>
+	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper "  style="background-color:#24272a"><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1511260514697" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-clients-carousel-holder mkd-cc-hover-roll-over">
+	<div class="mkd-cc-inner mkd-owl-slider" data-number-of-items="3" data-enable-loop="no" data-enable-autoplay="no" data-slider-speed="5000" data-slider-speed-animation="600" data-enable-navigation="no" data-enable-pagination="no">
+		<div class="mkd-cc-item">
+			<a itemprop="url" class="mkd-cc-link mkd-block-drag-link" href="#" target="_self">
+						<img itemprop="image" class="mkd-cc-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-img-1.png" alt="a" />
+							<img itemprop="image" class="mkd-cc-hover-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-hover-img-1.png" alt="a" />
+					</a>
+	</div><div class="mkd-cc-item">
+			<a itemprop="url" class="mkd-cc-link mkd-block-drag-link" href="#" target="_self">
+						<img itemprop="image" class="mkd-cc-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-img-2.png" alt="a" />
+							<img itemprop="image" class="mkd-cc-hover-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-hover-img-2.png" alt="a" />
+					</a>
+	</div><div class="mkd-cc-item">
+			<a itemprop="url" class="mkd-cc-link mkd-block-drag-link" href="#" target="_self">
+						<img itemprop="image" class="mkd-cc-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-img-3.png" alt="a" />
+							<img itemprop="image" class="mkd-cc-hover-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-hover-img-3.png" alt="a" />
+					</a>
+	</div>	</div>
+</div><div class="vc_empty_space  vc_custom_1511260555751"   style="height: 32px"><span class="vc_empty_space_inner"></span></div><div class="mkd-clients-carousel-holder mkd-cc-hover-roll-over">
+	<div class="mkd-cc-inner mkd-owl-slider" data-number-of-items="3" data-enable-loop="no" data-enable-autoplay="no" data-slider-speed="5000" data-slider-speed-animation="600" data-enable-navigation="no" data-enable-pagination="no">
+		<div class="mkd-cc-item">
+			<a itemprop="url" class="mkd-cc-link mkd-block-drag-link" href="#" target="_self">
+						<img itemprop="image" class="mkd-cc-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-img-4.png" alt="a" />
+							<img itemprop="image" class="mkd-cc-hover-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-hover-img-4.png" alt="a" />
+					</a>
+	</div><div class="mkd-cc-item">
+			<a itemprop="url" class="mkd-cc-link mkd-block-drag-link" href="#" target="_self">
+						<img itemprop="image" class="mkd-cc-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-img-3.png" alt="a" />
+							<img itemprop="image" class="mkd-cc-hover-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-hover-img-3.png" alt="a" />
+					</a>
+	</div><div class="mkd-cc-item">
+			<a itemprop="url" class="mkd-cc-link mkd-block-drag-link" href="#" target="_self">
+						<img itemprop="image" class="mkd-cc-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-img-5.png" alt="a" />
+							<img itemprop="image" class="mkd-cc-hover-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-hover-img-5.png" alt="a" />
+					</a>
+	</div>	</div>
+</div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_revslider_element wpb_content_element">
+			<!-- START Home 01 Map REVOLUTION SLIDER 6.6.5 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_12_2_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="rev_slider_12_2" style="" data-version="6.6.5">
+					<rs-slides style="overflow: hidden; position: absolute;">
+						<rs-slide style="position: absolute;" data-key="rs-24" data-title="Slide" data-anim="adpr:false;" data-in="o:0;" data-out="a:false;">
+							<img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Main Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-2.jpg" data-parallax="7" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-12-slide-24-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c,c,c,r;xo:0,0,0,-80px;y:m;"
+								data-text="l:22;a:inherit;"
+								data-dim="w:1219px,1000px,1000px,900px;h:645px,529,529,476px;"
+								data-frame_0="o:1;"
+								data-frame_1="sR:10;"
+								data-frame_999="st:w;sR:8690;"
+								style="z-index:5;"
+							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="1219" height="645" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-12-slide-24-layer-2" 
+								class="mkd-cursor-pointer"
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:230px,190px,190px,-50px;y:m;yo:-20px;"
+								data-text="l:22;a:inherit;"
+								data-dim="w:35px,35px,35px,28px;h:53px,53px,53px,43px;"
+								data-actions='o:click;a:startlayer;layer:slider-12-slide-24-layer-3;||o:click;a:stoplayer;layer:slider-12-slide-24-layer-2;'
+								data-triggercache="keep"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="sp:500;sR:10;"
+								data-frame_999="o:0;st:8800;sR:8290;"
+								data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
+								style="z-index:6;"
+							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-12-slide-24-layer-3" 
+								class="mkd-cursor-pointer"
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:230px,190px,190px,-50px;y:m;yo:-25px,-28px,-28px,-25px;"
+								data-text="l:22;a:inherit;"
+								data-dim="w:42px,42px,42px,35px;h:63px,63px,63px,53px;"
+								data-actions='o:click;a:stoplayer;layer:slider-12-slide-24-layer-3;||o:click;a:startlayer;layer:slider-12-slide-24-layer-2;'
+								data-triggercache="keep"
+								data-frame_1="sp:500;sR:10;st:a;"
+								data-frame_999="o:0;st:a;sR:8290;"
+								data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
+								style="z-index:7;"
+							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-12-slide-24-layer-5" 
+								class="mkd-cursor-pointer"
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:400px,320px,320px,50px;y:m;yo:-80px;"
+								data-text="l:22;a:inherit;"
+								data-dim="w:35px,35px,35px,28px;h:53px,53px,53px,43px;"
+								data-actions='o:click;a:startlayer;layer:slider-12-slide-24-layer-6;||o:click;a:stoplayer;layer:slider-12-slide-24-layer-5;'
+								data-triggercache="keep"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="sp:500;sR:10;"
+								data-frame_999="o:0;st:8800;sR:8290;"
+								data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
+								style="z-index:8;"
+							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-12-slide-24-layer-6" 
+								class="mkd-cursor-pointer"
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:400px,320px,320px,50px;y:m;yo:-85px,-89px,-89px,-85px;"
+								data-text="l:22;a:inherit;"
+								data-dim="w:42px,42px,42px,35px;h:63px,63px,63px,53px;"
+								data-actions='o:click;a:stoplayer;layer:slider-12-slide-24-layer-6;||o:click;a:startlayer;layer:slider-12-slide-24-layer-5;'
+								data-triggercache="keep"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="sp:500;sR:10;st:a;"
+								data-frame_999="o:0;st:a;sR:8290;"
+								data-loop_999="sX:1.1;sY:1.1;sp:2400;yym:t;yys:t;yyf:t;"
+								style="z-index:9;"
+							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-12-slide-24-layer-7" 
+								class="mkd-cursor-pointer"
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:320px,260px,260px,20px;y:m;yo:-205px,-165px,-165px,-165px;"
+								data-text="l:22;a:inherit;"
+								data-dim="w:35px,35px,35px,28px;h:53px,53px,53px,43px;"
+								data-actions='o:click;a:startlayer;layer:slider-12-slide-24-layer-8;||o:click;a:stoplayer;layer:slider-12-slide-24-layer-7;'
+								data-triggercache="keep"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="sp:500;sR:10;"
+								data-frame_999="o:0;st:8800;sR:8290;"
+								data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
+								style="z-index:10;"
+							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-12-slide-24-layer-8" 
+								class="mkd-cursor-pointer"
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:320px,260px,260px,20px;y:m;yo:-209px,-173px,-173px,-165px;"
+								data-text="l:22;a:inherit;"
+								data-dim="w:42px,42px,42px,35px;h:63px,63px,63px,53px;"
+								data-actions='o:click;a:stoplayer;layer:slider-12-slide-24-layer-8;||o:click;a:startlayer;layer:slider-12-slide-24-layer-7;'
+								data-triggercache="keep"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="sp:500;sR:10;st:a;"
+								data-frame_999="o:0;st:a;sR:8290;"
+								data-loop_999="sX:1.1;sY:1.1;sp:1600;yym:t;yys:t;yyf:t;"
+								style="z-index:11;"
+							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-12-slide-24-layer-9" 
+								class="mkd-cursor-pointer"
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-360px,-300px,-300px,-300px;y:m;yo:-125px,-95px,-95px,-95px;"
+								data-text="l:22;a:inherit;"
+								data-dim="w:['35px','35px','35px','35px'];h:['53px','53px','53px','53px'];"
+								data-vbility="t,t,t,f"
+								data-actions='o:click;a:startlayer;layer:slider-12-slide-24-layer-10;||o:click;a:stoplayer;layer:slider-12-slide-24-layer-9;'
+								data-triggercache="keep"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="sp:500;sR:10;"
+								data-frame_999="o:0;st:8800;sR:8290;"
+								data-loop_999="sX:1.1;sY:1.1;sp:2800;yym:t;yys:t;yyf:t;"
+								style="z-index:12;"
+							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-12-slide-24-layer-10" 
+								class="mkd-cursor-pointer"
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-360px,-300px,-300px,-300px;y:m;yo:-130px,-103px,-103px,-95px;"
+								data-text="l:22;a:inherit;"
+								data-dim="w:['42px','42px','42px','42px'];h:['63px','63px','63px','63px'];"
+								data-vbility="t,t,t,f"
+								data-actions='o:click;a:stoplayer;layer:slider-12-slide-24-layer-10;||o:click;a:startlayer;layer:slider-12-slide-24-layer-9;'
+								data-triggercache="keep"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="sp:500;sR:10;st:a;"
+								data-frame_999="o:0;st:a;sR:8290;"
+								data-loop_999="sX:1.1;sY:1.1;sp:2800;yym:t;yys:t;yyf:t;"
+								style="z-index:13;"
+							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							</rs-layer><!--
+-->						</rs-slide>
+					</rs-slides>
+				</rs-module>
+				
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex mkd-content-aligment-center" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><a itemprop="url" href="https://baumeister.qodeinteractive.com/contact-us/" target="_self" class="bkd-cta-btn" style="display:flex;align-items:center;justify-content:center;width:100%;background:#E8612D;background-image:linear-gradient(135deg,#E8612D 0%,#C0392B 100%);border:none;text-decoration:none;cursor:pointer;">
+    <span style="font-size:60px;font-family:Oswald,sans-serif;letter-spacing:0;line-height:200px;height:200px;color:#ffffff;font-weight:500;">Contact Us!</span>
+</a></div></div></div></div>
+</section>					</div>
+							</div>
+		        	</div>
+
+    </div>
+
+</div> <!-- close div.content_inner -->
+	</div> <!-- close div.content -->
+					<footer class="mkd-page-footer">
+				<div class="mkd-footer-top-holder">
+	<div class="mkd-footer-top-inner mkd-grid">
+		<div class="mkd-grid-row mkd-footer-top-alignment-left">
+							<div class="mkd-column-content mkd-grid-col-3">
+					<div id="media_image-2" class="widget mkd-footer-column-1 widget_media_image"><a href="https://baumeister.qodeinteractive.com/"><img width="217" height="38" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/footer-img.png" class="image wp-image-3389  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto; filter: hue-rotate(-30deg) saturate(1.8) brightness(0.95);" /></a></div><div id="text-3" class="widget mkd-footer-column-1 widget_text">			<div class="textwidget"><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+</div>
+		</div>		
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 15px;margin: 8px 0 0;" href="https://twitter.com/QodeInteractive" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-twitter     "></span>		</a>
+				
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 15px;margin: 8px 20px 0;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-facebook     "></span>		</a>
+				
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 15px;margin: 8px 0 0;" href="https://plus.google.com/" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-google-plus     "></span>		</a>
+				
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 15px;margin: 8px 0 0 20px;" href="https://www.linkedin.com/company/qode-themes/" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-linkedin     "></span>		</a>
+						</div>
+							<div class="mkd-column-content mkd-grid-col-3">
+					<div id="text-4" class="widget mkd-footer-column-2 widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">What we do</h4></div>			<div class="textwidget"><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+</div>
+		</div>
+        <a class="mkd-icon-widget-holder"            href="#"
+            target="_self" style="margin: -16px 0 0 0">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-users      mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner">Lorem ipsum dolor sit amet</span></span>        </a>
+    <div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-left mkd-separator-normal">
+	<div class="mkd-separator" style="border-color: #fff;border-style: solid;width: 250px;border-bottom-width: 1px;margin-top: 10px;margin-bottom: 14px"></div>
+</div>
+</div>
+        <a class="mkd-icon-widget-holder"            href="#"
+            target="_self" >
+                        <span class="mkd-icon-text mkd-no-icon fa fa-users      mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner">Lorem ipsum dolor sit amet</span></span>        </a>
+    <div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-left mkd-separator-normal">
+	<div class="mkd-separator" style="border-color: #fff;border-style: solid;width: 250px;border-bottom-width: 1px;margin-top: 17px;margin-bottom: 14px"></div>
+</div>
+</div>
+        <a class="mkd-icon-widget-holder"            href="#"
+            target="_self" >
+                        <span class="mkd-icon-text mkd-no-icon fa fa-users      mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner">Lorem ipsum dolor sit amet</span></span>        </a>
+    				</div>
+							<div class="mkd-column-content mkd-grid-col-3">
+					<div id="text-5" class="widget mkd-footer-column-3 widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Contact information</h4></div>			<div class="textwidget"></div>
+		</div>
+        <a class="mkd-icon-widget-holder"            href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.9518307"
+            target="_blank" style="margin: 0 64px 0 0">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">620 Eighth Avenue,</span></span>        </a>
+    
+        <a class="mkd-icon-widget-holder"            href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.9518307"
+            target="_blank" style="margin: 0 0 0 20px">
+                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">United States of America</span></span>        </a>
+    
+        <a class="mkd-icon-widget-holder"            href="tel:+555786897"
+            target="_self" style="margin: 30px 75px 0 0">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">+ 555 786 897</span></span>        </a>
+    
+        <a class="mkd-icon-widget-holder"            href="#"
+            target="_self" style="margin: 0 0 24px 20px">
+                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Mon-Sat, 9:00am-7:00pm</span></span>        </a>
+    
+        <a class="mkd-icon-widget-holder" href="/cdn-cgi/l/email-protection#335152465e565a4047564173425c57561d505c5e" target="_self" style="margin: 0 63px 0 0">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff"><span class="__cf_email__" data-cfemail="7a181b0f171f13090e1f083a0b151e1f54191517">[email&#160;protected]</span></span></span>        </a>
+    				</div>
+							<div class="mkd-column-content mkd-grid-col-3">
+					<div id="text-6" class="widget mkd-footer-column-4 widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Officies</h4></div>			<div class="textwidget"><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+</div>
+		</div><div id="media_image-3" class="widget mkd-footer-column-4 widget_media_image"><a href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.9518307" target="_blank" rel="noopener"><img width="270" height="142" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/footer-img-2.png" class="image wp-image-3375  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></a></div>				</div>
+					</div>
+	</div>
+</div><div class="mkd-footer-bottom-holder">
+	<div class="mkd-footer-bottom-inner mkd-grid">
+		<div class="mkd-grid-row ">
+							<div class="mkd-grid-col-12">
+					<div id="text-11" class="widget mkd-footer-bottom-column-1 widget_text">			<div class="textwidget"><p><a href="https://qodeinteractive.com/" target="_blank" rel="nofollow noopener">� 2021 Qode Interactive, All Rights Reserved</a></p>
+</div>
+		</div>				</div>
+					</div>
+	</div>
+</div>			</footer>
+			</div> <!-- close div.mkd-wrapper-inner  -->
+</div> <!-- close div.mkd-wrapper -->
+
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+		<div class="rbt-toolbar" data-theme="Baumeister" data-featured="" data-button-position="70%" data-button-horizontal="right" data-button-alt="no" ></div>
+<!-- GTM Container placement set to footer -->
+<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTQ2BTD" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><link href="https://fonts.googleapis.com/css?family=Oswald:500%7CPoppins:300%7CRoboto:400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+	
+	
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.5' type='text/css' media='all' />
+
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.6.4' id='swv-js'></script>
+
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.4' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://export.qodethemes.com/_toolbar/assets/js/rbt-modules.js?ver=6.0.11' id='rabbit_js-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.0.0' id='js-cookie-js'></script>
+
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.0.0' id='woocommerce-js'></script>
+
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.0.0' id='wc-cart-fragments-js'></script>
+
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/js/frontend.min.js?ver=4.3.0' id='ppress-frontend-script-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.16.1' id='gtm4wp-form-move-tracker-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.13.1' id='jquery-ui-tabs-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.13.1' id='jquery-ui-accordion-js'></script>
+
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.16' id='mediaelement-core-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.0.11' id='mediaelement-migrate-js'></script>
+
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.0.11' id='wp-mediaelement-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.appear.js?ver=6.0.11' id='appear-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/modernizr.min.js?ver=6.0.11' id='modernizr-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2' id='hoverIntent-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.plugin.js?ver=6.0.11' id='jquery-plugin-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/owl.carousel.min.js?ver=6.0.11' id='owl-carousel-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.waypoints.min.js?ver=6.0.11' id='waypoints-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/Chart.min.js?ver=6.0.11' id='chart-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/fluidvids.min.js?ver=6.0.11' id='fluidvids-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js?ver=6.10.0' id='prettyphoto-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/perfect-scrollbar.jquery.min.js?ver=6.0.11' id='perfect-scrollbar-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/ScrollToPlugin.min.js?ver=6.0.11' id='ScrollToPlugin-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/parallax.min.js?ver=6.0.11' id='parallax-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.waitforimages.js?ver=6.0.11' id='waitforimages-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.easing.1.3.js?ver=6.0.11' id='jquery-easing-1.3-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.10.0' id='isotope-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/packery-mode.pkgd.min.js?ver=6.0.11' id='packery-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/countdown/assets/js/plugins/jquery.countdown.min.js?ver=6.0.11' id='countdown-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/counter/assets/js/plugins/counter.js?ver=6.0.11' id='counter-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/counter/assets/js/plugins/absoluteCounter.min.js?ver=6.0.11' id='absoluteCounter-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/custom-font/assets/js/plugins/typed.js?ver=6.0.11' id='typed-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/full-screen-sections/assets/js/plugins/jquery.fullPage.min.js?ver=6.0.11' id='fullPage-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/pie-chart/assets/js/plugins/easypiechart.js?ver=6.0.11' id='easypiechart-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.7.0.0' id='select2-js'></script>
+<script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyBQTukooUgzxI6RBwRGdF2OPbHJ8BEowC8&#038;ver=6.0.11' id='baumeister-mikado-google-map-api-js'></script>
+
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules.min.js?ver=6.0.11' id='baumeister-mikado-modules-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.10.0' id='wpb_composer_front_js-js'></script>
+
+<script src="{{ asset('js/script.js') }}"></script>
+
+<!-- Force xóa toàn bộ màu vàng #fdb913/#e7a022 bằng JS sau khi tất cả CSS/JS theme đã load -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Override all mkd-btn-solid buttons
+    document.querySelectorAll('.mkd-btn-solid').forEach(function(btn) {
+        btn.style.setProperty('background-color', '#E8612D', 'important');
+        btn.style.setProperty('background-image', 'linear-gradient(135deg, #E8612D 0%, #C0392B 100%)', 'important');
+        btn.style.setProperty('border-color', '#E8612D', 'important');
+        var txt = btn.querySelector('.mkd-btn-text');
+        if (txt) txt.style.setProperty('color', '#ffffff', 'important');
+        var icon = btn.querySelector('.mkd-btn-icon');
+        if (icon) {
+            icon.style.setProperty('background-color', '#C0392B', 'important');
+            icon.style.setProperty('color', '#ffffff', 'important');
+        }
+    });
+    // Override back-to-top
+    var btt = document.getElementById('mkd-back-to-top');
+    if (btt) btt.style.setProperty('background-color', '#E8612D', 'important');
+    // Override any element with computed yellow color
+    var allEls = document.querySelectorAll('*');
+    allEls.forEach(function(el) {
+        var cs = getComputedStyle(el);
+        var bg = cs.backgroundColor;
+        var color = cs.color;
+        var bc = cs.borderColor;
+        var isYellowBg = (bg === 'rgb(253, 185, 19)' || bg === 'rgb(231, 160, 34)');
+        var isYellowColor = (color === 'rgb(253, 185, 19)' || color === 'rgb(231, 160, 34)');
+        if (isYellowBg) {
+            el.style.setProperty('background-color', '#E8612D', 'important');
+            // Nếu element có background vàng thì text phải trắng để không bị trùng
+            el.style.setProperty('color', '#ffffff', 'important');
+        } else if (isYellowColor) {
+            el.style.setProperty('color', '#E8612D', 'important');
+        }
+        if (bc === 'rgb(253, 185, 19)' || bc === 'rgb(231, 160, 34)') {
+            el.style.setProperty('border-color', '#E8612D', 'important');
+        }
+    });
+});
+</script>
+
+<!-- ===== BACH KHOA DIGITAL: Override màu vàng → Đỏ Cam (load CUỐI CÙNG, sau mọi CSS) ===== -->
+<style id="bkd-color-override">
+    /* Dùng body.page-id-385 để thắng specificity của style_dynamic.css */
+
+    /* === BUTTONS: tất cả mkd-btn-solid === */
+    body.page-id-385 .mkd-btn.mkd-btn-solid,
+    body.page-id-385 a.mkd-btn.mkd-btn-solid,
+    body.page-id-385 .mkd-btn.mkd-btn-medium.mkd-btn-solid,
+    body.page-id-385 a.mkd-btn.mkd-btn-medium.mkd-btn-solid,
+    body.page-id-385 a.mkd-btn.mkd-btn-small.mkd-btn-solid,
+    body.page-id-385 a.mkd-btn.mkd-btn-large.mkd-btn-solid,
+    body.page-id-385 a.mkd-btn.mkd-btn-full-width.mkd-btn-solid,
+    body.page-id-385 a.mkd-btn.mkd-btn-solid.mkd-btn-icon,
+    body.page-id-385 a.mkd-btn.mkd-btn-medium.mkd-btn-solid.mkd-btn-icon {
+        background-color: #E8612D !important;
+        background-image: linear-gradient(135deg, #E8612D 0%, #C0392B 100%) !important;
+        border-color: #E8612D !important;
+        color: #ffffff !important;
+    }
+    body.page-id-385 .mkd-btn.mkd-btn-solid:hover,
+    body.page-id-385 a.mkd-btn.mkd-btn-solid:hover,
+    body.page-id-385 a.mkd-btn.mkd-btn-medium.mkd-btn-solid:hover,
+    body.page-id-385 a.mkd-btn.mkd-btn-full-width.mkd-btn-solid:hover {
+        background-color: #C0392B !important;
+        background-image: linear-gradient(135deg, #C0392B 0%, #9B1B1B 100%) !important;
+        border-color: #C0392B !important;
+    }
+    /* Chữ trong nút & icon region */
+    body.page-id-385 .mkd-btn.mkd-btn-solid .mkd-btn-text,
+    body.page-id-385 a.mkd-btn.mkd-btn-solid .mkd-btn-text { color: #ffffff !important; }
+    body.page-id-385 .mkd-btn.mkd-btn-solid .mkd-btn-icon,
+    body.page-id-385 a.mkd-btn.mkd-btn-solid .mkd-btn-icon {
+        background-color: #C0392B !important;
+        background-image: none !important;
+        color: #ffffff !important;
+    }
+
+    /* === NAVIGATION: active & hover === */
+    body.page-id-385 .mkd-main-menu > ul > li.mkd-active-item > a,
+    body.page-id-385 .mkd-main-menu > ul > li.mkd-active-item > a span,
+    body.page-id-385 .mkd-main-menu > ul > li.current-menu-item > a,
+    body.page-id-385 .mkd-main-menu > ul > li > a:hover,
+    body.page-id-385 .mkd-main-menu > ul > li > a:hover span { color: #E8612D !important; }
+    body.page-id-385 .mkd-main-menu > ul > li.mkd-active-item > a::after,
+    body.page-id-385 .mkd-main-menu > ul > li > a:hover::after { background-color: #E8612D !important; }
+
+    /* Dropdown hover */
+    body.page-id-385 .mkd-drop-down .second .inner ul li a:hover,
+    body.page-id-385 .mkd-drop-down .second .inner ul li.current-menu-item > a { color: #E8612D !important; }
+
+    /* === POST INFO: category, author, comments === */
+    body.page-id-385 .mkd-post-info-category a,
+    body.page-id-385 .mkd-post-info-category a:hover { color: #ffffff !important; background-color: #E8612D !important; border-color: #E8612D !important; }
+    body.page-id-385 .mkd-post-info-author .mkd-post-info-author-link,
+    body.page-id-385 a.mkd-post-info-author-link { color: #E8612D !important; }
+    body.page-id-385 a.mkd-post-info-comments,
+    body.page-id-385 .mkd-post-info-comments-holder a { color: #E8612D !important; }
+
+    /* Blog list */
+    body.page-id-385 .mkd-bli-category a,
+    body.page-id-385 .mkd-blog-list-holder .mkd-post-info a { color: #E8612D !important; }
+
+    /* === SECTION TITLE LINE === */
+    body.page-id-385 .mkd-st-title-line { background-color: #E8612D !important; }
+
+    /* === WOO SALE BADGE === */
+    body.page-id-385 .woocommerce span.onsale { background-color: #E8612D !important; }
+
+    /* === BACK TO TOP BUTTON === */
+    body.page-id-385 .mkd-back-to-top a,
+    body.page-id-385 #mkd-back-to-top a { background-color: #E8612D !important; }
+
+    /* === FOOTER === */
+    body.page-id-385 .mkd-page-footer,
+    body.page-id-385 .mkd-footer-top-holder,
+    body.page-id-385 .mkd-footer-bottom-holder { background-color: #2B2B2B !important; }
+    body.page-id-385 .mkd-footer-top-holder *,
+    body.page-id-385 .mkd-footer-bottom-holder * { color: #cccccc !important; }
+    body.page-id-385 .mkd-widget-title,
+    body.page-id-385 .mkd-footer-top-holder h4,
+    body.page-id-385 .mkd-footer-bottom-holder h4 { color: #ffffff !important; }
+    body.page-id-385 .mkd-footer-top-holder a:hover,
+    body.page-id-385 .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
+</style>
+</body>
+</html>

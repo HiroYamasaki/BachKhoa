@@ -1,0 +1,504 @@
+/* === WP Smiley & Emoji === */
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+/* === Global Styles === */
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+
+/* === WooCommerce Inline === */
+.woocommerce form .form-row .required { visibility: visible; }
+
+/* === Baumeister Mikado WooCommerce === */
+.page-id-385.mkd-header-box .mkd-top-bar-background { background-color: rgba(255, 255, 255, 0);}
+.page-id-385.mkd-boxed .mkd-wrapper { background-attachment: fixed;}
+.page-id-385 .mkd-page-header .mkd-menu-area { background-color: rgba(27, 27, 27, 0.95);}
+.page-id-385 .mkd-content .mkd-content-inner > .mkd-container > .mkd-container-inner, .page-id-385 .mkd-content .mkd-content-inner > .mkd-full-width > .mkd-full-width-inner { padding-top: 0px !important;}
+
+/* === VC Shortcodes Custom CSS === */
+.vc_custom_1511263259529{padding-top: 108px !important;padding-bottom: 110px !important;}.vc_custom_1512557666795{padding-top: 150px !important;padding-bottom: 113px !important;}.vc_custom_1511263281614{padding-top: 150px !important;padding-bottom: 102px !important;}.vc_custom_1511260514697{padding-top: 140px !important;padding-bottom: 140px !important;}.vc_custom_1511953772720{margin-top: -15% !important;}.vc_custom_1511784322626{padding-top: 100px !important;padding-bottom: 102px !important;}.vc_custom_1511262217025{padding-top: 90px !important;}.vc_custom_1512487624426{margin-top: -37px !important;}.vc_custom_1511262599053{padding-right: 9% !important;padding-left: 9% !important;}.vc_custom_1511262606291{padding-right: 9% !important;padding-left: 9% !important;}.vc_custom_1511262614279{padding-right: 9% !important;padding-left: 9% !important;}.vc_custom_1511262634224{padding-right: 9% !important;padding-left: 9% !important;}.vc_custom_1511260555751{margin-top: 6% !important;}
+
+/* === Revolution Slider === */
+#rev_slider_1_1_wrapper .mikado-gyges.tparrows{background-color:rgba(rgba(27,27,27,0.9));  width:70px;  height:70px}#rev_slider_1_1_wrapper .mikado-gyges.tparrows:before{font-family:'FontAwesome';  line-height:70px;  color:rgb(#ffffff)}#rev_slider_1_1_wrapper .mikado-gyges.tparrows.tp-rightarrow:before{content:"\f178"}#rev_slider_1_1_wrapper .mikado-gyges.tparrows.tp-leftarrow:before{content:"\f177"}#rev_slider_1_1_wrapper .mikado-gyges.tparrows.tp-leftarrow:before,#rev_slider_1_1_wrapper .mikado-gyges.tparrows.tp-rightarrow:before{-webkit-transition:all .2s ease-out;  transition:all .2s ease-out}#rev_slider_1_1_wrapper .mikado-gyges.tparrows.tp-leftarrow.rs-touchhover:before{-webkit-transform:translate3d(-5%,0,0);-moz-transform:translate3d(-5%,0,0);transform:translate3d(-5%,0,0)}#rev_slider_1_1_wrapper .mikado-gyges.tparrows.tp-rightarrow.rs-touchhover:before{-webkit-transform:translate3d(5%,0,0);-moz-transform:translate3d(5%,0,0);transform:translate3d(5%,0,0)}#rev_slider_1_1_wrapper .mikado-gyges.tp-bullets .tp-bullet{width:14px;  height:14px;  background-color:rgb(#ffffff);  transition:all .2s ease-out;  -webkit-transition:all .2s ease-out}#rev_slider_1_1_wrapper .mikado-gyges.tp-bullets .tp-bullet.rs-touchhover,#rev_slider_1_1_wrapper .mikado-gyges.tp-bullets .tp-bullet.selected{background-color:rgba(#ffffff,0.5)}
+
+/* =====================================================
+   BACH KHOA DIGITAL – Màu Đỏ Cam Gradient Override
+   Thay toàn bộ màu vàng/amber thành đỏ cam gradient
+   Primary:  #E8612D → #C0392B  (orange → red-orange)
+   ===================================================== */
+
+/* --- CSS Variables: override amber/yellow presets --- */
+body {
+    --bkd-primary:        #E8612D;
+    --bkd-primary-dark:   #C0392B;
+    --bkd-gradient:       linear-gradient(135deg, #E8612D 0%, #C0392B 100%);
+    --bkd-gradient-hover: linear-gradient(135deg, #C0392B 0%, #9B1B1B 100%);
+    /* override WP preset amber/yellow */
+    --wp--preset--color--luminous-vivid-amber: #E8612D !important;
+    --wp--preset--color--luminous-vivid-orange: #E8612D !important;
+    --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, #E8612D 0%, #C0392B 100%) !important;
+}
+
+/* --- Buttons: mkd solid/outline --- */
+.mkd-btn-solid,
+.mkd-btn.mkd-btn-solid,
+a.mkd-btn.mkd-btn-solid,
+.woocommerce .button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit {
+    background: var(--bkd-gradient) !important;
+    background-color: #E8612D !important;
+    border-color: #E8612D !important;
+    color: #fff !important;
+}
+
+.mkd-btn-solid:hover,
+.mkd-btn.mkd-btn-solid:hover,
+a.mkd-btn.mkd-btn-solid:hover,
+.woocommerce .button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover {
+    background: var(--bkd-gradient-hover) !important;
+    background-color: #C0392B !important;
+    border-color: #C0392B !important;
+    color: #fff !important;
+}
+
+/* --- Buttons: outline variant --- */
+.mkd-btn-outline,
+a.mkd-btn.mkd-btn-outline {
+    border-color: #E8612D !important;
+    color: #E8612D !important;
+}
+.mkd-btn-outline:hover,
+a.mkd-btn.mkd-btn-outline:hover {
+    background: var(--bkd-gradient) !important;
+    border-color: #E8612D !important;
+    color: #fff !important;
+}
+
+/* --- Navigation: active & hover states --- */
+.mkd-main-menu > ul > li.mkd-active-item > a,
+.mkd-main-menu > ul > li.mkd-active-item > a > span,
+.mkd-main-menu > ul > li > a:hover,
+.mkd-main-menu > ul > li > a:hover > span {
+    color: #E8612D !important;
+}
+
+/* Active nav underline/indicator */
+.mkd-main-menu > ul > li.mkd-active-item > a::after,
+.mkd-main-menu > ul > li > a::after {
+    background-color: #E8612D !important;
+}
+
+/* Sticky nav */
+.mkd-sticky-header .mkd-main-menu > ul > li.mkd-active-item > a,
+.mkd-sticky-header .mkd-main-menu > ul > li > a:hover {
+    color: #E8612D !important;
+}
+
+/* Mobile nav active */
+.mkd-mobile-header .mkd-nav-list-item.active > a,
+.mkd-mobile-header .mkd-nav-list-item > a:hover {
+    color: #E8612D !important;
+}
+
+/* --- Menu dropdown hover background --- */
+.mkd-drop-down .second .inner ul li a:hover,
+.mkd-drop-down .second .inner ul li:hover > a {
+    color: #E8612D !important;
+}
+
+/* --- Links general --- */
+a:hover,
+a:focus {
+    color: #E8612D !important;
+}
+
+/* --- Section title accent line / underline --- */
+.mkd-st-title-line,
+.mkd-section-title-holder .mkd-st-title-line,
+.mkd-separator {
+    border-color: #E8612D !important;
+    background-color: #E8612D !important;
+}
+
+/* --- Icon text / widget icons (override yellow inline-style icons) --- */
+.mkd-icon-has-hover:hover,
+.mkd-icon-widget-holder:hover .mkd-icon-font-awesome,
+.mkd-icon-widget-holder:hover .mkd-icon-text {
+    color: #C0392B !important;
+}
+
+/* --- Counter / progress bars / pie charts accent --- */
+.mkd-counter-holder .mkd-counter-number,
+.mkd-piechart .mkd-piechart-border,
+.mkd-progress-bar .mkd-progress-bar-fill {
+    color: #E8612D !important;
+    background: var(--bkd-gradient) !important;
+    border-color: #E8612D !important;
+}
+
+/* --- Interactive box hover overlay --- */
+.mkd-interactive-box .mkd-interactive-box-text .mkd-interactive-box-title-holder::after,
+.mkd-interactive-box:hover .mkd-interactive-box-inner {
+    background: var(--bkd-gradient) !important;
+}
+
+/* --- Testimonials quote marks --- */
+.mkd-testimonials .mkd-testimonial-content::before {
+    color: #E8612D !important;
+}
+
+/* --- Pricing table highlighted column header --- */
+.mkd-pricing-table.mkd-pricing-active .mkd-pt-inner,
+.mkd-pricing-table.mkd-pricing-active .mkd-pt-title-holder {
+    background: var(--bkd-gradient) !important;
+    border-color: #E8612D !important;
+}
+
+/* --- Process item circle number --- */
+.mkd-process-holder .mkd-process-circle {
+    background: var(--bkd-gradient) !important;
+    border-color: #E8612D !important;
+}
+
+/* --- Team member social hover --- */
+.mkd-team-social a:hover {
+    background-color: #E8612D !important;
+    border-color: #E8612D !important;
+}
+
+/* --- Blog/Post categories tag links --- */
+.mkd-post-info a:hover,
+.mkd-post-tags a:hover {
+    color: #E8612D !important;
+}
+
+/* --- Woo: sale badge, add-to-cart button, price --- */
+.woocommerce span.onsale {
+    background: var(--bkd-gradient) !important;
+    background-color: #E8612D !important;
+}
+.woocommerce .product_title,
+.woocommerce .woocommerce-Price-amount {
+    /* keep default, only override highlight color */
+}
+
+/* --- CTA Section background --- */
+.mkd-call-to-action .mkd-cta-inner {
+    border-left-color: #E8612D !important;
+}
+
+/* --- Revolution Slider arrows override --- */
+#rev_slider_1_1_wrapper .mkd-btn-solid {
+    background: var(--bkd-gradient) !important;
+}
+
+/* --- Top bar accent color --- */
+.mkd-top-bar .mkd-icon-has-hover,
+.mkd-top-bar a:hover {
+    color: #C0392B !important;
+}
+
+/* --- Footer: dark charcoal, consistent with image --- */
+.mkd-page-footer,
+.mkd-footer-top-holder,
+.mkd-footer-bottom-holder {
+    background-color: #2B2B2B !important;
+}
+.mkd-footer-top-holder *,
+.mkd-footer-bottom-holder * {
+    color: #cccccc !important;
+}
+.mkd-footer-top-holder a:hover,
+.mkd-footer-bottom-holder a:hover {
+    color: #E8612D !important;
+}
+.mkd-widget-title,
+.mkd-footer-top-holder h4,
+.mkd-footer-bottom-holder h4 {
+    color: #ffffff !important;
+}
+
+/* --- Scrollbar / selection highlight --- */
+::selection {
+    background: #E8612D;
+    color: #fff;
+}
+
+/* --- Logo "B" polygon hover gradient (if SVG inline) --- */
+.mkd-logo-wrapper svg polygon,
+.mkd-logo-wrapper svg text {
+    /* keep existing orange-red inline fill */
+}
+
+/* =====================================================
+   ADDITIONAL OVERRIDES – Fix remaining #fdb913 yellow
+   ===================================================== */
+
+/* --- Navigation dropdown: active item underline / hover text --- */
+.mkd-drop-down .second .inner ul li.current-menu-item > a,
+.mkd-drop-down .second .inner ul li.current-menu-ancestor > a,
+.mkd-drop-down .second .inner ul li > a:hover,
+.mkd-drop-down .second .inner ul li > a:focus,
+.mkd-drop-down ul li.mkd-active-item > a,
+.mkd-drop-down ul li > a:hover {
+    color: #E8612D !important;
+}
+
+/* Dropdown hover left-border accent */
+.mkd-drop-down .second .inner ul li a:hover,
+.mkd-drop-down .second .inner ul li.current-menu-item a {
+    border-left-color: #E8612D !important;
+    background-color: transparent !important;
+}
+
+/* Sticky nav dropdown same overrides */
+.mkd-sticky-nav .second .inner ul li > a:hover,
+.mkd-sticky-nav .second .inner ul li.current-menu-item > a {
+    color: #E8612D !important;
+    border-left-color: #E8612D !important;
+}
+
+/* --- Buttons: ALL mkd-btn-solid variants (covers yellow bg from theme) --- */
+.mkd-btn.mkd-btn-solid,
+a.mkd-btn.mkd-btn-solid,
+.mkd-btn.mkd-btn-solid.mkd-btn-medium,
+.mkd-btn.mkd-btn-solid.mkd-btn-small,
+.mkd-btn.mkd-btn-solid.mkd-btn-large,
+.mkd-btn.mkd-btn-solid.mkd-btn-icon,
+span.mkd-btn.mkd-btn-solid {
+    background-color: #E8612D !important;
+    background-image: linear-gradient(135deg, #E8612D 0%, #C0392B 100%) !important;
+    border-color: #E8612D !important;
+    color: #ffffff !important;
+}
+
+.mkd-btn.mkd-btn-solid:hover,
+a.mkd-btn.mkd-btn-solid:hover,
+.mkd-btn.mkd-btn-solid.mkd-btn-icon:hover {
+    background-color: #C0392B !important;
+    background-image: linear-gradient(135deg, #C0392B 0%, #9B1B1B 100%) !important;
+    border-color: #C0392B !important;
+    color: #ffffff !important;
+}
+
+/* --- Button icon inside mkd-btn-solid --- */
+.mkd-btn.mkd-btn-solid .mkd-btn-icon,
+.mkd-btn.mkd-btn-solid .mkd-btn-icon i {
+    background-color: #C0392B !important;
+    background-image: none !important;
+    color: #ffffff !important;
+}
+
+/* --- Post info: category links (default color, not just hover) --- */
+.mkd-post-info-category a,
+.mkd-post-info-category a:link,
+.mkd-post-info-category a:visited {
+    color: #E8612D !important;
+}
+.mkd-post-info-category a:hover {
+    color: #C0392B !important;
+}
+
+/* --- Post info: author link --- */
+.mkd-post-info-author-link,
+a.mkd-post-info-author-link,
+.mkd-post-info-author a {
+    color: #E8612D !important;
+}
+.mkd-post-info-author-link:hover,
+.mkd-post-info-author a:hover {
+    color: #C0392B !important;
+}
+
+/* --- Post info: comment count link --- */
+.mkd-post-info-comments,
+a.mkd-post-info-comments {
+    color: #E8612D !important;
+}
+.mkd-post-info-comments:hover,
+a.mkd-post-info-comments:hover {
+    color: #C0392B !important;
+}
+
+/* --- Generic: ANY element inheriting #fdb913 from theme --- */
+/* These cover hover states on list items, tags, breadcrumbs */
+.mkd-bli-category a,
+.mkd-post-tags a,
+.mkd-blog-list-holder .mkd-post-info a,
+.mkd-blog-list-holder .mkd-post-info a:hover,
+.mkd-portfolio-list-holder a:hover,
+.mkd-breadcrumbs a:hover,
+.widget a:hover,
+.mkd-woo-single-page .posted_in a:hover,
+.mkd-woo-single-page .tagged_as a:hover {
+    color: #E8612D !important;
+}
+
+/* Force override any inline/computed #fdb913 from theme stylesheets */
+.mkd-content a.mkd-btn-solid[style*="background-color"],
+.mkd-content a[style*="#fdb913"],
+*[style*="#fdb913"] {
+    color: #E8612D !important;
+    background-color: #E8612D !important;
+    border-color: #E8612D !important;
+}
+
+/* =====================================================
+   HIGH-SPECIFICITY OVERRIDES – Baumeister style_dynamic.css
+   Dùng html body prefix để thắng tất cả selector theme
+   ===================================================== */
+
+/* --- All mkd-btn-solid variants (exact Baumeister selectors) --- */
+html body .mkd-btn-solid,
+html body a.mkd-btn-solid,
+html body .mkd-btn.mkd-btn-solid,
+html body a.mkd-btn.mkd-btn-solid,
+html body .mkd-btn.mkd-btn-small.mkd-btn-solid,
+html body .mkd-btn.mkd-btn-medium.mkd-btn-solid,
+html body .mkd-btn.mkd-btn-large.mkd-btn-solid,
+html body a.mkd-btn.mkd-btn-medium.mkd-btn-solid,
+html body a.mkd-btn.mkd-btn-small.mkd-btn-solid,
+html body a.mkd-btn.mkd-btn-large.mkd-btn-solid,
+html body .mkd-btn.mkd-btn-solid.mkd-btn-icon,
+html body a.mkd-btn.mkd-btn-medium.mkd-btn-solid.mkd-btn-icon {
+    background-color: #E8612D !important;
+    background-image: linear-gradient(135deg, #E8612D 0%, #C0392B 100%) !important;
+    border-color: #E8612D !important;
+    color: #ffffff !important;
+}
+
+html body .mkd-btn-solid:hover,
+html body a.mkd-btn.mkd-btn-solid:hover,
+html body a.mkd-btn.mkd-btn-medium.mkd-btn-solid:hover,
+html body a.mkd-btn.mkd-btn-medium.mkd-btn-solid.mkd-btn-icon:hover {
+    background-color: #C0392B !important;
+    background-image: linear-gradient(135deg, #C0392B 0%, #9B1B1B 100%) !important;
+    border-color: #C0392B !important;
+    color: #ffffff !important;
+}
+
+/* Button icon region (the darker right side of icon buttons) */
+html body .mkd-btn.mkd-btn-solid .mkd-btn-icon,
+html body a.mkd-btn.mkd-btn-solid .mkd-btn-icon,
+html body a.mkd-btn.mkd-btn-medium.mkd-btn-solid .mkd-btn-icon {
+    background-color: #C0392B !important;
+    background-image: none !important;
+    color: #ffffff !important;
+}
+
+/* --- Navigation: active item text color --- */
+html body .mkd-main-menu > ul > li.mkd-active-item > a,
+html body .mkd-main-menu > ul > li.mkd-active-item > a > span,
+html body .mkd-main-menu > ul > li.mkd-active-item > a span.item_text,
+html body .mkd-main-menu > ul > li.current-menu-item > a,
+html body .mkd-main-menu > ul > li.current-menu-ancestor > a {
+    color: #E8612D !important;
+}
+
+/* Hover underline on active item */
+html body .mkd-main-menu > ul > li.mkd-active-item > a::after,
+html body .mkd-main-menu > ul > li > a:hover::after {
+    background-color: #E8612D !important;
+    border-color: #E8612D !important;
+}
+
+/* --- Dropdown: all hover link colors --- */
+html body .mkd-drop-down .second .inner ul li a:hover,
+html body .mkd-drop-down .second .inner ul li a:hover > span,
+html body .mkd-drop-down .second .inner ul li a:hover span.item_text,
+html body .mkd-drop-down .second .inner ul li.current-menu-item > a,
+html body .mkd-drop-down .second .inner ul li.mkd-active-item > a {
+    color: #E8612D !important;
+}
+
+html body .mkd-sticky-header .mkd-drop-down .second .inner ul li a:hover,
+html body .mkd-sticky-header .mkd-drop-down .second .inner ul li.current-menu-item > a {
+    color: #E8612D !important;
+}
+
+/* --- Post Info: category, author, comments --- */
+html body .mkd-post-info-category a,
+html body .mkd-post-info-category a:link,
+html body .mkd-post-info-category a:visited,
+html body .mkd-post-info-category a:hover,
+html body .mkd-post-info-category a:focus {
+    color: #E8612D !important;
+}
+
+html body .mkd-post-info-author .mkd-post-info-author-link,
+html body a.mkd-post-info-author-link,
+html body .mkd-post-info-author .mkd-post-info-author-link:hover,
+html body a.mkd-post-info-author-link:hover {
+    color: #E8612D !important;
+}
+
+html body a.mkd-post-info-comments,
+html body .mkd-post-info-comments-holder a,
+html body a.mkd-post-info-comments:hover,
+html body .mkd-post-info-comments-holder a:hover {
+    color: #E8612D !important;
+}
+
+/* --- Blog list category & meta links --- */
+html body .mkd-bli-category a,
+html body .mkd-bli-category a:hover,
+html body .mkd-blog-list-holder .mkd-post-info a,
+html body .mkd-blog-list-holder .mkd-post-info a:hover {
+    color: #E8612D !important;
+}
+
+/* --- General link accent (heading links, portfolio, shop) --- */
+html body .mkd-portfolio-list-holder .mkd-pli-title a:hover,
+html body .mkd-woo-product-list .mkd-product-list-title a:hover,
+html body .mkd-grid a.mkd-post-info-more-link:hover {
+    color: #E8612D !important;
+}
+
+/* --- Parallax / section CTA button --- */
+html body .mkd-section-title-holder a.mkd-btn.mkd-btn-solid,
+html body .wpb_wrapper a.mkd-btn.mkd-btn-solid,
+html body .mkd-content a.mkd-btn.mkd-btn-solid {
+    background-color: #E8612D !important;
+    background-image: linear-gradient(135deg, #E8612D 0%, #C0392B 100%) !important;
+    border-color: #E8612D !important;
+    color: #ffffff !important;
+}
+
+/* ===== END Bach Khoa Digital Color Override ===== */
+
+/* --- Full-width CTA button "Contact Us!" --- */
+html body a.mkd-btn.mkd-btn-full-width.mkd-btn-solid,
+html body .mkd-btn.mkd-btn-full-width.mkd-btn-solid {
+    background-color: #E8612D !important;
+    background-image: linear-gradient(135deg, #E8612D 0%, #C0392B 100%) !important;
+    border-color: #E8612D !important;
+}
+
+html body a.mkd-btn.mkd-btn-full-width.mkd-btn-solid .mkd-btn-text,
+html body .mkd-btn.mkd-btn-full-width.mkd-btn-solid .mkd-btn-text,
+html body a.mkd-btn.mkd-btn-solid .mkd-btn-text,
+html body .mkd-btn.mkd-btn-solid .mkd-btn-text,
+html body .mkd-btn-text {
+    color: #ffffff !important;
+}
+
+html body a.mkd-btn.mkd-btn-full-width.mkd-btn-solid:hover,
+html body .mkd-btn.mkd-btn-full-width.mkd-btn-solid:hover {
+    background-color: #C0392B !important;
+    background-image: linear-gradient(135deg, #C0392B 0%, #9B1B1B 100%) !important;
+    border-color: #C0392B !important;
+}
