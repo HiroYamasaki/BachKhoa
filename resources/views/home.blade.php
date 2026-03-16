@@ -38,42 +38,36 @@
     align-items: center;
     justify-content: center;
 }
-/* Khi RevSlider JS đã load xong, để nó tự điều khiển */
 #rev_slider_1_1_wrapper.loaded {
     background: transparent !important;
     min-height: unset;
 }
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://baumeister.qodeinteractive.com/wp-includes/css/dist/block-library/style.min.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-blocks-vendors-style-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='wc-blocks-style-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.5.1' type='text/css' media='all' />
 
-<link rel='stylesheet' id='titan-adminbar-styles-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/anti-spam/assets/css/admin-bar.css?ver=7.3.3' type='text/css' media='all' />
-<link rel='stylesheet' id='contact-form-7-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.4' type='text/css' media='all' />
-<link rel='stylesheet' id='rabbit_css-css'  href='https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=6.0.11' type='text/css' media='all' />
+<!-- Critical CSS: theme core -->
+<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/style.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/modules.min.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/style_dynamic.css?ver=1639748974' type='text/css' media='all' />
+<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/modules-responsive.min.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/style_dynamic_responsive.css?ver=1639748974' type='text/css' media='all' />
+<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.10.0' type='text/css' media='all' />
 
-<link rel='stylesheet' id='ppress-frontend-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/css/frontend.min.css?ver=4.3.0' type='text/css' media='all' />
-<link rel='stylesheet' id='ppress-flatpickr-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.css?ver=4.3.0' type='text/css' media='all' />
-<link rel='stylesheet' id='ppress-select2-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='baumeister-mikado-default-style-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/style.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='baumeister-mikado-modules-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/modules.min.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-font_awesome-css'  href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-font_elegant-css'  href='https://cdn.jsdelivr.net/npm/elegant-icons@0.0.1/style.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-ion_icons-css'  href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-linea_icons-css'  href='https://cdn.jsdelivr.net/npm/linea-iconset@1.0.0/styles.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-linear_icons-css'  href='https://cdn.linearicons.com/free/1.0.0/icon-font.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-simple_line_icons-css'  href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-dripicons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/dripicons/dripicons.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='mediaelement-css'  href='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.16' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-mediaelement-css'  href='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='baumeister-mikado-woo-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/woocommerce.min.css?ver=6.0.11' type='text/css' media='all' />
+<!-- Icon fonts -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css' type='text/css' media='all' />
 
-<link rel='stylesheet' id='baumeister-mikado-woo-responsive-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/woocommerce-responsive.min.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='baumeister-mikado-style-dynamic-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/style_dynamic.css?ver=1639748974' type='text/css' media='all' />
-<link rel='stylesheet' id='baumeister-mikado-modules-responsive-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/modules-responsive.min.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='baumeister-mikado-style-dynamic-responsive-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/style_dynamic_responsive.css?ver=1639748974' type='text/css' media='all' />
-<link rel='stylesheet' id='baumeister-mikado-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C500%7CPoppins%3A300%2C400%2C500&#038;subset=latin-ext&#038;ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='js_composer_front-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.10.0' type='text/css' media='all' />
+<!-- Google Fonts -->
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C500%7CPoppins%3A300%2C400%2C500&subset=latin-ext&ver=1.0.0&display=swap' type='text/css' media='all' />
+
+<!-- Non-critical CSS: load async -->
+<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/woocommerce.min.css?ver=6.0.11' media='print' onload="this.media='all'" />
+<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/woocommerce-responsive.min.css?ver=6.0.11' media='print' onload="this.media='all'" />
+<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.4' media='print' onload="this.media='all'" />
+<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-includes/css/dist/block-library/style.min.css?ver=6.0.11' media='print' onload="this.media='all'" />
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/elegant-icons@0.0.1/style.min.css' media='print' onload="this.media='all'" />
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/linea-iconset@1.0.0/styles.css' media='print' onload="this.media='all'" />
+<link rel='stylesheet' href='https://cdn.linearicons.com/free/1.0.0/icon-font.min.css' media='print' onload="this.media='all'" />
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.6.0.min.js' id='jquery-core-js' crossorigin='anonymous'></script>
 <script type='text/javascript' src='https://code.jquery.com/jquery-migrate-3.3.2.min.js' id='jquery-migrate-js' crossorigin='anonymous'></script>
 
@@ -105,20 +99,10 @@ var wpcf7 = {"api":{"root":"\/","namespace":"contact-form-7\/v1"},"cached":"1"};
 var pp_ajax_form = {"ajaxurl":"","confirm_delete":"Are you sure?"};
 var wc_add_to_cart_params = {"ajax_url":"","wc_ajax_url":"","i18n_view_cart":"View cart","cart_url":"","is_cart":"","cart_redirect_after_add":"no"};
 var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
-var wc_cart_fragments_params = {"ajax_url":"","wc_ajax_url":"","cart_hash_key":"wc_cart_hash","fragment_name":"wc_fragments","request_timeout":"5000"};
 </script>
 
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.5' async id='tp-tools-js'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.5' async id='revmin-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.0.0' id='jquery-blockui-js'></script>
-
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.0.0' id='wc-add-to-cart-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.js?ver=4.3.0' id='ppress-flatpickr-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.js?ver=4.3.0' id='ppress-select2-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=6.10.0' id='vc_woocommerce-add-to-cart-js-js'></script>
-<link rel="https://api.w.org/" href="https://baumeister.qodeinteractive.com/wp-json/" /><link rel="alternate" type="application/json" href="https://baumeister.qodeinteractive.com/wp-json/wp/v2/pages/385" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://baumeister.qodeinteractive.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://baumeister.qodeinteractive.com/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 6.0.11" />
 <meta name="generator" content="WooCommerce 7.0.0" />
 <link rel="canonical" href="https://baumeister.qodeinteractive.com/" />
 <link rel='shortlink' href='https://baumeister.qodeinteractive.com/' />
@@ -2323,59 +2307,44 @@ var wc_cart_fragments_params = {"ajax_url":"","wc_ajax_url":"","cart_hash_key":"
 
 
 <!-- GTM Container placement set to footer -->
-<!-- End Google Tag Manager (noscript) --><link href="https://fonts.googleapis.com/css?family=Oswald:500%7CPoppins:300%7CRoboto:400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+<!-- End Google Tag Manager (noscript) -->
 
-	
-	
-<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.5' media='print' onload="this.media='all'" />
 
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.6.4' id='swv-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.6.4' defer id='swv-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.4' defer id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.0.0' defer id='js-cookie-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.0.0' defer id='woocommerce-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js' defer id='jquery-ui-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.16' defer id='mediaelement-core-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.0.11' defer id='mediaelement-migrate-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.0.11' defer id='wp-mediaelement-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.appear.js?ver=6.0.11' defer id='appear-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/modernizr.min.js?ver=6.0.11' defer id='modernizr-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2' defer id='hoverIntent-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.plugin.js?ver=6.0.11' defer id='jquery-plugin-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/owl.carousel.min.js?ver=6.0.11' defer id='owl-carousel-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.waypoints.min.js?ver=6.0.11' defer id='waypoints-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/Chart.min.js?ver=6.0.11' defer id='chart-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/fluidvids.min.js?ver=6.0.11' defer id='fluidvids-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js?ver=6.10.0' defer id='prettyphoto-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/perfect-scrollbar.jquery.min.js?ver=6.0.11' defer id='perfect-scrollbar-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/ScrollToPlugin.min.js?ver=6.0.11' defer id='ScrollToPlugin-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/parallax.min.js?ver=6.0.11' defer id='parallax-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.waitforimages.js?ver=6.0.11' defer id='waitforimages-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.easing.1.3.js?ver=6.0.11' defer id='jquery-easing-1.3-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.10.0' defer id='isotope-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/packery-mode.pkgd.min.js?ver=6.0.11' defer id='packery-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/countdown/assets/js/plugins/jquery.countdown.min.js?ver=6.0.11' defer id='countdown-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/counter/assets/js/plugins/counter.js?ver=6.0.11' defer id='counter-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/counter/assets/js/plugins/absoluteCounter.min.js?ver=6.0.11' defer id='absoluteCounter-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/custom-font/assets/js/plugins/typed.js?ver=6.0.11' defer id='typed-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/full-screen-sections/assets/js/plugins/jquery.fullPage.min.js?ver=6.0.11' defer id='fullPage-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/pie-chart/assets/js/plugins/easypiechart.js?ver=6.0.11' defer id='easypiechart-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.7.0.0' defer id='select2-js'></script>
 
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.4' id='contact-form-7-js'></script>
-
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.0.0' id='js-cookie-js'></script>
-
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.0.0' id='woocommerce-js'></script>
-
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.0.0' id='wc-cart-fragments-js'></script>
-
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/js/frontend.min.js?ver=4.3.0' id='ppress-frontend-script-js'></script>
-
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1' id='jquery-ui-core-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.13.1' id='jquery-ui-tabs-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.13.1' id='jquery-ui-accordion-js'></script>
-
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.16' id='mediaelement-core-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.0.11' id='mediaelement-migrate-js'></script>
-
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.0.11' id='wp-mediaelement-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.appear.js?ver=6.0.11' id='appear-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/modernizr.min.js?ver=6.0.11' id='modernizr-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2' id='hoverIntent-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.plugin.js?ver=6.0.11' id='jquery-plugin-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/owl.carousel.min.js?ver=6.0.11' id='owl-carousel-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.waypoints.min.js?ver=6.0.11' id='waypoints-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/Chart.min.js?ver=6.0.11' id='chart-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/fluidvids.min.js?ver=6.0.11' id='fluidvids-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js?ver=6.10.0' id='prettyphoto-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/perfect-scrollbar.jquery.min.js?ver=6.0.11' id='perfect-scrollbar-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/ScrollToPlugin.min.js?ver=6.0.11' id='ScrollToPlugin-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/parallax.min.js?ver=6.0.11' id='parallax-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.waitforimages.js?ver=6.0.11' id='waitforimages-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/jquery.easing.1.3.js?ver=6.0.11' id='jquery-easing-1.3-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.10.0' id='isotope-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/packery-mode.pkgd.min.js?ver=6.0.11' id='packery-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/countdown/assets/js/plugins/jquery.countdown.min.js?ver=6.0.11' id='countdown-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/counter/assets/js/plugins/counter.js?ver=6.0.11' id='counter-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/counter/assets/js/plugins/absoluteCounter.min.js?ver=6.0.11' id='absoluteCounter-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/custom-font/assets/js/plugins/typed.js?ver=6.0.11' id='typed-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/full-screen-sections/assets/js/plugins/jquery.fullPage.min.js?ver=6.0.11' id='fullPage-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/pie-chart/assets/js/plugins/easypiechart.js?ver=6.0.11' id='easypiechart-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.7.0.0' id='select2-js'></script>
-<script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyBQTukooUgzxI6RBwRGdF2OPbHJ8BEowC8&#038;ver=6.0.11' id='baumeister-mikado-google-map-api-js'></script>
-
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules.min.js?ver=6.0.11' id='baumeister-mikado-modules-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.10.0' id='wpb_composer_front_js-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules.min.js?ver=6.0.11' defer id='baumeister-mikado-modules-js'></script>
+<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.10.0' defer id='wpb_composer_front_js-js'></script>
 
 <script src="{{ asset('js/script.js') }}"></script>
 
