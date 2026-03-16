@@ -17,12 +17,13 @@
 		<title>Baumeister &#8211; A Powerful Theme for Industry and Manufacturing</title>
 <meta name='robots' content='max-image-preview:large' />
 
-<!-- Google Tag Manager for WordPress by gtm4wp.com -->
-<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=VJDJ5z9IIpI2P2EJZcelmmI-ICOleOPIVLYqVEycVL718y3KWNZ3C7U0wLB4TrhIjbH2Edg7qmSmQvLnp1_N-Q" charset="UTF-8"></script>
-<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel='dns-prefetch' href='//export.qodethemes.com' />
+<link rel='dns-prefetch' href='//export.qodethemes.com' />
 <link rel='dns-prefetch' href='//maps.googleapis.com' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
+<link rel="preconnect" href="https://baumeister.qodeinteractive.com" crossorigin />
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
 <link rel="alternate" type="application/rss+xml" title="Baumeister &raquo; Feed" href="https://baumeister.qodeinteractive.com/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Baumeister &raquo; Comments Feed" href="https://baumeister.qodeinteractive.com/comments/feed/" />
 
