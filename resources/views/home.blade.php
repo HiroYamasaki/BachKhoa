@@ -58,11 +58,11 @@
 <link rel='stylesheet' id='baumeister-mikado-default-style-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/style.css?ver=6.0.11' type='text/css' media='all' />
 <link rel='stylesheet' id='baumeister-mikado-modules-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/modules.min.css?ver=6.0.11' type='text/css' media='all' />
 <link rel='stylesheet' id='mkd-font_awesome-css'  href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-font_elegant-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/elegant-icons/style.min.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-ion_icons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/ion-icons/css/ionicons.min.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-linea_icons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/linea-icons/style.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-linear_icons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/linear-icons/style.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-simple_line_icons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/simple-line-icons/simple-line-icons.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-font_elegant-css'  href='https://cdn.jsdelivr.net/npm/elegant-icons@0.0.1/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-ion_icons-css'  href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-linea_icons-css'  href='https://cdn.jsdelivr.net/npm/linea-iconset@1.0.0/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-linear_icons-css'  href='https://cdn.linearicons.com/free/1.0.0/icon-font.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-simple_line_icons-css'  href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='mkd-dripicons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/dripicons/dripicons.css?ver=6.0.11' type='text/css' media='all' />
 <link rel='stylesheet' id='mediaelement-css'  href='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.16' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-mediaelement-css'  href='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.0.11' type='text/css' media='all' />
@@ -76,6 +76,38 @@
 <link rel='stylesheet' id='js_composer_front-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.10.0' type='text/css' media='all' />
 <script type='text/javascript' src='https://code.jquery.com/jquery-3.6.0.min.js' id='jquery-core-js' crossorigin='anonymous'></script>
 <script type='text/javascript' src='https://code.jquery.com/jquery-migrate-3.3.2.min.js' id='jquery-migrate-js' crossorigin='anonymous'></script>
+
+<!-- WordPress inline vars - MUST be before scripts that use them -->
+<script type="text/javascript">
+var mkdPerPageVars = {
+    mkdStickyScrollAmount: 0,
+    mkdHeaderTransparencyPerPage: ""
+};
+var mkdGlobalVars = {
+    vars: {
+        mkdStickyScrollAmount: 0,
+        mkdStickyAppearAmount: 0,
+        mkdTopBarHeight: 45,
+        mkdStickyHeight: 60,
+        mkdLogoAreaHeight: 0,
+        mkdMenuAreaHeight: 90,
+        mkdMobileHeaderHeight: 100,
+        mkdSpinnerType: "",
+        mkdStickyHeaderBehavior: "stick-on-scroll-down-up",
+        mkdStickyHeaderTransparency: 1,
+        mkdMenuDropdownShowType: "animate-height",
+        mkdLargeImageSize: 0,
+        mkdMediumImageSize: 0,
+        mkdSmallImageSize: 0
+    }
+};
+var wpcf7 = {"api":{"root":"\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+var pp_ajax_form = {"ajaxurl":"","confirm_delete":"Are you sure?"};
+var wc_add_to_cart_params = {"ajax_url":"","wc_ajax_url":"","i18n_view_cart":"View cart","cart_url":"","is_cart":"","cart_redirect_after_add":"no"};
+var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
+var wc_cart_fragments_params = {"ajax_url":"","wc_ajax_url":"","cart_hash_key":"wc_cart_hash","fragment_name":"wc_fragments","request_timeout":"5000"};
+</script>
+
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.5' async id='tp-tools-js'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.5' async id='revmin-js'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.0.0' id='jquery-blockui-js'></script>
@@ -2289,10 +2321,8 @@
 			</div> <!-- close div.mkd-wrapper-inner  -->
 </div> <!-- close div.mkd-wrapper -->
 
-		<div class="rbt-toolbar" data-theme="Baumeister" data-featured="" data-button-position="70%" data-button-horizontal="right" data-button-alt="no" ></div>
+
 <!-- GTM Container placement set to footer -->
-<!-- Google Tag Manager (noscript) -->
-				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTQ2BTD" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) --><link href="https://fonts.googleapis.com/css?family=Oswald:500%7CPoppins:300%7CRoboto:400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
 
 	
@@ -2302,7 +2332,7 @@
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.6.4' id='swv-js'></script>
 
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.4' id='contact-form-7-js'></script>
-<script type='text/javascript' src='https://export.qodethemes.com/_toolbar/assets/js/rbt-modules.js?ver=6.0.11' id='rabbit_js-js'></script>
+
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.0.0' id='js-cookie-js'></script>
 
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.0.0' id='woocommerce-js'></script>
@@ -2310,7 +2340,7 @@
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.0.0' id='wc-cart-fragments-js'></script>
 
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/js/frontend.min.js?ver=4.3.0' id='ppress-frontend-script-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.16.1' id='gtm4wp-form-move-tracker-js'></script>
+
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1' id='jquery-ui-core-js'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.13.1' id='jquery-ui-tabs-js'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.13.1' id='jquery-ui-accordion-js'></script>
@@ -2343,40 +2373,6 @@
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/pie-chart/assets/js/plugins/easypiechart.js?ver=6.0.11' id='easypiechart-js'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.7.0.0' id='select2-js'></script>
 <script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyBQTukooUgzxI6RBwRGdF2OPbHJ8BEowC8&#038;ver=6.0.11' id='baumeister-mikado-google-map-api-js'></script>
-
-<!-- WordPress inline vars required by theme modules.min.js -->
-<script type="text/javascript">
-var mkdPerPageVars = {
-    mkdStickyScrollAmount: 0,
-    mkdHeaderTransparencyPerPage: ""
-};
-var mkdGlobalVars = {
-    vars: {
-        mkdStickyScrollAmount: 0,
-        mkdStickyAppearAmount: 0,
-        mkdTopBarHeight: 45,
-        mkdStickyHeight: 60,
-        mkdLogoAreaHeight: 0,
-        mkdMenuAreaHeight: 90,
-        mkdMobileHeaderHeight: 100,
-        mkdSpinnerType: ""  ,
-        mkdStickyHeaderBehavior: "stick-on-scroll-down-up",
-        mkdStickyHeaderTransparency: 1,
-        mkdMenuDropdownShowType: "animate-height",
-        mkdLargeImageSize: 0,
-        mkdMediumImageSize: 0,
-        mkdSmallImageSize: 0
-    }
-};
-var wpcf7 = {
-    "api": {"root":"\/","namespace":"contact-form-7\/v1"},
-    "cached": "1"
-};
-var pp_ajax_form = {"ajaxurl":"","confirm_delete":"Are you sure?"};
-var wc_add_to_cart_params = {"ajax_url":"","wc_ajax_url":"","i18n_view_cart":"View cart","cart_url":"","is_cart":"","cart_redirect_after_add":"no"};
-var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
-var wc_cart_fragments_params = {"ajax_url":"","wc_ajax_url":"","cart_hash_key":"wc_cart_hash","fragment_name":"wc_fragments","request_timeout":"5000"};
-</script>
 
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules.min.js?ver=6.0.11' id='baumeister-mikado-modules-js'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.10.0' id='wpb_composer_front_js-js'></script>
