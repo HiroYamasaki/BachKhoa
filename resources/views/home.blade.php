@@ -2346,18 +2346,11 @@
 
 <!-- WordPress inline vars required by theme modules.min.js -->
 <script type="text/javascript">
-var mkdPerPageVars = {"defined":"yes"};
+var mkdPerPageVars = {
+    mkdStickyScrollAmount: 0,
+    mkdHeaderTransparencyPerPage: ""
+};
 var mkdGlobalVars = {
-    defined: "yes",
-    defined2: "yes",
-    defined3: "yes",
-    defined4: "yes",
-    defined5: "yes",
-    defined6: "yes",
-    defined7: "yes",
-    defined8: "yes",
-    defined9: "yes",
-    defined10: "yes",
     vars: {
         mkdStickyScrollAmount: 0,
         mkdStickyAppearAmount: 0,
@@ -2365,10 +2358,20 @@ var mkdGlobalVars = {
         mkdStickyHeight: 60,
         mkdLogoAreaHeight: 0,
         mkdMenuAreaHeight: 90,
-        mkdMobileHeaderHeight: 100
+        mkdMobileHeaderHeight: 100,
+        mkdSpinnerType: ""  ,
+        mkdStickyHeaderBehavior: "stick-on-scroll-down-up",
+        mkdStickyHeaderTransparency: 1,
+        mkdMenuDropdownShowType: "animate-height",
+        mkdLargeImageSize: 0,
+        mkdMediumImageSize: 0,
+        mkdSmallImageSize: 0
     }
 };
-var wpcf7 = {"apiSettings":{"root":"","namespace":"contact-form-7/v1"}};
+var wpcf7 = {
+    "api": {"root":"\/","namespace":"contact-form-7\/v1"},
+    "cached": "1"
+};
 var pp_ajax_form = {"ajaxurl":"","confirm_delete":"Are you sure?"};
 var wc_add_to_cart_params = {"ajax_url":"","wc_ajax_url":"","i18n_view_cart":"View cart","cart_url":"","is_cart":"","cart_redirect_after_add":"no"};
 var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
