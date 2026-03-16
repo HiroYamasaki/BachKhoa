@@ -2344,6 +2344,37 @@
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.7.0.0' id='select2-js'></script>
 <script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyBQTukooUgzxI6RBwRGdF2OPbHJ8BEowC8&#038;ver=6.0.11' id='baumeister-mikado-google-map-api-js'></script>
 
+<!-- WordPress inline vars required by theme modules.min.js -->
+<script type="text/javascript">
+var mkdPerPageVars = {"defined":"yes"};
+var mkdGlobalVars = {
+    defined: "yes",
+    defined2: "yes",
+    defined3: "yes",
+    defined4: "yes",
+    defined5: "yes",
+    defined6: "yes",
+    defined7: "yes",
+    defined8: "yes",
+    defined9: "yes",
+    defined10: "yes",
+    vars: {
+        mkdStickyScrollAmount: 0,
+        mkdStickyAppearAmount: 0,
+        mkdTopBarHeight: 45,
+        mkdStickyHeight: 60,
+        mkdLogoAreaHeight: 0,
+        mkdMenuAreaHeight: 90,
+        mkdMobileHeaderHeight: 100
+    }
+};
+var wpcf7 = {"apiSettings":{"root":"","namespace":"contact-form-7/v1"}};
+var pp_ajax_form = {"ajaxurl":"","confirm_delete":"Are you sure?"};
+var wc_add_to_cart_params = {"ajax_url":"","wc_ajax_url":"","i18n_view_cart":"View cart","cart_url":"","is_cart":"","cart_redirect_after_add":"no"};
+var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
+var wc_cart_fragments_params = {"ajax_url":"","wc_ajax_url":"","cart_hash_key":"wc_cart_hash","fragment_name":"wc_fragments","request_timeout":"5000"};
+</script>
+
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules.min.js?ver=6.0.11' id='baumeister-mikado-modules-js'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.10.0' id='wpb_composer_front_js-js'></script>
 
