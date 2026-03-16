@@ -28,6 +28,22 @@
 <link rel="alternate" type="application/rss+xml" title="Baumeister &raquo; Comments Feed" href="https://baumeister.qodeinteractive.com/comments/feed/" />
 
 <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all" />
+<style>
+/* Fallback: hiện slider ngay cả khi RevSlider JS chưa load */
+#rev_slider_1_1_wrapper {
+    visibility: visible !important;
+    min-height: 650px;
+    background: url('https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-1-background-img.jpg') center center / cover no-repeat #24272a !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Khi RevSlider JS đã load xong, để nó tự điều khiển */
+#rev_slider_1_1_wrapper.loaded {
+    background: transparent !important;
+    min-height: unset;
+}
+</style>
 	<link rel='stylesheet' id='wp-block-library-css'  href='https://baumeister.qodeinteractive.com/wp-includes/css/dist/block-library/style.min.css?ver=6.0.11' type='text/css' media='all' />
 <link rel='stylesheet' id='wc-blocks-vendors-style-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.5.1' type='text/css' media='all' />
 <link rel='stylesheet' id='wc-blocks-style-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.5.1' type='text/css' media='all' />
@@ -506,8 +522,8 @@
         }, 500);
     }
 
-    // Ẩn loading screen sau tối đa 3 giây, không chờ external resources
-    var maxTimer = setTimeout(hidePreloader, 3000);
+    // Ẩn loading screen sau tối đa 5 giây, không chờ external resources
+    var maxTimer = setTimeout(hidePreloader, 5000);
 
     window.addEventListener('load', function() {
         clearTimeout(maxTimer);
