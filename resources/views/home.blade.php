@@ -1356,7 +1356,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_1_words="d:10;"
 								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
 								style="z-index:5;font-family:'Oswald';text-transform:uppercase;"
-							>Building The Future 
+							>Tiên Phong Chuyển Đổi Số 
 							</rs-layer><!--
 
 							--><rs-layer
@@ -1371,7 +1371,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_1="tp:600;e:sine.out;st:700;sR:700;"
 								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
 								style="z-index:6;font-family:'Poppins';"
-							>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt et dolore magna aliqua.  
+							>Tiên phong ứng dụng công nghệ số — giúp doanh nghiệp bứt phá và phát triển bền vững.  
 							</rs-layer><!--
 -->						</rs-slide>
 						<rs-slide style="position: absolute;" data-key="rs-12" data-title="Slide" data-thumb="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-2-background-img-100x50.jpg" data-out="x:100%;">
@@ -1390,7 +1390,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_1_words="d:10;"
 								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2100;"
 								style="z-index:5;font-family:'Oswald';text-transform:uppercase;"
-							>Urbanization Now 
+							>Công Nghệ Dẫn Đầu 
 							</rs-layer><!--
 
 							--><rs-layer
@@ -1405,7 +1405,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_1="tp:600;e:sine.out;st:700;sR:700;"
 								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
 								style="z-index:6;font-family:'Poppins';"
-							>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt et dolore magna aliqua.  
+							>Nền tảng AI và dữ liệu hiện đại, dẫn đầu xu hướng công nghệ toàn cầu.  
 							</rs-layer><!--
 -->						</rs-slide>
 						<rs-slide style="position: absolute;" data-key="rs-13" data-title="Slide" data-thumb="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-3-background-img-100x50.jpg" data-out="x:100%;">
@@ -1424,7 +1424,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_1_words="d:10;"
 								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
 								style="z-index:5;font-family:'Oswald';text-transform:uppercase;"
-							>61850 highway miles 
+							>Đối Tác Tin Cậy 
 							</rs-layer><!--
 
 							--><rs-layer
@@ -1439,7 +1439,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_1="tp:600;e:sine.out;st:700;sR:700;"
 								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
 								style="z-index:6;font-family:'Poppins';"
-							>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt et dolore magna aliqua.  
+							>Đồng hành cùng doanh nghiệp trên mọi chặng đường chuyển đổi số thành công.  
 							</rs-layer><!--
 -->						</rs-slide>
 					</rs-slides>
@@ -1466,9 +1466,9 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 			<div class="vc_empty_space"   style="height: 30px"><span class="vc_empty_space_inner"></span></div><div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: center">
 	<div class="mkd-st-inner">
 					<h3 class="mkd-st-title" >
-				High standard			</h3>
+				Chất Lượng Cao			</h3>
 							<p class="mkd-st-text" style="margin-top: 22px">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.			</p>
+				Cam kết cung cấp giải pháp công nghệ chất lượng cao, đáp ứng đúng yêu cầu doanh nghiệp.			</p>
 			</div>
 </div><div class="vc_empty_space"   style="height: 62px"><span class="vc_empty_space_inner"></span></div>		</div>
 
@@ -1494,9 +1494,9 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 			<div class="vc_empty_space"   style="height: 30px"><span class="vc_empty_space_inner"></span></div><div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: center">
 	<div class="mkd-st-inner">
 					<h3 class="mkd-st-title" >
-				Reconstruction			</h3>
+				Chuyển Đổi Số			</h3>
 							<p class="mkd-st-text" style="margin-top: 22px">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.			</p>
+				Thiết kế lộ trình và triển khai chuyển đổi số đồng bộ cho toàn doanh nghiệp.			</p>
 			</div>
 </div><div class="vc_empty_space"   style="height: 62px"><span class="vc_empty_space_inner"></span></div>		</div>
 
@@ -1522,9 +1522,9 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 			<div class="vc_empty_space"   style="height: 30px"><span class="vc_empty_space_inner"></span></div><div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: center">
 	<div class="mkd-st-inner">
 					<h3 class="mkd-st-title" >
-				Execution			</h3>
+				Triển Khai Nhanh			</h3>
 							<p class="mkd-st-text" style="margin-top: 22px">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.			</p>
+				Đội ngũ chuyên gia giàu kinh nghiệm, triển khai dự án đúng tiến độ và ngân sách.			</p>
 			</div>
 </div><div class="vc_empty_space"   style="height: 62px"><span class="vc_empty_space_inner"></span></div>		</div>
 
@@ -1543,10 +1543,10 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 	<div class="mkd-iwt-content" >
 					<h4 class="mkd-iwt-title" style="color: #ffffff">
 									<a itemprop="url" href="#" target="_self">
-								<span class="mkd-iwt-title-text">Fuel Can</span>
+								<span class="mkd-iwt-title-text">Hạ Tầng Số</span>
 									</a>
 							</h4>
-							<p class="mkd-iwt-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+							<p class="mkd-iwt-text" >Hạ tầng đám mây linh hoạt, hiệu năng cao, bảo mật và mở rộng dễ dàng theo nhu cầu.</p>
 			</div>
 </div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div>		</div>
 
@@ -1565,10 +1565,10 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 	<div class="mkd-iwt-content" >
 					<h4 class="mkd-iwt-title" style="color: #ffffff">
 									<a itemprop="url" href="#" target="_self">
-								<span class="mkd-iwt-title-text">Feel the Power</span>
+								<span class="mkd-iwt-title-text">AI & Machine Learning</span>
 									</a>
 							</h4>
-							<p class="mkd-iwt-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+							<p class="mkd-iwt-text" >Giải pháp AI & ML thông minh giúp tự động hóa và dự báo xu hướng kinh doanh chính xác.</p>
 			</div>
 </div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div>		</div>
 
@@ -1587,10 +1587,10 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 	<div class="mkd-iwt-content" >
 					<h4 class="mkd-iwt-title" style="color: #ffffff">
 									<a itemprop="url" href="#" target="_self">
-								<span class="mkd-iwt-title-text">Pump Stations</span>
+								<span class="mkd-iwt-title-text">Bảo Mật Toàn Diện</span>
 									</a>
 							</h4>
-							<p class="mkd-iwt-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+							<p class="mkd-iwt-text" >Hệ thống bảo mật đa lớp bảo vệ toàn diện dữ liệu và tài sản số doanh nghiệp.</p>
 			</div>
 </div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div>		</div>
 
@@ -1609,10 +1609,10 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 	<div class="mkd-iwt-content" >
 					<h4 class="mkd-iwt-title" style="color: #ffffff">
 									<a itemprop="url" href="#" target="_self">
-								<span class="mkd-iwt-title-text">Easy Import</span>
+								<span class="mkd-iwt-title-text">Tích Hợp Hệ Thống</span>
 									</a>
 							</h4>
-							<p class="mkd-iwt-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+							<p class="mkd-iwt-text" >Kết nối liền mạch mọi hệ thống phần mềm, tối ưu vận hành toàn doanh nghiệp.</p>
 			</div>
 </div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div>		</div>
 
@@ -1626,9 +1626,9 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 			<div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space mkd-st-disable-title-break" style="text-align: left">
 	<div class="mkd-st-inner">
 					<h2 class="mkd-st-title" style="color: #ffffff">
-				Gas and oil<br /> platform research			</h2>
+				Giải Pháp Chuyển Đổi Số<br /> Toàn Diện			</h2>
 							<p class="mkd-st-text" style="margin-top: 34px">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.			</p>
+				Bach Khoa Digital cung cấp nền tảng công nghệ đồng bộ từ hạ tầng Cloud, ứng dụng AI đến bảo mật dữ liệu — giúp doanh nghiệp tăng hàng suất, giảm chi phí và bứt phá tăng trưởng bền vững.			</p>
 			</div>
 </div><div class="vc_empty_space"   style="height: 56px"><span class="vc_empty_space_inner"></span></div><a itemprop="url" href="https://baumeister.qodeinteractive.com/expensive-buildings-projects/" target="_blank"  class="mkd-btn mkd-btn-medium mkd-btn-solid mkd-btn-icon" style="background-color: #E8612D !important; background-image: linear-gradient(135deg, #E8612D 0%, #C0392B 100%) !important; border-color: #E8612D !important;">
     <span class="mkd-btn-text" style="color: #ffffff !important;">Read more</span>
@@ -1649,9 +1649,9 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
     </div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper mkd-parallax-row-holder" data-parallax-bg-image=https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-parallax-img-1.jpg data-parallax-bg-speed=1 ><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1511263259529" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid" ><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-2 vc_col-lg-8"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: center">
 	<div class="mkd-st-inner">
 					<h1 class="mkd-st-title" >
-				Our services			</h1>
+				Dịch Vụ Cốt Lõi			</h1>
 							<p class="mkd-st-text" style="font-size: 21px;line-height: 36px;margin-top: 25px">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.			</p>
+				Chúng tôi cung cấp các giải pháp công nghệ toàn diện, từ tư vấn chiến lược đến triển khai và vn hành.			</p>
 			</div>
 </div></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1511262217025" ><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-4 vc_col-md-offset-0 vc_col-md-4 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-ib-holder">
 
@@ -1664,13 +1664,13 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 		
             <h4 class="mkd-ib-title"  style="color:#ffffff">
 
-                Inovation model
+                Tư Vấn Chiến Lược
             </h4>
 
         
              <p class="mkd-ib-text"  >
 
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                 Phân tích hiện trạng, xây dựng lộ trình chuyển đổi số phù hợp với mục tiêu kinh doanh
             </p>
 
                     <a class="mkd-ib-link" href="#" target="_self"></a>
@@ -1694,13 +1694,13 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 		
             <h4 class="mkd-ib-title"  style="color:#ffffff">
 
-                Best Support
+                Hỗ Trợ 24/7
             </h4>
 
         
              <p class="mkd-ib-text"  >
 
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                 Đội ngũ kỹ thuật hỗ trợ nhanh chóng mọi sự cố, đảm bảo hệ thống hoạt động liên tục
             </p>
 
                     <a class="mkd-ib-link" href="#" target="_self"></a>
@@ -1724,13 +1724,13 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 		
             <h4 class="mkd-ib-title"  style="color:#ffffff">
 
-                Inovation model
+                Phát Triển Phần Mềm
             </h4>
 
         
              <p class="mkd-ib-text"  >
 
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                 Thiết kế và lập trình ứng dụng web, mobile được tùy chỉnh theo yêu cầu doanh nghiệp
             </p>
 
                     <a class="mkd-ib-link" href="#" target="_self"></a>
@@ -1746,7 +1746,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 </div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper "  style="background-color:#24272a"><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1512557666795" ><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4 vc_col-md-12 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element  vc_custom_1512487624426" >
 		<div class="wpb_wrapper">
-			<h2><span style="color: #ffffff;">Latest news</span></h2>
+			<h2><span style="color: #ffffff;">Tin Tức Mới Nhất</span></h2>
 
 		</div>
 	</div>
@@ -1763,11 +1763,11 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 		<div class="mkd-bli-content">
 			
 <h4 itemprop="name" class="entry-title mkd-post-title" >
-            <a itemprop="url" href="https://baumeister.qodeinteractive.com/wood-under-construction/" title="Wood Under Construction">
-            Wood Under Construction            </a>
+            <a itemprop="url" href="#" title="Xu hướng chuyển đổi số 2025">
+            Xu hướng chuyển đổi số 2025            </a>
     </h4>					<div class="mkd-post-excerpt-holder">
 			<p itemprop="description" class="mkd-post-excerpt">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod			</p>
+				Khám phá các xu hướng chuyển đổi số định hình doanh nghiệp Việt Nam năm 2025.</p>
 		</div>
 				<div class="mkd-bli-info">
 				<div class="mkd-post-info-author">
@@ -1785,11 +1785,11 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 		<div class="mkd-bli-content">
 			
 <h4 itemprop="name" class="entry-title mkd-post-title" >
-            <a itemprop="url" href="https://baumeister.qodeinteractive.com/construction-technique/" title="Construction Technique">
-            Construction Technique            </a>
+            <a itemprop="url" href="#" title="AI trong quản lý doanh nghiệp">
+            AI trong quản lý doanh nghiệp            </a>
     </h4>					<div class="mkd-post-excerpt-holder">
 			<p itemprop="description" class="mkd-post-excerpt">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod			</p>
+				Ứng dụng AI giúp tối ưu quy trình và nâng cao hiệu quả vận hành doanh nghiệp.</p>
 		</div>
 				<div class="mkd-bli-info">
 				<div class="mkd-post-info-author">
@@ -1807,11 +1807,11 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 		<div class="mkd-bli-content">
 			
 <h4 itemprop="name" class="entry-title mkd-post-title" >
-            <a itemprop="url" href="https://baumeister.qodeinteractive.com/using-cinder-blocks/" title="Using Cinder Blocks">
-            Using Cinder Blocks            </a>
+            <a itemprop="url" href="#" title="Bảo mật dữ liệu doanh nghiệp">
+            Bảo mật dữ liệu doanh nghiệp            </a>
     </h4>					<div class="mkd-post-excerpt-holder">
 			<p itemprop="description" class="mkd-post-excerpt">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod			</p>
+				Bảo vệ toàn diện dữ liệu doanh nghiệp trước mọi mối đe dọa an ninh mạng.</p>
 		</div>
 				<div class="mkd-bli-info">
 				<div class="mkd-post-info-author">
@@ -1843,13 +1843,13 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
     <a href="https://baumeister.qodeinteractive.com/category/reconstruction/" rel="category tag">Reconstruction</a></div>                    </div>
                                 
 <h3 itemprop="name" class="entry-title mkd-post-title" >
-            <a itemprop="url" href="https://baumeister.qodeinteractive.com/roads-photography/" title="Roads Photography">
-            Roads Photography            </a>
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/roads-photography/" title="Cloud Computing cho Doanh Nghiệp">
+            Cloud Computing cho Doanh Nghiệp            </a>
     </h3>
                 <div class="mkd-bli-excerpt">
                     		<div class="mkd-post-excerpt-holder">
 			<p itemprop="description" class="mkd-post-excerpt">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna liqua. Ut enim ad minim			</p>
+				Hạ tầng đám mây linh hoạt giúp doanh nghiệp tiết kiệm chi phí và tăng tốc độ vận hành.			</p>
 		</div>
 	                </div>
                                     <div class="mkd-bli-info">
@@ -1877,13 +1877,13 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
     <a href="https://baumeister.qodeinteractive.com/category/reconstruction/" rel="category tag">Reconstruction</a></div>                    </div>
                                 
 <h3 itemprop="name" class="entry-title mkd-post-title" >
-            <a itemprop="url" href="https://baumeister.qodeinteractive.com/road-trip-attractions/" title="Road Trip Attractions">
-            Road Trip Attractions            </a>
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/road-trip-attractions/" title="Tự Động Hóa Quy Trình Doanh Nghiệp">
+            Tự Động Hóa Quy Trình Doanh Nghiệp            </a>
     </h3>
                 <div class="mkd-bli-excerpt">
                     		<div class="mkd-post-excerpt-holder">
 			<p itemprop="description" class="mkd-post-excerpt">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna liqua. Ut enim ad minim			</p>
+				Giải pháp RPA tự động hóa quy trình, giảm công việc thủ công và tăng độ chính xác.			</p>
 		</div>
 	                </div>
                                     <div class="mkd-bli-info">
@@ -1911,13 +1911,13 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
     <a href="https://baumeister.qodeinteractive.com/category/reconstruction/" rel="category tag">Reconstruction</a></div>                    </div>
                                 
 <h3 itemprop="name" class="entry-title mkd-post-title" >
-            <a itemprop="url" href="https://baumeister.qodeinteractive.com/construction-lesson/" title="Construction Lesson">
-            Construction Lesson            </a>
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/construction-lesson/" title="Phân Tích Dữ Liệu & Business Intelligence">
+            Phân Tích Dữ Liệu & Business Intelligence            </a>
     </h3>
                 <div class="mkd-bli-excerpt">
                     		<div class="mkd-post-excerpt-holder">
 			<p itemprop="description" class="mkd-post-excerpt">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna liqua. Ut enim ad minim			</p>
+				Biến dữ liệu thành insight chiến lược — nền tảng ra quyết định nhanh và chính xác.			</p>
 		</div>
 	                </div>
                                     <div class="mkd-bli-info">
@@ -1945,13 +1945,13 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
     <a href="https://baumeister.qodeinteractive.com/category/reconstruction/" rel="category tag">Reconstruction</a></div>                    </div>
                                 
 <h3 itemprop="name" class="entry-title mkd-post-title" >
-            <a itemprop="url" href="https://baumeister.qodeinteractive.com/road-reconstruction/" title="Road Reconstruction">
-            Road Reconstruction            </a>
+            <a itemprop="url" href="https://baumeister.qodeinteractive.com/road-reconstruction/" title="Phát Triển Ứng Dụng Di Động">
+            Phát Triển Ứng Dụng Di Động            </a>
     </h3>
                 <div class="mkd-bli-excerpt">
                     		<div class="mkd-post-excerpt-holder">
 			<p itemprop="description" class="mkd-post-excerpt">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna liqua. Ut enim ad minim			</p>
+				Ứng dụng iOS & Android hiệu năng cao, giao diện thân thiện, tích hợp hệ thống doanh nghiệp.			</p>
 		</div>
 	                </div>
                                     <div class="mkd-bli-info">
@@ -1976,32 +1976,32 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 		<span class="mkd-pc-percent" >83</span>
 	</div>
 			<div class="mkd-pc-text-holder">
-							<h4 class="mkd-pc-title" >Capacity</h4>
-										<p class="mkd-pc-text" >Lorem ipsum dolor amet consectetur adipisicing elit, sed do eiusmod tempor</p>
+							<h4 class="mkd-pc-title" >Hạ Tầng Cloud</h4>
+										<p class="mkd-pc-text" >Tỷ lệ khách hàng hài lòng với hạ tầng Cloud của chúng tôi.</p>
 					</div>
 	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner vc_custom_1511262606291"><div class="wpb_wrapper"><div class="mkd-pie-chart-holder ">
 	<div class="mkd-pc-percentage" data-percent="75" data-bar-color="#E8612D" data-track-color="#ffffff">
 		<span class="mkd-pc-percent" >75</span>
 	</div>
 			<div class="mkd-pc-text-holder">
-							<h4 class="mkd-pc-title" >Industry projects</h4>
-										<p class="mkd-pc-text" >Lorem ipsum dolor amet consectetur adipisicing elit, sed do eiusmod tempor</p>
+							<h4 class="mkd-pc-title" >Dự Án Doanh Nghiệp</h4>
+										<p class="mkd-pc-text" >Dự án doanh nghiệp triển khai thành công đúng tiến độ.</p>
 					</div>
 	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner vc_custom_1511262614279"><div class="wpb_wrapper"><div class="mkd-pie-chart-holder ">
 	<div class="mkd-pc-percentage" data-percent="40" data-bar-color="#E8612D" data-track-color="#ffffff">
 		<span class="mkd-pc-percent" >40</span>
 	</div>
 			<div class="mkd-pc-text-holder">
-							<h4 class="mkd-pc-title" >Energy saving </h4>
-										<p class="mkd-pc-text" >Lorem ipsum dolor amet consectetur adipisicing elit, sed do eiusmod tempor</p>
+							<h4 class="mkd-pc-title" >Tiết Kiệm Chi Phí</h4>
+										<p class="mkd-pc-text" >Tiết kiệm chi phí vận hành nhờ giải pháp số hóa toàn diện.</p>
 					</div>
 	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner vc_custom_1511262634224"><div class="wpb_wrapper"><div class="mkd-pie-chart-holder ">
 	<div class="mkd-pc-percentage" data-percent="75" data-bar-color="#E8612D" data-track-color="#ffffff">
 		<span class="mkd-pc-percent" >75</span>
 	</div>
 			<div class="mkd-pc-text-holder">
-							<h4 class="mkd-pc-title" >Efficiency</h4>
-										<p class="mkd-pc-text" >Lorem ipsum dolor amet consectetur adipisicing elit, sed do eiusmod tempor</p>
+							<h4 class="mkd-pc-title" >Hiệu Suất Hệ Thống</h4>
+										<p class="mkd-pc-text" >Nâng cao hiệu suất hệ thống so với phương pháp truyền thống.</p>
 					</div>
 	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper "  style="background-color:#24272a"><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1511260514697" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-clients-carousel-holder mkd-cc-hover-roll-over">
 	<div class="mkd-cc-inner mkd-owl-slider" data-number-of-items="3" data-enable-loop="no" data-enable-autoplay="no" data-slider-speed="5000" data-slider-speed-animation="600" data-enable-navigation="no" data-enable-pagination="no">
@@ -2243,26 +2243,26 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 			<span class="mkd-social-icon-widget fa fa-linkedin     "></span>		</a>
 						</div>
 							<div class="mkd-column-content mkd-grid-col-3">
-					<div id="text-4" class="widget mkd-footer-column-2 widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">What we do</h4></div>			<div class="textwidget"><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+					<div id="text-4" class="widget mkd-footer-column-2 widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Dịch Vụ Của Chúng Tôi</h4></div>			<div class="textwidget"><p>Giải pháp công nghệ toàn diện cho doanh nghiệp Việt Nam.</p>
 </div>
 		</div>
         <a class="mkd-icon-widget-holder"            href="#"
             target="_self" style="margin: -16px 0 0 0">
-                        <span class="mkd-icon-text mkd-no-icon fa fa-users      mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner">Lorem ipsum dolor sit amet</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon fa fa-users      mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner">Chuyển Đổi Số</span></span>        </a>
     <div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-left mkd-separator-normal">
 	<div class="mkd-separator" style="border-color: #fff;border-style: solid;width: 250px;border-bottom-width: 1px;margin-top: 10px;margin-bottom: 14px"></div>
 </div>
 </div>
         <a class="mkd-icon-widget-holder"            href="#"
             target="_self" >
-                        <span class="mkd-icon-text mkd-no-icon fa fa-users      mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner">Lorem ipsum dolor sit amet</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon fa fa-users      mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner">Phát Triển Phần Mềm</span></span>        </a>
     <div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-left mkd-separator-normal">
 	<div class="mkd-separator" style="border-color: #fff;border-style: solid;width: 250px;border-bottom-width: 1px;margin-top: 17px;margin-bottom: 14px"></div>
 </div>
 </div>
         <a class="mkd-icon-widget-holder"            href="#"
             target="_self" >
-                        <span class="mkd-icon-text mkd-no-icon fa fa-users      mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner">Lorem ipsum dolor sit amet</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon fa fa-users      mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner">Bảo Mật Mạng</span></span>        </a>
     				</div>
 							<div class="mkd-column-content mkd-grid-col-3">
 					<div id="text-5" class="widget mkd-footer-column-3 widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Contact information</h4></div>			<div class="textwidget"></div>
@@ -2287,7 +2287,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
                         <span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">info@bachkhoadigital.com</span></span>        </a>
     				</div>
 							<div class="mkd-column-content mkd-grid-col-3">
-					<div id="text-6" class="widget mkd-footer-column-4 widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Officies</h4></div>			<div class="textwidget"><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+					<div id="text-6" class="widget mkd-footer-column-4 widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Văn Phòng</h4></div>			<div class="textwidget"><p>105 Trần Thị Nơi, Quận 12, TP. Hồ Chí Minh.</p>
 </div>
 		</div><div id="media_image-3" class="widget mkd-footer-column-4 widget_media_image"><a href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.9518307" target="_blank" rel="noopener"><img width="270" height="142" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/footer-img-2.png" class="image wp-image-3375  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></a></div>				</div>
 					</div>
