@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="vi">
 <head>
 				
 			<meta property="og:url" content="https://baumeister.qodeinteractive.com/"/>
@@ -58,7 +58,7 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css' type='text/css' media='all' />
 
 <!-- Google Fonts -->
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C500%7CPoppins%3A300%2C400%2C500&subset=latin-ext&ver=1.0.0&display=swap' type='text/css' media='all' />
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&subset=latin,latin-ext,vietnamese&display=swap' type='text/css' media='all' />
 
 <!-- Non-critical CSS: load async -->
 <link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/woocommerce.min.css?ver=6.0.11' media='print' onload="this.media='all'" />
@@ -663,9 +663,9 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
                                 
 
 <div class="mkd-logo-wrapper">
-    <a itemprop="url" href="https://baumeister.qodeinteractive.com/" style="height: 25px;">
-        <img itemprop="image" class="mkd-normal-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png"  alt="logo"/>
-        <img itemprop="image" class="mkd-dark-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png"  alt="dark logo"/>        <img itemprop="image" class="mkd-light-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo_white.png"  alt="light logo"/>    </a>
+    <a itemprop="url" href="/" style="height: 25px;">
+        <img itemprop="image" class="mkd-normal-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>
+        <img itemprop="image" class="mkd-dark-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>        <img itemprop="image" class="mkd-light-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>    </a>
 </div>
 
                                                             </div>
@@ -887,9 +887,9 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
                             
 
 <div class="mkd-logo-wrapper">
-    <a itemprop="url" href="https://baumeister.qodeinteractive.com/" style="height: 25px;">
-        <img itemprop="image" class="mkd-normal-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png"  alt="logo"/>
-        <img itemprop="image" class="mkd-dark-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png"  alt="dark logo"/>        <img itemprop="image" class="mkd-light-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo_white.png"  alt="light logo"/>    </a>
+    <a itemprop="url" href="/" style="height: 25px;">
+        <img itemprop="image" class="mkd-normal-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>
+        <img itemprop="image" class="mkd-dark-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>        <img itemprop="image" class="mkd-light-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>    </a>
 </div>
 
                                                     </div>
@@ -1121,8 +1121,8 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								
 
 <div class="mkd-mobile-logo-wrapper">
-    <a itemprop="url" href="https://baumeister.qodeinteractive.com/" style="height: 25px">
-        <img itemprop="image" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png"  alt="Mobile Logo"/>
+    <a itemprop="url" href="/" style="height: 25px">
+        <img itemprop="image" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>
     </a>
 </div>
 
