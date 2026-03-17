@@ -18,6 +18,18 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 /* === WooCommerce Inline === */
 .woocommerce form .form-row .required { visibility: visible; }
 
+/* === Vietnamese font support === */
+body, p, h1, h2, h3, h4, h5, h6, a, span, li, td, th, button, input, textarea, label {
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6,
+.mkd-st-title,
+.mkd-btn-text,
+.mkd-section-title-holder .mkd-st-title,
+rs-layer {
+    font-family: 'Oswald', 'Poppins', 'Segoe UI', Arial, sans-serif !important;
+}
+
 /* === Baumeister Mikado WooCommerce === */
 .page-id-385.mkd-header-box .mkd-top-bar-background { background-color: rgba(255, 255, 255, 0);}
 .page-id-385.mkd-boxed .mkd-wrapper { background-attachment: fixed;}
@@ -244,10 +256,10 @@ a:focus {
 }
 .bkd-logo {
     display: block;
-    height: 80px;
+    height: 70px;
     width: auto;
     object-fit: contain;
-    margin-left: 90px;
+    margin-left: 20px;
 }
 .mkd-mobile-logo-wrapper {
     display: none !important;

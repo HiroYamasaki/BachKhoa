@@ -58,7 +58,7 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css' type='text/css' media='all' />
 
 <!-- Google Fonts -->
-<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&subset=latin,latin-ext,vietnamese&display=swap' type='text/css' media='all' />
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap' type='text/css' media='all' />
 
 <!-- Non-critical CSS: load async -->
 <link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/woocommerce.min.css?ver=6.0.11' media='print' onload="this.media='all'" />
