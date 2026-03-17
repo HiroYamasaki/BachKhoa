@@ -22,13 +22,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 body, p, h1, h2, h3, h4, h5, h6, a, li, td, th, button, input, textarea, label,
 rs-layer, .rs-layer, [class*="rs-layer"], .tp-caption,
 div, section, article, aside, nav, header, footer, main, figure, figcaption {
-    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif !important;
+    font-family: 'Poppins', 'Noto Sans', Arial, sans-serif !important;
 }
 h1, h2, h3, h4, h5, h6,
 .mkd-st-title,
 .mkd-btn-text,
 .mkd-section-title-holder .mkd-st-title {
-    font-family: 'Oswald', 'Poppins', 'Segoe UI', Arial, sans-serif !important;
+    font-family: 'Oswald', 'Noto Sans', Arial, sans-serif !important;
 }
 /* Restore icon fonts – must NOT be overridden */
 .fa, [class*="fa-"] {
