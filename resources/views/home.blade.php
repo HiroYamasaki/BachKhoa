@@ -554,28 +554,28 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 		<a class="mkd-close-side-menu" href="#" target="_self">
 			<span aria-hidden="true" class="mkd-icon-font-elegant icon_close " ></span>		</a>
 	</div>
-	<div id="media_image-4" class="widget mkd-sidearea widget_media_image"><img width="217" height="38" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/sidearea-img.png" class="image wp-image-3390  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div><div id="text-7" class="widget mkd-sidearea widget_text">			<div class="textwidget"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt et.</p>
+	<div id="media_image-4" class="widget mkd-sidearea widget_media_image"><img width="217" height="38" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/sidearea-img.png" class="image wp-image-3390  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div><div id="text-7" class="widget mkd-sidearea widget_text">			<div class="textwidget"><p>Bach Khoa Digital — Đối tác chuyển đổi số tin cậy của doanh nghiệp Việt Nam.</p>
 </div>
 		</div><div id="text-8" class="widget mkd-sidearea widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Contact</h4></div>			<div class="textwidget"></div>
 		</div>
         <a class="mkd-icon-widget-holder"            href="#"
             target="_self" style="margin: -20px 0 0 0">
-                        <span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">620 Eighth Avenue, New York,</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi,</span></span>        </a>
     
         <a class="mkd-icon-widget-holder"            href="#"
             target="_self" style="margin: -20px 0 0 20px">
-                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">United States of America</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Quận 12, TP. Hồ Chí Minh</span></span>        </a>
     
-        <a class="mkd-icon-widget-holder"            href="tel:+555786978"
+        <a class="mkd-icon-widget-holder"            href="tel:+84903646288"
             target="_self" style="margin: 20px 0px 0">
-                        <span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">+ 555 786 897</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">0903 646 288</span></span>        </a>
     
         <a class="mkd-icon-widget-holder"            href="#"
             target="_self" style="margin: 0 0 20px 28px">
-                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Mon-Sat, 9:00 am-7:00 pm</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Thứ 2 - Thứ 7, 8:00 - 17:30</span></span>        </a>
     
-        <a class="mkd-icon-widget-holder" href="/cdn-cgi/l/email-protection#d6b4b7a3bbb3bfa5a2b3a4f8a7b9b2b3bfb8a2b3a4b7b5a2bfa0b3f8b5b9bb" target="_self" style="margin: 0 0 50px 0">
-                        <span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">baumeister.qodeinteractive.com</span></span>        </a>
+        <a class="mkd-icon-widget-holder" href="mailto:info@bachkhoadigital.com" target="_self" style="margin: 0 0 50px 0">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">info@bachkhoadigital.com</span></span>        </a>
     <div id="text-9" class="widget mkd-sidearea widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Share</h4></div>			<div class="textwidget"></div>
 		</div>		
 		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 0 0;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
@@ -605,20 +605,20 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 													
         <a class="mkd-icon-widget-holder"            href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.951"
             target="_blank" style="margin: 0 17px 0 0">
-                        <span class="mkd-icon-text mkd-no-icon fa fa-truck      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">9 Crosby Street, New York City</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.12, TP.HCM</span></span>        </a>
     <div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-color: rgba(255,255,255,0.25);border-style: solid;width: 1px;border-bottom-width: 20px"></div>
 </div>
 </div>
-        <a class="mkd-icon-widget-holder"            href="tel:+134458597"
+        <a class="mkd-icon-widget-holder"            href="tel:+84903646288"
             target="_self" style="margin: 0 17px">
-                        <span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">+1 | 344 5678</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">0903 646 288</span></span>        </a>
     <div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-color: rgba(255,255,255,0.25);border-style: solid;width: 1px;border-bottom-width: 20px"></div>
 </div>
 </div>
-        <a class="mkd-icon-widget-holder" href="/cdn-cgi/l/email-protection#f29093879f979b81869780b2839d96979b9c8697809391869b8497dc919d9f" target="_self" style="margin: 0 0 0 17px">
-                        <span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff"><span class="__cf_email__" data-cfemail="3d5f5c485058544e49584f7d4c525958545349584f5c5e49544b58135e5250">[email&#160;protected]</span></span></span>        </a>
+        <a class="mkd-icon-widget-holder" href="mailto:info@bachkhoadigital.com" target="_self" style="margin: 0 0 0 17px">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">info@bachkhoadigital.com</span></span>        </a>
     											</div>
 				</div>
 				<div class="mkd-position-right">
@@ -2227,7 +2227,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 	<div class="mkd-footer-top-inner mkd-grid">
 		<div class="mkd-grid-row mkd-footer-top-alignment-left">
 							<div class="mkd-column-content mkd-grid-col-3">
-					<div id="media_image-2" class="widget mkd-footer-column-1 widget_media_image"><a href="https://baumeister.qodeinteractive.com/"><img width="217" height="38" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/footer-img.png" class="image wp-image-3389  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto; filter: hue-rotate(-30deg) saturate(1.8) brightness(0.95);" /></a></div><div id="text-3" class="widget mkd-footer-column-1 widget_text">			<div class="textwidget"><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+					<div id="media_image-2" class="widget mkd-footer-column-1 widget_media_image"><a href="https://baumeister.qodeinteractive.com/"><img width="217" height="38" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/footer-img.png" class="image wp-image-3389  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto; filter: hue-rotate(-30deg) saturate(1.8) brightness(0.95);" /></a></div><div id="text-3" class="widget mkd-footer-column-1 widget_text">			<div class="textwidget"><p>Giải pháp chuyển đổi số toàn diện, giúp doanh nghiệp Việt Nam phát triển bền vững trong kỷ nguyên số.</p>
 </div>
 		</div>		
 		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 15px;margin: 8px 0 0;" href="https://twitter.com/QodeInteractive" target="_blank">
@@ -2269,22 +2269,22 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 		</div>
         <a class="mkd-icon-widget-holder"            href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.9518307"
             target="_blank" style="margin: 0 64px 0 0">
-                        <span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">620 Eighth Avenue,</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi,</span></span>        </a>
     
-        <a class="mkd-icon-widget-holder"            href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.9518307"
+        <a class="mkd-icon-widget-holder"            href="https://maps.google.com/?q=105+Tran+Thi+Noi+Quan+12+TPHCM"
             target="_blank" style="margin: 0 0 0 20px">
-                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">United States of America</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Quận 12, TP. Hồ Chí Minh</span></span>        </a>
     
-        <a class="mkd-icon-widget-holder"            href="tel:+555786897"
+        <a class="mkd-icon-widget-holder"            href="tel:+84903646288"
             target="_self" style="margin: 30px 75px 0 0">
-                        <span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">+ 555 786 897</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">0903 646 288</span></span>        </a>
     
         <a class="mkd-icon-widget-holder"            href="#"
             target="_self" style="margin: 0 0 24px 20px">
-                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Mon-Sat, 9:00am-7:00pm</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Thứ 2 - Thứ 7, 8:00 - 17:30</span></span>        </a>
     
-        <a class="mkd-icon-widget-holder" href="/cdn-cgi/l/email-protection#335152465e565a4047564173425c57561d505c5e" target="_self" style="margin: 0 63px 0 0">
-                        <span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff"><span class="__cf_email__" data-cfemail="7a181b0f171f13090e1f083a0b151e1f54191517">[email&#160;protected]</span></span></span>        </a>
+        <a class="mkd-icon-widget-holder" href="mailto:info@bachkhoadigital.com" target="_self" style="margin: 0 63px 0 0">
+                        <span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">info@bachkhoadigital.com</span></span>        </a>
     				</div>
 							<div class="mkd-column-content mkd-grid-col-3">
 					<div id="text-6" class="widget mkd-footer-column-4 widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Officies</h4></div>			<div class="textwidget"><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
@@ -2296,7 +2296,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 	<div class="mkd-footer-bottom-inner mkd-grid">
 		<div class="mkd-grid-row ">
 							<div class="mkd-grid-col-12">
-					<div id="text-11" class="widget mkd-footer-bottom-column-1 widget_text">			<div class="textwidget"><p><a href="https://qodeinteractive.com/" target="_blank" rel="nofollow noopener">� 2021 Qode Interactive, All Rights Reserved</a></p>
+					<div id="text-11" class="widget mkd-footer-bottom-column-1 widget_text">			<div class="textwidget"><p>© 2025 Bach Khoa Digital, All Rights Reserved</p>
 </div>
 		</div>				</div>
 					</div>
