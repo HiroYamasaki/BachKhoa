@@ -244,6 +244,21 @@ a:focus {
     /* keep existing orange-red inline fill */
 }
 
+/* --- Logo image size fix --- */
+.mkd-logo-wrapper img,
+.mkd-mobile-logo-wrapper img {
+    height: 60px !important;
+    width: auto !important;
+    max-height: 60px !important;
+    object-fit: contain !important;
+}
+.mkd-logo-wrapper a,
+.mkd-mobile-logo-wrapper a {
+    display: inline-flex !important;
+    align-items: center !important;
+    height: auto !important;
+}
+
 /* =====================================================
    ADDITIONAL OVERRIDES – Fix remaining #fdb913 yellow
    ===================================================== */

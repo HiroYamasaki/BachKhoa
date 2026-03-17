@@ -663,7 +663,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
                                 
 
 <div class="mkd-logo-wrapper">
-    <a itemprop="url" href="/" style="height: 25px;">
+    <a itemprop="url" href="/">
         <img itemprop="image" class="mkd-normal-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>
         <img itemprop="image" class="mkd-dark-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>        <img itemprop="image" class="mkd-light-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>    </a>
 </div>
@@ -887,7 +887,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
                             
 
 <div class="mkd-logo-wrapper">
-    <a itemprop="url" href="/" style="height: 25px;">
+    <a itemprop="url" href="/">
         <img itemprop="image" class="mkd-normal-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>
         <img itemprop="image" class="mkd-dark-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>        <img itemprop="image" class="mkd-light-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>    </a>
 </div>
@@ -1121,7 +1121,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								
 
 <div class="mkd-mobile-logo-wrapper">
-    <a itemprop="url" href="/" style="height: 25px">
+    <a itemprop="url" href="/">
         <img itemprop="image" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>
     </a>
 </div>
