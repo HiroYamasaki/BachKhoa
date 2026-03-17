@@ -58,7 +58,7 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css' type='text/css' media='all' />
 
 <!-- Google Fonts -->
-<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap' type='text/css' media='all' />
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Oswald:wght@300;400;500&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap' type='text/css' media='all' />
 
 <!-- Non-critical CSS: load async -->
 <link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/woocommerce.min.css?ver=6.0.11' media='print' onload="this.media='all'" />
@@ -1337,11 +1337,12 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 			<rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
 				<rs-module id="rev_slider_1_1" style="" data-version="6.6.5">
 					<rs-slides style="overflow: hidden; position: absolute;">
-						<rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" data-thumb="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-1-background-img-100x50.jpg" data-out="x:100%;">
-							<img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Main Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-1-background-img.jpg" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
+						<!-- Slide 1: banner1.jpg -->
+						<rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" data-thumb="{{ asset('images/banner1.jpg') }}" data-out="x:100%;">
+							<img src="{{ asset('images/banner1.jpg') }}" alt="" title="Main Home" class="rev-slidebg tp-rs-img" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
 <!--
 							--><rs-layer
-								id="slider-1-slide-1-layer-1" 
+								id="slider-1-slide-1-layer-1"
 								data-type="text"
 								data-rsp_ch="on"
 								data-xy="x:c;xo:-1px,0,0,0;y:m;yo:-80px,-55px,-55px,-15px;"
@@ -1352,12 +1353,11 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_1="tp:600;e:sine.out;st:500;sR:500;"
 								data-frame_1_words="d:10;"
 								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
-								style="z-index:5;font-family:'Oswald';text-transform:uppercase;"
-							>Tiên Phong Chuyển Đổi Số 
+								style="z-index:5;font-family:'Oswald','Noto Sans',Arial,sans-serif;text-transform:uppercase;"
+							>Tiên Phong Chuyển Đổi Số
 							</rs-layer><!--
-
 							--><rs-layer
-								id="slider-1-slide-1-layer-2" 
+								id="slider-1-slide-1-layer-2"
 								data-type="text"
 								data-rsp_ch="on"
 								data-xy="x:c;xo:0,0,0,481px;y:m;yo:60px,60px,130px,36px;"
@@ -1367,15 +1367,16 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_0="y:50px;tp:600;"
 								data-frame_1="tp:600;e:sine.out;st:700;sR:700;"
 								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
-								style="z-index:6;font-family:'Poppins';"
-							>Tiên phong ứng dụng công nghệ số — giúp doanh nghiệp bứt phá và phát triển bền vững.  
+								style="z-index:6;font-family:'Poppins','Noto Sans',Arial,sans-serif;"
+							>Tiên phong ứng dụng công nghệ số — giúp doanh nghiệp bứt phá và phát triển bền vững.
 							</rs-layer><!--
 -->						</rs-slide>
-						<rs-slide style="position: absolute;" data-key="rs-12" data-title="Slide" data-thumb="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-2-background-img-100x50.jpg" data-out="x:100%;">
-							<img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Main Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-2-background-img.jpg" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
+						<!-- Slide 2: banner2.jpg -->
+						<rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide" data-thumb="{{ asset('images/banner2.jpg') }}" data-out="x:100%;">
+							<img src="{{ asset('images/banner2.jpg') }}" alt="" title="Main Home" class="rev-slidebg tp-rs-img" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
 <!--
 							--><rs-layer
-								id="slider-1-slide-12-layer-1" 
+								id="slider-1-slide-2-layer-1"
 								data-type="text"
 								data-rsp_ch="on"
 								data-xy="x:c;xo:-1px,0,0,0;y:m;yo:-80px,-55px,-55px,-15px;"
@@ -1386,12 +1387,11 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_1="tp:600;e:sine.out;st:500;sR:500;"
 								data-frame_1_words="d:10;"
 								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2100;"
-								style="z-index:5;font-family:'Oswald';text-transform:uppercase;"
-							>Công Nghệ Dẫn Đầu 
+								style="z-index:5;font-family:'Oswald','Noto Sans',Arial,sans-serif;text-transform:uppercase;"
+							>Công Nghệ Dẫn Đầu
 							</rs-layer><!--
-
 							--><rs-layer
-								id="slider-1-slide-12-layer-2" 
+								id="slider-1-slide-2-layer-2"
 								data-type="text"
 								data-rsp_ch="on"
 								data-xy="x:c;xo:0,0,0,481px;y:m;yo:60px,60px,130px,36px;"
@@ -1401,15 +1401,16 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_0="y:50px;tp:600;"
 								data-frame_1="tp:600;e:sine.out;st:700;sR:700;"
 								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
-								style="z-index:6;font-family:'Poppins';"
-							>Nền tảng AI và dữ liệu hiện đại, dẫn đầu xu hướng công nghệ toàn cầu.  
+								style="z-index:6;font-family:'Poppins','Noto Sans',Arial,sans-serif;"
+							>Nền tảng AI và dữ liệu hiện đại, dẫn đầu xu hướng công nghệ toàn cầu.
 							</rs-layer><!--
 -->						</rs-slide>
-						<rs-slide style="position: absolute;" data-key="rs-13" data-title="Slide" data-thumb="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-3-background-img-100x50.jpg" data-out="x:100%;">
-							<img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Main Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-slider-3-background-img.jpg" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
+						<!-- Slide 3: banner3.jpg -->
+						<rs-slide style="position: absolute;" data-key="rs-3" data-title="Slide" data-thumb="{{ asset('images/banner3.jpg') }}" data-out="x:100%;">
+							<img src="{{ asset('images/banner3.jpg') }}" alt="" title="Main Home" class="rev-slidebg tp-rs-img" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
 <!--
 							--><rs-layer
-								id="slider-1-slide-13-layer-1" 
+								id="slider-1-slide-3-layer-1"
 								data-type="text"
 								data-rsp_ch="on"
 								data-xy="x:c;xo:-1px,0,0,0;y:m;yo:-80px,-55px,-55px,-15px;"
@@ -1420,12 +1421,11 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_1="tp:600;e:sine.out;st:500;sR:500;"
 								data-frame_1_words="d:10;"
 								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
-								style="z-index:5;font-family:'Oswald';text-transform:uppercase;"
-							>Đối Tác Tin Cậy 
+								style="z-index:5;font-family:'Oswald','Noto Sans',Arial,sans-serif;text-transform:uppercase;"
+							>Đối Tác Tin Cậy
 							</rs-layer><!--
-
 							--><rs-layer
-								id="slider-1-slide-13-layer-2" 
+								id="slider-1-slide-3-layer-2"
 								data-type="text"
 								data-rsp_ch="on"
 								data-xy="x:c;xo:0,0,0,481px;y:m;yo:60px,60px,130px,36px;"
@@ -1435,8 +1435,110 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_0="y:50px;tp:600;"
 								data-frame_1="tp:600;e:sine.out;st:700;sR:700;"
 								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
-								style="z-index:6;font-family:'Poppins';"
-							>Đồng hành cùng doanh nghiệp trên mọi chặng đường chuyển đổi số thành công.  
+								style="z-index:6;font-family:'Poppins','Noto Sans',Arial,sans-serif;"
+							>Đồng hành cùng doanh nghiệp trên mọi chặng đường chuyển đổi số thành công.
+							</rs-layer><!--
+-->						</rs-slide>
+						<!-- Slide 4: banner4.jpg -->
+						<rs-slide style="position: absolute;" data-key="rs-4" data-title="Slide" data-thumb="{{ asset('images/banner4.jpg') }}" data-out="x:100%;">
+							<img src="{{ asset('images/banner4.jpg') }}" alt="" title="Main Home" class="rev-slidebg tp-rs-img" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-1-slide-4-layer-1"
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-1px,0,0,0;y:m;yo:-80px,-55px,-55px,-15px;"
+								data-text="w:nowrap,nowrap,normal,normal;s:130,90,90,60;l:145,105,105,75;fw:500;a:inherit,inherit,center,center;"
+								data-dim="w:auto,auto,596px,301px;"
+								data-frame_0="o:1;tp:600;"
+								data-frame_0_words="d:10;y:50px;o:0;"
+								data-frame_1="tp:600;e:sine.out;st:500;sR:500;"
+								data-frame_1_words="d:10;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
+								style="z-index:5;font-family:'Oswald','Noto Sans',Arial,sans-serif;text-transform:uppercase;"
+							>Giải Pháp Toàn Diện
+							</rs-layer><!--
+							--><rs-layer
+								id="slider-1-slide-4-layer-2"
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:0,0,0,481px;y:m;yo:60px,60px,130px,36px;"
+								data-text="w:normal;s:25,25,25,16;l:36,36,36,30;fw:300;a:center;"
+								data-dim="w:781px,781px,568px,303px;"
+								data-vbility="t,t,t,f"
+								data-frame_0="y:50px;tp:600;"
+								data-frame_1="tp:600;e:sine.out;st:700;sR:700;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
+								style="z-index:6;font-family:'Poppins','Noto Sans',Arial,sans-serif;"
+							>Cung cấp giải pháp công nghệ toàn diện, từ tư vấn, thiết kế đến triển khai và vận hành.
+							</rs-layer><!--
+-->						</rs-slide>
+						<!-- Slide 5: banner5.jpg -->
+						<rs-slide style="position: absolute;" data-key="rs-5" data-title="Slide" data-thumb="{{ asset('images/banner5.jpg') }}" data-out="x:100%;">
+							<img src="{{ asset('images/banner5.jpg') }}" alt="" title="Main Home" class="rev-slidebg tp-rs-img" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-1-slide-5-layer-1"
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-1px,0,0,0;y:m;yo:-80px,-55px,-55px,-15px;"
+								data-text="w:nowrap,nowrap,normal,normal;s:130,90,90,60;l:145,105,105,75;fw:500;a:inherit,inherit,center,center;"
+								data-dim="w:auto,auto,596px,301px;"
+								data-frame_0="o:1;tp:600;"
+								data-frame_0_words="d:10;y:50px;o:0;"
+								data-frame_1="tp:600;e:sine.out;st:500;sR:500;"
+								data-frame_1_words="d:10;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
+								style="z-index:5;font-family:'Oswald','Noto Sans',Arial,sans-serif;text-transform:uppercase;"
+							>Đội Ngũ Chuyên Gia
+							</rs-layer><!--
+							--><rs-layer
+								id="slider-1-slide-5-layer-2"
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:0,0,0,481px;y:m;yo:60px,60px,130px,36px;"
+								data-text="w:normal;s:25,25,25,16;l:36,36,36,30;fw:300;a:center;"
+								data-dim="w:781px,781px,568px,303px;"
+								data-vbility="t,t,t,f"
+								data-frame_0="y:50px;tp:600;"
+								data-frame_1="tp:600;e:sine.out;st:700;sR:700;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
+								style="z-index:6;font-family:'Poppins','Noto Sans',Arial,sans-serif;"
+							>Đội ngũ chuyên gia giàu kinh nghiệm, sẵn sàng đồng hành và tư vấn cho doanh nghiệp.
+							</rs-layer><!--
+-->						</rs-slide>
+						<!-- Slide 6: banner6.jpg -->
+						<rs-slide style="position: absolute;" data-key="rs-6" data-title="Slide" data-thumb="{{ asset('images/banner6.jpg') }}" data-out="x:100%;">
+							<img src="{{ asset('images/banner6.jpg') }}" alt="" title="Main Home" class="rev-slidebg tp-rs-img" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-1-slide-6-layer-1"
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-1px,0,0,0;y:m;yo:-80px,-55px,-55px,-15px;"
+								data-text="w:nowrap,nowrap,normal,normal;s:130,90,90,60;l:145,105,105,75;fw:500;a:inherit,inherit,center,center;"
+								data-dim="w:auto,auto,596px,301px;"
+								data-frame_0="o:1;tp:600;"
+								data-frame_0_words="d:10;y:50px;o:0;"
+								data-frame_1="tp:600;e:sine.out;st:500;sR:500;"
+								data-frame_1_words="d:10;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
+								style="z-index:5;font-family:'Oswald','Noto Sans',Arial,sans-serif;text-transform:uppercase;"
+							>Tăng Trưởng Bền Vững
+							</rs-layer><!--
+							--><rs-layer
+								id="slider-1-slide-6-layer-2"
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:0,0,0,481px;y:m;yo:60px,60px,130px,36px;"
+								data-text="w:normal;s:25,25,25,16;l:36,36,36,30;fw:300;a:center;"
+								data-dim="w:781px,781px,568px,303px;"
+								data-vbility="t,t,t,f"
+								data-frame_0="y:50px;tp:600;"
+								data-frame_1="tp:600;e:sine.out;st:700;sR:700;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;sR:2000;"
+								style="z-index:6;font-family:'Poppins','Noto Sans',Arial,sans-serif;"
+							>Thúc đẩy tăng trưởng và phát triển bền vững cho doanh nghiệp trong kỷ nguyên số.
 							</rs-layer><!--
 -->						</rs-slide>
 					</rs-slides>

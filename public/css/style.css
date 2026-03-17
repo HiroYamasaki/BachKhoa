@@ -44,6 +44,12 @@ h1, h2, h3, h4, h5, h6,
     font-family: 'Ionicons' !important;
 }
 
+/* === Slider text: white with black outline === */
+#rev_slider_1_1 rs-layer {
+    color: #ffffff !important;
+    text-shadow: -1px -1px 0 #f2a34a, 1px -1px 0 #ea5916, -1px 1px 0 #de1515, 1px 1px 0 #f15656 !important;
+}
+
 /* === Baumeister Mikado WooCommerce === */
 .page-id-385.mkd-header-box .mkd-top-bar-background { background-color: rgba(255, 255, 255, 0);}
 .page-id-385.mkd-boxed .mkd-wrapper { background-attachment: fixed;}
