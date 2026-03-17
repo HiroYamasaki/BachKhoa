@@ -662,11 +662,10 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
                             <div class="mkd-position-left-inner">
                                 
 
-<div class="mkd-logo-wrapper">
-    <a itemprop="url" href="/">
-        <img itemprop="image" class="mkd-normal-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>
-        <img itemprop="image" class="mkd-dark-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>        <img itemprop="image" class="mkd-light-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>    </a>
-</div>
+<div class="mkd-logo-wrapper" style="display:none!important"></div>
+<a href="/" style="display:inline-flex;align-items:center;height:100%">
+    <img src="{{ asset('images/logo.jpg') }}" alt="Bach Khoa Digital" class="bkd-logo"/>
+</a>
 
                                                             </div>
                         </div>
@@ -886,11 +885,10 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
                         <div class="mkd-position-left-inner">
                             
 
-<div class="mkd-logo-wrapper">
-    <a itemprop="url" href="/">
-        <img itemprop="image" class="mkd-normal-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>
-        <img itemprop="image" class="mkd-dark-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>        <img itemprop="image" class="mkd-light-logo" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>    </a>
-</div>
+<div class="mkd-logo-wrapper" style="display:none!important"></div>
+<a href="/" style="display:none">
+    <img src="{{ asset('images/logo.jpg') }}" alt="Bach Khoa Digital" class="bkd-logo"/>
+</a>
 
                                                     </div>
                     </div>
@@ -1120,11 +1118,10 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 							<div class="mkd-position-center-inner">
 								
 
-<div class="mkd-mobile-logo-wrapper">
-    <a itemprop="url" href="/">
-        <img itemprop="image" src="{{ asset('images/logo.jpg') }}"  alt="Bach Khoa Digital"/>
-    </a>
-</div>
+<div class="mkd-mobile-logo-wrapper" style="display:none!important"></div>
+<a href="/" style="display:inline-flex;align-items:center;height:100%">
+    <img src="{{ asset('images/logo.jpg') }}" alt="Bach Khoa Digital" class="bkd-mobile-logo"/>
+</a>
 
 							</div>
 						</div>

@@ -238,46 +238,25 @@ a:focus {
     color: #fff;
 }
 
-/* --- Logo "B" polygon hover gradient (if SVG inline) --- */
-.mkd-logo-wrapper svg polygon,
-.mkd-logo-wrapper svg text {
-    /* keep existing orange-red inline fill */
-}
-
-/* --- Logo image size fix --- */
-/* Force all 3 logo variants visible (theme hides them by default via display:none) */
-.mkd-logo-wrapper img.mkd-normal-logo,
-.mkd-logo-wrapper img.mkd-dark-logo,
-.mkd-logo-wrapper img.mkd-light-logo,
-.mkd-mobile-logo-wrapper img {
-    display: block !important;
-    height: 60px !important;
-    width: auto !important;
-    max-height: 60px !important;
-    object-fit: contain !important;
-}
-/* Show only one at a time – light-logo for dark/transparent header, dark-logo when sticky */
-.mkd-logo-wrapper img.mkd-normal-logo,
-.mkd-logo-wrapper img.mkd-dark-logo {
+/* --- Logo --- */
+.mkd-logo-wrapper {
     display: none !important;
 }
-.mkd-logo-wrapper img.mkd-light-logo {
-    display: block !important;
+.bkd-logo {
+    display: block;
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    margin-left: 90px;
 }
-/* When header is sticky/scrolled, show dark-logo */
-.mkd-header-sticky-in-scroll .mkd-logo-wrapper img.mkd-light-logo,
-.mkd-header-vertical .mkd-logo-wrapper img.mkd-light-logo {
+.mkd-mobile-logo-wrapper {
     display: none !important;
 }
-.mkd-header-sticky-in-scroll .mkd-logo-wrapper img.mkd-dark-logo,
-.mkd-header-vertical .mkd-logo-wrapper img.mkd-dark-logo {
-    display: block !important;
-}
-.mkd-logo-wrapper a,
-.mkd-mobile-logo-wrapper a {
-    display: inline-flex !important;
-    align-items: center !important;
-    height: auto !important;
+.bkd-mobile-logo {
+    display: block;
+    height: 40px;
+    width: auto;
+    object-fit: contain;
 }
 
 /* =====================================================
