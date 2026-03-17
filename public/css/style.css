@@ -19,7 +19,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .woocommerce form .form-row .required { visibility: visible; }
 
 /* === Vietnamese font support === */
-body, p, h1, h2, h3, h4, h5, h6, a, li, td, th, button, input, textarea, label {
+body, p, h1, h2, h3, h4, h5, h6, a, li, td, th, button, input, textarea, label,
+rs-layer, .rs-layer, [class*="rs-layer"], .tp-caption,
+div, section, article, aside, nav, header, footer, main, figure, figcaption {
     font-family: 'Poppins', 'Segoe UI', Arial, sans-serif !important;
 }
 h1, h2, h3, h4, h5, h6,
@@ -29,12 +31,17 @@ h1, h2, h3, h4, h5, h6,
     font-family: 'Oswald', 'Poppins', 'Segoe UI', Arial, sans-serif !important;
 }
 /* Restore icon fonts – must NOT be overridden */
-[class*="fa-"],
-[class*="icon-"],
-[class*="mkd-icon-"],
-[class*="ionicons"],
-.fa, .glyphicon, .lnr, .mkd-social-icon-widget {
-    font-family: inherit !important;
+.fa, [class*="fa-"] {
+    font-family: 'FontAwesome' !important;
+}
+.glyphicon {
+    font-family: 'Glyphicons Halflings' !important;
+}
+.lnr {
+    font-family: 'Linearicons-Free' !important;
+}
+[class*="ionicons"] {
+    font-family: 'Ionicons' !important;
 }
 
 /* === Baumeister Mikado WooCommerce === */
