@@ -1717,7 +1717,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 
 	</div>
 
-    </div></div></div></div></div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-two-columns  mkd-responsive-mode-1024 " ><div class="mkd-eh-item    " style="background-color: #2e3338; background-image: url('{{ asset('images/gpcdstd.jpg') }}'); background-size: cover; background-position: center;" data-item-class="mkd-eh-custom-8718" data-1280-1600="0 21% 4% 9%" data-1024-1280="0 8% 4% 13%" data-768-1024="12% 35% 15% 12%" data-680-768="16% 22% 20% 10%" data-680="50% 5% 53% 5%">
+    </div></div></div></div></div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-two-columns  mkd-responsive-mode-1024 " ><div class="mkd-eh-item    " style="background-color: #2e3338" data-item-class="mkd-eh-custom-8718" data-1280-1600="0 21% 4% 9%" data-1024-1280="0 8% 4% 13%" data-768-1024="12% 35% 15% 12%" data-680-768="16% 22% 20% 10%" data-680="50% 5% 53% 5%">
 
 	<div class="mkd-eh-item-inner">
 
@@ -1736,7 +1736,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 
 	</div>
 
-    </div><div class="mkd-eh-item    " style="background-image: url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-img-1.jpg)" data-item-class="mkd-eh-custom-1154" data-1024-1280="55% 0">
+    </div><div class="mkd-eh-item    " style="background-image: url({{ asset('images/gpcdstd.jpg') }})" data-item-class="mkd-eh-custom-1154" data-1024-1280="55% 0">
 
 	<div class="mkd-eh-item-inner">
 
