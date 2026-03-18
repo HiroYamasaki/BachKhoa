@@ -123,6 +123,39 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 <meta name="msapplication-TileImage" content="{{ asset('images/logo.jpg') }}" />
 
 <noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<style>
+/* ===== CUSTOM CURSOR ===== */
+*, *::before, *::after { cursor: none !important; }
+#bk-cursor-dot {
+    position: fixed; top: 0; left: 0; pointer-events: none; z-index: 99999;
+    width: 10px; height: 10px; border-radius: 50%;
+    background: #E8612D;
+    transform: translate(-50%,-50%);
+    transition: width .15s ease, height .15s ease, background .2s ease, opacity .2s ease;
+    mix-blend-mode: normal;
+}
+#bk-cursor-ring {
+    position: fixed; top: 0; left: 0; pointer-events: none; z-index: 99998;
+    width: 36px; height: 36px; border-radius: 50%;
+    border: 2px solid #E8612D;
+    transform: translate(-50%,-50%);
+    transition: width .35s cubic-bezier(.25,.46,.45,.94), height .35s cubic-bezier(.25,.46,.45,.94), border-color .2s ease, background .2s ease, opacity .2s ease;
+    opacity: 0.7;
+}
+/* states */
+body.cursor--link #bk-cursor-dot { width: 6px; height: 6px; background: #fff; }
+body.cursor--link #bk-cursor-ring { width: 56px; height: 56px; border-color: #E8612D; background: rgba(232,97,45,0.12); }
+body.cursor--partner #bk-cursor-dot { width: 8px; height: 8px; background: #fff; }
+body.cursor--partner #bk-cursor-ring { width: 70px; height: 70px; border-color: #fff; background: rgba(255,255,255,0.08); }
+body.cursor--slider #bk-cursor-dot { width: 12px; height: 12px; background: #E8612D; }
+body.cursor--slider #bk-cursor-ring { width: 60px; height: 60px; border-color: rgba(232,97,45,0.5); background: rgba(232,97,45,0.07); }
+body.cursor--text #bk-cursor-dot { width: 4px; height: 28px; border-radius: 2px; background: #E8612D; }
+body.cursor--text #bk-cursor-ring { width: 0; height: 0; opacity: 0; }
+body.cursor--btn #bk-cursor-dot { width: 44px; height: 44px; background: rgba(232,97,45,0.25); border-radius: 50%; }
+body.cursor--btn #bk-cursor-ring { width: 54px; height: 54px; border-color: #E8612D; }
+body.cursor--img #bk-cursor-dot { width: 14px; height: 14px; background: #fff; border-radius: 50%; }
+body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba(255,255,255,0.6); background: rgba(255,255,255,0.04); }
+</style>
 
 </head>
 <body class="home page-template page-template-full-width page-template-full-width-php page page-id-385 theme-baumeister mkd-core-1.2.3 woocommerce-no-js baumeister-ver-1.6 mkd-grid-1300 mkd-content-is-behind-header mkd-disable-global-padding-bottom mkd-light-header mkd-sticky-header-on-scroll-down-up mkd-dropdown-animate-height mkd-header-box mkd-menu-area-shadow-disable mkd-menu-area-in-grid-shadow-disable mkd-menu-area-border-disable mkd-menu-area-in-grid-border-disable mkd-logo-area-border-disable mkd-logo-area-in-grid-border-disable mkd-header-vertical-shadow-disable mkd-header-vertical-border-disable mkd-side-menu-slide-from-right mkd-woocommerce-columns-3 mkd-woo-normal-space mkd-woo-pl-info-below-image mkd-woo-single-thumb-below-image mkd-woo-single-has-pretty-photo mkd-default-mobile-header mkd-sticky-up-mobile-header mkd-header-top-enabled mkd-search-covers-header wpb-js-composer js-comp-ver-6.10.0 vc_responsive" itemscope itemtype="http://schema.org/WebPage">
@@ -2439,5 +2472,77 @@ document.addEventListener('DOMContentLoaded', function() {
     body.page-id-385 .mkd-footer-top-holder a:hover,
     body.page-id-385 .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
 </style>
+
+<!-- CUSTOM CURSOR -->
+<div id="bk-cursor-dot"></div>
+<div id="bk-cursor-ring"></div>
+<script>
+(function(){
+    var dot = document.getElementById('bk-cursor-dot');
+    var ring = document.getElementById('bk-cursor-ring');
+    var dotX = 0, dotY = 0, ringX = 0, ringY = 0;
+    var raf;
+
+    document.addEventListener('mousemove', function(e){
+        dotX = e.clientX; dotY = e.clientY;
+        dot.style.left = dotX + 'px';
+        dot.style.top  = dotY + 'px';
+    });
+
+    function animateRing(){
+        ringX += (dotX - ringX) * 0.13;
+        ringY += (dotY - ringY) * 0.13;
+        ring.style.left = ringX + 'px';
+        ring.style.top  = ringY + 'px';
+        raf = requestAnimationFrame(animateRing);
+    }
+    animateRing();
+
+    var body = document.body;
+    function clearState(){
+        body.classList.remove('cursor--link','cursor--partner','cursor--slider','cursor--text','cursor--btn','cursor--img');
+    }
+
+    // Buttons / links
+    document.querySelectorAll('a, button, .mkd-btn').forEach(function(el){
+        el.addEventListener('mouseenter', function(){ clearState(); body.classList.add('cursor--link'); });
+        el.addEventListener('mouseleave', clearState);
+    });
+
+    // Partner logos
+    document.querySelectorAll('.bk-partner-item').forEach(function(el){
+        el.addEventListener('mouseenter', function(){ clearState(); body.classList.add('cursor--partner'); });
+        el.addEventListener('mouseleave', clearState);
+    });
+
+    // Sliders / banners
+    document.querySelectorAll('.rev_slider_wrapper, .mkd-eh-item, rs-module-wrap, .tp-banner').forEach(function(el){
+        el.addEventListener('mouseenter', function(){ clearState(); body.classList.add('cursor--slider'); });
+        el.addEventListener('mouseleave', clearState);
+    });
+
+    // Images (not inside partner/banner)
+    document.querySelectorAll('.mkd-si-inner img, .mkd-footer-top-holder img').forEach(function(el){
+        el.addEventListener('mouseenter', function(){ clearState(); body.classList.add('cursor--img'); });
+        el.addEventListener('mouseleave', clearState);
+    });
+
+    // Text / paragraphs
+    document.querySelectorAll('p, h1, h2, h3, h4').forEach(function(el){
+        el.addEventListener('mouseenter', function(){ clearState(); body.classList.add('cursor--text'); });
+        el.addEventListener('mouseleave', clearState);
+    });
+
+    // Buttons specifically
+    document.querySelectorAll('.mkd-btn, [class*="btn"], input[type=submit]').forEach(function(el){
+        el.addEventListener('mouseenter', function(){ clearState(); body.classList.add('cursor--btn'); });
+        el.addEventListener('mouseleave', clearState);
+    });
+
+    // Hide when window loses focus
+    document.addEventListener('mouseleave', function(){ dot.style.opacity='0'; ring.style.opacity='0'; });
+    document.addEventListener('mouseenter', function(){ dot.style.opacity='1'; ring.style.opacity='0.7'; });
+})();
+</script>
 </body>
 </html>
