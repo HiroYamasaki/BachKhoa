@@ -44,10 +44,23 @@ h1, h2, h3, h4, h5, h6,
     font-family: 'Ionicons' !important;
 }
 
-/* === Slider text: white with black outline === */
+/* === Slider text colors === */
+/* Titles: orange-red */
+#rev_slider_1_1 #slider-1-slide-1-layer-1,
+#rev_slider_1_1 #slider-1-slide-2-layer-1,
+#rev_slider_1_1 #slider-1-slide-3-layer-1,
+#rev_slider_1_1 #slider-1-slide-4-layer-1,
+#rev_slider_1_1 #slider-1-slide-5-layer-1,
+#rev_slider_1_1 #slider-1-slide-6-layer-1 {
+    color: #E8612D !important;
+    -webkit-text-fill-color: #E8612D !important;
+    text-shadow: none !important;
+}
+/* Subtitles: white */
 #rev_slider_1_1 rs-layer {
     color: #ffffff !important;
-    text-shadow: -1px -1px 0 #f2a34a, 1px -1px 0 #ea5916, -1px 1px 0 #de1515, 1px 1px 0 #f15656 !important;
+    -webkit-text-fill-color: #ffffff !important;
+    text-shadow: none !important;
 }
 
 /* === Baumeister Mikado WooCommerce === */
@@ -207,24 +220,6 @@ h1, h2, h3, h4, h5, h6,
     height: 280px;
     object-fit: cover;
     display: block;
-}
-
-/* === Slide 2 hero text: "Công Nghệ Dẫn Đầu" — orange-red gradient + black outline === */
-/* RevSlider injects inline color:white on split-text divs; !important overrides them */
-#slider-1-slide-2-layer-1 .rs_splitted_chars {
-    background: linear-gradient(135deg, #FF6B35 0%, #E8612D 50%, #C0392B 100%) !important;
-    -webkit-background-clip: text !important;
-    background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-    color: transparent !important;
-    -webkit-text-stroke: 1.5px #111111 !important;
-    paint-order: stroke fill; /* stroke behind fill so gradient isn't obscured */
-}
-/* Also override the word-wrapper inline color so it doesn't bleed through */
-#slider-1-slide-2-layer-1 .rs_splitted_words {
-    color: transparent !important;
-    -webkit-text-fill-color: transparent !important;
-    -webkit-text-stroke: 1.5px #111111 !important;
 }
 
 /* =====================================================
