@@ -62,6 +62,24 @@ h1, h2, h3, h4, h5, h6,
 /* === Revolution Slider === */
 #rev_slider_1_1_wrapper .mikado-gyges.tparrows{background-color:rgba(rgba(27,27,27,0.9));  width:70px;  height:70px}#rev_slider_1_1_wrapper .mikado-gyges.tparrows:before{font-family:'FontAwesome';  line-height:70px;  color:rgb(#ffffff)}#rev_slider_1_1_wrapper .mikado-gyges.tparrows.tp-rightarrow:before{content:"\f178"}#rev_slider_1_1_wrapper .mikado-gyges.tparrows.tp-leftarrow:before{content:"\f177"}#rev_slider_1_1_wrapper .mikado-gyges.tparrows.tp-leftarrow:before,#rev_slider_1_1_wrapper .mikado-gyges.tparrows.tp-rightarrow:before{-webkit-transition:all .2s ease-out;  transition:all .2s ease-out}#rev_slider_1_1_wrapper .mikado-gyges.tparrows.tp-leftarrow.rs-touchhover:before{-webkit-transform:translate3d(-5%,0,0);-moz-transform:translate3d(-5%,0,0);transform:translate3d(-5%,0,0)}#rev_slider_1_1_wrapper .mikado-gyges.tparrows.tp-rightarrow.rs-touchhover:before{-webkit-transform:translate3d(5%,0,0);-moz-transform:translate3d(5%,0,0);transform:translate3d(5%,0,0)}#rev_slider_1_1_wrapper .mikado-gyges.tp-bullets .tp-bullet{width:14px;  height:14px;  background-color:rgb(#ffffff);  transition:all .2s ease-out;  -webkit-transition:all .2s ease-out}#rev_slider_1_1_wrapper .mikado-gyges.tp-bullets .tp-bullet.rs-touchhover,#rev_slider_1_1_wrapper .mikado-gyges.tp-bullets .tp-bullet.selected{background-color:rgba(#ffffff,0.5)}
 
+/* === Section images uniform size === */
+.mkd-eh-custom-1017 .mkd-si-inner,
+.mkd-eh-custom-3038 .mkd-si-inner,
+.mkd-eh-custom-5244 .mkd-si-inner {
+    height: 280px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.mkd-eh-custom-1017 .mkd-si-inner img,
+.mkd-eh-custom-3038 .mkd-si-inner img,
+.mkd-eh-custom-5244 .mkd-si-inner img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
 /* =====================================================
    BACH KHOA DIGITAL – Màu Đỏ Cam Gradient Override
    Thay toàn bộ màu vàng/amber thành đỏ cam gradient
