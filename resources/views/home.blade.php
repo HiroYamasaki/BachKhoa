@@ -2205,6 +2205,13 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
     </div>
 </section><div class="vc_row wpb_row vc_row-fluid" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_revslider_element wpb_content_element">
 			<!-- START Home 01 Map REVOLUTION SLIDER 6.6.5 --><p class="rs-p-wp-fix"></p>
+			<!-- MOBILE MAP (static, shown only on mobile) -->
+			<div class="bk-map-mobile">
+			    <div class="bk-map-mobile-inner">
+			        <img src="{{ asset('images/map.png') }}" alt="Bản đồ Việt Nam" style="width:100%;height:auto;display:block;">
+			        <div class="bk-map-pin-mobile"><i class="fa fa-map-marker" style="color:#E8612D;font-size:36px;"></i></div>
+			    </div>
+			</div>
 			<rs-module-wrap id="rev_slider_12_2_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
 				<rs-module id="rev_slider_12_2" style="" data-version="6.6.5">
 					<rs-slides style="overflow: hidden; position: absolute;">

@@ -131,47 +131,43 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* === Map slider mobile fix === */
+/* Mobile: hide RevSlider, show static map */
+.bk-map-mobile { display: none; }
+
 @media (max-width: 768px) {
+    /* Hide Revolution Slider on mobile */
     #rev_slider_12_2_wrapper,
-    #rev_slider_12_2_forcefullwidth {
-        max-height: 350px !important;
-        overflow: hidden !important;
+    #rev_slider_12_2_forcefullwidth,
+    .rs-p-wp-fix { display: none !important; }
+
+    /* Show static map */
+    .bk-map-mobile {
+        display: block;
+        background: #f5f0ea;
+        padding: 30px 20px;
+        text-align: center;
+        position: relative;
     }
-    #rev_slider_12_2_wrapper rs-module,
-    #rev_slider_12_2 {
-        max-height: 350px !important;
+    .bk-map-mobile-inner {
+        position: relative;
+        display: inline-block;
+        max-width: 340px;
+        width: 100%;
     }
-    #rev_slider_12_2_forcefullwidth rs-fw-forcer {
-        height: 350px !important;
-    }
-    #slider-12-slide-24-layer-1 {
-        width: 320px !important;
-        height: auto !important;
-    }
-    #slider-12-slide-24-layer-1 img {
-        width: 100% !important;
-        height: auto !important;
-        object-fit: contain !important;
-    }
-    #slider-12-slide-24-layer-hcmc {
-        transform: scale(0.7) !important;
+    .bk-map-pin-mobile {
+        position: absolute;
+        /* HCMC: ~47% from left, ~73% from top of map image */
+        left: 47%;
+        top: 73%;
+        transform: translate(-50%, -100%);
+        animation: bk-pin-bounce 2s infinite ease-in-out;
+        filter: drop-shadow(0 4px 8px rgba(232,97,45,0.5));
     }
 }
-@media (max-width: 480px) {
-    #rev_slider_12_2_wrapper,
-    #rev_slider_12_2_forcefullwidth {
-        max-height: 280px !important;
-    }
-    #rev_slider_12_2_forcefullwidth rs-fw-forcer {
-        height: 280px !important;
-    }
-    #rev_slider_12_2_wrapper rs-module,
-    #rev_slider_12_2 {
-        max-height: 280px !important;
-    }
-    #slider-12-slide-24-layer-1 {
-        width: 260px !important;
-    }
+
+@keyframes bk-pin-bounce {
+    0%, 100% { transform: translate(-50%, -100%); }
+    50%       { transform: translate(-50%, calc(-100% - 8px)); }
 }
 
 /* === Section images uniform size === */
