@@ -2157,7 +2157,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_1="sR:10;"
 								data-frame_999="st:w;sR:8690;"
 								style="z-index:5;"
-							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="1219" height="645" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-1.png" data-no-retina> 
+							><img src="{{ asset('images/map.png') }}" alt="Map" class="tp-rs-img" width="1219" height="645" data-no-retina style="position:relative;width:100%;height:100%;object-fit:contain;object-position:center;"> 
 							</rs-layer><!--
 
 							--><rs-layer
