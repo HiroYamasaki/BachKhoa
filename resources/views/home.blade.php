@@ -2516,11 +2516,21 @@ document.addEventListener('DOMContentLoaded', function() {
     body.page-id-385 .mkd-footer-bottom-holder h4 { color: #ffffff !important; }
     body.page-id-385 .mkd-footer-top-holder a:hover,
     body.page-id-385 .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
+
+/* ===== TECH PARTICLE CANVAS ===== */
+#bk-tech-canvas {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 99997;
+}
 </style>
 
 <!-- CUSTOM CURSOR -->
 <div id="bk-cursor-dot"></div>
 <div id="bk-cursor-ring"></div>
+<canvas id="bk-tech-canvas"></canvas>
 <script>
 (function(){
     var dot = document.getElementById('bk-cursor-dot');
@@ -2597,6 +2607,133 @@ document.addEventListener('DOMContentLoaded', function() {
     // Hide when mouse leaves window
     document.addEventListener('mouseleave', function(){ dot.style.opacity='0'; ring.style.opacity='0'; });
     document.addEventListener('mouseenter', function(){ dot.style.opacity='1'; ring.style.opacity='0.7'; });
+})();
+</script>
+
+<script>
+// Tech particle trail effect
+(function () {
+    var canvas = document.getElementById('bk-tech-canvas');
+    if (!canvas) return;
+    var ctx = canvas.getContext('2d');
+    var W = 0, H = 0;
+    var particles = [];
+    var mx = -999, my = -999, moving = false, moveTimer;
+    var MAX_P = 120;
+
+    function resize() {
+        W = canvas.width  = window.innerWidth;
+        H = canvas.height = window.innerHeight;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    // Color palette: orange brand + electric blue accent
+    var COLORS = ['#E8612D', '#FF8C42', '#FFB347', '#ffffff', '#00d4ff'];
+    var WEIGHTS = [40, 25, 15, 15, 5]; // probability weights
+    function randColor() {
+        var r = Math.random() * 100, acc = 0;
+        for (var i = 0; i < COLORS.length; i++) {
+            acc += WEIGHTS[i];
+            if (r < acc) return COLORS[i];
+        }
+        return COLORS[0];
+    }
+
+    function spawn(x, y, burst) {
+        var count = burst ? 6 : 2;
+        for (var i = 0; i < count; i++) {
+            if (particles.length >= MAX_P) break;
+            var angle = Math.random() * Math.PI * 2;
+            var speed = 0.4 + Math.random() * 1.6;
+            var square = Math.random() < 0.25; // 25% squares
+            particles.push({
+                x: x + (Math.random() - 0.5) * 10,
+                y: y + (Math.random() - 0.5) * 10,
+                vx: Math.cos(angle) * speed,
+                vy: Math.sin(angle) * speed - 0.4,
+                life: 1,
+                decay: 0.018 + Math.random() * 0.032,
+                size: square ? (3 + Math.random() * 4) : (1.5 + Math.random() * 3),
+                color: randColor(),
+                square: square
+            });
+        }
+    }
+
+    document.addEventListener('mousemove', function (e) {
+        mx = e.clientX; my = e.clientY;
+        moving = true;
+        clearTimeout(moveTimer);
+        moveTimer = setTimeout(function () { moving = false; }, 80);
+        spawn(mx, my, false);
+    });
+
+    function draw() {
+        ctx.clearRect(0, 0, W, H);
+
+        // Update & draw particles
+        for (var i = particles.length - 1; i >= 0; i--) {
+            var p = particles[i];
+            p.x  += p.vx;
+            p.y  += p.vy;
+            p.vy += 0.04; // gentle gravity
+            p.life -= p.decay;
+            if (p.life <= 0) { particles.splice(i, 1); continue; }
+
+            var alpha = p.life;
+            var sz = p.size * Math.pow(p.life, 0.4);
+
+            ctx.save();
+            ctx.globalAlpha = alpha * 0.9;
+            ctx.shadowBlur  = 10;
+            ctx.shadowColor = p.color;
+            ctx.fillStyle   = p.color;
+
+            if (p.square) {
+                ctx.translate(p.x, p.y);
+                ctx.rotate((1 - p.life) * Math.PI);
+                ctx.fillRect(-sz / 2, -sz / 2, sz, sz);
+            } else {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, sz, 0, Math.PI * 2);
+                ctx.fill();
+            }
+            ctx.restore();
+        }
+
+        // Draw short connection lines between nearby particles (circuit feel)
+        ctx.save();
+        var len = particles.length;
+        for (var a = 0; a < len - 1; a++) {
+            for (var b = a + 1; b < len; b++) {
+                var pa = particles[a], pb = particles[b];
+                var dx = pa.x - pb.x, dy = pa.y - pb.y;
+                var dist = Math.sqrt(dx * dx + dy * dy);
+                if (dist < 55) {
+                    var lineAlpha = (1 - dist / 55) * Math.min(pa.life, pb.life) * 0.4;
+                    ctx.globalAlpha  = lineAlpha;
+                    ctx.strokeStyle  = pa.color;
+                    ctx.shadowBlur   = 4;
+                    ctx.shadowColor  = pa.color;
+                    ctx.lineWidth    = 0.8;
+                    ctx.beginPath();
+                    ctx.moveTo(pa.x, pa.y);
+                    ctx.lineTo(pb.x, pb.y);
+                    ctx.stroke();
+                }
+            }
+        }
+        ctx.restore();
+
+        requestAnimationFrame(draw);
+    }
+    draw();
+
+    // Click burst
+    document.addEventListener('click', function (e) {
+        spawn(e.clientX, e.clientY, true);
+    });
 })();
 </script>
 
