@@ -2602,14 +2602,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <script>
 // Slider titles: orange-red gradient via JS (overrides RevSlider inline styles)
-(function applySliderGradient() {
+(function() {
     var titleIds = [
-        'slider-1-slide-1-layer-1',
-        'slider-1-slide-2-layer-1',
-        'slider-1-slide-3-layer-1',
-        'slider-1-slide-4-layer-1',
-        'slider-1-slide-5-layer-1',
-        'slider-1-slide-6-layer-1'
+        'slider-1-slide-1-layer-1','slider-1-slide-2-layer-1',
+        'slider-1-slide-3-layer-1','slider-1-slide-4-layer-1',
+        'slider-1-slide-5-layer-1','slider-1-slide-6-layer-1'
     ];
     function styleTitle(el) {
         if (!el) return;
@@ -2623,29 +2620,13 @@ document.addEventListener('DOMContentLoaded', function() {
     function applyAll() {
         titleIds.forEach(function(id) { styleTitle(document.getElementById(id)); });
     }
-    // Apply immediately, on DOMContentLoaded, on RevSlider events, and via MutationObserver
-    applyAll();
-    document.addEventListener('DOMContentLoaded', applyAll);
-    document.addEventListener('revolution.slide.onloaded', applyAll);
-    document.addEventListener('revolution.slide.onchange', applyAll);
+    // Re-apply periodically for 10 seconds to catch RevSlider overrides, then stop
+    var count = 0;
+    var iv = setInterval(function() {
+        applyAll();
+        if (++count > 40) clearInterval(iv);
+    }, 250);
     window.addEventListener('load', applyAll);
-    // MutationObserver to catch RevSlider re-applying styles
-    var slider = document.getElementById('rev_slider_1_1');
-    if (slider) {
-        var applying = false;
-        var mo = new MutationObserver(function(mutations) {
-            if (applying) return;
-            var needsUpdate = mutations.some(function(m) {
-                return titleIds.indexOf(m.target.id) !== -1;
-            });
-            if (needsUpdate) {
-                applying = true;
-                applyAll();
-                applying = false;
-            }
-        });
-        mo.observe(slider, { attributes: true, subtree: true, attributeFilter: ['style'] });
-    }
 })();
 </script>
 </body>
