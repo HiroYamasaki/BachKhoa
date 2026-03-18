@@ -44,22 +44,9 @@ h1, h2, h3, h4, h5, h6,
     font-family: 'Ionicons' !important;
 }
 
-/* === Slider text colors === */
-/* Titles: orange-red */
-#rev_slider_1_1 #slider-1-slide-1-layer-1,
-#rev_slider_1_1 #slider-1-slide-2-layer-1,
-#rev_slider_1_1 #slider-1-slide-3-layer-1,
-#rev_slider_1_1 #slider-1-slide-4-layer-1,
-#rev_slider_1_1 #slider-1-slide-5-layer-1,
-#rev_slider_1_1 #slider-1-slide-6-layer-1 {
-    color: #E8612D !important;
-    -webkit-text-fill-color: #E8612D !important;
-    text-shadow: none !important;
-}
-/* Subtitles: white */
+/* === Slider text === */
+/* Remove legacy shadow, gradient applied via JS */
 #rev_slider_1_1 rs-layer {
-    color: #ffffff !important;
-    -webkit-text-fill-color: #ffffff !important;
     text-shadow: none !important;
 }
 
