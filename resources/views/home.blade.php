@@ -641,7 +641,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 </div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-color: rgba(255,255,255,0);border-style: solid;width: 15px"></div>
 </div>
-</div><div id="media_image-5" class="widget widget_media_image mkd-top-bar-widget"><img width="49" height="25" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/topbar-img-1.png" class="image wp-image-1063  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div>											</div>
+</div><div id="media_image-5" class="widget widget_media_image mkd-top-bar-widget"><img width="49" height="25" src="{{ asset('images/map_banner.png') }}" class="image wp-image-1063  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div>											</div>
 				</div>
 			</div>
 				
@@ -2258,7 +2258,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 							<div class="mkd-column-content mkd-grid-col-3">
 					<div id="text-6" class="widget mkd-footer-column-4 widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Văn Phòng</h4></div>			<div class="textwidget"><p>105 Trần Thị Nơi, Quận 12, TP. Hồ Chí Minh.</p>
 </div>
-		</div><div id="media_image-3" class="widget mkd-footer-column-4 widget_media_image"><a href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.9518307" target="_blank" rel="noopener"><img width="270" height="142" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/footer-img-2.png" class="image wp-image-3375  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></a></div>				</div>
+		</div><div id="media_image-3" class="widget mkd-footer-column-4 widget_media_image"><a href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.9518307" target="_blank" rel="noopener"><img width="270" height="142" src="{{ asset('images/map_footter.png') }}" class="image wp-image-3375  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></a></div>				</div>
 					</div>
 	</div>
 </div><div class="mkd-footer-bottom-holder">
