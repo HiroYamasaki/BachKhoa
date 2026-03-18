@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -2175,7 +2175,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_999="o:0;st:8800;sR:8290;"
 								data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
 								style="z-index:6;"
-							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
 							</rs-layer><!--
 
 							--><rs-layer
@@ -2192,7 +2192,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_999="o:0;st:a;sR:8290;"
 								data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
 								style="z-index:7;"
-							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
 							</rs-layer><!--
 
 							--><rs-layer
@@ -2210,7 +2210,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_999="o:0;st:8800;sR:8290;"
 								data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
 								style="z-index:8;"
-							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
 							</rs-layer><!--
 
 							--><rs-layer
@@ -2228,7 +2228,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_999="o:0;st:a;sR:8290;"
 								data-loop_999="sX:1.1;sY:1.1;sp:2400;yym:t;yys:t;yyf:t;"
 								style="z-index:9;"
-							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
 							</rs-layer><!--
 
 							--><rs-layer
@@ -2246,7 +2246,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_999="o:0;st:8800;sR:8290;"
 								data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
 								style="z-index:10;"
-							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
 							</rs-layer><!--
 
 							--><rs-layer
@@ -2264,7 +2264,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_999="o:0;st:a;sR:8290;"
 								data-loop_999="sX:1.1;sY:1.1;sp:1600;yym:t;yys:t;yyf:t;"
 								style="z-index:11;"
-							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
 							</rs-layer><!--
 
 							--><rs-layer
@@ -2283,7 +2283,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_999="o:0;st:8800;sR:8290;"
 								data-loop_999="sX:1.1;sY:1.1;sp:2800;yym:t;yys:t;yyf:t;"
 								style="z-index:12;"
-							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
 							</rs-layer><!--
 
 							--><rs-layer
@@ -2302,7 +2302,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 								data-frame_999="o:0;st:a;sR:8290;"
 								data-loop_999="sX:1.1;sY:1.1;sp:2800;yym:t;yys:t;yyf:t;"
 								style="z-index:13;"
-							><img src="//baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="a" class="tp-rs-img rs-lazyload" width="35" height="53" data-lazyload="//baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-slider-4-img-2.png" data-no-retina> 
+							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
 							</rs-layer><!--
 -->						</rs-slide>
 					</rs-slides>
