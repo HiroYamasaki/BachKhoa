@@ -554,7 +554,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 		<a class="mkd-close-side-menu" href="#" target="_self">
 			<span aria-hidden="true" class="mkd-icon-font-elegant icon_close " ></span>		</a>
 	</div>
-	<div id="media_image-4" class="widget mkd-sidearea widget_media_image"><img width="217" height="38" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/sidearea-img.png" class="image wp-image-3390  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div><div id="text-7" class="widget mkd-sidearea widget_text">			<div class="textwidget"><p>Bach Khoa Digital — Đối tác chuyển đổi số tin cậy của doanh nghiệp Việt Nam.</p>
+	<div id="media_image-4" class="widget mkd-sidearea widget_media_image"><img width="217" height="38" src="{{ asset('images/logo.jpg') }}" class="image wp-image-3390  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div><div id="text-7" class="widget mkd-sidearea widget_text">			<div class="textwidget"><p>Bach Khoa Digital — Đối tác chuyển đổi số tin cậy của doanh nghiệp Việt Nam.</p>
 </div>
 		</div><div id="text-8" class="widget mkd-sidearea widget_text"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Contact</h4></div>			<div class="textwidget"></div>
 		</div>
@@ -564,7 +564,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
     
         <a class="mkd-icon-widget-holder"            href="#"
             target="_self" style="margin: -20px 0 0 20px">
-                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Quận 12, TP. Hồ Chí Minh</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Quận 8, TP. Hồ Chí Minh</span></span>        </a>
     
         <a class="mkd-icon-widget-holder"            href="tel:+84903646288"
             target="_self" style="margin: 20px 0px 0">
@@ -2326,7 +2326,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 	<div class="mkd-footer-top-inner mkd-grid">
 		<div class="mkd-grid-row mkd-footer-top-alignment-left">
 							<div class="mkd-column-content mkd-grid-col-3">
-					<div id="media_image-2" class="widget mkd-footer-column-1 widget_media_image"><a href="https://baumeister.qodeinteractive.com/"><img width="217" height="38" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/footer-img.png" class="image wp-image-3389  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto; filter: hue-rotate(-30deg) saturate(1.8) brightness(0.95);" /></a></div><div id="text-3" class="widget mkd-footer-column-1 widget_text">			<div class="textwidget"><p>Giải pháp chuyển đổi số toàn diện, giúp doanh nghiệp Việt Nam phát triển bền vững trong kỷ nguyên số.</p>
+					<div id="media_image-2" class="widget mkd-footer-column-1 widget_media_image"><a href="/"><img src="{{ asset('images/logo.jpg') }}" alt="Bach Khoa Digital" loading="lazy" style="max-width: 100%; height: 60px; width: auto; object-fit: contain;" /></a></div><div id="text-3" class="widget mkd-footer-column-1 widget_text">			<div class="textwidget"><p>Giải pháp chuyển đổi số toàn diện, giúp doanh nghiệp Việt Nam phát triển bền vững trong kỷ nguyên số.</p>
 </div>
 		</div>		
 		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 15px;margin: 8px 0 0;" href="https://twitter.com/QodeInteractive" target="_blank">
