@@ -191,6 +191,21 @@ body.cursor--text #bk-cursor-ring { width: 0; height: 0; opacity: 0; }
 /* --- state: image --- */
 body.cursor--img #bk-cursor-dot { width: 14px; height: 14px; background: #fff; border-radius: 50%; }
 body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba(255,255,255,0.6); background: rgba(255,255,255,0.04); }
+
+/* Slider title: orange-red gradient + black stroke */
+#slider-1-slide-1-layer-1,
+#slider-1-slide-2-layer-1,
+#slider-1-slide-3-layer-1,
+#slider-1-slide-4-layer-1,
+#slider-1-slide-5-layer-1,
+#slider-1-slide-6-layer-1 {
+    background: linear-gradient(135deg, #E8612D 0%, #C0392B 100%) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-text-stroke: 2px #000000 !important;
+    color: transparent !important;
+}
 </style>
 
 </head>
