@@ -2102,43 +2102,39 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 							<h4 class="mkd-pc-title" >Hiệu Suất Hệ Thống</h4>
 										<p class="mkd-pc-text" >Nâng cao hiệu suất hệ thống so với phương pháp truyền thống.</p>
 					</div>
-	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper "  style="background-color:#24272a"><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1511260514697" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-clients-carousel-holder mkd-cc-hover-roll-over">
-	<div class="mkd-cc-inner mkd-owl-slider" data-number-of-items="3" data-enable-loop="no" data-enable-autoplay="no" data-slider-speed="5000" data-slider-speed-animation="600" data-enable-navigation="no" data-enable-pagination="no">
-		<div class="mkd-cc-item">
-			<a itemprop="url" class="mkd-cc-link mkd-block-drag-link" href="#" target="_self">
-						<img itemprop="image" class="mkd-cc-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-img-1.png" alt="a" />
-							<img itemprop="image" class="mkd-cc-hover-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-hover-img-1.png" alt="a" />
-					</a>
-	</div><div class="mkd-cc-item">
-			<a itemprop="url" class="mkd-cc-link mkd-block-drag-link" href="#" target="_self">
-						<img itemprop="image" class="mkd-cc-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-img-2.png" alt="a" />
-							<img itemprop="image" class="mkd-cc-hover-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-hover-img-2.png" alt="a" />
-					</a>
-	</div><div class="mkd-cc-item">
-			<a itemprop="url" class="mkd-cc-link mkd-block-drag-link" href="#" target="_self">
-						<img itemprop="image" class="mkd-cc-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-img-3.png" alt="a" />
-							<img itemprop="image" class="mkd-cc-hover-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-hover-img-3.png" alt="a" />
-					</a>
-	</div>	</div>
-</div><div class="vc_empty_space  vc_custom_1511260555751"   style="height: 32px"><span class="vc_empty_space_inner"></span></div><div class="mkd-clients-carousel-holder mkd-cc-hover-roll-over">
-	<div class="mkd-cc-inner mkd-owl-slider" data-number-of-items="3" data-enable-loop="no" data-enable-autoplay="no" data-slider-speed="5000" data-slider-speed-animation="600" data-enable-navigation="no" data-enable-pagination="no">
-		<div class="mkd-cc-item">
-			<a itemprop="url" class="mkd-cc-link mkd-block-drag-link" href="#" target="_self">
-						<img itemprop="image" class="mkd-cc-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-img-4.png" alt="a" />
-							<img itemprop="image" class="mkd-cc-hover-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-hover-img-4.png" alt="a" />
-					</a>
-	</div><div class="mkd-cc-item">
-			<a itemprop="url" class="mkd-cc-link mkd-block-drag-link" href="#" target="_self">
-						<img itemprop="image" class="mkd-cc-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-img-3.png" alt="a" />
-							<img itemprop="image" class="mkd-cc-hover-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-hover-img-3.png" alt="a" />
-					</a>
-	</div><div class="mkd-cc-item">
-			<a itemprop="url" class="mkd-cc-link mkd-block-drag-link" href="#" target="_self">
-						<img itemprop="image" class="mkd-cc-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-img-5.png" alt="a" />
-							<img itemprop="image" class="mkd-cc-hover-image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/h1-carousel-hover-img-5.png" alt="a" />
-					</a>
-	</div>	</div>
-</div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_revslider_element wpb_content_element">
+	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div><section class="bk-partners-section">
+    <div class="container">
+        <div class="bk-partners-title">
+            <h2 class="title"><span>Đối tác</span></h2>
+            <div class="line">
+                <img src="https://bachkhoadigital.com/uploads/2263/config/2025-04-26/logo-bk--web-ko-nen-2659.webp" alt="Đối tác" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <div class="bk-partners-track-wrapper">
+        <div class="bk-partners-track">
+            <a href="#" class="bk-partner-item"><img src="https://bachkhoadigital.com/uploads/2263/banner/2024/05/13/premium-line-1715583394.png" alt="Premium Line"></a>
+            <a href="#" class="bk-partner-item"><img src="https://bachkhoadigital.com/uploads/2263/banner/2025/08/10/biamp-1111.webp" alt="Biamp"></a>
+            <a href="https://bachkhoadigital.vn/may-chieu-led-viewsonic-a1017624/" class="bk-partner-item" target="_blank"><img src="https://bachkhoadigital.com/uploads/2263/banner/2024/05/13/viewsonic-1715583408.png" alt="Viewsonic"></a>
+            <a href="#" class="bk-partner-item"><img src="https://bachkhoadigital.com/uploads/2263/banner/2024/05/13/zkteco-1715583450.png" alt="ZKTeco"></a>
+            <a href="https://bachkhoadigital.vn/giai-phap-thiet-bi-khoa-hoc-phong-multimedia-lab-a546839/" class="bk-partner-item" target="_blank"><img src="https://bachkhoadigital.com/uploads/2263/banner/2023/10/23/screenshot-2023-10-23-141222-1698048882.png" alt="Multimedia Lab"></a>
+            <a href="https://bachkhoadigital.vn/may-chieu-da-nang-boxlight-my-a559880/" class="bk-partner-item" target="_blank"><img src="https://bachkhoadigital.com/uploads/2263/banner/2023/10/23/wr3popftsunjmnkwid4a-eos-boxlight-horizontallogo-01-jpg-1698048622.jpg" alt="Boxlight"></a>
+            <a href="https://bachkhoadigital.vn/he-thong-am-thanh-yamaha-a636450/" class="bk-partner-item" target="_blank"><img src="https://bachkhoadigital.com/uploads/2263/banner/2023/10/23/oip-1698045505.jpg" alt="Yamaha"></a>
+            <a href="https://bachkhoadigital.vn/am-thanh-thong-bao-pa-system-a654232/" class="bk-partner-item" target="_blank"><img src="https://bachkhoadigital.com/uploads/2263/banner/2023/10/23/bosch-logo-1698045519.png" alt="Bosch"></a>
+            <a href="https://bachkhoadigital.vn/nha-thong-minh-smart-home-a654235/" class="bk-partner-item" target="_blank"><img src="https://bachkhoadigital.com/uploads/2263/banner/2023/10/23/jablotron-logo-1698045526.png" alt="Jablotron"></a>
+            <!-- duplicate for seamless loop -->
+            <a href="#" class="bk-partner-item"><img src="https://bachkhoadigital.com/uploads/2263/banner/2024/05/13/premium-line-1715583394.png" alt="Premium Line"></a>
+            <a href="#" class="bk-partner-item"><img src="https://bachkhoadigital.com/uploads/2263/banner/2025/08/10/biamp-1111.webp" alt="Biamp"></a>
+            <a href="https://bachkhoadigital.vn/may-chieu-led-viewsonic-a1017624/" class="bk-partner-item" target="_blank"><img src="https://bachkhoadigital.com/uploads/2263/banner/2024/05/13/viewsonic-1715583408.png" alt="Viewsonic"></a>
+            <a href="#" class="bk-partner-item"><img src="https://bachkhoadigital.com/uploads/2263/banner/2024/05/13/zkteco-1715583450.png" alt="ZKTeco"></a>
+            <a href="https://bachkhoadigital.vn/giai-phap-thiet-bi-khoa-hoc-phong-multimedia-lab-a546839/" class="bk-partner-item" target="_blank"><img src="https://bachkhoadigital.com/uploads/2263/banner/2023/10/23/screenshot-2023-10-23-141222-1698048882.png" alt="Multimedia Lab"></a>
+            <a href="https://bachkhoadigital.vn/may-chieu-da-nang-boxlight-my-a559880/" class="bk-partner-item" target="_blank"><img src="https://bachkhoadigital.com/uploads/2263/banner/2023/10/23/wr3popftsunjmnkwid4a-eos-boxlight-horizontallogo-01-jpg-1698048622.jpg" alt="Boxlight"></a>
+            <a href="https://bachkhoadigital.vn/he-thong-am-thanh-yamaha-a636450/" class="bk-partner-item" target="_blank"><img src="https://bachkhoadigital.com/uploads/2263/banner/2023/10/23/oip-1698045505.jpg" alt="Yamaha"></a>
+            <a href="https://bachkhoadigital.vn/am-thanh-thong-bao-pa-system-a654232/" class="bk-partner-item" target="_blank"><img src="https://bachkhoadigital.com/uploads/2263/banner/2023/10/23/bosch-logo-1698045519.png" alt="Bosch"></a>
+            <a href="https://bachkhoadigital.vn/nha-thong-minh-smart-home-a654235/" class="bk-partner-item" target="_blank"><img src="https://bachkhoadigital.com/uploads/2263/banner/2023/10/23/jablotron-logo-1698045526.png" alt="Jablotron"></a>
+        </div>
+    </div>
+</section><div class="vc_row wpb_row vc_row-fluid" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_revslider_element wpb_content_element">
 			<!-- START Home 01 Map REVOLUTION SLIDER 6.6.5 --><p class="rs-p-wp-fix"></p>
 			<rs-module-wrap id="rev_slider_12_2_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
 				<rs-module id="rev_slider_12_2" style="" data-version="6.6.5">
