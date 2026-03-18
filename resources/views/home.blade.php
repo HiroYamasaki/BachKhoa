@@ -2161,148 +2161,18 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 							</rs-layer><!--
 
 							--><rs-layer
-								id="slider-12-slide-24-layer-2" 
-								class="mkd-cursor-pointer"
-								data-type="image"
+								id="slider-12-slide-24-layer-hcmc"
+								data-type="text"
 								data-rsp_ch="on"
-								data-xy="x:c;xo:230px,190px,190px,-50px;y:m;yo:-20px;"
+								data-xy="x:c;xo:25px,20px,20px,15px;y:m;yo:155px,125px,125px,100px;"
 								data-text="l:22;a:inherit;"
-								data-dim="w:35px,35px,35px,28px;h:53px,53px,53px,43px;"
-								data-actions='o:click;a:startlayer;layer:slider-12-slide-24-layer-3;||o:click;a:stoplayer;layer:slider-12-slide-24-layer-2;'
-								data-triggercache="keep"
+								data-dim="w:40px,40px,40px,32px;h:60px,60px,60px,48px;"
 								data-frame_0="sX:0.9;sY:0.9;"
 								data-frame_1="sp:500;sR:10;"
-								data-frame_999="o:0;st:8800;sR:8290;"
+								data-frame_999="st:w;sR:8690;"
 								data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
 								style="z-index:6;"
-							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
-							</rs-layer><!--
-
-							--><rs-layer
-								id="slider-12-slide-24-layer-3" 
-								class="mkd-cursor-pointer"
-								data-type="image"
-								data-rsp_ch="on"
-								data-xy="x:c;xo:230px,190px,190px,-50px;y:m;yo:-25px,-28px,-28px,-25px;"
-								data-text="l:22;a:inherit;"
-								data-dim="w:42px,42px,42px,35px;h:63px,63px,63px,53px;"
-								data-actions='o:click;a:stoplayer;layer:slider-12-slide-24-layer-3;||o:click;a:startlayer;layer:slider-12-slide-24-layer-2;'
-								data-triggercache="keep"
-								data-frame_1="sp:500;sR:10;st:a;"
-								data-frame_999="o:0;st:a;sR:8290;"
-								data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
-								style="z-index:7;"
-							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
-							</rs-layer><!--
-
-							--><rs-layer
-								id="slider-12-slide-24-layer-5" 
-								class="mkd-cursor-pointer"
-								data-type="image"
-								data-rsp_ch="on"
-								data-xy="x:c;xo:400px,320px,320px,50px;y:m;yo:-80px;"
-								data-text="l:22;a:inherit;"
-								data-dim="w:35px,35px,35px,28px;h:53px,53px,53px,43px;"
-								data-actions='o:click;a:startlayer;layer:slider-12-slide-24-layer-6;||o:click;a:stoplayer;layer:slider-12-slide-24-layer-5;'
-								data-triggercache="keep"
-								data-frame_0="sX:0.9;sY:0.9;"
-								data-frame_1="sp:500;sR:10;"
-								data-frame_999="o:0;st:8800;sR:8290;"
-								data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
-								style="z-index:8;"
-							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
-							</rs-layer><!--
-
-							--><rs-layer
-								id="slider-12-slide-24-layer-6" 
-								class="mkd-cursor-pointer"
-								data-type="image"
-								data-rsp_ch="on"
-								data-xy="x:c;xo:400px,320px,320px,50px;y:m;yo:-85px,-89px,-89px,-85px;"
-								data-text="l:22;a:inherit;"
-								data-dim="w:42px,42px,42px,35px;h:63px,63px,63px,53px;"
-								data-actions='o:click;a:stoplayer;layer:slider-12-slide-24-layer-6;||o:click;a:startlayer;layer:slider-12-slide-24-layer-5;'
-								data-triggercache="keep"
-								data-frame_0="sX:0.9;sY:0.9;"
-								data-frame_1="sp:500;sR:10;st:a;"
-								data-frame_999="o:0;st:a;sR:8290;"
-								data-loop_999="sX:1.1;sY:1.1;sp:2400;yym:t;yys:t;yyf:t;"
-								style="z-index:9;"
-							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
-							</rs-layer><!--
-
-							--><rs-layer
-								id="slider-12-slide-24-layer-7" 
-								class="mkd-cursor-pointer"
-								data-type="image"
-								data-rsp_ch="on"
-								data-xy="x:c;xo:320px,260px,260px,20px;y:m;yo:-205px,-165px,-165px,-165px;"
-								data-text="l:22;a:inherit;"
-								data-dim="w:35px,35px,35px,28px;h:53px,53px,53px,43px;"
-								data-actions='o:click;a:startlayer;layer:slider-12-slide-24-layer-8;||o:click;a:stoplayer;layer:slider-12-slide-24-layer-7;'
-								data-triggercache="keep"
-								data-frame_0="sX:0.9;sY:0.9;"
-								data-frame_1="sp:500;sR:10;"
-								data-frame_999="o:0;st:8800;sR:8290;"
-								data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
-								style="z-index:10;"
-							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
-							</rs-layer><!--
-
-							--><rs-layer
-								id="slider-12-slide-24-layer-8" 
-								class="mkd-cursor-pointer"
-								data-type="image"
-								data-rsp_ch="on"
-								data-xy="x:c;xo:320px,260px,260px,20px;y:m;yo:-209px,-173px,-173px,-165px;"
-								data-text="l:22;a:inherit;"
-								data-dim="w:42px,42px,42px,35px;h:63px,63px,63px,53px;"
-								data-actions='o:click;a:stoplayer;layer:slider-12-slide-24-layer-8;||o:click;a:startlayer;layer:slider-12-slide-24-layer-7;'
-								data-triggercache="keep"
-								data-frame_0="sX:0.9;sY:0.9;"
-								data-frame_1="sp:500;sR:10;st:a;"
-								data-frame_999="o:0;st:a;sR:8290;"
-								data-loop_999="sX:1.1;sY:1.1;sp:1600;yym:t;yys:t;yyf:t;"
-								style="z-index:11;"
-							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
-							</rs-layer><!--
-
-							--><rs-layer
-								id="slider-12-slide-24-layer-9" 
-								class="mkd-cursor-pointer"
-								data-type="image"
-								data-rsp_ch="on"
-								data-xy="x:c;xo:-360px,-300px,-300px,-300px;y:m;yo:-125px,-95px,-95px,-95px;"
-								data-text="l:22;a:inherit;"
-								data-dim="w:['35px','35px','35px','35px'];h:['53px','53px','53px','53px'];"
-								data-vbility="t,t,t,f"
-								data-actions='o:click;a:startlayer;layer:slider-12-slide-24-layer-10;||o:click;a:stoplayer;layer:slider-12-slide-24-layer-9;'
-								data-triggercache="keep"
-								data-frame_0="sX:0.9;sY:0.9;"
-								data-frame_1="sp:500;sR:10;"
-								data-frame_999="o:0;st:8800;sR:8290;"
-								data-loop_999="sX:1.1;sY:1.1;sp:2800;yym:t;yys:t;yyf:t;"
-								style="z-index:12;"
-							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
-							</rs-layer><!--
-
-							--><rs-layer
-								id="slider-12-slide-24-layer-10" 
-								class="mkd-cursor-pointer"
-								data-type="image"
-								data-rsp_ch="on"
-								data-xy="x:c;xo:-360px,-300px,-300px,-300px;y:m;yo:-130px,-103px,-103px,-95px;"
-								data-text="l:22;a:inherit;"
-								data-dim="w:['42px','42px','42px','42px'];h:['63px','63px','63px','63px'];"
-								data-vbility="t,t,t,f"
-								data-actions='o:click;a:stoplayer;layer:slider-12-slide-24-layer-10;||o:click;a:startlayer;layer:slider-12-slide-24-layer-9;'
-								data-triggercache="keep"
-								data-frame_0="sX:0.9;sY:0.9;"
-								data-frame_1="sp:500;sR:10;st:a;"
-								data-frame_999="o:0;st:a;sR:8290;"
-								data-loop_999="sX:1.1;sY:1.1;sp:2800;yym:t;yys:t;yyf:t;"
-								style="z-index:13;"
-							><i class="fa fa-map-marker" style="color:#E8612D;font-size:48px;line-height:1;display:block;"></i> 
+							><i class="fa fa-map-marker" style="color:#E8612D;font-size:52px;line-height:1;display:block;"></i>
 							</rs-layer><!--
 -->						</rs-slide>
 					</rs-slides>
