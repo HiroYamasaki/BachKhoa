@@ -2611,15 +2611,14 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <script>
-// Tech particle trail effect
+// Tech particle trail effect (optimized: no shadowBlur per-particle, batched by color, limited connections)
 (function () {
     var canvas = document.getElementById('bk-tech-canvas');
     if (!canvas) return;
     var ctx = canvas.getContext('2d');
     var W = 0, H = 0;
     var particles = [];
-    var mx = -999, my = -999, moving = false, moveTimer;
-    var MAX_P = 120;
+    var MAX_P = 60; // reduced cap for perf
 
     function resize() {
         W = canvas.width  = window.innerWidth;
@@ -2628,9 +2627,9 @@ document.addEventListener('DOMContentLoaded', function() {
     resize();
     window.addEventListener('resize', resize);
 
-    // Color palette: orange brand + electric blue accent
+    // Pre-computed RGBA color strings with alpha placeholder
     var COLORS = ['#E8612D', '#FF8C42', '#FFB347', '#ffffff', '#00d4ff'];
-    var WEIGHTS = [40, 25, 15, 15, 5]; // probability weights
+    var WEIGHTS = [40, 25, 15, 15, 5];
     function randColor() {
         var r = Math.random() * 100, acc = 0;
         for (var i = 0; i < COLORS.length; i++) {
@@ -2640,83 +2639,82 @@ document.addEventListener('DOMContentLoaded', function() {
         return COLORS[0];
     }
 
+    // Throttle spawn: only once per animation frame via flag
+    var spawnX = -999, spawnY = -999, spawnPending = false;
+
     function spawn(x, y, burst) {
-        var count = burst ? 6 : 2;
+        var count = burst ? 5 : 1;
         for (var i = 0; i < count; i++) {
             if (particles.length >= MAX_P) break;
             var angle = Math.random() * Math.PI * 2;
-            var speed = 0.4 + Math.random() * 1.6;
-            var square = Math.random() < 0.25; // 25% squares
+            var speed = 0.5 + Math.random() * 1.2;
             particles.push({
-                x: x + (Math.random() - 0.5) * 10,
-                y: y + (Math.random() - 0.5) * 10,
+                x: x + (Math.random() - 0.5) * 8,
+                y: y + (Math.random() - 0.5) * 8,
                 vx: Math.cos(angle) * speed,
-                vy: Math.sin(angle) * speed - 0.4,
+                vy: Math.sin(angle) * speed - 0.3,
                 life: 1,
-                decay: 0.018 + Math.random() * 0.032,
-                size: square ? (3 + Math.random() * 4) : (1.5 + Math.random() * 3),
-                color: randColor(),
-                square: square
+                decay: 0.022 + Math.random() * 0.028,
+                size: 1.5 + Math.random() * 2.5,
+                color: randColor()
             });
         }
     }
 
     document.addEventListener('mousemove', function (e) {
-        mx = e.clientX; my = e.clientY;
-        moving = true;
-        clearTimeout(moveTimer);
-        moveTimer = setTimeout(function () { moving = false; }, 80);
-        spawn(mx, my, false);
+        spawnX = e.clientX; spawnY = e.clientY;
+        spawnPending = true;
     });
 
-    function draw() {
-        ctx.clearRect(0, 0, W, H);
-
-        // Update & draw particles
+    // Batch particles by color to minimize state changes
+    function drawParticlesBatched() {
+        // Group by color
+        var groups = {};
+        var alive = [];
         for (var i = particles.length - 1; i >= 0; i--) {
             var p = particles[i];
             p.x  += p.vx;
             p.y  += p.vy;
-            p.vy += 0.04; // gentle gravity
+            p.vy += 0.035;
             p.life -= p.decay;
             if (p.life <= 0) { particles.splice(i, 1); continue; }
-
-            var alpha = p.life;
-            var sz = p.size * Math.pow(p.life, 0.4);
-
-            ctx.save();
-            ctx.globalAlpha = alpha * 0.9;
-            ctx.shadowBlur  = 10;
-            ctx.shadowColor = p.color;
-            ctx.fillStyle   = p.color;
-
-            if (p.square) {
-                ctx.translate(p.x, p.y);
-                ctx.rotate((1 - p.life) * Math.PI);
-                ctx.fillRect(-sz / 2, -sz / 2, sz, sz);
-            } else {
-                ctx.beginPath();
-                ctx.arc(p.x, p.y, sz, 0, Math.PI * 2);
-                ctx.fill();
-            }
-            ctx.restore();
+            alive.push(p);
+            if (!groups[p.color]) groups[p.color] = [];
+            groups[p.color].push(p);
         }
 
-        // Draw short connection lines between nearby particles (circuit feel)
-        ctx.save();
-        var len = particles.length;
+        // Draw each color group in one path (no per-particle save/restore)
+        for (var col in groups) {
+            var grp = groups[col];
+            ctx.fillStyle = col;
+            for (var j = 0; j < grp.length; j++) {
+                var p = grp[j];
+                var sz = p.size * p.life;
+                ctx.globalAlpha = p.life * 0.85;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, sz, 0, 6.2832);
+                ctx.fill();
+            }
+        }
+        return alive;
+    }
+
+    // Connection lines: only check up to 30 nearest pairs to cap O(n²) cost
+    var LINK_DIST_SQ = 45 * 45;
+    function drawLines(alive) {
+        ctx.lineWidth   = 0.7;
+        ctx.shadowBlur  = 0;
+        var len = Math.min(alive.length, 30); // cap pairs
         for (var a = 0; a < len - 1; a++) {
+            var pa = alive[a];
             for (var b = a + 1; b < len; b++) {
-                var pa = particles[a], pb = particles[b];
+                var pb = alive[b];
                 var dx = pa.x - pb.x, dy = pa.y - pb.y;
-                var dist = Math.sqrt(dx * dx + dy * dy);
-                if (dist < 55) {
-                    var lineAlpha = (1 - dist / 55) * Math.min(pa.life, pb.life) * 0.4;
-                    ctx.globalAlpha  = lineAlpha;
-                    ctx.strokeStyle  = pa.color;
-                    ctx.shadowBlur   = 4;
-                    ctx.shadowColor  = pa.color;
-                    ctx.lineWidth    = 0.8;
+                var dSq = dx * dx + dy * dy;
+                if (dSq < LINK_DIST_SQ) {
+                    var lineAlpha = (1 - dSq / LINK_DIST_SQ) * Math.min(pa.life, pb.life) * 0.3;
+                    ctx.globalAlpha = lineAlpha;
+                    ctx.strokeStyle = pa.color;
                     ctx.beginPath();
                     ctx.moveTo(pa.x, pa.y);
                     ctx.lineTo(pb.x, pb.y);
@@ -2724,8 +2722,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
         }
-        ctx.restore();
+    }
 
+    function draw() {
+        ctx.clearRect(0, 0, W, H);
+        ctx.shadowBlur = 0; // keep shadow OFF globally for perf
+
+        if (spawnPending) {
+            spawn(spawnX, spawnY, false);
+            spawnPending = false;
+        }
+
+        var alive = drawParticlesBatched();
+        if (alive.length > 1) drawLines(alive);
+
+        ctx.globalAlpha = 1;
         requestAnimationFrame(draw);
     }
     draw();
