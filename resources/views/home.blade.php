@@ -2611,140 +2611,119 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <script>
-// Tech particle trail effect (optimized: no shadowBlur per-particle, batched by color, limited connections)
+// Tech network effect — floating nodes + connection lines, mouse highlight
+// No shadowBlur, throttled 30fps, squared-distance, no particle spawn/cleanup
 (function () {
     var canvas = document.getElementById('bk-tech-canvas');
     if (!canvas) return;
-    var ctx = canvas.getContext('2d');
+    var ctx = canvas.getContext('2d', { alpha: true });
     var W = 0, H = 0;
-    var particles = [];
-    var MAX_P = 60; // reduced cap for perf
+    var N = 70;
+    var LINK_SQ = 140 * 140;
+    var MOUSE_SQ = 170 * 170;
+    var nodes = [];
+    var mx = -9999, my = -9999;
+    var lastTs = 0, FRAME = 1000 / 30;
 
     function resize() {
         W = canvas.width  = window.innerWidth;
         H = canvas.height = window.innerHeight;
     }
     resize();
-    window.addEventListener('resize', resize);
+    window.addEventListener('resize', function () { resize(); init(); });
 
-    // Pre-computed RGBA color strings with alpha placeholder
-    var COLORS = ['#E8612D', '#FF8C42', '#FFB347', '#ffffff', '#00d4ff'];
-    var WEIGHTS = [40, 25, 15, 15, 5];
-    function randColor() {
-        var r = Math.random() * 100, acc = 0;
-        for (var i = 0; i < COLORS.length; i++) {
-            acc += WEIGHTS[i];
-            if (r < acc) return COLORS[i];
-        }
-        return COLORS[0];
+    var COLS = ['#E8612D','#FF8C42','#ffffff','#00d4ff'];
+    function rCol() {
+        var r = Math.random();
+        return r < 0.50 ? COLS[0] : r < 0.75 ? COLS[1] : r < 0.90 ? COLS[2] : COLS[3];
     }
 
-    // Throttle spawn: only once per animation frame via flag
-    var spawnX = -999, spawnY = -999, spawnPending = false;
-
-    function spawn(x, y, burst) {
-        var count = burst ? 5 : 1;
-        for (var i = 0; i < count; i++) {
-            if (particles.length >= MAX_P) break;
-            var angle = Math.random() * Math.PI * 2;
-            var speed = 0.5 + Math.random() * 1.2;
-            particles.push({
-                x: x + (Math.random() - 0.5) * 8,
-                y: y + (Math.random() - 0.5) * 8,
-                vx: Math.cos(angle) * speed,
-                vy: Math.sin(angle) * speed - 0.3,
-                life: 1,
-                decay: 0.022 + Math.random() * 0.028,
-                size: 1.5 + Math.random() * 2.5,
-                color: randColor()
+    function init() {
+        nodes = [];
+        for (var i = 0; i < N; i++) {
+            var a = Math.random() * Math.PI * 2;
+            var s = 0.12 + Math.random() * 0.28;
+            nodes.push({
+                x: Math.random() * W, y: Math.random() * H,
+                vx: Math.cos(a) * s,  vy: Math.sin(a) * s,
+                r: 1.5 + Math.random() * 1.5,
+                color: rCol(),
+                phase: Math.random() * Math.PI * 2
             });
         }
     }
+    init();
 
-    document.addEventListener('mousemove', function (e) {
-        spawnX = e.clientX; spawnY = e.clientY;
-        spawnPending = true;
-    });
+    document.addEventListener('mousemove', function (e) { mx = e.clientX; my = e.clientY; });
+    document.addEventListener('mouseleave', function () { mx = -9999; my = -9999; });
 
-    // Batch particles by color to minimize state changes
-    function drawParticlesBatched() {
-        // Group by color
-        var groups = {};
-        var alive = [];
-        for (var i = particles.length - 1; i >= 0; i--) {
-            var p = particles[i];
-            p.x  += p.vx;
-            p.y  += p.vy;
-            p.vy += 0.035;
-            p.life -= p.decay;
-            if (p.life <= 0) { particles.splice(i, 1); continue; }
-            alive.push(p);
-            if (!groups[p.color]) groups[p.color] = [];
-            groups[p.color].push(p);
+    function draw(ts) {
+        requestAnimationFrame(draw);
+        if (ts - lastTs < FRAME) return;
+        lastTs = ts;
+
+        ctx.clearRect(0, 0, W, H);
+
+        var i, j, n, dx, dy, dSq, alpha;
+
+        // Move nodes (wrap edges)
+        for (i = 0; i < N; i++) {
+            n = nodes[i];
+            n.x += n.vx; n.y += n.vy; n.phase += 0.025;
+            if (n.x < 0) n.x += W; else if (n.x > W) n.x -= W;
+            if (n.y < 0) n.y += H; else if (n.y > H) n.y -= H;
         }
 
-        // Draw each color group in one path (no per-particle save/restore)
-        for (var col in groups) {
-            var grp = groups[col];
-            ctx.fillStyle = col;
-            for (var j = 0; j < grp.length; j++) {
-                var p = grp[j];
-                var sz = p.size * p.life;
-                ctx.globalAlpha = p.life * 0.85;
-                ctx.beginPath();
-                ctx.arc(p.x, p.y, sz, 0, 6.2832);
-                ctx.fill();
-            }
-        }
-        return alive;
-    }
-
-    // Connection lines: only check up to 30 nearest pairs to cap O(n²) cost
-    var LINK_DIST_SQ = 45 * 45;
-    function drawLines(alive) {
-        ctx.lineWidth   = 0.7;
-        ctx.shadowBlur  = 0;
-        var len = Math.min(alive.length, 30); // cap pairs
-        for (var a = 0; a < len - 1; a++) {
-            var pa = alive[a];
-            for (var b = a + 1; b < len; b++) {
-                var pb = alive[b];
-                var dx = pa.x - pb.x, dy = pa.y - pb.y;
-                var dSq = dx * dx + dy * dy;
-                if (dSq < LINK_DIST_SQ) {
-                    var lineAlpha = (1 - dSq / LINK_DIST_SQ) * Math.min(pa.life, pb.life) * 0.3;
-                    ctx.globalAlpha = lineAlpha;
-                    ctx.strokeStyle = pa.color;
+        // Node–node connections
+        ctx.lineWidth = 0.7;
+        for (i = 0; i < N - 1; i++) {
+            var a = nodes[i];
+            for (j = i + 1; j < N; j++) {
+                var b = nodes[j];
+                dx = a.x - b.x; dy = a.y - b.y;
+                dSq = dx*dx + dy*dy;
+                if (dSq < LINK_SQ) {
+                    alpha = (1 - dSq / LINK_SQ) * 0.3;
+                    ctx.globalAlpha = alpha;
+                    ctx.strokeStyle = a.color;
                     ctx.beginPath();
-                    ctx.moveTo(pa.x, pa.y);
-                    ctx.lineTo(pb.x, pb.y);
+                    ctx.moveTo(a.x, a.y);
+                    ctx.lineTo(b.x, b.y);
                     ctx.stroke();
                 }
             }
         }
-    }
 
-    function draw() {
-        ctx.clearRect(0, 0, W, H);
-        ctx.shadowBlur = 0; // keep shadow OFF globally for perf
-
-        if (spawnPending) {
-            spawn(spawnX, spawnY, false);
-            spawnPending = false;
+        // Mouse → nearby node connections
+        ctx.strokeStyle = '#E8612D';
+        ctx.lineWidth   = 0.9;
+        for (i = 0; i < N; i++) {
+            n = nodes[i];
+            dx = n.x - mx; dy = n.y - my;
+            dSq = dx*dx + dy*dy;
+            if (dSq < MOUSE_SQ) {
+                ctx.globalAlpha = (1 - dSq / MOUSE_SQ) * 0.65;
+                ctx.beginPath();
+                ctx.moveTo(mx, my);
+                ctx.lineTo(n.x, n.y);
+                ctx.stroke();
+            }
         }
 
-        var alive = drawParticlesBatched();
-        if (alive.length > 1) drawLines(alive);
+        // Draw nodes (pulse via sin)
+        for (i = 0; i < N; i++) {
+            n = nodes[i];
+            var pulse = 0.55 + 0.45 * Math.sin(n.phase);
+            ctx.globalAlpha = pulse;
+            ctx.fillStyle   = n.color;
+            ctx.beginPath();
+            ctx.arc(n.x, n.y, n.r * (0.85 + pulse * 0.3), 0, Math.PI * 2);
+            ctx.fill();
+        }
 
         ctx.globalAlpha = 1;
-        requestAnimationFrame(draw);
     }
-    draw();
-
-    // Click burst
-    document.addEventListener('click', function (e) {
-        spawn(e.clientX, e.clientY, true);
-    });
+    requestAnimationFrame(draw);
 })();
 </script>
 
