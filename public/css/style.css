@@ -130,6 +130,27 @@ h1, h2, h3, h4, h5, h6,
     100% { transform: translateX(-50%); }
 }
 
+/* === Footer map image === */
+#media_image-3 { text-align: center; }
+.bk-footer-map {
+    width: 100% !important;
+    max-width: 480px !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+@media (max-width: 768px) {
+    .bk-footer-map {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    #media_image-3 {
+        padding: 0 0 16px;
+        width: 100% !important;
+    }
+}
+
 /* === Map slider mobile fix === */
 /* Mobile: hide RevSlider, show static map */
 .bk-map-mobile { display: none; }
