@@ -209,6 +209,24 @@ h1, h2, h3, h4, h5, h6,
     display: block;
 }
 
+/* === Slide 2 hero text: "Công Nghệ Dẫn Đầu" — orange-red gradient + black outline === */
+/* RevSlider injects inline color:white on split-text divs; !important overrides them */
+#slider-1-slide-2-layer-1 .rs_splitted_chars {
+    background: linear-gradient(135deg, #FF6B35 0%, #E8612D 50%, #C0392B 100%) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    color: transparent !important;
+    -webkit-text-stroke: 1.5px #111111 !important;
+    paint-order: stroke fill; /* stroke behind fill so gradient isn't obscured */
+}
+/* Also override the word-wrapper inline color so it doesn't bleed through */
+#slider-1-slide-2-layer-1 .rs_splitted_words {
+    color: transparent !important;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-text-stroke: 1.5px #111111 !important;
+}
+
 /* =====================================================
    BACH KHOA DIGITAL – Màu Đỏ Cam Gradient Override
    Thay toàn bộ màu vàng/amber thành đỏ cam gradient
