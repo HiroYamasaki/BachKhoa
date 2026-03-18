@@ -2326,7 +2326,7 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 	<div class="mkd-footer-top-inner mkd-grid">
 		<div class="mkd-grid-row mkd-footer-top-alignment-left">
 							<div class="mkd-column-content mkd-grid-col-3">
-					<div id="media_image-2" class="widget mkd-footer-column-1 widget_media_image"><a href="/"><img src="{{ asset('images/logo.jpg') }}" alt="Bach Khoa Digital" loading="lazy" style="max-width: 100%; height: 100px; width: auto; object-fit: contain; margin-left: 20px;" /></a></div><div id="text-3" class="widget mkd-footer-column-1 widget_text">			<div class="textwidget"><p>Giải pháp chuyển đổi số toàn diện, giúp doanh nghiệp Việt Nam phát triển bền vững trong kỷ nguyên số.</p>
+					<div id="media_image-2" class="widget mkd-footer-column-1 widget_media_image"><a href="/"><img src="{{ asset('images/logo.jpg') }}" alt="Bach Khoa Digital" loading="lazy" style="max-width: 100%; height: 100px; width: auto; object-fit: contain; display: block; margin: 0 auto;" /></a></div><div id="text-3" class="widget mkd-footer-column-1 widget_text">			<div class="textwidget"><p>Giải pháp chuyển đổi số toàn diện, giúp doanh nghiệp Việt Nam phát triển bền vững trong kỷ nguyên số.</p>
 </div>
 		</div>		
 		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 15px;margin: 8px 0 0;" href="https://twitter.com/QodeInteractive" target="_blank">
