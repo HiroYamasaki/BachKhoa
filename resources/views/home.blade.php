@@ -3,10 +3,10 @@
 <html lang="vi">
 <head>
 				
-			<meta property="og:url" content="https://baumeister.qodeinteractive.com/"/>
+			<!-- <meta property="og:url" content="https://baumeister.qodeinteractive.com/"/> -->
 			<meta property="og:type" content="article"/>
 			<meta property="og:title" content="Main Home"/>
-			<meta property="og:description" content="A Powerful Theme for Industry and Manufacturing"/>
+			<meta property="og:description" content="Cung cấp giải pháp công nghệ mang lại hiệu quả cho Khách hàng"/>
 			<meta property="og:image" content=""/>
 		
 				
@@ -14,7 +14,7 @@
 		<link rel="profile" href="https://gmpg.org/xfn/11" />
 			
 				<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
-		<title>Baumeister &#8211; A Powerful Theme for Industry and Manufacturing</title>
+		<title>Bách Khoa JSC &#8211; Cung cấp giải pháp công nghệ mang lại hiệu quả cho Khách hàng</title>
 <meta name='robots' content='max-image-preview:large' />
 
 <link rel='dns-prefetch' href='//export.qodethemes.com' />
@@ -117,10 +117,10 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 <!-- End Google Tag Manager for WordPress by gtm4wp.com -->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
 	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
 <meta name="generator" content="Powered by Slider Revolution 6.6.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-<link rel="icon" href="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/cropped-favicon-img-1-32x32.png" sizes="32x32" />
-<link rel="icon" href="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/cropped-favicon-img-1-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/cropped-favicon-img-1-180x180.png" />
-<meta name="msapplication-TileImage" content="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/cropped-favicon-img-1-270x270.png" />
+<link rel="icon" href="{{ asset('images/logo.jpg') }}" sizes="32x32" />
+<link rel="icon" href="{{ asset('images/logo.jpg') }}" sizes="192x192" />
+<link rel="apple-touch-icon" href="{{ asset('images/logo.jpg') }}" />
+<meta name="msapplication-TileImage" content="{{ asset('images/logo.jpg') }}" />
 
 <noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
 
