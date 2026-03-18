@@ -50,6 +50,17 @@ h1, h2, h3, h4, h5, h6,
     text-shadow: none !important;
 }
 
+/* Dark overlay on slider background images */
+#rev_slider_1_1 rs-slide rs-sbg-wrap::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    pointer-events: none;
+}
+
 /* === Baumeister Mikado WooCommerce === */
 .page-id-385.mkd-header-box .mkd-top-bar-background { background-color: rgba(255, 255, 255, 0);}
 .page-id-385.mkd-boxed .mkd-wrapper { background-attachment: fixed;}
