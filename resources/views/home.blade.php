@@ -2601,34 +2601,48 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <script>
-// Slider titles: orange-red gradient via JS (overrides RevSlider inline styles)
+// Slider titles: per-character gradient from #E8612D (orange) to #C0392B (red)
+// RevSlider splits text into rs_splitted_chars, so background-clip:text won't work.
+// Instead, interpolate color for each character.
 (function() {
     var titleIds = [
         'slider-1-slide-1-layer-1','slider-1-slide-2-layer-1',
         'slider-1-slide-3-layer-1','slider-1-slide-4-layer-1',
         'slider-1-slide-5-layer-1','slider-1-slide-6-layer-1'
     ];
+    var c1 = [232,97,45];   // #E8612D
+    var c2 = [192,57,43];   // #C0392B
+    function lerp(a, b, t) { return Math.round(a + (b - a) * t); }
+    function colorAt(t) {
+        return 'rgb(' + lerp(c1[0],c2[0],t) + ',' + lerp(c1[1],c2[1],t) + ',' + lerp(c1[2],c2[2],t) + ')';
+    }
     function styleTitle(el) {
         if (!el) return;
-        el.style.setProperty('background', 'linear-gradient(135deg, #E8612D 0%, #C0392B 100%)', 'important');
-        el.style.setProperty('-webkit-background-clip', 'text', 'important');
-        el.style.setProperty('background-clip', 'text', 'important');
         el.style.setProperty('text-shadow', 'none', 'important');
-        // Only make text transparent if gradient is actually applied
-        var bg = window.getComputedStyle(el).backgroundImage;
-        if (bg && bg.indexOf('gradient') !== -1) {
-            el.style.setProperty('-webkit-text-fill-color', 'transparent', 'important');
-            el.style.setProperty('color', 'transparent', 'important');
+        var chars = el.querySelectorAll('.rs_splitted_chars');
+        if (chars.length > 0) {
+            var total = chars.length;
+            for (var i = 0; i < total; i++) {
+                var t = total > 1 ? i / (total - 1) : 0;
+                var col = colorAt(t);
+                chars[i].style.setProperty('color', col, 'important');
+                chars[i].style.setProperty('-webkit-text-fill-color', col, 'important');
+            }
+            // Override word-level color too
+            var words = el.querySelectorAll('.rs_splitted_words');
+            for (var j = 0; j < words.length; j++) {
+                words[j].style.setProperty('color', 'inherit', 'important');
+                words[j].style.setProperty('-webkit-text-fill-color', 'inherit', 'important');
+            }
         } else {
-            // Fallback: solid orange-red (never invisible)
-            el.style.setProperty('-webkit-text-fill-color', '#E8612D', 'important');
+            // Not yet split or no split — apply solid fallback
             el.style.setProperty('color', '#E8612D', 'important');
+            el.style.setProperty('-webkit-text-fill-color', '#E8612D', 'important');
         }
     }
     function applyAll() {
         titleIds.forEach(function(id) { styleTitle(document.getElementById(id)); });
     }
-    // Re-apply periodically for 15 seconds to catch RevSlider overrides
     var count = 0;
     var iv = setInterval(function() {
         applyAll();
