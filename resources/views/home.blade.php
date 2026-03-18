@@ -2613,18 +2613,26 @@ document.addEventListener('DOMContentLoaded', function() {
         el.style.setProperty('background', 'linear-gradient(135deg, #E8612D 0%, #C0392B 100%)', 'important');
         el.style.setProperty('-webkit-background-clip', 'text', 'important');
         el.style.setProperty('background-clip', 'text', 'important');
-        el.style.setProperty('-webkit-text-fill-color', 'transparent', 'important');
-        el.style.setProperty('color', 'transparent', 'important');
         el.style.setProperty('text-shadow', 'none', 'important');
+        // Only make text transparent if gradient is actually applied
+        var bg = window.getComputedStyle(el).backgroundImage;
+        if (bg && bg.indexOf('gradient') !== -1) {
+            el.style.setProperty('-webkit-text-fill-color', 'transparent', 'important');
+            el.style.setProperty('color', 'transparent', 'important');
+        } else {
+            // Fallback: solid orange-red (never invisible)
+            el.style.setProperty('-webkit-text-fill-color', '#E8612D', 'important');
+            el.style.setProperty('color', '#E8612D', 'important');
+        }
     }
     function applyAll() {
         titleIds.forEach(function(id) { styleTitle(document.getElementById(id)); });
     }
-    // Re-apply periodically for 10 seconds to catch RevSlider overrides, then stop
+    // Re-apply periodically for 15 seconds to catch RevSlider overrides
     var count = 0;
     var iv = setInterval(function() {
         applyAll();
-        if (++count > 40) clearInterval(iv);
+        if (++count > 60) clearInterval(iv);
     }, 250);
     window.addEventListener('load', applyAll);
 })();
