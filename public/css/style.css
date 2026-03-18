@@ -502,9 +502,11 @@ a.mkd-btn.mkd-btn-solid:hover,
 .mkd-post-info-category a:link,
 .mkd-post-info-category a:visited {
     color: #E8612D !important;
+    -webkit-text-fill-color: #E8612D !important;
 }
 .mkd-post-info-category a:hover {
     color: #C0392B !important;
+    -webkit-text-fill-color: #C0392B !important;
 }
 
 /* --- Post info: author link --- */
@@ -631,6 +633,7 @@ html body .mkd-post-info-category a:visited,
 html body .mkd-post-info-category a:hover,
 html body .mkd-post-info-category a:focus {
     color: #E8612D !important;
+    -webkit-text-fill-color: #E8612D !important;
 }
 
 html body .mkd-post-info-author .mkd-post-info-author-link,
