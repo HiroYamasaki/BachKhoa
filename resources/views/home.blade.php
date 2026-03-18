@@ -2114,22 +2114,22 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
     <div class="bk-partners-track-wrapper">
         <div class="bk-partners-track">
             <a href="#" class="bk-partner-item"><img src="{{ asset('images/partners/premium-line.png') }}" alt="Premium Line"></a>
-            <a href="#" class="bk-partner-item"><img src="{{ asset('images/partners/biamp.webp') }}" alt="Biamp"></a>
+            <a href="#" class="bk-partner-item"><img src="{{ asset('images/partners/biamp.png') }}" alt="Biamp"></a>
             <a href="https://bachkhoadigital.vn/may-chieu-led-viewsonic-a1017624/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/viewsonic.png') }}" alt="Viewsonic"></a>
             <a href="#" class="bk-partner-item"><img src="{{ asset('images/partners/zkteco.png') }}" alt="ZKTeco"></a>
             <a href="https://bachkhoadigital.vn/giai-phap-thiet-bi-khoa-hoc-phong-multimedia-lab-a546839/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/multimedia-lab.png') }}" alt="Multimedia Lab"></a>
-            <a href="https://bachkhoadigital.vn/may-chieu-da-nang-boxlight-my-a559880/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/boxlight.jpg') }}" alt="Boxlight"></a>
-            <a href="https://bachkhoadigital.vn/he-thong-am-thanh-yamaha-a636450/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/yamaha.jpg') }}" alt="Yamaha"></a>
+            <a href="https://bachkhoadigital.vn/may-chieu-da-nang-boxlight-my-a559880/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/boxlight.png') }}" alt="Boxlight"></a>
+            <a href="https://bachkhoadigital.vn/he-thong-am-thanh-yamaha-a636450/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/yamaha.png') }}" alt="Yamaha"></a>
             <a href="https://bachkhoadigital.vn/am-thanh-thong-bao-pa-system-a654232/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/bosch.png') }}" alt="Bosch"></a>
             <a href="https://bachkhoadigital.vn/nha-thong-minh-smart-home-a654235/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/jablotron.png') }}" alt="Jablotron"></a>
             <!-- duplicate for seamless loop -->
             <a href="#" class="bk-partner-item"><img src="{{ asset('images/partners/premium-line.png') }}" alt="Premium Line"></a>
-            <a href="#" class="bk-partner-item"><img src="{{ asset('images/partners/biamp.webp') }}" alt="Biamp"></a>
+            <a href="#" class="bk-partner-item"><img src="{{ asset('images/partners/biamp.png') }}" alt="Biamp"></a>
             <a href="https://bachkhoadigital.vn/may-chieu-led-viewsonic-a1017624/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/viewsonic.png') }}" alt="Viewsonic"></a>
             <a href="#" class="bk-partner-item"><img src="{{ asset('images/partners/zkteco.png') }}" alt="ZKTeco"></a>
             <a href="https://bachkhoadigital.vn/giai-phap-thiet-bi-khoa-hoc-phong-multimedia-lab-a546839/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/multimedia-lab.png') }}" alt="Multimedia Lab"></a>
-            <a href="https://bachkhoadigital.vn/may-chieu-da-nang-boxlight-my-a559880/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/boxlight.jpg') }}" alt="Boxlight"></a>
-            <a href="https://bachkhoadigital.vn/he-thong-am-thanh-yamaha-a636450/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/yamaha.jpg') }}" alt="Yamaha"></a>
+            <a href="https://bachkhoadigital.vn/may-chieu-da-nang-boxlight-my-a559880/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/boxlight.png') }}" alt="Boxlight"></a>
+            <a href="https://bachkhoadigital.vn/he-thong-am-thanh-yamaha-a636450/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/yamaha.png') }}" alt="Yamaha"></a>
             <a href="https://bachkhoadigital.vn/am-thanh-thong-bao-pa-system-a654232/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/bosch.png') }}" alt="Bosch"></a>
             <a href="https://bachkhoadigital.vn/nha-thong-minh-smart-home-a654235/" class="bk-partner-item" target="_blank"><img src="{{ asset('images/partners/jablotron.png') }}" alt="Jablotron"></a>
         </div>
