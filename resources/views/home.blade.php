@@ -131,28 +131,64 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
     width: 10px; height: 10px; border-radius: 50%;
     background: #E8612D;
     transform: translate(-50%,-50%);
-    transition: width .15s ease, height .15s ease, background .2s ease, opacity .2s ease;
-    mix-blend-mode: normal;
+    transition: width .15s ease, height .15s ease, background .2s ease, opacity .2s ease, border-radius .15s ease;
 }
 #bk-cursor-ring {
     position: fixed; top: 0; left: 0; pointer-events: none; z-index: 99998;
     width: 36px; height: 36px; border-radius: 50%;
     border: 2px solid #E8612D;
     transform: translate(-50%,-50%);
-    transition: width .35s cubic-bezier(.25,.46,.45,.94), height .35s cubic-bezier(.25,.46,.45,.94), border-color .2s ease, background .2s ease, opacity .2s ease;
+    transition: width .35s cubic-bezier(.25,.46,.45,.94), height .35s cubic-bezier(.25,.46,.45,.94), border-color .2s ease, background .2s ease, opacity .2s ease, border-width .2s ease;
     opacity: 0.7;
 }
-/* states */
+/* --- state: link thường --- */
 body.cursor--link #bk-cursor-dot { width: 6px; height: 6px; background: #fff; }
-body.cursor--link #bk-cursor-ring { width: 56px; height: 56px; border-color: #E8612D; background: rgba(232,97,45,0.12); }
+body.cursor--link #bk-cursor-ring { width: 52px; height: 52px; border-color: #E8612D; background: rgba(232,97,45,0.10); }
+/* --- state: button mkd-btn --- */
+body.cursor--btn #bk-cursor-dot {
+    width: 48px; height: 48px;
+    background: rgba(232,97,45,0.18);
+    border-radius: 50%;
+    border: 2px solid #E8612D;
+}
+body.cursor--btn #bk-cursor-ring {
+    width: 68px; height: 68px;
+    border-color: #C0392B;
+    border-width: 3px;
+    background: rgba(192,57,43,0.08);
+    opacity: 1;
+}
+/* ripple on btn click */
+#bk-cursor-dot.bk-click {
+    animation: bk-ripple .45s ease-out forwards;
+}
+@keyframes bk-ripple {
+    0%   { transform: translate(-50%,-50%) scale(1); opacity: 1; }
+    60%  { transform: translate(-50%,-50%) scale(2.2); opacity: 0.3; }
+    100% { transform: translate(-50%,-50%) scale(1); opacity: 1; }
+}
+/* --- state: menu item --- */
+body.cursor--menu #bk-cursor-dot {
+    width: 6px; height: 6px;
+    background: #E8612D;
+}
+body.cursor--menu #bk-cursor-ring {
+    width: 44px; height: 44px;
+    border-color: transparent;
+    background: rgba(232,97,45,0.22);
+    opacity: 1;
+    border-width: 0;
+}
+/* --- state: partner logo --- */
 body.cursor--partner #bk-cursor-dot { width: 8px; height: 8px; background: #fff; }
 body.cursor--partner #bk-cursor-ring { width: 70px; height: 70px; border-color: #fff; background: rgba(255,255,255,0.08); }
+/* --- state: slider/banner --- */
 body.cursor--slider #bk-cursor-dot { width: 12px; height: 12px; background: #E8612D; }
 body.cursor--slider #bk-cursor-ring { width: 60px; height: 60px; border-color: rgba(232,97,45,0.5); background: rgba(232,97,45,0.07); }
-body.cursor--text #bk-cursor-dot { width: 4px; height: 28px; border-radius: 2px; background: #E8612D; }
+/* --- state: text --- */
+body.cursor--text #bk-cursor-dot { width: 3px; height: 26px; border-radius: 2px; background: #E8612D; }
 body.cursor--text #bk-cursor-ring { width: 0; height: 0; opacity: 0; }
-body.cursor--btn #bk-cursor-dot { width: 44px; height: 44px; background: rgba(232,97,45,0.25); border-radius: 50%; }
-body.cursor--btn #bk-cursor-ring { width: 54px; height: 54px; border-color: #E8612D; }
+/* --- state: image --- */
 body.cursor--img #bk-cursor-dot { width: 14px; height: 14px; background: #fff; border-radius: 50%; }
 body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba(255,255,255,0.6); background: rgba(255,255,255,0.04); }
 </style>
@@ -2499,47 +2535,57 @@ document.addEventListener('DOMContentLoaded', function() {
     animateRing();
 
     var body = document.body;
+    var ALL_STATES = 'cursor--link cursor--partner cursor--slider cursor--text cursor--btn cursor--img cursor--menu';
     function clearState(){
-        body.classList.remove('cursor--link','cursor--partner','cursor--slider','cursor--text','cursor--btn','cursor--img');
+        body.classList.remove.apply(body.classList, ALL_STATES.split(' '));
     }
 
-    // Buttons / links
-    document.querySelectorAll('a, button, .mkd-btn').forEach(function(el){
-        el.addEventListener('mouseenter', function(){ clearState(); body.classList.add('cursor--link'); });
+    function bindCursor(selector, state, moreSpecific){
+        document.querySelectorAll(selector).forEach(function(el){
+            el.addEventListener('mouseenter', function(e){ e.stopPropagation(); clearState(); body.classList.add('cursor--' + state); });
+            el.addEventListener('mouseleave', clearState);
+        });
+    }
+
+    // Priority order: most specific first
+
+    // 1. mkd-btn buttons — ripple on click
+    document.querySelectorAll('.mkd-btn, .mkd-btn-solid, .mkd-btn-medium').forEach(function(el){
+        el.addEventListener('mouseenter', function(e){ e.stopPropagation(); clearState(); body.classList.add('cursor--btn'); });
+        el.addEventListener('mouseleave', clearState);
+        el.addEventListener('click', function(){
+            dot.classList.remove('bk-click');
+            void dot.offsetWidth;
+            dot.classList.add('bk-click');
+            setTimeout(function(){ dot.classList.remove('bk-click'); }, 500);
+        });
+    });
+
+    // 2. Menu items — spotlight fill effect
+    document.querySelectorAll('.mkd-main-menu > ul > li > a, .mkd-main-menu > ul > li, nav.mkd-main-menu a').forEach(function(el){
+        el.addEventListener('mouseenter', function(e){ e.stopPropagation(); clearState(); body.classList.add('cursor--menu'); });
         el.addEventListener('mouseleave', clearState);
     });
 
-    // Partner logos
-    document.querySelectorAll('.bk-partner-item').forEach(function(el){
-        el.addEventListener('mouseenter', function(){ clearState(); body.classList.add('cursor--partner'); });
-        el.addEventListener('mouseleave', clearState);
-    });
+    // 3. Partner logos
+    bindCursor('.bk-partner-item', 'partner');
 
-    // Sliders / banners
-    document.querySelectorAll('.rev_slider_wrapper, .mkd-eh-item, rs-module-wrap, .tp-banner').forEach(function(el){
-        el.addEventListener('mouseenter', function(){ clearState(); body.classList.add('cursor--slider'); });
-        el.addEventListener('mouseleave', clearState);
-    });
+    // 4. Sliders / banners
+    bindCursor('.rev_slider_wrapper, .mkd-eh-item, rs-module-wrap', 'slider');
 
-    // Images (not inside partner/banner)
-    document.querySelectorAll('.mkd-si-inner img, .mkd-footer-top-holder img').forEach(function(el){
-        el.addEventListener('mouseenter', function(){ clearState(); body.classList.add('cursor--img'); });
-        el.addEventListener('mouseleave', clearState);
-    });
+    // 5. Images
+    bindCursor('.mkd-si-inner img, .mkd-footer-top-holder img', 'img');
 
-    // Text / paragraphs
-    document.querySelectorAll('p, h1, h2, h3, h4').forEach(function(el){
-        el.addEventListener('mouseenter', function(){ clearState(); body.classList.add('cursor--text'); });
-        el.addEventListener('mouseleave', clearState);
-    });
+    // 6. Headings
+    bindCursor('h1, h2, h3, h4', 'text');
 
-    // Buttons specifically
-    document.querySelectorAll('.mkd-btn, [class*="btn"], input[type=submit]').forEach(function(el){
-        el.addEventListener('mouseenter', function(){ clearState(); body.classList.add('cursor--btn'); });
-        el.addEventListener('mouseleave', clearState);
-    });
+    // 7. Paragraphs
+    bindCursor('p', 'text');
 
-    // Hide when window loses focus
+    // 8. Links (lowest priority)
+    bindCursor('a, button', 'link');
+
+    // Hide when mouse leaves window
     document.addEventListener('mouseleave', function(){ dot.style.opacity='0'; ring.style.opacity='0'; });
     document.addEventListener('mouseenter', function(){ dot.style.opacity='1'; ring.style.opacity='0.7'; });
 })();
