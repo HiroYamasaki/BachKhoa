@@ -2618,7 +2618,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     function styleTitle(el) {
         if (!el) return;
-        el.style.setProperty('text-shadow', 'none', 'important');
+        el.style.setProperty('text-shadow', '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000', 'important');
         var chars = el.querySelectorAll('.rs_splitted_chars');
         if (chars.length > 0) {
             var total = chars.length;
@@ -2627,6 +2627,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 var col = colorAt(t);
                 chars[i].style.setProperty('color', col, 'important');
                 chars[i].style.setProperty('-webkit-text-fill-color', col, 'important');
+                chars[i].style.setProperty('text-shadow', '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000', 'important');
             }
             // Override word-level color too
             var words = el.querySelectorAll('.rs_splitted_words');
