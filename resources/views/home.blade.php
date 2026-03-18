@@ -1551,8 +1551,8 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 
 		<div class="mkd-eh-item-content mkd-eh-custom-1017" style="padding: 20px 20px">
 			<div class="mkd-single-image-holder   ">
-    <div class="mkd-si-inner" style="background-image: url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-3.jpg)">
-                                    <img width="584" height="430" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-3.jpg" class="attachment-full size-full" alt="a" loading="lazy" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-3.jpg 584w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-3-300x221.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />                        </div>
+    <div class="mkd-si-inner" style="background-image: url({{ asset('images/clc.jpg') }});height:280px;overflow:hidden;background-size:cover;background-position:center;">
+                                    <img src="{{ asset('images/clc.jpg') }}" class="attachment-full size-full" alt="Chất Lượng Cao" loading="lazy" style="width:100%;height:280px;object-fit:cover;display:block;" />                        </div>
 </div>		</div>
 
 	</div>
@@ -1579,8 +1579,8 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 
 		<div class="mkd-eh-item-content mkd-eh-custom-3038" style="padding: 20px 20px">
 			<div class="mkd-single-image-holder   ">
-    <div class="mkd-si-inner" style="background-image: url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-4.jpg)">
-                                    <img width="584" height="430" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-4.jpg" class="attachment-full size-full" alt="a" loading="lazy" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-4.jpg 584w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-4-300x221.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />                        </div>
+    <div class="mkd-si-inner" style="background-image: url({{ asset('images/cds.webp') }});height:280px;overflow:hidden;background-size:cover;background-position:center;">
+                                    <img src="{{ asset('images/cds.webp') }}" class="attachment-full size-full" alt="Chuyển Đổi Số" loading="lazy" style="width:100%;height:280px;object-fit:cover;display:block;" />                        </div>
 </div>		</div>
 
 	</div>
@@ -1607,8 +1607,8 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
 
 		<div class="mkd-eh-item-content mkd-eh-custom-5244" style="padding: 20px 20px">
 			<div class="mkd-single-image-holder   ">
-    <div class="mkd-si-inner" style="background-image: url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-5.jpg)">
-                                    <img width="584" height="430" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-5.jpg" class="attachment-full size-full" alt="a" loading="lazy" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-5.jpg 584w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/h1-img-5-300x221.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />                        </div>
+    <div class="mkd-si-inner" style="background-image: url({{ asset('images/tkn.jpg') }});height:280px;overflow:hidden;background-size:cover;background-position:center;">
+                                    <img src="{{ asset('images/tkn.jpg') }}" class="attachment-full size-full" alt="Triển Khai Nhanh" loading="lazy" style="width:100%;height:280px;object-fit:cover;display:block;" />                        </div>
 </div>		</div>
 
 	</div>
