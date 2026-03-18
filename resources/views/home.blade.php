@@ -2643,6 +2643,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     function applyAll() {
         titleIds.forEach(function(id) { styleTitle(document.getElementById(id)); });
+        // Add dark blur backdrop to both title and subtitle layers
+        for (var s = 1; s <= 6; s++) {
+            var l1 = document.getElementById('slider-1-slide-' + s + '-layer-1');
+            var l2 = document.getElementById('slider-1-slide-' + s + '-layer-2');
+            [l1, l2].forEach(function(el) {
+                if (!el) return;
+                var wrap = el.closest('rs-layer-wrap');
+                if (wrap && !wrap.dataset.bkBackdrop) {
+                    wrap.dataset.bkBackdrop = '1';
+                    wrap.style.setProperty('background', 'rgba(0,0,0,0.35)', 'important');
+                    wrap.style.setProperty('border-radius', '8px', 'important');
+                    wrap.style.setProperty('padding', '8px 16px', 'important');
+                    wrap.style.setProperty('backdrop-filter', 'blur(4px)', 'important');
+                    wrap.style.setProperty('-webkit-backdrop-filter', 'blur(4px)', 'important');
+                }
+            });
+        }
     }
     var count = 0;
     var iv = setInterval(function() {
