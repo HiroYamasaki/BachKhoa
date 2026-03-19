@@ -58,6 +58,75 @@
 			}
 		</style>
 	</noscript>
+<style>
+/* ===== CUSTOM CURSOR ===== */
+*, *::before, *::after { cursor: none !important; }
+#bk-cursor-dot {
+    position: fixed; top: 0; left: 0; pointer-events: none; z-index: 99999;
+    width: 10px; height: 10px; border-radius: 50%;
+    background: #E8612D;
+    transform: translate(-50%,-50%);
+    transition: width .15s ease, height .15s ease, background .2s ease, opacity .2s ease, border-radius .15s ease;
+}
+#bk-cursor-ring {
+    position: fixed; top: 0; left: 0; pointer-events: none; z-index: 99998;
+    width: 36px; height: 36px; border-radius: 50%;
+    border: 2px solid #E8612D;
+    transform: translate(-50%,-50%);
+    transition: width .35s cubic-bezier(.25,.46,.45,.94), height .35s cubic-bezier(.25,.46,.45,.94), border-color .2s ease, background .2s ease, opacity .2s ease, border-width .2s ease;
+    opacity: 0.7;
+}
+body.cursor--link #bk-cursor-dot { width: 6px; height: 6px; background: #fff; }
+body.cursor--link #bk-cursor-ring { width: 52px; height: 52px; border-color: #E8612D; background: rgba(232,97,45,0.10); }
+body.cursor--btn #bk-cursor-dot {
+    width: 48px; height: 48px;
+    background: rgba(232,97,45,0.18);
+    border-radius: 50%;
+    border: 2px solid #E8612D;
+}
+body.cursor--btn #bk-cursor-ring {
+    width: 68px; height: 68px;
+    border-color: #C0392B;
+    border-width: 3px;
+    background: rgba(192,57,43,0.08);
+    opacity: 1;
+}
+#bk-cursor-dot.bk-click {
+    animation: bk-ripple .45s ease-out forwards;
+}
+@keyframes bk-ripple {
+    0%   { transform: translate(-50%,-50%) scale(1); opacity: 1; }
+    60%  { transform: translate(-50%,-50%) scale(2.2); opacity: 0.3; }
+    100% { transform: translate(-50%,-50%) scale(1); opacity: 1; }
+}
+body.cursor--menu #bk-cursor-dot {
+    width: 6px; height: 6px;
+    background: #E8612D;
+}
+body.cursor--menu #bk-cursor-ring {
+    width: 44px; height: 44px;
+    border-color: transparent;
+    background: rgba(232,97,45,0.22);
+    opacity: 1;
+    border-width: 0;
+}
+body.cursor--partner #bk-cursor-dot { width: 8px; height: 8px; background: #fff; }
+body.cursor--partner #bk-cursor-ring { width: 70px; height: 70px; border-color: #fff; background: rgba(255,255,255,0.08); }
+body.cursor--slider #bk-cursor-dot { width: 12px; height: 12px; background: #E8612D; }
+body.cursor--slider #bk-cursor-ring { width: 60px; height: 60px; border-color: rgba(232,97,45,0.5); background: rgba(232,97,45,0.07); }
+body.cursor--text #bk-cursor-dot { width: 3px; height: 26px; border-radius: 2px; background: #E8612D; }
+body.cursor--text #bk-cursor-ring { width: 0; height: 0; opacity: 0; }
+body.cursor--img #bk-cursor-dot { width: 14px; height: 14px; background: #fff; border-radius: 50%; }
+body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba(255,255,255,0.6); background: rgba(255,255,255,0.04); }
+/* ===== TECH PARTICLE CANVAS ===== */
+#bk-tech-canvas {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 99997;
+}
+</style>
 </head>
 
 <body class="page-template page-template-full-width page-template-full-width-php page page-id-521 theme-baumeister mkd-core-1.2.3 woocommerce-no-js baumeister-ver-1.6 mkd-grid-1300 mkd-disable-global-padding-bottom mkd-sticky-header-on-scroll-down-up mkd-dropdown-animate-height mkd-header-standard mkd-menu-area-shadow-disable mkd-menu-area-in-grid-shadow-disable mkd-menu-area-border-disable mkd-menu-area-in-grid-border-disable mkd-logo-area-border-disable mkd-logo-area-in-grid-border-disable mkd-header-vertical-shadow-disable mkd-header-vertical-border-disable mkd-side-menu-slide-from-right mkd-woocommerce-columns-3 mkd-woo-normal-space mkd-woo-pl-info-below-image mkd-woo-single-thumb-below-image mkd-woo-single-has-pretty-photo mkd-default-mobile-header mkd-sticky-up-mobile-header mkd-header-top-enabled mkd-search-covers-header wpb-js-composer js-comp-ver-6.10.0 vc_responsive" itemscope itemtype="http://schema.org/WebPage">
@@ -1540,6 +1609,183 @@ document.addEventListener('DOMContentLoaded', function() {
     body.page-id-521 .mkd-footer-top-holder a:hover,
     body.page-id-521 .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
 </style>
+
+<!-- CUSTOM CURSOR -->
+<div id="bk-cursor-dot"></div>
+<div id="bk-cursor-ring"></div>
+<canvas id="bk-tech-canvas"></canvas>
+<script>
+(function(){
+    var dot = document.getElementById('bk-cursor-dot');
+    var ring = document.getElementById('bk-cursor-ring');
+    var dotX = 0, dotY = 0, ringX = 0, ringY = 0;
+
+    document.addEventListener('mousemove', function(e){
+        dotX = e.clientX; dotY = e.clientY;
+        dot.style.left = dotX + 'px';
+        dot.style.top  = dotY + 'px';
+    });
+
+    function animateRing(){
+        ringX += (dotX - ringX) * 0.13;
+        ringY += (dotY - ringY) * 0.13;
+        ring.style.left = ringX + 'px';
+        ring.style.top  = ringY + 'px';
+        requestAnimationFrame(animateRing);
+    }
+    animateRing();
+
+    var body = document.body;
+    var ALL_STATES = 'cursor--link cursor--partner cursor--slider cursor--text cursor--btn cursor--img cursor--menu';
+    function clearState(){
+        body.classList.remove.apply(body.classList, ALL_STATES.split(' '));
+    }
+
+    function bindCursor(selector, state){
+        document.querySelectorAll(selector).forEach(function(el){
+            el.addEventListener('mouseenter', function(e){ e.stopPropagation(); clearState(); body.classList.add('cursor--' + state); });
+            el.addEventListener('mouseleave', clearState);
+        });
+    }
+
+    document.querySelectorAll('.mkd-btn, .mkd-btn-solid, .mkd-btn-medium').forEach(function(el){
+        el.addEventListener('mouseenter', function(e){ e.stopPropagation(); clearState(); body.classList.add('cursor--btn'); });
+        el.addEventListener('mouseleave', clearState);
+        el.addEventListener('click', function(){
+            dot.classList.remove('bk-click');
+            void dot.offsetWidth;
+            dot.classList.add('bk-click');
+            setTimeout(function(){ dot.classList.remove('bk-click'); }, 500);
+        });
+    });
+
+    document.querySelectorAll('.mkd-main-menu > ul > li > a, .mkd-main-menu > ul > li, nav.mkd-main-menu a').forEach(function(el){
+        el.addEventListener('mouseenter', function(e){ e.stopPropagation(); clearState(); body.classList.add('cursor--menu'); });
+        el.addEventListener('mouseleave', clearState);
+    });
+
+    bindCursor('.bk-partner-item', 'partner');
+    bindCursor('.rev_slider_wrapper, .mkd-eh-item, rs-module-wrap', 'slider');
+    bindCursor('.mkd-si-inner img, .mkd-footer-top-holder img', 'img');
+    bindCursor('h1, h2, h3, h4', 'text');
+    bindCursor('p', 'text');
+    bindCursor('a, button', 'link');
+
+    document.addEventListener('mouseleave', function(){ dot.style.opacity='0'; ring.style.opacity='0'; });
+    document.addEventListener('mouseenter', function(){ dot.style.opacity='1'; ring.style.opacity='0.7'; });
+})();
+</script>
+
+<script>
+(function () {
+    var canvas = document.getElementById('bk-tech-canvas');
+    if (!canvas) return;
+    var ctx = canvas.getContext('2d', { alpha: true });
+    var W = 0, H = 0;
+    var N = 70;
+    var LINK_SQ = 140 * 140;
+    var MOUSE_SQ = 170 * 170;
+    var nodes = [];
+    var mx = -9999, my = -9999;
+    var lastTs = 0, FRAME = 1000 / 30;
+
+    function resize() {
+        W = canvas.width  = window.innerWidth;
+        H = canvas.height = window.innerHeight;
+    }
+    resize();
+    window.addEventListener('resize', function () { resize(); init(); });
+
+    var COLS = ['#E8612D','#FF8C42','#ffffff','#00d4ff'];
+    function rCol() {
+        var r = Math.random();
+        return r < 0.50 ? COLS[0] : r < 0.75 ? COLS[1] : r < 0.90 ? COLS[2] : COLS[3];
+    }
+
+    function init() {
+        nodes = [];
+        for (var i = 0; i < N; i++) {
+            var a = Math.random() * Math.PI * 2;
+            var s = 0.12 + Math.random() * 0.28;
+            nodes.push({
+                x: Math.random() * W, y: Math.random() * H,
+                vx: Math.cos(a) * s,  vy: Math.sin(a) * s,
+                r: 1.5 + Math.random() * 1.5,
+                color: rCol(),
+                phase: Math.random() * Math.PI * 2
+            });
+        }
+    }
+    init();
+
+    document.addEventListener('mousemove', function (e) { mx = e.clientX; my = e.clientY; });
+    document.addEventListener('mouseleave', function () { mx = -9999; my = -9999; });
+
+    function draw(ts) {
+        requestAnimationFrame(draw);
+        if (ts - lastTs < FRAME) return;
+        lastTs = ts;
+
+        ctx.clearRect(0, 0, W, H);
+
+        var i, j, n, dx, dy, dSq, alpha;
+
+        for (i = 0; i < N; i++) {
+            n = nodes[i];
+            n.x += n.vx; n.y += n.vy; n.phase += 0.025;
+            if (n.x < 0) n.x += W; else if (n.x > W) n.x -= W;
+            if (n.y < 0) n.y += H; else if (n.y > H) n.y -= H;
+        }
+
+        ctx.lineWidth = 0.7;
+        for (i = 0; i < N - 1; i++) {
+            var a = nodes[i];
+            for (j = i + 1; j < N; j++) {
+                var b = nodes[j];
+                dx = a.x - b.x; dy = a.y - b.y;
+                dSq = dx*dx + dy*dy;
+                if (dSq < LINK_SQ) {
+                    alpha = (1 - dSq / LINK_SQ) * 0.3;
+                    ctx.globalAlpha = alpha;
+                    ctx.strokeStyle = a.color;
+                    ctx.beginPath();
+                    ctx.moveTo(a.x, a.y);
+                    ctx.lineTo(b.x, b.y);
+                    ctx.stroke();
+                }
+            }
+        }
+
+        ctx.strokeStyle = '#E8612D';
+        ctx.lineWidth   = 0.9;
+        for (i = 0; i < N; i++) {
+            n = nodes[i];
+            dx = n.x - mx; dy = n.y - my;
+            dSq = dx*dx + dy*dy;
+            if (dSq < MOUSE_SQ) {
+                ctx.globalAlpha = (1 - dSq / MOUSE_SQ) * 0.65;
+                ctx.beginPath();
+                ctx.moveTo(mx, my);
+                ctx.lineTo(n.x, n.y);
+                ctx.stroke();
+            }
+        }
+
+        for (i = 0; i < N; i++) {
+            n = nodes[i];
+            var pulse = 0.55 + 0.45 * Math.sin(n.phase);
+            ctx.globalAlpha = pulse;
+            ctx.fillStyle   = n.color;
+            ctx.beginPath();
+            ctx.arc(n.x, n.y, n.r * (0.85 + pulse * 0.3), 0, Math.PI * 2);
+            ctx.fill();
+        }
+
+        ctx.globalAlpha = 1;
+    }
+    requestAnimationFrame(draw);
+})();
+</script>
 
 </body>
 
