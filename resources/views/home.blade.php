@@ -2269,39 +2269,159 @@ window.addEventListener('load', checkVisible);
 
 		</ul>
 	</div>
-	</div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper "  style="background-color:#ffffff"><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1511263281614" ><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner vc_custom_1511262599053"><div class="wpb_wrapper"><div class="mkd-pie-chart-holder ">
-	<div class="mkd-pc-percentage" data-percent="83" data-bar-color="#E8612D" data-track-color="#ffffff">
-		<span class="mkd-pc-percent" >83</span>
-	</div>
-			<div class="mkd-pc-text-holder">
-							<h4 class="mkd-pc-title" >Hạ Tầng Cloud</h4>
-										<p class="mkd-pc-text" >Tỷ lệ khách hàng hài lòng với hạ tầng Cloud của chúng tôi.</p>
-					</div>
-	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner vc_custom_1511262606291"><div class="wpb_wrapper"><div class="mkd-pie-chart-holder ">
-	<div class="mkd-pc-percentage" data-percent="75" data-bar-color="#E8612D" data-track-color="#ffffff">
-		<span class="mkd-pc-percent" >75</span>
-	</div>
-			<div class="mkd-pc-text-holder">
-							<h4 class="mkd-pc-title" >Dự Án Doanh Nghiệp</h4>
-										<p class="mkd-pc-text" >Dự án doanh nghiệp triển khai thành công đúng tiến độ.</p>
-					</div>
-	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner vc_custom_1511262614279"><div class="wpb_wrapper"><div class="mkd-pie-chart-holder ">
-	<div class="mkd-pc-percentage" data-percent="40" data-bar-color="#E8612D" data-track-color="#ffffff">
-		<span class="mkd-pc-percent" >40</span>
-	</div>
-			<div class="mkd-pc-text-holder">
-							<h4 class="mkd-pc-title" >Tiết Kiệm Chi Phí</h4>
-										<p class="mkd-pc-text" >Tiết kiệm chi phí vận hành nhờ giải pháp số hóa toàn diện.</p>
-					</div>
-	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-6"><div class="vc_column-inner vc_custom_1511262634224"><div class="wpb_wrapper"><div class="mkd-pie-chart-holder ">
-	<div class="mkd-pc-percentage" data-percent="75" data-bar-color="#E8612D" data-track-color="#ffffff">
-		<span class="mkd-pc-percent" >75</span>
-	</div>
-			<div class="mkd-pc-text-holder">
-							<h4 class="mkd-pc-title" >Hiệu Suất Hệ Thống</h4>
-										<p class="mkd-pc-text" >Nâng cao hiệu suất hệ thống so với phương pháp truyền thống.</p>
-					</div>
-	</div><div class="vc_empty_space"   style="height: 40px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div><section class="bk-partners-section">
+	</div></div></div></div></div></div></div>
+
+<div style="background-color:#ffffff; padding: 70px 20px 50px;">
+<div style="max-width:1300px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center; text-align:center;">
+
+<!-- Hạ Tầng Cloud 83% -->
+<div class="bkd-donut" data-percent="83" style="flex:1 1 260px; max-width:320px; padding:0 20px 40px;">
+<div class="bkd-donut-wrap">
+<svg viewBox="0 0 120 120" width="184" height="184">
+<defs>
+<filter id="bkd-ht-glow-1" x="-30%" y="-30%" width="160%" height="160%">
+<feGaussianBlur stdDeviation="2.5" result="blur"/>
+<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<circle cx="60" cy="60" r="54" fill="none" stroke="#f0f0f0" stroke-width="11"/>
+<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="11"
+stroke-dasharray="0 339.292" stroke-dashoffset="0"
+stroke-linecap="round" transform="rotate(-90 60 60)"/>
+<circle class="bkd-runner" cx="60" cy="6" r="6" fill="#ffffff" stroke="#E8612D" stroke-width="2.5" filter="url(#bkd-ht-glow-1)"/>
+<circle class="bkd-runner-dot" cx="60" cy="6" r="2.5" fill="#E8612D"/>
+</svg>
+<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:48px;font-weight:700;color:#2b2b2b;font-family:'Oswald',sans-serif;">0<span style="font-size:20px;position:relative;top:-16px;font-weight:600;">%</span></span>
+</div>
+<h4 style="margin-top:18px;margin-bottom:8px;font-size:16px;font-weight:700;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;letter-spacing:1px;">Hạ Tầng Cloud</h4>
+<p style="color:#818181;font-size:14px;line-height:1.7;font-family:'Poppins',sans-serif;">Tỷ lệ khách hàng hài lòng với hạ tầng Cloud của chúng tôi.</p>
+</div>
+
+<!-- Dự Án Doanh Nghiệp 75% -->
+<div class="bkd-donut" data-percent="75" style="flex:1 1 260px; max-width:320px; padding:0 20px 40px;">
+<div class="bkd-donut-wrap">
+<svg viewBox="0 0 120 120" width="184" height="184">
+<defs>
+<filter id="bkd-ht-glow-2" x="-30%" y="-30%" width="160%" height="160%">
+<feGaussianBlur stdDeviation="2.5" result="blur"/>
+<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<circle cx="60" cy="60" r="54" fill="none" stroke="#f0f0f0" stroke-width="11"/>
+<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="11"
+stroke-dasharray="0 339.292" stroke-dashoffset="0"
+stroke-linecap="round" transform="rotate(-90 60 60)"/>
+<circle class="bkd-runner" cx="60" cy="6" r="6" fill="#ffffff" stroke="#E8612D" stroke-width="2.5" filter="url(#bkd-ht-glow-2)"/>
+<circle class="bkd-runner-dot" cx="60" cy="6" r="2.5" fill="#E8612D"/>
+</svg>
+<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:48px;font-weight:700;color:#2b2b2b;font-family:'Oswald',sans-serif;">0<span style="font-size:20px;position:relative;top:-16px;font-weight:600;">%</span></span>
+</div>
+<h4 style="margin-top:18px;margin-bottom:8px;font-size:16px;font-weight:700;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;letter-spacing:1px;">Dự Án Doanh Nghiệp</h4>
+<p style="color:#818181;font-size:14px;line-height:1.7;font-family:'Poppins',sans-serif;">Dự án doanh nghiệp triển khai thành công đúng tiến độ.</p>
+</div>
+
+<!-- Tiết Kiệm Chi Phí 40% -->
+<div class="bkd-donut" data-percent="40" style="flex:1 1 260px; max-width:320px; padding:0 20px 40px;">
+<div class="bkd-donut-wrap">
+<svg viewBox="0 0 120 120" width="184" height="184">
+<defs>
+<filter id="bkd-ht-glow-3" x="-30%" y="-30%" width="160%" height="160%">
+<feGaussianBlur stdDeviation="2.5" result="blur"/>
+<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<circle cx="60" cy="60" r="54" fill="none" stroke="#f0f0f0" stroke-width="11"/>
+<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="11"
+stroke-dasharray="0 339.292" stroke-dashoffset="0"
+stroke-linecap="round" transform="rotate(-90 60 60)"/>
+<circle class="bkd-runner" cx="60" cy="6" r="6" fill="#ffffff" stroke="#E8612D" stroke-width="2.5" filter="url(#bkd-ht-glow-3)"/>
+<circle class="bkd-runner-dot" cx="60" cy="6" r="2.5" fill="#E8612D"/>
+</svg>
+<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:48px;font-weight:700;color:#2b2b2b;font-family:'Oswald',sans-serif;">0<span style="font-size:20px;position:relative;top:-16px;font-weight:600;">%</span></span>
+</div>
+<h4 style="margin-top:18px;margin-bottom:8px;font-size:16px;font-weight:700;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;letter-spacing:1px;">Tiết Kiệm Chi Phí</h4>
+<p style="color:#818181;font-size:14px;line-height:1.7;font-family:'Poppins',sans-serif;">Tiết kiệm chi phí vận hành nhờ giải pháp số hóa toàn diện.</p>
+</div>
+
+<!-- Hiệu Suất Hệ Thống 75% -->
+<div class="bkd-donut" data-percent="75" style="flex:1 1 260px; max-width:320px; padding:0 20px 40px;">
+<div class="bkd-donut-wrap">
+<svg viewBox="0 0 120 120" width="184" height="184">
+<defs>
+<filter id="bkd-ht-glow-4" x="-30%" y="-30%" width="160%" height="160%">
+<feGaussianBlur stdDeviation="2.5" result="blur"/>
+<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<circle cx="60" cy="60" r="54" fill="none" stroke="#f0f0f0" stroke-width="11"/>
+<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="11"
+stroke-dasharray="0 339.292" stroke-dashoffset="0"
+stroke-linecap="round" transform="rotate(-90 60 60)"/>
+<circle class="bkd-runner" cx="60" cy="6" r="6" fill="#ffffff" stroke="#E8612D" stroke-width="2.5" filter="url(#bkd-ht-glow-4)"/>
+<circle class="bkd-runner-dot" cx="60" cy="6" r="2.5" fill="#E8612D"/>
+</svg>
+<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:48px;font-weight:700;color:#2b2b2b;font-family:'Oswald',sans-serif;">0<span style="font-size:20px;position:relative;top:-16px;font-weight:600;">%</span></span>
+</div>
+<h4 style="margin-top:18px;margin-bottom:8px;font-size:16px;font-weight:700;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;letter-spacing:1px;">Hiệu Suất Hệ Thống</h4>
+<p style="color:#818181;font-size:14px;line-height:1.7;font-family:'Poppins',sans-serif;">Nâng cao hiệu suất hệ thống so với phương pháp truyền thống.</p>
+</div>
+
+</div>
+</div>
+<style>
+.bkd-donut-wrap { position: relative; display: inline-block; }
+.bkd-donut-wrap svg { display: block; overflow: visible; }
+</style>
+<script>
+(function(){
+var C2 = 2 * Math.PI * 54;
+var R2 = 54;
+var animated2 = false;
+function runnerPos2(pct) {
+var rad = (pct / 100 * 360 - 90) * Math.PI / 180;
+return { x: 60 + R2 * Math.cos(rad), y: 60 + R2 * Math.sin(rad) };
+}
+function easeOut2(t) { return 1 - Math.pow(1 - t, 3); }
+function animateDonut2(el) {
+var pct    = parseInt(el.getAttribute('data-percent'), 10) || 0;
+var wrap   = el.querySelector('.bkd-donut-wrap');
+var bar    = el.querySelector('.bkd-donut-bar');
+var val    = el.querySelector('.bkd-donut-val');
+var runner = el.querySelector('.bkd-runner');
+var rdot   = el.querySelector('.bkd-runner-dot');
+var start  = performance.now();
+(function step(ts) {
+var t   = Math.min((ts - start) / 1500, 1);
+var ep  = easeOut2(t);
+var cur = ep * pct;
+var fill = C2 * cur / 100;
+bar.setAttribute('stroke-dasharray', fill + ' ' + (C2 - fill));
+val.firstChild.textContent = Math.round(cur);
+var pos = runnerPos2(cur);
+runner.setAttribute('cx', pos.x.toFixed(2));
+runner.setAttribute('cy', pos.y.toFixed(2));
+rdot.setAttribute('cx', pos.x.toFixed(2));
+rdot.setAttribute('cy', pos.y.toFixed(2));
+if (t < 1) requestAnimationFrame(step);
+})(start);
+}
+function checkVisible2() {
+if (animated2) return;
+var els = document.querySelectorAll('.bkd-donut[data-percent]');
+if (!els.length) return;
+var rect = els[0].getBoundingClientRect();
+if (rect.top < window.innerHeight * 1.1 && rect.bottom > 0) {
+animated2 = true;
+els.forEach(animateDonut2);
+window.removeEventListener('scroll', checkVisible2);
+}
+}
+window.addEventListener('scroll', checkVisible2);
+window.addEventListener('load', checkVisible2);
+})();
+</script>
+
+<section class="bk-partners-section">
     <div class="container">
         <div class="bk-partners-title">
             <h2 class="title"><span>Đối tác</span></h2>
