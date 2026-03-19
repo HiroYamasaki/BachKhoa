@@ -130,14 +130,14 @@ var woocommerce_params = {"ajax_url":"","wc_ajax_url":""};
     position: fixed; top: 0; left: 0; pointer-events: none; z-index: 99999;
     width: 10px; height: 10px; border-radius: 50%;
     background: #E8612D;
-    transform: translate(-50%,-50%);
+    will-change: transform;
     transition: width .15s ease, height .15s ease, background .2s ease, opacity .2s ease, border-radius .15s ease;
 }
 #bk-cursor-ring {
     position: fixed; top: 0; left: 0; pointer-events: none; z-index: 99998;
     width: 36px; height: 36px; border-radius: 50%;
     border: 2px solid #E8612D;
-    transform: translate(-50%,-50%);
+    will-change: transform;
     transition: width .35s cubic-bezier(.25,.46,.45,.94), height .35s cubic-bezier(.25,.46,.45,.94), border-color .2s ease, background .2s ease, opacity .2s ease, border-width .2s ease;
     opacity: 0.7;
 }
@@ -2655,25 +2655,27 @@ document.addEventListener('DOMContentLoaded', function() {
 <canvas id="bk-tech-canvas"></canvas>
 <script>
 (function(){
-    var dot = document.getElementById('bk-cursor-dot');
+    var dot  = document.getElementById('bk-cursor-dot');
     var ring = document.getElementById('bk-cursor-ring');
-    var dotX = 0, dotY = 0, ringX = 0, ringY = 0;
-    var raf;
+    if (!dot || !ring) return;
 
+    var mx = window.innerWidth / 2, my = window.innerHeight / 2;
+    var rx = mx, ry = my;
+
+    // passive:true — never blocks scroll thread
     document.addEventListener('mousemove', function(e){
-        dotX = e.clientX; dotY = e.clientY;
-        dot.style.left = dotX + 'px';
-        dot.style.top  = dotY + 'px';
-    });
+        mx = e.clientX; my = e.clientY;
+    }, { passive: true });
 
-    function animateRing(){
-        ringX += (dotX - ringX) * 0.13;
-        ringY += (dotY - ringY) * 0.13;
-        ring.style.left = ringX + 'px';
-        ring.style.top  = ringY + 'px';
-        raf = requestAnimationFrame(animateRing);
-    }
-    animateRing();
+    // Single rAF tick — all DOM writes batched, GPU compositor via translate3d
+    // translate(-50%,-50%) auto-centers regardless of current size (works with state changes)
+    (function tick(){
+        dot.style.transform  = 'translate3d(' + mx + 'px,' + my + 'px,0) translate(-50%,-50%)';
+        rx += (mx - rx) * 0.15;
+        ry += (my - ry) * 0.15;
+        ring.style.transform = 'translate3d(' + (rx|0) + 'px,' + (ry|0) + 'px,0) translate(-50%,-50%)';
+        requestAnimationFrame(tick);
+    })();
 
     var body = document.body;
     var ALL_STATES = 'cursor--link cursor--partner cursor--slider cursor--text cursor--btn cursor--img cursor--menu';
@@ -2681,14 +2683,12 @@ document.addEventListener('DOMContentLoaded', function() {
         body.classList.remove.apply(body.classList, ALL_STATES.split(' '));
     }
 
-    function bindCursor(selector, state, moreSpecific){
+    function bindCursor(selector, state){
         document.querySelectorAll(selector).forEach(function(el){
             el.addEventListener('mouseenter', function(e){ e.stopPropagation(); clearState(); body.classList.add('cursor--' + state); });
             el.addEventListener('mouseleave', clearState);
         });
     }
-
-    // Priority order: most specific first
 
     // 1. mkd-btn buttons — ripple on click
     document.querySelectorAll('.mkd-btn, .mkd-btn-solid, .mkd-btn-medium').forEach(function(el){
@@ -2702,31 +2702,20 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // 2. Menu items — spotlight fill effect
+    // 2. Menu items
     document.querySelectorAll('.mkd-main-menu > ul > li > a, .mkd-main-menu > ul > li, nav.mkd-main-menu a').forEach(function(el){
         el.addEventListener('mouseenter', function(e){ e.stopPropagation(); clearState(); body.classList.add('cursor--menu'); });
         el.addEventListener('mouseleave', clearState);
     });
 
-    // 3. Partner logos
+    // 3-8. Other elements
     bindCursor('.bk-partner-item', 'partner');
-
-    // 4. Sliders / banners
     bindCursor('.rev_slider_wrapper, .mkd-eh-item, rs-module-wrap', 'slider');
-
-    // 5. Images
     bindCursor('.mkd-si-inner img, .mkd-footer-top-holder img', 'img');
-
-    // 6. Headings
     bindCursor('h1, h2, h3, h4', 'text');
-
-    // 7. Paragraphs
     bindCursor('p', 'text');
-
-    // 8. Links (lowest priority)
     bindCursor('a, button', 'link');
 
-    // Hide when mouse leaves window
     document.addEventListener('mouseleave', function(){ dot.style.opacity='0'; ring.style.opacity='0'; });
     document.addEventListener('mouseenter', function(){ dot.style.opacity='1'; ring.style.opacity='0.7'; });
 })();
