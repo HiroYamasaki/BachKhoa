@@ -257,7 +257,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 
 								<div class="mkd-logo-wrapper">
-									<a itemprop="url" href="https://baumeister.qodeinteractive.com/" style="height: 25px;">
+									<a itemprop="url" href="/" style="height: 25px;">
 										<img itemprop="image" class="mkd-normal-logo" src="/images/logo.jpg" alt="logo" />
 										<img itemprop="image" class="mkd-dark-logo" src="/images/logo.jpg" alt="dark logo" /> <img itemprop="image" class="mkd-light-logo" src="/images/logo.jpg" alt="light logo" /> </a>
 								</div>
@@ -269,7 +269,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 											<div class="second">
 												<div class="inner">
 													<ul>
-														<li id="nav-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="https://baumeister.qodeinteractive.com/" class=""><span class="item_outer"><span class="item_text">Main Home</span></span></a></li>
+														<li id="nav-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="/" class=""><span class="item_outer"><span class="item_text">Main Home</span></span></a></li>
 														<li id="nav-menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/energy-home/" class=""><span class="item_outer"><span class="item_text">Energy Home</span></span></a></li>
 														<li id="nav-menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contractor-home/" class=""><span class="item_outer"><span class="item_text">Contractor Home</span></span></a></li>
 														<li id="nav-menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/builder-home/" class=""><span class="item_outer"><span class="item_text">Builder Home</span></span></a></li>
@@ -501,7 +501,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 
 									<div class="mkd-logo-wrapper">
-										<a itemprop="url" href="https://baumeister.qodeinteractive.com/" style="height: 25px;">
+										<a itemprop="url" href="/" style="height: 25px;">
 											<img itemprop="image" class="mkd-normal-logo" src="/images/logo.jpg" alt="logo" />
 											<img itemprop="image" class="mkd-dark-logo" src="/images/logo.jpg" alt="dark logo" /> <img itemprop="image" class="mkd-light-logo" src="/images/logo.jpg" alt="light logo" /> </a>
 									</div>
@@ -513,7 +513,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 												<div class="second">
 													<div class="inner">
 														<ul>
-															<li id="sticky-nav-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="https://baumeister.qodeinteractive.com/" class=""><span class="item_outer"><span class="item_text">Main Home</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="/" class=""><span class="item_outer"><span class="item_text">Main Home</span><span class="plus"></span></span></a></li>
 															<li id="sticky-nav-menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/energy-home/" class=""><span class="item_outer"><span class="item_text">Energy Home</span><span class="plus"></span></span></a></li>
 															<li id="sticky-nav-menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contractor-home/" class=""><span class="item_outer"><span class="item_text">Contractor Home</span><span class="plus"></span></span></a></li>
 															<li id="sticky-nav-menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/builder-home/" class=""><span class="item_outer"><span class="item_text">Builder Home</span><span class="plus"></span></span></a></li>
@@ -757,7 +757,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 
 											<div class="mkd-mobile-logo-wrapper">
-												<a itemprop="url" href="https://baumeister.qodeinteractive.com/" style="height: 25px">
+												<a itemprop="url" href="/" style="height: 25px">
 													<img itemprop="image" src="/images/logo.jpg" alt="Mobile Logo" />
 												</a>
 											</div>
@@ -778,7 +778,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 							<ul id="menu-main-menu-navigation-2" class="">
 								<li id="mobile-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Home</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
 									<ul class="sub_menu">
-										<li id="mobile-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="https://baumeister.qodeinteractive.com/" class=""><span>Main Home</span></a></li>
+										<li id="mobile-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="/" class=""><span>Main Home</span></a></li>
 										<li id="mobile-menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/energy-home/" class=""><span>Energy Home</span></a></li>
 										<li id="mobile-menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contractor-home/" class=""><span>Contractor Home</span></a></li>
 										<li id="mobile-menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/builder-home/" class=""><span>Builder Home</span></a></li>
