@@ -711,3 +711,14 @@ html body .mkd-btn.mkd-btn-full-width.mkd-btn-solid:hover {
     background-image: linear-gradient(135deg, #C0392B 0%, #9B1B1B 100%) !important;
     border-color: #C0392B !important;
 }
+
+/* ===== About Us Page (page-id-521) ===== */
+.page-id-521 .mkd-top-bar { background-color: rgba(27, 27, 27, 1); }
+.page-id-521.mkd-boxed .mkd-wrapper { background-attachment: fixed; }
+.page-id-521 .mkd-content .mkd-content-inner > .mkd-container > .mkd-container-inner,
+.page-id-521 .mkd-content .mkd-content-inner > .mkd-full-width > .mkd-full-width-inner {
+    padding-top: 0px !important;
+}
+.vc_custom_1512375951932 { padding-top: 140px !important; padding-bottom: 150px !important; }
+.vc_custom_1512391623363 { padding-top: 150px !important; padding-bottom: 102px !important; }
+.vc_custom_1511340999306 { padding-right: 0px !important; padding-left: 0px !important; }
