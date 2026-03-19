@@ -15,11 +15,11 @@
 	<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/style.css?ver=6.0.11' type='text/css' media='all' />
 	<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/modules.min.css?ver=6.0.11' type='text/css' media='all' />
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
-	<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/elegant-icons/style.min.css?ver=6.0.11' type='text/css' media='all' />
-	<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/ion-icons/css/ionicons.min.css?ver=6.0.11' type='text/css' media='all' />
-	<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/linea-icons/style.css?ver=6.0.11' type='text/css' media='all' />
-	<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/linear-icons/style.css?ver=6.0.11' type='text/css' media='all' />
-	<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/simple-line-icons/simple-line-icons.css?ver=6.0.11' type='text/css' media='all' />
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/elegant-icons@0.0.1/style.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/linea-iconset@1.0.0/styles.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='https://cdn.linearicons.com/free/1.0.0/icon-font.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css' type='text/css' media='all' />
 	<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/dripicons/dripicons.css?ver=6.0.11' type='text/css' media='all' />
 	<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.16' type='text/css' media='all' />
 	<link rel='stylesheet' href='https://baumeister.qodeinteractive.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.0.11' type='text/css' media='all' />
