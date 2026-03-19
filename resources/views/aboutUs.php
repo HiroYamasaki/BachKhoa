@@ -1154,70 +1154,109 @@
 												<!-- Capacity 83% -->
 												<div style="flex:1 1 300px; max-width:380px; padding:0 20px 40px;">
 													<div class="bkd-donut" data-percent="83">
-														<svg viewBox="0 0 120 120" width="174" height="174">
-															<circle cx="60" cy="60" r="54" fill="none" stroke="#eeeeee" stroke-width="4"/>
-															<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="4"
+														<svg viewBox="0 0 120 120" width="184" height="184">
+															<defs>
+																<filter id="bkd-glow-1" x="-30%" y="-30%" width="160%" height="160%">
+																	<feGaussianBlur stdDeviation="2.5" result="blur"/>
+																	<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+																</filter>
+															</defs>
+															<circle cx="60" cy="60" r="54" fill="none" stroke="#f0f0f0" stroke-width="11"/>
+															<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="11"
 																stroke-dasharray="0 339.292" stroke-dashoffset="0"
-																stroke-linecap="butt" transform="rotate(-90 60 60)"/>
+																stroke-linecap="round" transform="rotate(-90 60 60)"/>
+															<circle class="bkd-runner" cx="60" cy="6" r="6" fill="#ffffff" stroke="#E8612D" stroke-width="2.5" filter="url(#bkd-glow-1)"/>
+															<circle class="bkd-runner-dot" cx="60" cy="6" r="2.5" fill="#E8612D"/>
 														</svg>
-														<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:46px;font-weight:500;color:#2b2b2b;">0<span style="font-size:20px;position:relative;top:-15px;">%</span></span>
+														<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:48px;font-weight:700;color:#2b2b2b;font-family:'Oswald',sans-serif;">0<span style="font-size:20px;position:relative;top:-16px;font-weight:600;">%</span></span>
 													</div>
-													<h4 style="margin-top:18px;margin-bottom:8px;font-size:18px;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;">Capacity</h4>
+													<h4 style="margin-top:18px;margin-bottom:8px;font-size:18px;font-weight:700;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;">Capacity</h4>
 													<p style="color:#818181;font-size:14px;line-height:1.7;font-family:'Poppins',sans-serif;">Năng lực hạ tầng mạnh mẽ, sẵn sàng đáp ứng mọi quy mô doanh nghiệp.</p>
 												</div>
 												<!-- Efficiency 75% -->
 												<div style="flex:1 1 300px; max-width:380px; padding:0 20px 40px;">
 													<div class="bkd-donut" data-percent="75">
-														<svg viewBox="0 0 120 120" width="174" height="174">
-															<circle cx="60" cy="60" r="54" fill="none" stroke="#eeeeee" stroke-width="4"/>
-															<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="4"
+														<svg viewBox="0 0 120 120" width="184" height="184">
+															<defs>
+																<filter id="bkd-glow-2" x="-30%" y="-30%" width="160%" height="160%">
+																	<feGaussianBlur stdDeviation="2.5" result="blur"/>
+																	<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+																</filter>
+															</defs>
+															<circle cx="60" cy="60" r="54" fill="none" stroke="#f0f0f0" stroke-width="11"/>
+															<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="11"
 																stroke-dasharray="0 339.292" stroke-dashoffset="0"
-																stroke-linecap="butt" transform="rotate(-90 60 60)"/>
+																stroke-linecap="round" transform="rotate(-90 60 60)"/>
+															<circle class="bkd-runner" cx="60" cy="6" r="6" fill="#ffffff" stroke="#E8612D" stroke-width="2.5" filter="url(#bkd-glow-2)"/>
+															<circle class="bkd-runner-dot" cx="60" cy="6" r="2.5" fill="#E8612D"/>
 														</svg>
-														<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:46px;font-weight:500;color:#2b2b2b;">0<span style="font-size:20px;position:relative;top:-15px;">%</span></span>
+														<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:48px;font-weight:700;color:#2b2b2b;font-family:'Oswald',sans-serif;">0<span style="font-size:20px;position:relative;top:-16px;font-weight:600;">%</span></span>
 													</div>
-													<h4 style="margin-top:18px;margin-bottom:8px;font-size:18px;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;">Efficiency</h4>
+													<h4 style="margin-top:18px;margin-bottom:8px;font-size:18px;font-weight:700;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;">Efficiency</h4>
 													<p style="color:#818181;font-size:14px;line-height:1.7;font-family:'Poppins',sans-serif;">Tối ưu hiệu suất vận hành, giảm chi phí và tăng năng suất doanh nghiệp.</p>
 												</div>
 												<!-- Energy saving 40% -->
 												<div style="flex:1 1 300px; max-width:380px; padding:0 20px 40px;">
 													<div class="bkd-donut" data-percent="40">
-														<svg viewBox="0 0 120 120" width="174" height="174">
-															<circle cx="60" cy="60" r="54" fill="none" stroke="#eeeeee" stroke-width="4"/>
-															<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="4"
+														<svg viewBox="0 0 120 120" width="184" height="184">
+															<defs>
+																<filter id="bkd-glow-3" x="-30%" y="-30%" width="160%" height="160%">
+																	<feGaussianBlur stdDeviation="2.5" result="blur"/>
+																	<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+																</filter>
+															</defs>
+															<circle cx="60" cy="60" r="54" fill="none" stroke="#f0f0f0" stroke-width="11"/>
+															<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="11"
 																stroke-dasharray="0 339.292" stroke-dashoffset="0"
-																stroke-linecap="butt" transform="rotate(-90 60 60)"/>
+																stroke-linecap="round" transform="rotate(-90 60 60)"/>
+															<circle class="bkd-runner" cx="60" cy="6" r="6" fill="#ffffff" stroke="#E8612D" stroke-width="2.5" filter="url(#bkd-glow-3)"/>
+															<circle class="bkd-runner-dot" cx="60" cy="6" r="2.5" fill="#E8612D"/>
 														</svg>
-														<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:46px;font-weight:500;color:#2b2b2b;">0<span style="font-size:20px;position:relative;top:-15px;">%</span></span>
+														<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:48px;font-weight:700;color:#2b2b2b;font-family:'Oswald',sans-serif;">0<span style="font-size:20px;position:relative;top:-16px;font-weight:600;">%</span></span>
 													</div>
-													<h4 style="margin-top:18px;margin-bottom:8px;font-size:18px;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;">Energy Saving</h4>
+													<h4 style="margin-top:18px;margin-bottom:8px;font-size:18px;font-weight:700;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;">Energy Saving</h4>
 													<p style="color:#818181;font-size:14px;line-height:1.7;font-family:'Poppins',sans-serif;">Giải pháp tiết kiệm năng lượng thông minh, giảm chi phí vận hành đáng kể.</p>
 												</div>
 											</div>
 										</div>
 										<style>
 											.bkd-donut { position: relative; display: inline-block; }
-											.bkd-donut svg { display: block; }
-											.bkd-donut-bar { transition: stroke-dasharray 1.5s ease-out; }
+											.bkd-donut svg { display: block; overflow: visible; }
 										</style>
 										<script>
 											(function(){
-												var C = 2 * Math.PI * 54; // 339.292
+												var C = 2 * Math.PI * 54;
+												var R = 54;
 												var animated = false;
+												function runnerPos(pct) {
+													/* pct 0-100: start from 12 o'clock, go clockwise */
+													var rad = (pct / 100 * 360 - 90) * Math.PI / 180;
+													return { x: 60 + R * Math.cos(rad), y: 60 + R * Math.sin(rad) };
+												}
+												function easeOut(t) { return 1 - Math.pow(1 - t, 3); }
 												function animateDonut(el) {
-													var pct = parseInt(el.getAttribute('data-percent'), 10) || 0;
-													var bar = el.querySelector('.bkd-donut-bar');
-													var val = el.querySelector('.bkd-donut-val');
-													var fill = C * pct / 100;
-													bar.setAttribute('stroke-dasharray', fill + ' ' + (C - fill));
-													// Animate number
-													var cur = {v: 0};
-													var start = performance.now();
+													var pct    = parseInt(el.getAttribute('data-percent'), 10) || 0;
+													var bar    = el.querySelector('.bkd-donut-bar');
+													var val    = el.querySelector('.bkd-donut-val');
+													var runner = el.querySelector('.bkd-runner');
+													var rdot   = el.querySelector('.bkd-runner-dot');
+													var start  = performance.now();
 													(function step(ts) {
-														var p = Math.min((ts - start) / 1500, 1);
-														var n = Math.round(p * pct);
-														val.firstChild.textContent = n;
-														if (p < 1) requestAnimationFrame(step);
+														var t  = Math.min((ts - start) / 1500, 1);
+														var ep = easeOut(t);
+														var cur = ep * pct;
+														/* arc */
+														var fill = C * cur / 100;
+														bar.setAttribute('stroke-dasharray', fill + ' ' + (C - fill));
+														/* number */
+														val.firstChild.textContent = Math.round(cur);
+														/* runner character position */
+														var pos = runnerPos(cur);
+														runner.setAttribute('cx', pos.x.toFixed(2));
+														runner.setAttribute('cy', pos.y.toFixed(2));
+														rdot.setAttribute('cx', pos.x.toFixed(2));
+														rdot.setAttribute('cy', pos.y.toFixed(2));
+														if (t < 1) requestAnimationFrame(step);
 													})(start);
 												}
 												function checkVisible() {
