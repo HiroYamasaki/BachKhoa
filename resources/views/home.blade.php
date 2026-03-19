@@ -760,7 +760,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 </li>
 <li id="nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Pages</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 <div class="second"><div class="inner"><ul>
-	<li id="nav-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/about-us/" class=""><span class="item_outer"><span class="item_text">About Us</span></span></a></li>
+	<li id="nav-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/about-us" class=""><span class="item_outer"><span class="item_text">About Us</span></span></a></li>
 	<li id="nav-menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-team/" class=""><span class="item_outer"><span class="item_text">Our Team</span></span></a></li>
 	<li id="nav-menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/meet-the-crew/" class=""><span class="item_outer"><span class="item_text">Meet the Crew</span></span></a></li>
 	<li id="nav-menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-services/" class=""><span class="item_outer"><span class="item_text">Our Services</span></span></a></li>
@@ -983,7 +983,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 </li>
 <li id="sticky-nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Pages</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 <div class="second"><div class="inner"><ul>
-	<li id="sticky-nav-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/about-us/" class=""><span class="item_outer"><span class="item_text">About Us</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/about-us" class=""><span class="item_outer"><span class="item_text">About Us</span><span class="plus"></span></span></a></li>
 	<li id="sticky-nav-menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-team/" class=""><span class="item_outer"><span class="item_text">Our Team</span><span class="plus"></span></span></a></li>
 	<li id="sticky-nav-menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/meet-the-crew/" class=""><span class="item_outer"><span class="item_text">Meet the Crew</span><span class="plus"></span></span></a></li>
 	<li id="sticky-nav-menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-services/" class=""><span class="item_outer"><span class="item_text">Our Services</span><span class="plus"></span></span></a></li>
