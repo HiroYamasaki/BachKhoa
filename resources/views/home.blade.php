@@ -1700,61 +1700,89 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 	</div>
 
-    </div></div><div class="vc_empty_space"   style="height: 33px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper mkd-content-aligment-center" style="background-color:#ffffff"><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1512391623363" ><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-12 vc_col-md-offset-0 vc_col-md-12 vc_col-sm-offset-0 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-three-columns  mkd-responsive-mode-768 " ><div class="mkd-eh-item    " data-item-class="mkd-eh-custom-2490" data-1024-1280="0 13% 40px 13%" data-768-1024="0 5% 40px 0% " data-680-768="0 28% 40px 28%" data-680="0px 0% 40px 0%">
-
-	<div class="mkd-eh-item-inner">
-
-		<div class="mkd-eh-item-content mkd-eh-custom-2490" style="padding: 0 20% 40px 20%">
-			<div class="mkd-pie-chart-holder ">
-				<div class="mkd-pc-percentage" data-percent="83" data-bar-color="#E8612D" data-track-color="#ffffff">
-					<span class="mkd-pc-percent">83</span>
-				</div>
-				<div class="mkd-pc-text-holder">
-					<h4 class="mkd-pc-title">Capacity</h4>
-					<p class="mkd-pc-text">Năng lực hạ tầng mạnh mẽ, sẵn sàng đáp ứng mọi quy mô doanh nghiệp.</p>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-    </div><div class="mkd-eh-item   mkd-horizontal-alignment-center " data-item-class="mkd-eh-custom-7959" data-1024-1280="0 13% 40px 13%" data-768-1024="0 5% 40px 0% " data-680-768="0 28% 40px 28%" data-680="0px 0% 40px 0%">
-
-	<div class="mkd-eh-item-inner">
-
-		<div class="mkd-eh-item-content mkd-eh-custom-7959" style="padding: 0 20% 40px 20%">
-			<div class="mkd-pie-chart-holder ">
-				<div class="mkd-pc-percentage" data-percent="75" data-bar-color="#E8612D" data-track-color="#ffffff">
-					<span class="mkd-pc-percent">75</span>
-				</div>
-				<div class="mkd-pc-text-holder">
-					<h4 class="mkd-pc-title">Efficiency</h4>
-					<p class="mkd-pc-text">Tối ưu hiệu suất vận hành, giảm chi phí và tăng năng suất doanh nghiệp.</p>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-    </div><div class="mkd-eh-item   mkd-horizontal-alignment-center " data-item-class="mkd-eh-custom-5634" data-1024-1280="0 13% 40px 13%" data-768-1024="0 5% 40px 0% " data-680-768="0 28% 40px 28%" data-680="0px 0% 40px 0%">
-
-	<div class="mkd-eh-item-inner">
-
-		<div class="mkd-eh-item-content mkd-eh-custom-5634" style="padding: 0 20% 40px 20%">
-			<div class="mkd-pie-chart-holder ">
-				<div class="mkd-pc-percentage" data-percent="40" data-bar-color="#E8612D" data-track-color="#ffffff">
-					<span class="mkd-pc-percent">40</span>
-				</div>
-				<div class="mkd-pc-text-holder">
-					<h4 class="mkd-pc-title">Energy saving</h4>
-					<p class="mkd-pc-text">Giải pháp tiết kiệm năng lượng thông minh, giảm chi phí vận hành đáng kể.</p>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-    </div></div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper " ><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1511784322626" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-four-columns  mkd-responsive-mode-1024 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-2202" data-768-1024="0 22%" data-680-768="0 22%" data-680="0 5%">
+    </div></div><div class="vc_empty_space"   style="height: 33px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div><div class="bkd-pie-section" style="background-color:#ffffff; padding: 60px 0 40px;">
+<div style="max-width:1300px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center; text-align:center;">
+<!-- Capacity 83% -->
+<div style="flex:1 1 300px; max-width:380px; padding:0 20px 40px;">
+<div class="bkd-donut" data-percent="83">
+<svg viewBox="0 0 120 120" width="174" height="174">
+<circle cx="60" cy="60" r="54" fill="none" stroke="#eeeeee" stroke-width="4"/>
+<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="4"
+stroke-dasharray="0 339.292" stroke-dashoffset="0"
+stroke-linecap="butt" transform="rotate(-90 60 60)"/>
+</svg>
+<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:46px;font-weight:500;color:#2b2b2b;">0<span style="font-size:20px;position:relative;top:-15px;">%</span></span>
+</div>
+<h4 style="margin-top:18px;margin-bottom:8px;font-size:18px;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;">Capacity</h4>
+<p style="color:#818181;font-size:14px;line-height:1.7;font-family:'Poppins',sans-serif;">Năng lực hạ tầng mạnh mẽ, sẵn sàng đáp ứng mọi quy mô doanh nghiệp.</p>
+</div>
+<!-- Efficiency 75% -->
+<div style="flex:1 1 300px; max-width:380px; padding:0 20px 40px;">
+<div class="bkd-donut" data-percent="75">
+<svg viewBox="0 0 120 120" width="174" height="174">
+<circle cx="60" cy="60" r="54" fill="none" stroke="#eeeeee" stroke-width="4"/>
+<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="4"
+stroke-dasharray="0 339.292" stroke-dashoffset="0"
+stroke-linecap="butt" transform="rotate(-90 60 60)"/>
+</svg>
+<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:46px;font-weight:500;color:#2b2b2b;">0<span style="font-size:20px;position:relative;top:-15px;">%</span></span>
+</div>
+<h4 style="margin-top:18px;margin-bottom:8px;font-size:18px;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;">Efficiency</h4>
+<p style="color:#818181;font-size:14px;line-height:1.7;font-family:'Poppins',sans-serif;">Tối ưu hiệu suất vận hành, giảm chi phí và tăng năng suất doanh nghiệp.</p>
+</div>
+<!-- Energy saving 40% -->
+<div style="flex:1 1 300px; max-width:380px; padding:0 20px 40px;">
+<div class="bkd-donut" data-percent="40">
+<svg viewBox="0 0 120 120" width="174" height="174">
+<circle cx="60" cy="60" r="54" fill="none" stroke="#eeeeee" stroke-width="4"/>
+<circle class="bkd-donut-bar" cx="60" cy="60" r="54" fill="none" stroke="#E8612D" stroke-width="4"
+stroke-dasharray="0 339.292" stroke-dashoffset="0"
+stroke-linecap="butt" transform="rotate(-90 60 60)"/>
+</svg>
+<span class="bkd-donut-val" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:46px;font-weight:500;color:#2b2b2b;">0<span style="font-size:20px;position:relative;top:-15px;">%</span></span>
+</div>
+<h4 style="margin-top:18px;margin-bottom:8px;font-size:18px;text-transform:uppercase;color:#2b2b2b;font-family:'Oswald',sans-serif;">Energy Saving</h4>
+<p style="color:#818181;font-size:14px;line-height:1.7;font-family:'Poppins',sans-serif;">Giải pháp tiết kiệm năng lượng thông minh, giảm chi phí vận hành đáng kể.</p>
+</div>
+</div>
+</div>
+<style>
+.bkd-donut { position: relative; display: inline-block; }
+.bkd-donut svg { display: block; }
+.bkd-donut-bar { transition: stroke-dasharray 1.5s ease-out; }
+</style>
+<script>
+(function(){
+var C = 2 * Math.PI * 54;
+var animated = false;
+function animateDonut(el) {
+var pct = parseInt(el.getAttribute('data-percent'), 10) || 0;
+var bar = el.querySelector('.bkd-donut-bar');
+var val = el.querySelector('.bkd-donut-val');
+var fill = C * pct / 100;
+bar.setAttribute('stroke-dasharray', fill + ' ' + (C - fill));
+var start = performance.now();
+(function step(ts) {
+var p = Math.min((ts - start) / 1500, 1);
+val.firstChild.textContent = Math.round(p * pct);
+if (p < 1) requestAnimationFrame(step);
+})(start);
+}
+function checkVisible() {
+if (animated) return;
+var els = document.querySelectorAll('.bkd-donut');
+if (!els.length) return;
+var rect = els[0].getBoundingClientRect();
+if (rect.top < window.innerHeight && rect.bottom > 0) {
+animated = true;
+els.forEach(animateDonut);
+window.removeEventListener('scroll', checkVisible);
+}
+}
+window.addEventListener('scroll', checkVisible);
+window.addEventListener('load', checkVisible);
+})();
+</script><div class="mkd-row-grid-section-wrapper " ><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1511784322626" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-four-columns  mkd-responsive-mode-1024 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-2202" data-768-1024="0 22%" data-680-768="0 22%" data-680="0 5%">
 
 	<div class="mkd-eh-item-inner">
 
