@@ -340,6 +340,52 @@ a:focus {
     border-color: #E8612D !important;
 }
 
+/* --- Pie chart base layout --- */
+.mkd-pie-chart-holder {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mkd-pc-percentage {
+    position: relative;
+    display: inline-block;
+    width: 174px;
+    height: 174px;
+    line-height: 174px;
+    margin: 0 auto;
+}
+.mkd-pc-percentage canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mkd-pc-percent {
+    display: inline-block;
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 174px;
+    color: #2b2b2b;
+    z-index: 1;
+    position: relative;
+}
+.mkd-pc-percent::after {
+    content: '%';
+    font-size: 20px;
+    position: relative;
+    top: -15px;
+}
+.mkd-pc-title {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2b2b2b;
+}
+.mkd-pc-text {
+    color: #818181;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
 /* --- Interactive box hover overlay --- */
 .mkd-interactive-box .mkd-interactive-box-text .mkd-interactive-box-title-holder::after,
 .mkd-interactive-box:hover .mkd-interactive-box-inner {

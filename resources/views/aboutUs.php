@@ -1395,7 +1395,7 @@
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/counter/assets/js/plugins/absoluteCounter.min.js?ver=6.0.11' id='absoluteCounter-js'></script>
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/custom-font/assets/js/plugins/typed.js?ver=6.0.11' id='typed-js'></script>
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/full-screen-sections/assets/js/plugins/jquery.fullPage.min.js?ver=6.0.11' id='fullPage-js'></script>
-	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/pie-chart/assets/js/plugins/easypiechart.js?ver=6.0.11' id='easypiechart-js'></script>
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js' id='easypiechart-js' crossorigin='anonymous'></script>
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.7.0.0' id='select2-js'></script>
 	<script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyBQTukooUgzxI6RBwRGdF2OPbHJ8BEowC8&#038;ver=6.0.11' id='baumeister-mikado-google-map-api-js'></script>
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules.min.js?ver=6.0.11' id='baumeister-mikado-modules-js'></script>

@@ -233,3 +233,27 @@ RS_MODULES.modules["revslider122"] = {once: RS_MODULES.modules["revslider122"]!=
 }} // End of RevInitScript
 
 if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
+
+// === Pie Chart Initialization ===
+jQuery(window).on('load', function() {
+    if (!jQuery.fn.easyPieChart) return;
+    jQuery('.mkd-pc-percentage').each(function() {
+        var $el = jQuery(this);
+        if ($el.data('easyPieChart')) return;
+        var percent = parseInt($el.data('percent'), 10) || 0;
+        var barColor = $el.data('bar-color') || '#E8612D';
+        var trackColor = $el.data('track-color') || '#eeeeee';
+        $el.easyPieChart({
+            barColor: barColor,
+            trackColor: trackColor,
+            scaleColor: false,
+            lineCap: 'butt',
+            lineWidth: 4,
+            size: 174,
+            animate: 1500,
+            onStep: function(from, to, currentValue) {
+                $el.find('.mkd-pc-percent').text(Math.round(currentValue));
+            }
+        });
+    });
+});

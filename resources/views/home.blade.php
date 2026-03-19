@@ -2437,7 +2437,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/counter/assets/js/plugins/absoluteCounter.min.js?ver=6.0.11' defer id='absoluteCounter-js'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/custom-font/assets/js/plugins/typed.js?ver=6.0.11' defer id='typed-js'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/full-screen-sections/assets/js/plugins/jquery.fullPage.min.js?ver=6.0.11' defer id='fullPage-js'></script>
-<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/mkd-core/shortcodes/pie-chart/assets/js/plugins/easypiechart.js?ver=6.0.11' defer id='easypiechart-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js' defer id='easypiechart-js' crossorigin='anonymous'></script>
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js?ver=4.0.3-wc.7.0.0' defer id='select2-js'></script>
 
 <script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules.min.js?ver=6.0.11' defer id='baumeister-mikado-modules-js'></script>
