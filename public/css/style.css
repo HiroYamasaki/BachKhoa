@@ -558,10 +558,14 @@ a.mkd-post-info-comments:hover {
 
 /* Force override any inline/computed #fdb913 from theme stylesheets */
 .mkd-content a.mkd-btn-solid[style*="background-color"],
-.mkd-content a[style*="#fdb913"],
-*[style*="#fdb913"] {
+.mkd-content a[style*="#fdb913"] {
     color: #E8612D !important;
     background-color: #E8612D !important;
+    border-color: #E8612D !important;
+}
+/* Override yellow icon color but NOT background (top-bar icons, etc.) */
+*[style*="#fdb913"] {
+    color: #E8612D !important;
     border-color: #E8612D !important;
 }
 
