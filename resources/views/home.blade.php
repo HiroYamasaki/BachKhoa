@@ -1700,7 +1700,61 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 	</div>
 
-    </div></div><div class="vc_empty_space"   style="height: 33px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper " ><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1511784322626" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-four-columns  mkd-responsive-mode-1024 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-2202" data-768-1024="0 22%" data-680-768="0 22%" data-680="0 5%">
+    </div></div><div class="vc_empty_space"   style="height: 33px"><span class="vc_empty_space_inner"></span></div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper mkd-content-aligment-center" style="background-color:#ffffff"><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1512391623363" ><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-12 vc_col-md-offset-0 vc_col-md-12 vc_col-sm-offset-0 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-three-columns  mkd-responsive-mode-768 " ><div class="mkd-eh-item    " data-item-class="mkd-eh-custom-2490" data-1024-1280="0 13% 40px 13%" data-768-1024="0 5% 40px 0% " data-680-768="0 28% 40px 28%" data-680="0px 0% 40px 0%">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-2490" style="padding: 0 20% 40px 20%">
+			<div class="mkd-pie-chart-holder ">
+				<div class="mkd-pc-percentage" data-percent="83" data-bar-color="#E8612D" data-track-color="#ffffff">
+					<span class="mkd-pc-percent">83</span>
+				</div>
+				<div class="mkd-pc-text-holder">
+					<h4 class="mkd-pc-title">Capacity</h4>
+					<p class="mkd-pc-text">Năng lực hạ tầng mạnh mẽ, sẵn sàng đáp ứng mọi quy mô doanh nghiệp.</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+    </div><div class="mkd-eh-item   mkd-horizontal-alignment-center " data-item-class="mkd-eh-custom-7959" data-1024-1280="0 13% 40px 13%" data-768-1024="0 5% 40px 0% " data-680-768="0 28% 40px 28%" data-680="0px 0% 40px 0%">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-7959" style="padding: 0 20% 40px 20%">
+			<div class="mkd-pie-chart-holder ">
+				<div class="mkd-pc-percentage" data-percent="75" data-bar-color="#E8612D" data-track-color="#ffffff">
+					<span class="mkd-pc-percent">75</span>
+				</div>
+				<div class="mkd-pc-text-holder">
+					<h4 class="mkd-pc-title">Efficiency</h4>
+					<p class="mkd-pc-text">Tối ưu hiệu suất vận hành, giảm chi phí và tăng năng suất doanh nghiệp.</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+    </div><div class="mkd-eh-item   mkd-horizontal-alignment-center " data-item-class="mkd-eh-custom-5634" data-1024-1280="0 13% 40px 13%" data-768-1024="0 5% 40px 0% " data-680-768="0 28% 40px 28%" data-680="0px 0% 40px 0%">
+
+	<div class="mkd-eh-item-inner">
+
+		<div class="mkd-eh-item-content mkd-eh-custom-5634" style="padding: 0 20% 40px 20%">
+			<div class="mkd-pie-chart-holder ">
+				<div class="mkd-pc-percentage" data-percent="40" data-bar-color="#E8612D" data-track-color="#ffffff">
+					<span class="mkd-pc-percent">40</span>
+				</div>
+				<div class="mkd-pc-text-holder">
+					<h4 class="mkd-pc-title">Energy saving</h4>
+					<p class="mkd-pc-text">Giải pháp tiết kiệm năng lượng thông minh, giảm chi phí vận hành đáng kể.</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+    </div></div></div></div></div></div></div></div><div class="mkd-row-grid-section-wrapper " ><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1511784322626" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-four-columns  mkd-responsive-mode-1024 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-2202" data-768-1024="0 22%" data-680-768="0 22%" data-680="0 5%">
 
 	<div class="mkd-eh-item-inner">
 
