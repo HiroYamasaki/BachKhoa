@@ -508,16 +508,17 @@ a.mkd-btn.mkd-btn-solid:hover,
     color: #ffffff !important;
 }
 
-/* --- Post info: category links (default color, not just hover) --- */
+/* --- Post info: category links --- */
+/* Badge-style (has background) uses inline color:#fff — DO NOT override with fill-color */
 .mkd-post-info-category a,
 .mkd-post-info-category a:link,
 .mkd-post-info-category a:visited {
-    color: #E8612D !important;
-    -webkit-text-fill-color: #E8612D !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
 }
 .mkd-post-info-category a:hover {
-    color: #C0392B !important;
-    -webkit-text-fill-color: #C0392B !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
 }
 
 /* --- Post info: author link --- */
@@ -643,8 +644,8 @@ html body .mkd-post-info-category a:link,
 html body .mkd-post-info-category a:visited,
 html body .mkd-post-info-category a:hover,
 html body .mkd-post-info-category a:focus {
-    color: #E8612D !important;
-    -webkit-text-fill-color: #E8612D !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
 }
 
 html body .mkd-post-info-author .mkd-post-info-author-link,
