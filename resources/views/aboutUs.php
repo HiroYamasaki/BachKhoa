@@ -59,7 +59,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='ppress-select2-css'  href='https://baumeister.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.css?ver=6.0.11' type='text/css' media='all' />
 <link rel='stylesheet' id='baumeister-mikado-default-style-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/style.css?ver=6.0.11' type='text/css' media='all' />
 <link rel='stylesheet' id='baumeister-mikado-modules-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/modules.min.css?ver=6.0.11' type='text/css' media='all' />
-<link rel='stylesheet' id='mkd-font_awesome-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/font-awesome/css/font-awesome.min.css?ver=6.0.11' type='text/css' media='all' />
+<link rel='stylesheet' id='mkd-font_awesome-css'  href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='mkd-font_elegant-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/elegant-icons/style.min.css?ver=6.0.11' type='text/css' media='all' />
 <link rel='stylesheet' id='mkd-ion_icons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/ion-icons/css/ionicons.min.css?ver=6.0.11' type='text/css' media='all' />
 <link rel='stylesheet' id='mkd-linea_icons-css'  href='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/css/linea-icons/style.css?ver=6.0.11' type='text/css' media='all' />
