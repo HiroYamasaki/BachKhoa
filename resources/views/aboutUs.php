@@ -66,10 +66,10 @@
 			<a class="mkd-close-side-menu" href="#" target="_self">
 				<span aria-hidden="true" class="mkd-icon-font-elegant icon_close "></span> </a>
 		</div>
-		<div id="media_image-4" class="widget mkd-sidearea widget_media_image"><img width="217" height="38" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/sidearea-img.png" class="image wp-image-3390  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div>
+		<div id="media_image-4" class="widget mkd-sidearea widget_media_image"><img width="217" height="38" src="/images/logo.jpg" class="image wp-image-3390  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div>
 		<div id="text-7" class="widget mkd-sidearea widget_text">
 			<div class="textwidget">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt et.</p>
+				<p>BachKhoa Digital - Giải pháp công nghệ thông tin toàn diện cho doanh nghiệp.</p>
 			</div>
 		</div>
 		<div id="text-8" class="widget mkd-sidearea widget_text">
@@ -80,38 +80,38 @@
 		</div>
 		<a class="mkd-icon-widget-holder" href="#"
 			target="_self" style="margin: -20px 0 0 0">
-			<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #fdb913;font-size: 15px" data-hover-color="#e7a022"><span class="mkd-icon-text-inner" style="color: #fff">620 Eighth Avenue, New York,</span></span> </a>
+			<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.12, TP.HCM,</span></span> </a>
 
 		<a class="mkd-icon-widget-holder" href="#"
 			target="_self" style="margin: -20px 0 0 20px">
-			<span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">United States of America</span></span> </a>
+			<span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Việt Nam</span></span> </a>
 
-		<a class="mkd-icon-widget-holder" href="tel:+555786978"
+		<a class="mkd-icon-widget-holder" href="tel:+84903646288"
 			target="_self" style="margin: 20px 0px 0">
-			<span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #fdb913;font-size: 15px" data-hover-color="#e7a022"><span class="mkd-icon-text-inner" style="color: #fff">+ 555 786 897</span></span> </a>
+			<span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">0903 646 288</span></span> </a>
 
 		<a class="mkd-icon-widget-holder" href="#"
 			target="_self" style="margin: 0 0 20px 28px">
-			<span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Mon-Sat, 9:00 am-7:00 pm</span></span> </a>
+			<span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">T2-T7, 8:00 - 17:30</span></span> </a>
 
-		<a class="mkd-icon-widget-holder" href="/cdn-cgi/l/email-protection#90f2f1e5fdf5f9e3e4f5e2bee1fff4f5f9fee4f5e2f1f3e4f9e6f5bef3fffd" target="_self" style="margin: 0 0 50px 0">
-			<span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #fdb913;font-size: 15px" data-hover-color="#e7a022"><span class="mkd-icon-text-inner" style="color: #fff">baumeister.qodeinteractive.com</span></span> </a>
+		<a class="mkd-icon-widget-holder" href="mailto:info@bachkhoadigital.com" target="_self" style="margin: 0 0 50px 0">
+			<span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">info@bachkhoadigital.com</span></span> </a>
 		<div id="text-9" class="widget mkd-sidearea widget_text">
 			<div class="mkd-widget-title-holder">
 				<h4 class="mkd-widget-title">Share</h4>
 			</div>
 			<div class="textwidget"></div>
 		</div>
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#e7a022" style="color: #fff;;font-size: 14px;margin: -45px 0 0;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 0 0;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
 			<span class="mkd-social-icon-widget fa fa-facebook     "></span> </a>
 
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#e7a022" style="color: #fff;;font-size: 14px;margin: -45px 18px 0px;" href="https://plus.google.com/" target="_blank">
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 18px 0px;" href="https://plus.google.com/" target="_blank">
 			<span class="mkd-social-icon-widget fa fa-google-plus     "></span> </a>
 
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#e7a022" style="color: #fff;;font-size: 14px;margin: -45px 0 0;" href="https://www.instagram.com/qodeinteractive/" target="_blank">
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 0 0;" href="https://www.instagram.com/qodeinteractive/" target="_blank">
 			<span class="mkd-social-icon-widget fa fa-instagram     "></span> </a>
 
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#e7a022" style="color: #fff;;font-size: 14px;margin: -45px 0 0 20px;" href="https://www.pinterest.com/qodeinteractive/" target="_blank">
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 0 0 20px;" href="https://www.pinterest.com/qodeinteractive/" target="_blank">
 			<span class="mkd-social-icon-widget fa fa-pinterest     "></span> </a>
 	</section>
 	<div class="mkd-wrapper">
@@ -127,49 +127,44 @@
 
 							<a class="mkd-icon-widget-holder" href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.951"
 								target="_blank" style="margin: 0 17px 0 0">
-								<span class="mkd-icon-text mkd-no-icon fa fa-truck      mkd-icon-has-hover" style="color: #fdb913;font-size: 15px" data-hover-color="#e7a022"><span class="mkd-icon-text-inner" style="color: #fff">9 Crosby Street, New York City</span></span> </a>
+								<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.12, TP.HCM</span></span> </a>
 							<div class="widget mkd-separator-widget">
 								<div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 									<div class="mkd-separator" style="border-color: rgba(255,255,255,0.25);border-style: solid;width: 1px;border-bottom-width: 20px"></div>
 								</div>
 							</div>
-							<a class="mkd-icon-widget-holder" href="tel:+134458597"
+							<a class="mkd-icon-widget-holder" href="tel:+84903646288"
 								target="_self" style="margin: 0 17px">
-								<span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #fdb913;font-size: 15px" data-hover-color="#e7a022"><span class="mkd-icon-text-inner" style="color: #fff">+1 | 344 5678</span></span> </a>
+								<span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">0903 646 288</span></span> </a>
 							<div class="widget mkd-separator-widget">
 								<div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 									<div class="mkd-separator" style="border-color: rgba(255,255,255,0.25);border-style: solid;width: 1px;border-bottom-width: 20px"></div>
 								</div>
 							</div>
-							<a class="mkd-icon-widget-holder" href="/cdn-cgi/l/email-protection#d4b6b5a1b9b1bda7a0b1a694a5bbb0b1bdbaa0b1a6b5b7a0bda2b1fab7bbb9" target="_self" style="margin: 0 0 0 17px">
-								<span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #fdb913;font-size: 15px" data-hover-color="#e7a022"><span class="mkd-icon-text-inner" style="color: #fff"><span class="__cf_email__" data-cfemail="fa989b8f979f93898e9f88ba8b959e9f93948e9f889b998e938c9fd4999597">[email&#160;protected]</span></span></span> </a>
+							<a class="mkd-icon-widget-holder" href="mailto:info@bachkhoadigital.com" target="_self" style="margin: 0 0 0 17px">
+								<span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">info@bachkhoadigital.com</span></span> </a>
 						</div>
 					</div>
 					<div class="mkd-position-right">
 						<div class="mkd-position-right-inner">
 
-							<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#e7a022" style="color: #fff;;font-size: 14px" href="https://twitter.com/QodeInteractive" target="_blank">
+							<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px" href="https://twitter.com/QodeInteractive" target="_blank">
 								<span class="mkd-social-icon-widget fa fa-twitter     "></span> </a>
 
-							<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#e7a022" style="color: #fff;;font-size: 14px;margin: 0 15px;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
+							<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: 0 15px;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
 								<span class="mkd-social-icon-widget fa fa-facebook     "></span> </a>
 
-							<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#e7a022" style="color: #fff;;font-size: 14px;margin: 0 15px 0 0;" href="https://plus.google.com/discover" target="_blank">
+							<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: 0 15px 0 0;" href="https://plus.google.com/discover" target="_blank">
 								<span class="mkd-social-icon-widget fa fa-google-plus     "></span> </a>
 
-							<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#e7a022" style="color: #fff;;font-size: 14px;margin: 0 15px 0 0;" href="https://www.linkedin.com/company/qode-themes/" target="_blank">
+							<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: 0 15px 0 0;" href="https://www.linkedin.com/company/qode-themes/" target="_blank">
 								<span class="mkd-social-icon-widget fa fa-linkedin     "></span> </a>
 							<div class="widget mkd-separator-widget">
 								<div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 									<div class="mkd-separator" style="border-color: rgba(255,255,255,0.25);border-style: solid;width: 1px;border-bottom-width: 20px"></div>
 								</div>
 							</div>
-							<div class="widget mkd-separator-widget">
-								<div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
-									<div class="mkd-separator" style="border-color: rgba(255,255,255,0);border-style: solid;width: 15px"></div>
-								</div>
-							</div>
-							<div id="media_image-5" class="widget widget_media_image mkd-top-bar-widget"><img width="49" height="25" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/topbar-img-1.png" class="image wp-image-1063  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div>
+
 						</div>
 					</div>
 				</div>
@@ -191,8 +186,8 @@
 
 								<div class="mkd-logo-wrapper">
 									<a itemprop="url" href="https://baumeister.qodeinteractive.com/" style="height: 25px;">
-										<img itemprop="image" class="mkd-normal-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png" alt="logo" />
-										<img itemprop="image" class="mkd-dark-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png" alt="dark logo" /> <img itemprop="image" class="mkd-light-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo_white.png" alt="light logo" /> </a>
+										<img itemprop="image" class="mkd-normal-logo" src="/images/logo.jpg" alt="logo" />
+										<img itemprop="image" class="mkd-dark-logo" src="/images/logo.jpg" alt="dark logo" /> <img itemprop="image" class="mkd-light-logo" src="/images/logo.jpg" alt="light logo" /> </a>
 								</div>
 
 
@@ -435,8 +430,8 @@
 
 									<div class="mkd-logo-wrapper">
 										<a itemprop="url" href="https://baumeister.qodeinteractive.com/" style="height: 25px;">
-											<img itemprop="image" class="mkd-normal-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png" alt="logo" />
-											<img itemprop="image" class="mkd-dark-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png" alt="dark logo" /> <img itemprop="image" class="mkd-light-logo" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo_white.png" alt="light logo" /> </a>
+											<img itemprop="image" class="mkd-normal-logo" src="/images/logo.jpg" alt="logo" />
+											<img itemprop="image" class="mkd-dark-logo" src="/images/logo.jpg" alt="dark logo" /> <img itemprop="image" class="mkd-light-logo" src="/images/logo.jpg" alt="light logo" /> </a>
 									</div>
 
 
@@ -691,7 +686,7 @@
 
 											<div class="mkd-mobile-logo-wrapper">
 												<a itemprop="url" href="https://baumeister.qodeinteractive.com/" style="height: 25px">
-													<img itemprop="image" src="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/logo.png" alt="Mobile Logo" />
+													<img itemprop="image" src="/images/logo.jpg" alt="Mobile Logo" />
 												</a>
 											</div>
 
@@ -955,9 +950,9 @@
 																				<div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space mkd-st-disable-title-break" style="text-align: left">
 																					<div class="mkd-st-inner">
 																						<h3 class="mkd-st-title" style="color: #1b1b1b">
-																							Experts in structural design<br /> for concrete elements </h3>
+																							Chuyên gia hạ tầng CNTT<br /> cho doanh nghiệp </h3>
 																						<p class="mkd-st-text" style="line-height: 30px;margin-top: 30px">
-																							Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nect, vulputate eget, arcu. In enimma justitis, rhoncus ut, imperdiet a, venea. Nullamiditis dictum felis eu pede mollis.<br />
+																							BachKhoa Digital là đơn vị chuyên cung cấp giải pháp hạ tầng mạng, camera an ninh, tổng đài điện thoại và các dịch vụ IT cho doanh nghiệp. Với đội ngũ kỹ sư giàu kinh nghiệm, chúng tôi cam kết mang đến giải pháp tối ưu, hiệu quả và bền vững.<br />
 																						</p>
 																					</div>
 																				</div>
@@ -982,19 +977,19 @@
 																				<div class="mkd-tabs  mkd-tabs-standard">
 																					<ul class="mkd-tabs-nav clearfix">
 																						<li>
-																							<a href="#tab-references">References</a>
+																							<a href="#tab-references">Tham Khảo</a>
 																						</li>
 																						<li>
-																							<a href="#tab-objective">Objective</a>
+																							<a href="#tab-objective">Mục Tiêu</a>
 																						</li>
 																						<li>
-																							<a href="#tab-standards">Standards</a>
+																							<a href="#tab-standards">Tiêu Chuẩn</a>
 																						</li>
 																					</ul>
 																					<div class="mkd-tab-container" id="tab-references-486">
 																						<div class="wpb_text_column wpb_content_element ">
 																							<div class="wpb_wrapper">
-																								<p>Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Ullamcorper curabitur.Lorem ipsum dolor sit amet.</p>
+																								<p>BachKhoa Digital đã phục vụ hàng trăm doanh nghiệp lớn nhỏ trên khắp TP.HCM và các tỉnh thành. Khách hàng tin tưởng chúng tôi bởi sự chuyên nghiệp, tận tâm và cam kết chất lượng dịch vụ hàng đầu.</p>
 
 																							</div>
 																						</div>
@@ -1002,7 +997,7 @@
 																					<div class="mkd-tab-container" id="tab-objective-568">
 																						<div class="wpb_text_column wpb_content_element ">
 																							<div class="wpb_wrapper">
-																								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperiet. Etiam ultricies nisi vel augue. Cuitur ullamcor ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget. Lorem ipsum ullamc curabitur quisque, tempus eget.</p>
+																								<p>Mục tiêu của chúng tôi là trở thành đối tác công nghệ hàng đầu, giúp doanh nghiệp tối ưu hóa hạ tầng IT, nâng cao hiệu suất và bảo mật thông tin một cách toàn diện.</p>
 
 																							</div>
 																						</div>
@@ -1010,7 +1005,7 @@
 																					<div class="mkd-tab-container" id="tab-standards-968">
 																						<div class="wpb_text_column wpb_content_element ">
 																							<div class="wpb_wrapper">
-																								<p>Quisque rutrum. Aenean imperdiet. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Etiam ultricies nisi vel augue. Lorem ipsum ullamcorper curabitur. Curabitur tellus eget lorem.</p>
+																								<p>Chúng tôi tuân thủ các tiêu chuẩn quốc tế về an ninh mạng, hạ tầng và chất lượng dịch vụ IT. Mọi giải pháp đều được thiết kế theo quy chuẩn cao nhất.</p>
 
 																							</div>
 																						</div>
@@ -1041,9 +1036,9 @@
 																		<div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: left">
 																			<div class="mkd-st-inner">
 																				<h1 class="mkd-st-title" style="color: #ffffff">
-																					Services </h1>
+																					Dịch Vụ </h1>
 																				<p class="mkd-st-text" style="line-height: 30px;margin-top: 29px">
-																					Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean. </p>
+																					Giải pháp công nghệ toàn diện cho mọi quy mô doanh nghiệp. </p>
 																			</div>
 																		</div>
 																	</div>
@@ -1067,13 +1062,13 @@
 																		<div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: left">
 																			<div class="mkd-st-inner">
 																				<h3 class="mkd-st-title" style="color: #ffffff">
-																					Engineering </h3>
+																					Hạ Tầng Mạng </h3>
 																				<p class="mkd-st-text" style="line-height: 30px;margin-top: 20px">
-																					Aliquam lorem ante, dapibus in, viverra quis, feugiat. Phasellusis viverra nulla ut metus varius laoreet quisquer </p>
+																					Thiết kế, triển khai và bảo trì giải pháp công nghệ chuyên nghiệp cho doanh nghiệp </p>
 																			</div>
 																		</div>
 																		<div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div><a itemprop="url" href="https://baumeister.qodeinteractive.com/portfolio-item/heavy-equipment/" target="_self" class="mkd-btn mkd-btn-medium mkd-btn-solid mkd-btn-icon">
-																			<span class="mkd-btn-text">Read more</span>
+																			<span class="mkd-btn-text">Xem thêm</span>
 																			<span class="mkd-btn-icon"><i class="mkd-icon-font-awesome fa fa-long-arrow-right "></i></span>
 																		</a>
 																	</div>
@@ -1089,13 +1084,13 @@
 																		<div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: left">
 																			<div class="mkd-st-inner">
 																				<h3 class="mkd-st-title" style="color: #ffffff">
-																					Building </h3>
+																					Camera An Ninh </h3>
 																				<p class="mkd-st-text" style="line-height: 30px;margin-top: 20px">
-																					Aliquam lorem ante, dapibus in, viverra quis, feugiat. Phasellusis viverra nulla ut metus varius laoreet quisquer </p>
+																					Thiết kế, triển khai và bảo trì giải pháp công nghệ chuyên nghiệp cho doanh nghiệp </p>
 																			</div>
 																		</div>
 																		<div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div><a itemprop="url" href="https://baumeister.qodeinteractive.com/portfolio-item/heavy-equipment/" target="_self" class="mkd-btn mkd-btn-medium mkd-btn-solid mkd-btn-icon">
-																			<span class="mkd-btn-text">Read more</span>
+																			<span class="mkd-btn-text">Xem thêm</span>
 																			<span class="mkd-btn-icon"><i class="mkd-icon-font-awesome fa fa-long-arrow-right "></i></span>
 																		</a>
 																	</div>
@@ -1113,13 +1108,13 @@
 																		<div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: left">
 																			<div class="mkd-st-inner">
 																				<h3 class="mkd-st-title" style="color: #ffffff">
-																					Process </h3>
+																					Tổng Đài Điện Thoại </h3>
 																				<p class="mkd-st-text" style="line-height: 30px;margin-top: 20px">
-																					Aliquam lorem ante, dapibus in, viverra quis, feugiat. Phasellusis viverra nulla ut metus varius laoreet quisquer </p>
+																					Thiết kế, triển khai và bảo trì giải pháp công nghệ chuyên nghiệp cho doanh nghiệp </p>
 																			</div>
 																		</div>
 																		<div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div><a itemprop="url" href="https://baumeister.qodeinteractive.com/portfolio-item/heavy-equipment/" target="_self" class="mkd-btn mkd-btn-medium mkd-btn-solid mkd-btn-icon">
-																			<span class="mkd-btn-text">Read more</span>
+																			<span class="mkd-btn-text">Xem thêm</span>
 																			<span class="mkd-btn-icon"><i class="mkd-icon-font-awesome fa fa-long-arrow-right "></i></span>
 																		</a>
 																	</div>
@@ -1135,13 +1130,13 @@
 																		<div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space " style="text-align: left">
 																			<div class="mkd-st-inner">
 																				<h3 class="mkd-st-title" style="color: #ffffff">
-																					Industry </h3>
+																					Dịch Vụ IT </h3>
 																				<p class="mkd-st-text" style="line-height: 30px;margin-top: 20px">
-																					Aliquam lorem ante, dapibus in, viverra quis, feugiat. Phasellusis viverra nulla ut metus varius laoreet quisquer </p>
+																					Thiết kế, triển khai và bảo trì giải pháp công nghệ chuyên nghiệp cho doanh nghiệp </p>
 																			</div>
 																		</div>
 																		<div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner"></span></div><a itemprop="url" href="https://baumeister.qodeinteractive.com/portfolio-item/heavy-equipment/" target="_self" class="mkd-btn mkd-btn-medium mkd-btn-solid mkd-btn-icon">
-																			<span class="mkd-btn-text">Read more</span>
+																			<span class="mkd-btn-text">Xem thêm</span>
 																			<span class="mkd-btn-icon"><i class="mkd-icon-font-awesome fa fa-long-arrow-right "></i></span>
 																		</a>
 																	</div>
@@ -1244,7 +1239,7 @@
 											<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-md-offset-0 vc_col-sm-offset-0 vc_col-xs-12">
 												<div class="vc_column-inner">
 													<div class="wpb_wrapper"><a itemprop="url" href="https://baumeister.qodeinteractive.com/contact-us/" target="_self" class="mkd-btn mkd-btn-full-width mkd-btn-solid">
-															<span class="mkd-btn-text" style="font-size: 60px;font-family: Oswald;letter-spacing: 0;height: 200px">Contact Us!</span>
+															<span class="mkd-btn-text" style="font-size: 60px;font-family: Oswald;letter-spacing: 0;height: 200px">Liên Hệ Ngay!</span>
 															<span class="mkd-btn-icon"></span>
 														</a></div>
 												</div>
@@ -1264,89 +1259,79 @@
 					<div class="mkd-footer-top-inner mkd-grid">
 						<div class="mkd-grid-row mkd-footer-top-alignment-left">
 							<div class="mkd-column-content mkd-grid-col-3">
-								<div id="media_image-2" class="widget mkd-footer-column-1 widget_media_image"><a href="https://baumeister.qodeinteractive.com/"><img width="217" height="38" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/footer-img.png" class="image wp-image-3389  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></a></div>
+								<div id="media_image-2" class="widget mkd-footer-column-1 widget_media_image"><a href="/"><img width="217" height="38" src="/images/logo.jpg" class="image attachment-full size-full" alt="BachKhoa Digital" loading="lazy" style="max-width: 100%; height: auto;" /></a></div>
 								<div id="text-3" class="widget mkd-footer-column-1 widget_text">
 									<div class="textwidget">
-										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+										<p>BachKhoa Digital cung cấp giải pháp hạ tầng mạng, camera an ninh, tổng đài điện thoại và dịch vụ IT chuyên nghiệp cho doanh nghiệp.</p>
 									</div>
 								</div>
-								<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#e7a022" style="color: #fff;;font-size: 15px;margin: 8px 0 0;" href="https://twitter.com/QodeInteractive" target="_blank">
-									<span class="mkd-social-icon-widget fa fa-twitter     "></span> </a>
+								<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 15px;margin: 8px 0 0;" href="#" target="_blank">
+									<span class="mkd-social-icon-widget fa fa-facebook"></span> </a>
 
-								<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#e7a022" style="color: #fff;;font-size: 15px;margin: 8px 20px 0;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
-									<span class="mkd-social-icon-widget fa fa-facebook     "></span> </a>
+								<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 15px;margin: 8px 20px 0;" href="#" target="_blank">
+									<span class="mkd-social-icon-widget fa fa-youtube"></span> </a>
 
-								<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#e7a022" style="color: #fff;;font-size: 15px;margin: 8px 0 0;" href="https://plus.google.com/" target="_blank">
-									<span class="mkd-social-icon-widget fa fa-google-plus     "></span> </a>
-
-								<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#e7a022" style="color: #fff;;font-size: 15px;margin: 8px 0 0 20px;" href="https://www.linkedin.com/company/qode-themes/" target="_blank">
-									<span class="mkd-social-icon-widget fa fa-linkedin     "></span> </a>
+								<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 15px;margin: 8px 0 0;" href="#" target="_blank">
+									<span class="mkd-social-icon-widget fa fa-linkedin"></span> </a>
 							</div>
 							<div class="mkd-column-content mkd-grid-col-3">
 								<div id="text-4" class="widget mkd-footer-column-2 widget_text">
 									<div class="mkd-widget-title-holder">
-										<h4 class="mkd-widget-title">What we do</h4>
+										<h4 class="mkd-widget-title">Dịch Vụ Của Chúng Tôi</h4>
 									</div>
 									<div class="textwidget">
-										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+										<p>Giải pháp công nghệ toàn diện cho doanh nghiệp.</p>
 									</div>
 								</div>
-								<a class="mkd-icon-widget-holder" href="#"
-									target="_self" style="margin: -16px 0 0 0">
-									<span class="mkd-icon-text mkd-no-icon fa fa-users      mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#e7a022"><span class="mkd-icon-text-inner">Lorem ipsum dolor sit amet</span></span> </a>
+								<a class="mkd-icon-widget-holder" href="#" target="_self" style="margin: -16px 0 0 0">
+									<span class="mkd-icon-text mkd-no-icon fa fa-server mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner">Hạ tầng mạng doanh nghiệp</span></span> </a>
 								<div class="widget mkd-separator-widget">
-									<div class="mkd-separator-holder clearfix  mkd-separator-left mkd-separator-normal">
+									<div class="mkd-separator-holder clearfix mkd-separator-left mkd-separator-normal">
 										<div class="mkd-separator" style="border-color: #fff;border-style: solid;width: 250px;border-bottom-width: 1px;margin-top: 10px;margin-bottom: 14px"></div>
 									</div>
 								</div>
-								<a class="mkd-icon-widget-holder" href="#"
-									target="_self">
-									<span class="mkd-icon-text mkd-no-icon fa fa-users      mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#e7a022"><span class="mkd-icon-text-inner">Lorem ipsum dolor sit amet</span></span> </a>
+								<a class="mkd-icon-widget-holder" href="#" target="_self">
+									<span class="mkd-icon-text mkd-no-icon fa fa-video-camera mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner">Camera an ninh giám sát</span></span> </a>
 								<div class="widget mkd-separator-widget">
-									<div class="mkd-separator-holder clearfix  mkd-separator-left mkd-separator-normal">
+									<div class="mkd-separator-holder clearfix mkd-separator-left mkd-separator-normal">
 										<div class="mkd-separator" style="border-color: #fff;border-style: solid;width: 250px;border-bottom-width: 1px;margin-top: 17px;margin-bottom: 14px"></div>
 									</div>
 								</div>
-								<a class="mkd-icon-widget-holder" href="#"
-									target="_self">
-									<span class="mkd-icon-text mkd-no-icon fa fa-users      mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#e7a022"><span class="mkd-icon-text-inner">Lorem ipsum dolor sit amet</span></span> </a>
+								<a class="mkd-icon-widget-holder" href="#" target="_self">
+									<span class="mkd-icon-text mkd-no-icon fa fa-phone mkd-icon-has-hover" style="color: #fff;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner">Tổng đài điện thoại IP</span></span> </a>
 							</div>
 							<div class="mkd-column-content mkd-grid-col-3">
 								<div id="text-5" class="widget mkd-footer-column-3 widget_text">
 									<div class="mkd-widget-title-holder">
-										<h4 class="mkd-widget-title">Contact information</h4>
+										<h4 class="mkd-widget-title">Thông Tin Liên Hệ</h4>
 									</div>
 									<div class="textwidget"></div>
 								</div>
-								<a class="mkd-icon-widget-holder" href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.9518307"
-									target="_blank" style="margin: 0 64px 0 0">
-									<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #fdb913;font-size: 15px" data-hover-color="#e7a022"><span class="mkd-icon-text-inner" style="color: #fff">620 Eighth Avenue,</span></span> </a>
+								<a class="mkd-icon-widget-holder" href="#" target="_blank" style="margin: 0 64px 0 0">
+									<span class="mkd-icon-text mkd-no-icon fa fa-map-marker mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.12,</span></span> </a>
 
-								<a class="mkd-icon-widget-holder" href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.9518307"
-									target="_blank" style="margin: 0 0 0 20px">
-									<span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">United States of America</span></span> </a>
+								<a class="mkd-icon-widget-holder" href="#" target="_blank" style="margin: 0 0 0 20px">
+									<span class="mkd-icon-text mkd-no-icon" style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">TP. Hồ Chí Minh, Việt Nam</span></span> </a>
 
-								<a class="mkd-icon-widget-holder" href="tel:+555786897"
-									target="_self" style="margin: 30px 75px 0 0">
-									<span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #fdb913;font-size: 15px" data-hover-color="#e7a022"><span class="mkd-icon-text-inner" style="color: #fff">+ 555 786 897</span></span> </a>
+								<a class="mkd-icon-widget-holder" href="tel:+84903646288" target="_self" style="margin: 30px 75px 0 0">
+									<span class="mkd-icon-text mkd-no-icon fa fa-phone mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">0903 646 288</span></span> </a>
 
-								<a class="mkd-icon-widget-holder" href="#"
-									target="_self" style="margin: 0 0 24px 20px">
-									<span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Mon-Sat, 9:00am-7:00pm</span></span> </a>
+								<a class="mkd-icon-widget-holder" href="#" target="_self" style="margin: 0 0 24px 20px">
+									<span class="mkd-icon-text mkd-no-icon" style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">T2-T7, 8:00 - 17:30</span></span> </a>
 
-								<a class="mkd-icon-widget-holder" href="/cdn-cgi/l/email-protection#93f1f2e6fef6fae0e7f6e1d3e2fcf7f6bdf0fcfe" target="_self" style="margin: 0 63px 0 0">
-									<span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #fdb913;font-size: 15px" data-hover-color="#e7a022"><span class="mkd-icon-text-inner" style="color: #fff"><span class="__cf_email__" data-cfemail="fd9f9c889098948e89988fbd8c929998d39e9290">[email&#160;protected]</span></span></span> </a>
+								<a class="mkd-icon-widget-holder" href="mailto:info@bachkhoadigital.com" target="_self" style="margin: 0 63px 0 0">
+									<span class="mkd-icon-text mkd-no-icon fa fa-envelope-o mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">info@bachkhoadigital.com</span></span> </a>
 							</div>
 							<div class="mkd-column-content mkd-grid-col-3">
 								<div id="text-6" class="widget mkd-footer-column-4 widget_text">
 									<div class="mkd-widget-title-holder">
-										<h4 class="mkd-widget-title">Officies</h4>
+										<h4 class="mkd-widget-title">Văn Phòng</h4>
 									</div>
 									<div class="textwidget">
-										<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+										<p>Trụ sở chính tại TP. Hồ Chí Minh, phục vụ khách hàng trên toàn quốc.</p>
 									</div>
 								</div>
-								<div id="media_image-3" class="widget mkd-footer-column-4 widget_media_image"><a href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.9518307" target="_blank" rel="noopener"><img width="270" height="142" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/12/footer-img-2.png" class="image wp-image-3375  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></a></div>
+								<div id="media_image-3" class="widget mkd-footer-column-4 widget_media_image"><img width="270" height="142" src="/images/logo.jpg" class="image attachment-full size-full" alt="BachKhoa Digital Office" loading="lazy" style="max-width: 100%; height: auto; opacity: 0.7;" /></div>
 							</div>
 						</div>
 					</div>
@@ -1357,7 +1342,7 @@
 							<div class="mkd-grid-col-12">
 								<div id="text-11" class="widget mkd-footer-bottom-column-1 widget_text">
 									<div class="textwidget">
-										<p><a href="https://qodeinteractive.com/" target="_blank" rel="nofollow noopener">� 2021 Qode Interactive, All Rights Reserved</a></p>
+										<p>&copy; 2024 BachKhoa Digital. All Rights Reserved.</p>
 									</div>
 								</div>
 							</div>
@@ -1367,13 +1352,6 @@
 			</footer>
 		</div> <!-- close div.mkd-wrapper-inner  -->
 	</div> <!-- close div.mkd-wrapper -->
-
-	<div class="rbt-toolbar" data-theme="Baumeister" data-featured="" data-button-position="70%" data-button-horizontal="right" data-button-alt="no"></div>
-	<!-- GTM Container placement set to footer -->
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTQ2BTD" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
-	<script type="text/html" id="wpb-modifications"></script>
 	<link rel='stylesheet' id='rs-plugin-settings-css' href='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.5' type='text/css' media='all' />
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.6.4' id='swv-js'></script>
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.4' id='contact-form-7-js'></script>
@@ -1415,6 +1393,112 @@
 	<script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyBQTukooUgzxI6RBwRGdF2OPbHJ8BEowC8&#038;ver=6.0.11' id='baumeister-mikado-google-map-api-js'></script>
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules.min.js?ver=6.0.11' id='baumeister-mikado-modules-js'></script>
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.10.0' id='wpb_composer_front_js-js'></script>
+
+<!-- Force xóa toàn bộ màu vàng #fdb913/#e7a022 bằng JS sau khi tất cả CSS/JS theme đã load -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.mkd-btn-solid').forEach(function(btn) {
+        btn.style.setProperty('background-color', '#E8612D', 'important');
+        btn.style.setProperty('background-image', 'linear-gradient(135deg, #E8612D 0%, #C0392B 100%)', 'important');
+        btn.style.setProperty('border-color', '#E8612D', 'important');
+        var txt = btn.querySelector('.mkd-btn-text');
+        if (txt) txt.style.setProperty('color', '#ffffff', 'important');
+        var icon = btn.querySelector('.mkd-btn-icon');
+        if (icon) {
+            icon.style.setProperty('background-color', '#C0392B', 'important');
+            icon.style.setProperty('color', '#ffffff', 'important');
+        }
+    });
+    var btt = document.getElementById('mkd-back-to-top');
+    if (btt) btt.style.setProperty('background-color', '#E8612D', 'important');
+    var allEls = document.querySelectorAll('*');
+    allEls.forEach(function(el) {
+        var cs = getComputedStyle(el);
+        var bg = cs.backgroundColor;
+        var color = cs.color;
+        var bc = cs.borderColor;
+        var isYellowBg = (bg === 'rgb(253, 185, 19)' || bg === 'rgb(231, 160, 34)');
+        var isYellowColor = (color === 'rgb(253, 185, 19)' || color === 'rgb(231, 160, 34)');
+        if (isYellowBg) {
+            el.style.setProperty('background-color', '#E8612D', 'important');
+            el.style.setProperty('color', '#ffffff', 'important');
+        } else if (isYellowColor) {
+            el.style.setProperty('color', '#E8612D', 'important');
+        }
+        if (bc === 'rgb(253, 185, 19)' || bc === 'rgb(231, 160, 34)') {
+            el.style.setProperty('border-color', '#E8612D', 'important');
+        }
+    });
+});
+</script>
+
+<!-- ===== BACH KHOA DIGITAL: Override màu vàng → Đỏ Cam (load CUỐI CÙNG, sau mọi CSS) ===== -->
+<style id="bkd-color-override">
+    body.page-id-521 .mkd-btn.mkd-btn-solid,
+    body.page-id-521 a.mkd-btn.mkd-btn-solid,
+    body.page-id-521 .mkd-btn.mkd-btn-medium.mkd-btn-solid,
+    body.page-id-521 a.mkd-btn.mkd-btn-medium.mkd-btn-solid,
+    body.page-id-521 a.mkd-btn.mkd-btn-small.mkd-btn-solid,
+    body.page-id-521 a.mkd-btn.mkd-btn-large.mkd-btn-solid,
+    body.page-id-521 a.mkd-btn.mkd-btn-full-width.mkd-btn-solid,
+    body.page-id-521 a.mkd-btn.mkd-btn-solid.mkd-btn-icon,
+    body.page-id-521 a.mkd-btn.mkd-btn-medium.mkd-btn-solid.mkd-btn-icon {
+        background-color: #E8612D !important;
+        background-image: linear-gradient(135deg, #E8612D 0%, #C0392B 100%) !important;
+        border-color: #E8612D !important;
+        color: #ffffff !important;
+    }
+    body.page-id-521 .mkd-btn.mkd-btn-solid:hover,
+    body.page-id-521 a.mkd-btn.mkd-btn-solid:hover,
+    body.page-id-521 a.mkd-btn.mkd-btn-medium.mkd-btn-solid:hover,
+    body.page-id-521 a.mkd-btn.mkd-btn-full-width.mkd-btn-solid:hover {
+        background-color: #C0392B !important;
+        background-image: linear-gradient(135deg, #C0392B 0%, #9B1B1B 100%) !important;
+        border-color: #C0392B !important;
+    }
+    body.page-id-521 .mkd-btn.mkd-btn-solid .mkd-btn-text,
+    body.page-id-521 a.mkd-btn.mkd-btn-solid .mkd-btn-text { color: #ffffff !important; }
+    body.page-id-521 .mkd-btn.mkd-btn-solid .mkd-btn-icon,
+    body.page-id-521 a.mkd-btn.mkd-btn-solid .mkd-btn-icon {
+        background-color: #C0392B !important;
+        background-image: none !important;
+        color: #ffffff !important;
+    }
+
+    body.page-id-521 .mkd-main-menu > ul > li.mkd-active-item > a,
+    body.page-id-521 .mkd-main-menu > ul > li.mkd-active-item > a span,
+    body.page-id-521 .mkd-main-menu > ul > li.current-menu-item > a,
+    body.page-id-521 .mkd-main-menu > ul > li > a:hover,
+    body.page-id-521 .mkd-main-menu > ul > li > a:hover span { color: #E8612D !important; }
+    body.page-id-521 .mkd-main-menu > ul > li.mkd-active-item > a::after,
+    body.page-id-521 .mkd-main-menu > ul > li > a:hover::after { background-color: #E8612D !important; }
+
+    body.page-id-521 .mkd-drop-down .second .inner ul li a:hover,
+    body.page-id-521 .mkd-drop-down .second .inner ul li.current-menu-item > a { color: #E8612D !important; }
+
+    body.page-id-521 .mkd-post-info-category a,
+    body.page-id-521 .mkd-post-info-category a:hover { color: #ffffff !important; background-color: #E8612D !important; border-color: #E8612D !important; }
+    body.page-id-521 .mkd-post-info-author .mkd-post-info-author-link,
+    body.page-id-521 a.mkd-post-info-author-link { color: #E8612D !important; }
+
+    body.page-id-521 .mkd-st-title-line { background-color: #E8612D !important; }
+    body.page-id-521 .woocommerce span.onsale { background-color: #E8612D !important; }
+
+    body.page-id-521 .mkd-back-to-top a,
+    body.page-id-521 #mkd-back-to-top a { background-color: #E8612D !important; }
+
+    body.page-id-521 .mkd-page-footer,
+    body.page-id-521 .mkd-footer-top-holder,
+    body.page-id-521 .mkd-footer-bottom-holder { background-color: #2B2B2B !important; }
+    body.page-id-521 .mkd-footer-top-holder *,
+    body.page-id-521 .mkd-footer-bottom-holder * { color: #cccccc !important; }
+    body.page-id-521 .mkd-widget-title,
+    body.page-id-521 .mkd-footer-top-holder h4,
+    body.page-id-521 .mkd-footer-bottom-holder h4 { color: #ffffff !important; }
+    body.page-id-521 .mkd-footer-top-holder a:hover,
+    body.page-id-521 .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
+</style>
+
 </body>
 
 </html>
