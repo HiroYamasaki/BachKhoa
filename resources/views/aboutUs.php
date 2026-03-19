@@ -164,11 +164,7 @@
 									<div class="mkd-separator" style="border-color: rgba(255,255,255,0.25);border-style: solid;width: 1px;border-bottom-width: 20px"></div>
 								</div>
 							</div>
-
-						</div>
-					</div>
-				</div>
-
+						<div id="media_image-5" class="widget widget_media_image mkd-top-bar-widget"><img width="49" height="25" src="/images/map_banner.png" class="image wp-image-1063  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div>
 
 			</div>
 
@@ -1370,7 +1366,7 @@
 										<p>Trụ sở chính tại TP. Hồ Chí Minh, phục vụ khách hàng trên toàn quốc.</p>
 									</div>
 								</div>
-								<div id="media_image-3" class="widget mkd-footer-column-4 widget_media_image"><img width="270" height="142" src="/images/logo.jpg" class="image attachment-full size-full" alt="BachKhoa Digital Office" loading="lazy" style="max-width: 100%; height: auto; opacity: 0.7;" /></div>
+								<div id="media_image-3" class="widget mkd-footer-column-4 widget_media_image"><img width="270" height="142" src="/images/map_footter.png" class="image attachment-full size-full" alt="BachKhoa Digital Office" loading="lazy" style="max-width: 100%; height: auto; opacity: 0.7;" /></div>
 							</div>
 						</div>
 					</div>
