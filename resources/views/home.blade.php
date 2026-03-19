@@ -341,7 +341,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
         }
 
         /* === RUNNER CHARACTER === */
-        .bkd-runner {
+        #bkd-preloader .bkd-runner {
             position: absolute;
             left: 0;                         /* updated by JS */
             bottom: calc(100% + 4px);        /* ngồi ngay trên bar */
@@ -351,10 +351,10 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
             flex-direction: column;
             align-items: center;
             z-index: 10;
-            animation: bkd-bob 0.32s ease-in-out infinite;
+            animation: bkdpl-bob 0.32s ease-in-out infinite;
             pointer-events: none;
         }
-        @keyframes bkd-bob {
+        @keyframes bkdpl-bob {
             0%, 100% { transform: translateX(-50%) translateY(0px);  }
             50%       { transform: translateX(-50%) translateY(-4px); }
         }
@@ -458,16 +458,16 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
         }
 
         /* Bóng đổ dưới nhân vật */
-        .bkd-rshad {
+        #bkd-preloader .bkd-rshad {
             position: absolute;
             bottom: -6px;
             left: 50%; transform: translateX(-50%);
             width: 18px; height: 5px;
             border-radius: 50%;
             background: radial-gradient(ellipse, rgba(232,97,45,0.3) 0%, transparent 70%);
-            animation: bkd-shad 0.32s ease-in-out infinite;
+            animation: bkdpl-shad 0.32s ease-in-out infinite;
         }
-        @keyframes bkd-shad {
+        @keyframes bkdpl-shad {
             0%, 100% { width: 18px; opacity: 0.6; }
             50%       { width: 11px; opacity: 0.25; }
         }
