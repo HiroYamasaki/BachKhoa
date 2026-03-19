@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -1167,7 +1167,7 @@
 
 																			<div class="mkd-eh-item-content mkd-eh-custom-2490" style="padding: 0 20% 40px 20%">
 																				<div class="mkd-pie-chart-holder ">
-																					<div class="mkd-pc-percentage" data-percent="83" data-bar-color="#fdb913" data-track-color="#ffffff">
+																					<div class="mkd-pc-percentage" data-percent="83" data-bar-color="#E8612D" data-track-color="#ffffff">
 																						<span class="mkd-pc-percent">83</span>
 																					</div>
 																					<div class="mkd-pc-text-holder">
@@ -1186,7 +1186,7 @@
 
 																			<div class="mkd-eh-item-content mkd-eh-custom-7959" style="padding: 0 20% 40px 20%">
 																				<div class="mkd-pie-chart-holder ">
-																					<div class="mkd-pc-percentage" data-percent="75" data-bar-color="#fdb913" data-track-color="#ffffff">
+																					<div class="mkd-pc-percentage" data-percent="75" data-bar-color="#E8612D" data-track-color="#ffffff">
 																						<span class="mkd-pc-percent">75</span>
 																					</div>
 																					<div class="mkd-pc-text-holder">
@@ -1205,7 +1205,7 @@
 
 																			<div class="mkd-eh-item-content mkd-eh-custom-5634" style="padding: 0 20% 40px 20%">
 																				<div class="mkd-pie-chart-holder ">
-																					<div class="mkd-pc-percentage" data-percent="40" data-bar-color="#fdb913" data-track-color="#ffffff">
+																					<div class="mkd-pc-percentage" data-percent="40" data-bar-color="#E8612D" data-track-color="#ffffff">
 																						<span class="mkd-pc-percent">40</span>
 																					</div>
 																					<div class="mkd-pc-text-holder">
@@ -1342,7 +1342,7 @@
 							<div class="mkd-grid-col-12">
 								<div id="text-11" class="widget mkd-footer-bottom-column-1 widget_text">
 									<div class="textwidget">
-										<p><a href="https://qodeinteractive.com/" target="_blank" rel="nofollow noopener">© 2021 Qode Interactive, All Rights Reserved</a></p>
+										<p><a href="https://qodeinteractive.com/" target="_blank" rel="nofollow noopener">� 2021 Qode Interactive, All Rights Reserved</a></p>
 									</div>
 								</div>
 							</div>
@@ -1400,6 +1400,36 @@
 	<script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyBQTukooUgzxI6RBwRGdF2OPbHJ8BEowC8&#038;ver=6.0.11' id='baumeister-mikado-google-map-api-js'></script>
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules.min.js?ver=6.0.11' id='baumeister-mikado-modules-js'></script>
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.10.0' id='wpb_composer_front_js-js'></script>
+
+<!-- Pie chart init (runs after easypiechart + modules.min.js are loaded) -->
+<script>
+(function(){
+    function initPieCharts() {
+        if (typeof jQuery === 'undefined' || !jQuery.fn.easyPieChart) return;
+        jQuery('.mkd-pc-percentage').each(function() {
+            var $el = jQuery(this);
+            if ($el.data('easyPieChart')) return;
+            var percent = parseInt($el.data('percent'), 10) || 0;
+            var barColor = $el.data('bar-color') || '#E8612D';
+            var trackColor = $el.data('track-color') || '#eeeeee';
+            $el.easyPieChart({
+                barColor: barColor,
+                trackColor: trackColor,
+                scaleColor: false,
+                lineCap: 'butt',
+                lineWidth: 4,
+                size: 174,
+                animate: 1500,
+                onStep: function(from, to, currentValue) {
+                    $el.find('.mkd-pc-percent').text(Math.round(currentValue));
+                }
+            });
+        });
+    }
+    if (document.readyState === 'complete') { initPieCharts(); }
+    else { window.addEventListener('load', initPieCharts); }
+})();
+</script>
 </body>
 
 </html>
