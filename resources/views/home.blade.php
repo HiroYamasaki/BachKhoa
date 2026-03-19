@@ -2149,8 +2149,8 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 <div style="max-width:1300px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center; text-align:center;">
 
 <!-- Hạ Tầng Cloud 83% -->
-<div class="bkd-donut" data-percent="83" style="flex:1 1 260px; max-width:320px; padding:0 20px 40px;">
-<div class="bkd-donut-wrap">
+<div style="flex:1 1 260px; max-width:320px; padding:0 20px 40px;">
+<div class="bkd-donut" data-percent="83">
 <svg viewBox="0 0 120 120" width="184" height="184">
 <defs>
 <filter id="bkd-ht-glow-1" x="-30%" y="-30%" width="160%" height="160%">
@@ -2172,8 +2172,8 @@ stroke-linecap="round" transform="rotate(-90 60 60)"/>
 </div>
 
 <!-- Dự Án Doanh Nghiệp 75% -->
-<div class="bkd-donut" data-percent="75" style="flex:1 1 260px; max-width:320px; padding:0 20px 40px;">
-<div class="bkd-donut-wrap">
+<div style="flex:1 1 260px; max-width:320px; padding:0 20px 40px;">
+<div class="bkd-donut" data-percent="75">
 <svg viewBox="0 0 120 120" width="184" height="184">
 <defs>
 <filter id="bkd-ht-glow-2" x="-30%" y="-30%" width="160%" height="160%">
@@ -2195,8 +2195,8 @@ stroke-linecap="round" transform="rotate(-90 60 60)"/>
 </div>
 
 <!-- Tiết Kiệm Chi Phí 40% -->
-<div class="bkd-donut" data-percent="40" style="flex:1 1 260px; max-width:320px; padding:0 20px 40px;">
-<div class="bkd-donut-wrap">
+<div style="flex:1 1 260px; max-width:320px; padding:0 20px 40px;">
+<div class="bkd-donut" data-percent="40">
 <svg viewBox="0 0 120 120" width="184" height="184">
 <defs>
 <filter id="bkd-ht-glow-3" x="-30%" y="-30%" width="160%" height="160%">
@@ -2218,8 +2218,8 @@ stroke-linecap="round" transform="rotate(-90 60 60)"/>
 </div>
 
 <!-- Hiệu Suất Hệ Thống 75% -->
-<div class="bkd-donut" data-percent="75" style="flex:1 1 260px; max-width:320px; padding:0 20px 40px;">
-<div class="bkd-donut-wrap">
+<div style="flex:1 1 260px; max-width:320px; padding:0 20px 40px;">
+<div class="bkd-donut" data-percent="75">
 <svg viewBox="0 0 120 120" width="184" height="184">
 <defs>
 <filter id="bkd-ht-glow-4" x="-30%" y="-30%" width="160%" height="160%">
@@ -2243,8 +2243,8 @@ stroke-linecap="round" transform="rotate(-90 60 60)"/>
 </div>
 </div>
 <style>
-.bkd-donut-wrap { position: relative; display: inline-block; }
-.bkd-donut-wrap svg { display: block; overflow: visible; }
+.bkd-donut { position: relative; display: inline-block; }
+.bkd-donut svg { display: block; overflow: visible; }
 </style>
 <script>
 (function(){
@@ -2258,11 +2258,11 @@ return { x: 60 + R2 * Math.cos(rad), y: 60 + R2 * Math.sin(rad) };
 function easeOut2(t) { return 1 - Math.pow(1 - t, 3); }
 function animateDonut2(el) {
 var pct    = parseInt(el.getAttribute('data-percent'), 10) || 0;
-var wrap   = el.querySelector('.bkd-donut-wrap');
 var bar    = el.querySelector('.bkd-donut-bar');
 var val    = el.querySelector('.bkd-donut-val');
 var runner = el.querySelector('.bkd-runner');
 var rdot   = el.querySelector('.bkd-runner-dot');
+if (!bar || !val || !runner || !rdot) return;
 var start  = performance.now();
 (function step(ts) {
 var t   = Math.min((ts - start) / 1500, 1);
@@ -2281,7 +2281,7 @@ if (t < 1) requestAnimationFrame(step);
 }
 function checkVisible2() {
 if (animated2) return;
-var els = document.querySelectorAll('.bkd-donut[data-percent]');
+var els = document.querySelectorAll('.bkd-donut');
 if (!els.length) return;
 var rect = els[0].getBoundingClientRect();
 if (rect.top < window.innerHeight * 1.1 && rect.bottom > 0) {
