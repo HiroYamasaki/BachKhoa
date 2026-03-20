@@ -1130,6 +1130,22 @@ document.addEventListener('DOMContentLoaded', function() {
             el.style.setProperty('border-color', '#E8612D', 'important');
         }
     });
+
+    /* Cleanup: strip any orange that leaked into tab panels or accordion content
+       (child elements inside those containers may have inherited yellow → got overridden) */
+    document.querySelectorAll(
+        '.mkd-tab-container, .mkd-tab-container *, ' +
+        '.mkd-accordion-content, .mkd-accordion-content *'
+    ).forEach(function(el) {
+        var inlineBg = el.style.backgroundColor;
+        if (inlineBg === 'rgb(232, 97, 45)' || inlineBg === 'rgb(192, 57, 43)') {
+            el.style.removeProperty('background-color');
+        }
+        var inlineColor = el.style.color;
+        if (inlineColor === 'rgb(255, 255, 255)') {
+            el.style.removeProperty('color');
+        }
+    });
 });
 </script>
 
