@@ -37,9 +37,6 @@
 	<script src='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.5' async></script>
 	<script src='https://baumeister.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.5' async></script>
 
-	<!-- Shared script.js -->
-	<script src="/js/script.js"></script>
-
 	<!-- Page-specific override -->
 	<script>
 		var mkdPerPageVars = {
@@ -959,7 +956,7 @@ header.mkd-page-header .mkd-position-right {
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.10.0' id='isotope-js'></script>
 	<script type='text/javascript' src='https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/js/modules/plugins/packery-mode.pkgd.min.js?ver=6.0.11' id='packery-js'></script>
 	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js' id='easypiechart-js' crossorigin='anonymous'></script>
-	<script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyBQTukooUgzxI6RBwRGdF2OPbHJ8BEowC8&#038;ver=6.0.11' id='baumeister-mikado-google-map-api-js'></script>
+	<!-- Google Maps JS API removed: map now uses iframe embed -->
 	<script type='text/javascript' id='baumeister-mikado-modules-js-extra'>
 	var mkdGlobalVars = {"vars":{"mkdAddForAdminBar":0,"mkdElementAppearAmount":-100,"mkdStickyHeaderHeight":70,"mkdStickyHeaderTransparencyHeight":70,"mkdTopBarHeight":60,"mkdLogoAreaHeight":0,"mkdMenuAreaHeight":160,"mkdMobileHeaderHeight":70}};
 	</script>
@@ -1236,6 +1233,9 @@ document.addEventListener('DOMContentLoaded', function() {
     requestAnimationFrame(draw);
 })();
 </script>
+
+<!-- Shared script.js loaded at end of body so document.body is available -->
+<script src="/js/script.js"></script>
 
 </body>
 
