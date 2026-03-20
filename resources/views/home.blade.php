@@ -27,6 +27,7 @@
 <link rel="alternate" type="application/rss+xml" title="Baumeister &raquo; Feed" href="https://baumeister.qodeinteractive.com/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Baumeister &raquo; Comments Feed" href="https://baumeister.qodeinteractive.com/comments/feed/" />
 
+@vite(['resources/css/app.css'])
 <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all" />
 <style>
 /* Fallback: hiện slider ngay cả khi RevSlider JS chưa load */
@@ -2295,10 +2296,10 @@ window.addEventListener('load', checkVisible2);
 })();
 </script>
 
-<section class="bk-partners-section">
+<section class="bk-partners-section overflow-hidden">
     <div class="container">
-        <div class="bk-partners-title">
-            <h2 class="title"><span>Đối tác</span></h2>
+        <div class="bk-partners-title text-center">
+            <h2 class="title tracking-widest"><span>Đối tác</span></h2>
             <div class="line">
                 <img src="{{ asset('images/partners/bk-logo-partner.webp') }}" alt="Đối tác" class="img-responsive">
             </div>
@@ -2461,7 +2462,7 @@ window.addEventListener('load', checkVisible2);
 	<div class="mkd-footer-bottom-inner mkd-grid">
 		<div class="mkd-grid-row ">
 							<div class="mkd-grid-col-12">
-					<div id="text-11" class="widget mkd-footer-bottom-column-1 widget_text">			<div class="textwidget"><p>© 2025 Bach Khoa Digital, All Rights Reserved</p>
+					<div id="text-11" class="widget mkd-footer-bottom-column-1 widget_text">			<div class="textwidget"><p class="text-center text-sm">© 2025 Bach Khoa Digital, All Rights Reserved</p>
 </div>
 		</div>				</div>
 					</div>
