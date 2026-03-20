@@ -115,6 +115,19 @@ body.cursor--text #bk-cursor-dot { width: 3px; height: 26px; border-radius: 2px;
 body.cursor--text #bk-cursor-ring { width: 0; height: 0; opacity: 0; }
 body.cursor--img #bk-cursor-dot { width: 14px; height: 14px; background: #fff; border-radius: 50%; }
 body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba(255,255,255,0.6); background: rgba(255,255,255,0.04); }
+/* ===== state: over orange background ===== */
+body.cursor--on-orange #bk-cursor-dot {
+    width: 12px; height: 12px;
+    background: #1b1b1b;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+body.cursor--on-orange #bk-cursor-ring {
+    width: 44px; height: 44px;
+    border: 2px solid rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.12);
+    opacity: 1;
+}
 /* ===== TECH PARTICLE CANVAS ===== */
 #bk-tech-canvas {
     position: fixed;
@@ -1118,8 +1131,9 @@ document.addEventListener('DOMContentLoaded', function() {
         var isYellowBg = (bg === 'rgb(253, 185, 19)' || bg === 'rgb(231, 160, 34)');
         var isYellowColor = (color === 'rgb(253, 185, 19)' || color === 'rgb(231, 160, 34)');
         if (isYellowBg) {
-            /* Skip tab/accordion content panels — they should stay white */
-            if (!el.classList.contains('mkd-tab-container') && !el.classList.contains('mkd-accordion-content') && !el.classList.contains('mkd-accordion-content-inner')) {
+            /* Skip tab/accordion panels AND any of their descendants */
+            var inPanel = el.closest('.mkd-tab-container, .mkd-accordion-content, .mkd-accordion-content-inner');
+            if (!inPanel && !el.classList.contains('mkd-tab-container') && !el.classList.contains('mkd-accordion-content') && !el.classList.contains('mkd-accordion-content-inner')) {
                 el.style.setProperty('background-color', '#E8612D', 'important');
                 el.style.setProperty('color', '#ffffff', 'important');
             }
@@ -1128,22 +1142,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         if (bc === 'rgb(253, 185, 19)' || bc === 'rgb(231, 160, 34)') {
             el.style.setProperty('border-color', '#E8612D', 'important');
-        }
-    });
-
-    /* Cleanup: strip any orange that leaked into tab panels or accordion content
-       (child elements inside those containers may have inherited yellow → got overridden) */
-    document.querySelectorAll(
-        '.mkd-tab-container, .mkd-tab-container *, ' +
-        '.mkd-accordion-content, .mkd-accordion-content *'
-    ).forEach(function(el) {
-        var inlineBg = el.style.backgroundColor;
-        if (inlineBg === 'rgb(232, 97, 45)' || inlineBg === 'rgb(192, 57, 43)') {
-            el.style.removeProperty('background-color');
-        }
-        var inlineColor = el.style.color;
-        if (inlineColor === 'rgb(255, 255, 255)') {
-            el.style.removeProperty('color');
         }
     });
 });
@@ -1256,7 +1254,7 @@ document.addEventListener('DOMContentLoaded', function() {
     })();
 
     var body = document.body;
-    var ALL_STATES = 'cursor--link cursor--partner cursor--slider cursor--text cursor--btn cursor--img cursor--menu';
+    var ALL_STATES = 'cursor--link cursor--partner cursor--slider cursor--text cursor--btn cursor--img cursor--menu cursor--on-orange';
     function clearState(){
         body.classList.remove.apply(body.classList, ALL_STATES.split(' '));
     }
@@ -1293,6 +1291,38 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.addEventListener('mouseleave', function(){ dot.style.opacity='0'; ring.style.opacity='0'; });
     document.addEventListener('mouseenter', function(){ dot.style.opacity='1'; ring.style.opacity='0.7'; });
+
+    /* ── Orange-background cursor detection ─────────────────────────
+       On every mousemove, check if the element under the pointer sits
+       inside an orange-background container (.mkd-tab-container with
+       an orange bg, or any element with computed bg = #E8612D).
+       If so, switch to cursor--on-orange (dark dot, white ring).
+    ─────────────────────────────────────────────────────────────── */
+    var ORANGE_BG = 'rgb(232, 97, 45)';
+    document.addEventListener('mousemove', function(e) {
+        var el = document.elementFromPoint(e.clientX, e.clientY);
+        if (!el) return;
+        /* Walk up at most 6 ancestors to detect orange bg */
+        var check = el;
+        var onOrange = false;
+        for (var i = 0; i < 6 && check && check !== document.body; i++) {
+            var bg = getComputedStyle(check).backgroundColor;
+            var inlineBg = check.style && check.style.backgroundColor;
+            if (bg === ORANGE_BG || inlineBg === ORANGE_BG || inlineBg.indexOf('232, 97, 45') !== -1) {
+                onOrange = true;
+                break;
+            }
+            check = check.parentElement;
+        }
+        if (onOrange) {
+            if (!body.classList.contains('cursor--on-orange')) {
+                clearState();
+                body.classList.add('cursor--on-orange');
+            }
+        } else {
+            body.classList.remove('cursor--on-orange');
+        }
+    }, { passive: true });
 })();
 </script>
 
