@@ -197,7 +197,7 @@ header.mkd-page-header .mkd-position-right {
 		</div>
 		<a class="mkd-icon-widget-holder" href="#"
 			target="_self" style="margin: -20px 0 0 0">
-			<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.12, TP.HCM,</span></span> </a>
+			<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.8, TP.HCM,</span></span> </a>
 
 		<a class="mkd-icon-widget-holder" href="#"
 			target="_self" style="margin: -20px 0 0 20px">
@@ -246,7 +246,7 @@ header.mkd-page-header .mkd-position-right {
 						<div class="mkd-position-left-inner">
 							<a class="mkd-icon-widget-holder" href="https://www.google.com/maps/place/105+Tr%E1%BA%A7n+Th%E1%BB%8B+N%C6%A1i,+Qu%E1%BA%ADn+12,+TP.HCM"
 								target="_blank" style="margin: 0 17px 0 0">
-								<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.12, TP.HCM</span></span> </a>
+								<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.8, TP.HCM</span></span> </a>
 							<div class="widget mkd-separator-widget">
 								<div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 									<div class="mkd-separator" style="border-color: rgba(255,255,255,0.25);border-style: solid;width: 1px;border-bottom-width: 20px"></div>
@@ -343,7 +343,7 @@ header.mkd-page-header .mkd-position-right {
 														<li id="nav-menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/pricing-plans/" class=""><span class="item_outer"><span class="item_text">Pricing Plans</span></span></a></li>
 														<li id="nav-menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-clients/" class=""><span class="item_outer"><span class="item_text">Our Clients</span></span></a></li>
 														<li id="nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-51 current_page_item "><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Contact Us</span></span></a></li>
-														<li id="nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/faq-page/" class=""><span class="item_outer"><span class="item_text">FAQ Page</span></span></a></li>
+														<li id="nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ Page</span></span></a></li>
 														<li id="nav-menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/coming-soon/" class=""><span class="item_outer"><span class="item_text">Coming Soon</span></span></a></li>
 													</ul>
 												</div>
@@ -878,7 +878,7 @@ header.mkd-page-header .mkd-position-right {
 																						</a>
 																					</div>
 																					<div class="mkd-iwt-content">
-																						<p class="mkd-iwt-text" style="margin-top: 4px">105 Trần Thị Nơi, Q.12, TP. Hồ Chí Minh</p>
+																						<p class="mkd-iwt-text" style="margin-top: 4px">105 Trần Thị Nơi, Q.8, TP. Hồ Chí Minh</p>
 																					</div>
 																				</div>
 
@@ -1037,7 +1037,7 @@ header.mkd-page-header .mkd-position-right {
 									<div class="textwidget"></div>
 								</div>
 								<a class="mkd-icon-widget-holder" href="#" target="_blank" style="margin: 0 64px 0 0">
-									<span class="mkd-icon-text mkd-no-icon fa fa-map-marker mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.12,</span></span> </a>
+									<span class="mkd-icon-text mkd-no-icon fa fa-map-marker mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.8,</span></span> </a>
 
 								<a class="mkd-icon-widget-holder" href="#" target="_blank" style="margin: 0 0 0 20px">
 									<span class="mkd-icon-text mkd-no-icon" style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">TP. Hồ Chí Minh, Việt Nam</span></span> </a>

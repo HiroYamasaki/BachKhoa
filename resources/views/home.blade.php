@@ -679,7 +679,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 													
         <a class="mkd-icon-widget-holder"            href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.951"
             target="_blank" style="margin: 0 17px 0 0">
-                        <span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.12, TP.HCM</span></span>        </a>
+                        <span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.8, TP.HCM</span></span>        </a>
     <div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-color: rgba(255,255,255,0.25);border-style: solid;width: 1px;border-bottom-width: 20px"></div>
 </div>
@@ -770,7 +770,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 	<li id="nav-menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/pricing-plans/" class=""><span class="item_outer"><span class="item_text">Pricing Plans</span></span></a></li>
 	<li id="nav-menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-clients/" class=""><span class="item_outer"><span class="item_text">Our Clients</span></span></a></li>
 	<li id="nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Contact Us</span></span></a></li>
-	<li id="nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/faq-page/" class=""><span class="item_outer"><span class="item_text">FAQ Page</span></span></a></li>
+	<li id="nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ Page</span></span></a></li>
 	<li id="nav-menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/coming-soon/" class=""><span class="item_outer"><span class="item_text">Coming Soon</span></span></a></li>
 </ul></div></div>
 </li>
@@ -993,7 +993,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 	<li id="sticky-nav-menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/pricing-plans/" class=""><span class="item_outer"><span class="item_text">Pricing Plans</span><span class="plus"></span></span></a></li>
 	<li id="sticky-nav-menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-clients/" class=""><span class="item_outer"><span class="item_text">Our Clients</span><span class="plus"></span></span></a></li>
 	<li id="sticky-nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Contact Us</span><span class="plus"></span></span></a></li>
-	<li id="sticky-nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/faq-page/" class=""><span class="item_outer"><span class="item_text">FAQ Page</span><span class="plus"></span></span></a></li>
+	<li id="sticky-nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ Page</span><span class="plus"></span></span></a></li>
 	<li id="sticky-nav-menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/coming-soon/" class=""><span class="item_outer"><span class="item_text">Coming Soon</span><span class="plus"></span></span></a></li>
 </ul></div></div>
 </li>
@@ -1233,7 +1233,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 	<li id="mobile-menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/pricing-plans/" class=""><span>Pricing Plans</span></a></li>
 	<li id="mobile-menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-clients/" class=""><span>Our Clients</span></a></li>
 	<li id="mobile-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/contact-us" class=""><span>Contact Us</span></a></li>
-	<li id="mobile-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/faq-page/" class=""><span>FAQ Page</span></a></li>
+	<li id="mobile-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/faq" class=""><span>FAQ Page</span></a></li>
 	<li id="mobile-menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/coming-soon/" class=""><span>Coming Soon</span></a></li>
 </ul>
 </li>

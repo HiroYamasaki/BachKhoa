@@ -168,7 +168,7 @@ header.mkd-page-header .mkd-position-right {
 		</div>
 		<a class="mkd-icon-widget-holder" href="#"
 			target="_self" style="margin: -20px 0 0 0">
-			<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.12, TP.HCM,</span></span> </a>
+			<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.8, TP.HCM,</span></span> </a>
 
 		<a class="mkd-icon-widget-holder" href="#"
 			target="_self" style="margin: -20px 0 0 20px">
@@ -217,7 +217,7 @@ header.mkd-page-header .mkd-position-right {
 						<div class="mkd-position-left-inner">
 							<a class="mkd-icon-widget-holder" href="https://www.google.com/maps/place/105+Tr%E1%BA%A7n+Th%E1%BB%8B+N%C6%A1i,+Qu%E1%BA%ADn+12,+TP.HCM"
 								target="_blank" style="margin: 0 17px 0 0">
-								<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.12, TP.HCM</span></span> </a>
+								<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.8, TP.HCM</span></span> </a>
 							<div class="widget mkd-separator-widget">
 								<div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 									<div class="mkd-separator" style="border-color: rgba(255,255,255,0.25);border-style: solid;width: 1px;border-bottom-width: 20px"></div>
@@ -1019,7 +1019,7 @@ header.mkd-page-header .mkd-position-right {
 									<div class="textwidget"></div>
 								</div>
 								<a class="mkd-icon-widget-holder" href="#" target="_blank" style="margin: 0 64px 0 0">
-									<span class="mkd-icon-text mkd-no-icon fa fa-map-marker mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.12,</span></span> </a>
+									<span class="mkd-icon-text mkd-no-icon fa fa-map-marker mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.8,</span></span> </a>
 
 								<a class="mkd-icon-widget-holder" href="#" target="_blank" style="margin: 0 0 0 20px">
 									<span class="mkd-icon-text mkd-no-icon" style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">TP. Hồ Chí Minh, Việt Nam</span></span> </a>
@@ -1118,8 +1118,11 @@ document.addEventListener('DOMContentLoaded', function() {
         var isYellowBg = (bg === 'rgb(253, 185, 19)' || bg === 'rgb(231, 160, 34)');
         var isYellowColor = (color === 'rgb(253, 185, 19)' || color === 'rgb(231, 160, 34)');
         if (isYellowBg) {
-            el.style.setProperty('background-color', '#E8612D', 'important');
-            el.style.setProperty('color', '#ffffff', 'important');
+            /* Skip tab/accordion content panels — they should stay white */
+            if (!el.classList.contains('mkd-tab-container') && !el.classList.contains('mkd-accordion-content') && !el.classList.contains('mkd-accordion-content-inner')) {
+                el.style.setProperty('background-color', '#E8612D', 'important');
+                el.style.setProperty('color', '#ffffff', 'important');
+            }
         } else if (isYellowColor) {
             el.style.setProperty('color', '#E8612D', 'important');
         }
@@ -1196,6 +1199,19 @@ document.addEventListener('DOMContentLoaded', function() {
     body.page-id-113 .mkd-accordion-holder .mkd-accordion-title.ui-accordion-header-active { border-color: #E8612D !important; }
     body.page-id-113 .mkd-accordion-holder .mkd-accordion-title.ui-state-active .mkd-tab-title,
     body.page-id-113 .mkd-accordion-holder .mkd-accordion-title.ui-accordion-header-active .mkd-tab-title { color: #E8612D !important; }
+
+    /* Force tab panels and accordion content to stay white — never orange */
+    body.page-id-113 .mkd-tab-container,
+    body.page-id-113 .mkd-accordion-content,
+    body.page-id-113 .mkd-accordion-content-inner {
+        background-color: transparent !important;
+        color: #333333 !important;
+    }
+    body.page-id-113 .mkd-tab-container p,
+    body.page-id-113 .mkd-accordion-content p,
+    body.page-id-113 .mkd-accordion-content-inner p {
+        color: #333333 !important;
+    }
 </style>
 
 <!-- CUSTOM CURSOR -->
