@@ -173,6 +173,9 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
     position: relative !important;
     z-index: 100 !important;
 }
+header.mkd-page-header .mkd-position-right {
+    right: 30px !important;
+}
 </style>
 </head>
 
