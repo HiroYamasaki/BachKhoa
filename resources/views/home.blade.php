@@ -715,7 +715,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 </div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-color: rgba(255,255,255,0);border-style: solid;width: 15px"></div>
 </div>
-</div><div id="media_image-5" class="widget widget_media_image mkd-top-bar-widget"><img width="49" height="25" src="{{ asset('images/map_banner.png') }}" class="image wp-image-1063  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div>											</div>
+</div><div id="media_image-5" class="widget widget_media_image mkd-top-bar-widget"><img width="49" height="25" src="{{ asset('images/map_banner.png') }}" class="image wp-image-1063  attachment-full size-full" alt="a" loading="lazy" style="width:49px;height:25px;object-fit:contain;flex-shrink:0;" /></div>											</div>
 				</div>
 			</div>
 				
