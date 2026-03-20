@@ -2882,5 +2882,51 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('load', applyAll);
 })();
 </script>
+
+<script>
+/* ===== Partner spotlight: logo sáng dần khi chạy vào giữa ===== */
+(function () {
+    var wrapper = document.querySelector('.bk-partners-track-wrapper');
+    if (!wrapper) return;
+
+    function tick() {
+        var items = wrapper.querySelectorAll('.bk-partner-item');
+        if (!items.length) return;
+        var wLeft  = wrapper.getBoundingClientRect().left;
+        var wRight = wrapper.getBoundingClientRect().right;
+        var wCenter = (wLeft + wRight) / 2;
+        var halfSpan = (wRight - wLeft) * 0.38; /* zone where spotlight applies */
+
+        items.forEach(function (item) {
+            var r = item.getBoundingClientRect();
+            var itemCenter = (r.left + r.right) / 2;
+            var dist = Math.abs(itemCenter - wCenter);
+            /* t = 1 at center, 0 at edge of spotlight zone */
+            var t = Math.max(0, 1 - dist / halfSpan);
+            var brightness = 0.65 + 0.55 * t;   /* 0.65 → 1.20 */
+            var scale      = 1 + 0.07 * t;        /* 1.00 → 1.07 */
+            var opacity    = 0.55 + 0.45 * t;     /* 0.55 → 1.00 */
+            item.style.filter    = 'brightness(' + brightness + ')';
+            item.style.transform = 'scale(' + scale + ')';
+            item.style.opacity   = opacity;
+        });
+
+        requestAnimationFrame(tick);
+    }
+
+    /* pause spotlight on hover (track already pauses animation) */
+    wrapper.addEventListener('mouseenter', function () {
+        var items = wrapper.querySelectorAll('.bk-partner-item');
+        items.forEach(function (el) {
+            el.style.filter    = 'brightness(1.2)';
+            el.style.transform = 'scale(1)';
+            el.style.opacity   = '1';
+        });
+    });
+    wrapper.addEventListener('mouseleave', function () { requestAnimationFrame(tick); });
+
+    requestAnimationFrame(tick);
+})();
+</script>
 </body>
 </html>
