@@ -1131,9 +1131,9 @@ document.addEventListener('DOMContentLoaded', function() {
         var isYellowBg = (bg === 'rgb(253, 185, 19)' || bg === 'rgb(231, 160, 34)');
         var isYellowColor = (color === 'rgb(253, 185, 19)' || color === 'rgb(231, 160, 34)');
         if (isYellowBg) {
-            /* Skip tab/accordion panels AND any of their descendants */
-            var inPanel = el.closest('.mkd-tab-container, .mkd-accordion-content, .mkd-accordion-content-inner');
-            if (!inPanel && !el.classList.contains('mkd-tab-container') && !el.classList.contains('mkd-accordion-content') && !el.classList.contains('mkd-accordion-content-inner')) {
+            /* Skip accordion panels AND any of their descendants (tab panels keep orange) */
+            var inPanel = el.closest('.mkd-accordion-content, .mkd-accordion-content-inner');
+            if (!inPanel && !el.classList.contains('mkd-accordion-content') && !el.classList.contains('mkd-accordion-content-inner')) {
                 el.style.setProperty('background-color', '#E8612D', 'important');
                 el.style.setProperty('color', '#ffffff', 'important');
             }
@@ -1214,14 +1214,23 @@ document.addEventListener('DOMContentLoaded', function() {
     body.page-id-113 .mkd-accordion-holder .mkd-accordion-title.ui-state-active .mkd-tab-title,
     body.page-id-113 .mkd-accordion-holder .mkd-accordion-title.ui-accordion-header-active .mkd-tab-title { color: #E8612D !important; }
 
-    /* Force tab panels and accordion content to stay white — never orange */
-    body.page-id-113 .mkd-tab-container,
+    /* Tab panels: orange background with white text */
+    body.page-id-113 .mkd-tab-container {
+        background-color: #E8612D !important;
+        color: #ffffff !important;
+    }
+    body.page-id-113 .mkd-tab-container p,
+    body.page-id-113 .mkd-tab-container li,
+    body.page-id-113 .mkd-tab-container span,
+    body.page-id-113 .mkd-tab-container a {
+        color: #ffffff !important;
+    }
+    /* Accordion content: stay white */
     body.page-id-113 .mkd-accordion-content,
     body.page-id-113 .mkd-accordion-content-inner {
         background-color: transparent !important;
         color: #333333 !important;
     }
-    body.page-id-113 .mkd-tab-container p,
     body.page-id-113 .mkd-accordion-content p,
     body.page-id-113 .mkd-accordion-content-inner p {
         color: #333333 !important;
