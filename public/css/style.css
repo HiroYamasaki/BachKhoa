@@ -75,21 +75,30 @@ h1, h2, h3, h4, h5, h6,
 
 /* === Partners carousel (Đối tác) === */
 .bk-partners-section {
-    background-color: #24272a;
-    padding: 50px 0 60px;
+    background: linear-gradient(160deg, #1a1d20 0%, #24272a 50%, #1a1d20 100%);
+    padding: 60px 0 70px;
     overflow: hidden;
+    position: relative;
+}
+.bk-partners-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(232,97,45,0.08) 0%, transparent 70%);
+    pointer-events: none;
 }
 .bk-partners-title {
     text-align: center;
-    margin-bottom: 36px;
+    margin-bottom: 48px;
+    position: relative;
 }
 .bk-partners-title .title {
     color: #ffffff !important;
-    font-size: 30px;
-    font-weight: 600;
-    margin: 0 0 12px;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 14px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 .bk-partners-title .title span {
     color: #E8612D;
@@ -97,21 +106,25 @@ h1, h2, h3, h4, h5, h6,
 .bk-partners-title .line {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 .bk-partners-title .line img {
-    max-height: 48px;
+    max-height: 52px;
     width: auto;
 }
 .bk-partners-track-wrapper {
     overflow: hidden;
     width: 100%;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
 }
 .bk-partners-track {
     display: flex;
     align-items: center;
     width: max-content;
-    animation: bk-scroll-left 22s linear infinite;
+    animation: bk-scroll-left 28s linear infinite;
+    gap: 24px;
+    padding: 12px 0;
 }
 .bk-partners-track:hover {
     animation-play-state: paused;
@@ -120,21 +133,32 @@ h1, h2, h3, h4, h5, h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 36px;
-    min-width: 160px;
+    padding: 18px 32px;
+    min-width: 180px;
+    height: 90px;
     flex-shrink: 0;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+    transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+.bk-partner-item:hover {
+    background: rgba(232,97,45,0.08);
+    border-color: rgba(232,97,45,0.5);
+    box-shadow: 0 0 20px rgba(232,97,45,0.2), inset 0 0 20px rgba(232,97,45,0.04);
+    transform: translateY(-3px);
 }
 .bk-partner-item img {
-    max-height: 64px;
+    max-height: 52px;
     max-width: 140px;
     width: auto;
     object-fit: contain;
-    filter: none;
-    transition: transform 0.3s ease, filter 0.3s ease, drop-shadow 0.3s ease;
+    filter: brightness(0.85) grayscale(0.2);
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 .bk-partner-item:hover img {
-    transform: scale(1.12);
-    filter: drop-shadow(0 0 8px rgba(232, 97, 45, 0.7));
+    transform: scale(1.08);
+    filter: brightness(1.1) grayscale(0) drop-shadow(0 0 8px rgba(232,97,45,0.5));
 }
 @keyframes bk-scroll-left {
     0%   { transform: translateX(0); }
