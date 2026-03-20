@@ -816,9 +816,11 @@ header.mkd-page-header .mkd-position-right {
 											<div class="wpb_column vc_column_container vc_col-sm-12">
 												<div class="vc_column-inner">
 													<div class="wpb_wrapper">
-														<div class="mkd-google-map-holder">
-															<div class="mkd-google-map" id="mkd-map-contact" data-addresses='["105 Trần Thị Nơi, Quận 12, TP.HCM"]' data-custom-map-style="no" data-color-overlay="#393939" data-saturation="-100" data-lightness="-60" data-zoom="15" data-pin="https://baumeister.qodeinteractive.com/wp-content/themes/baumeister/assets/img/pin.png" data-unique-id="contact" data-scroll-wheel="no" data-height="500" data-predefined-style="yes"></div>
-															<div class="mkd-google-map-overlay"></div>
+														<div class="mkd-google-map-holder" style="height:400px;overflow:hidden;">
+															<iframe
+																src="https://maps.google.com/maps?q=105+Tr%E1%BA%A7n+Th%E1%BB%8B+N%C6%A1i%2C+Qu%E1%BA%ADn+12%2C+TP.HCM&z=15&output=embed"
+																width="100%" height="400" style="border:0;display:block;" allowfullscreen="" loading="lazy"
+																referrerpolicy="no-referrer-when-downgrade" title="BachKhoa Location"></iframe>
 														</div>
 													</div>
 												</div>
