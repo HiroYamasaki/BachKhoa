@@ -167,6 +167,12 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
     background: #C0392B;
     background-image: linear-gradient(135deg, #C0392B 0%, #9B1B1B 100%);
 }
+.mkd-top-bar {
+    padding-bottom: 30px !important;
+    margin-bottom: -30px !important;
+    position: relative !important;
+    z-index: 100 !important;
+}
 </style>
 </head>
 
