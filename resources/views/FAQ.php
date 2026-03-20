@@ -132,6 +132,18 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 header.mkd-page-header .mkd-position-right {
     right: 30px !important;
 }
+/* ===== TABS ===== */
+.mkd-tabs .mkd-tabs-nav li.active > a {
+    color: #E8612D !important;
+    border-bottom: 2px solid #E8612D;
+}
+/* ===== ACCORDION ===== */
+.mkd-accordion-title {
+    cursor: pointer;
+}
+.mkd-accordion-title.mkd-accordion-title-active .mkd-tab-title {
+    color: #E8612D;
+}
 </style>
 </head>
 
@@ -1365,6 +1377,76 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <!-- Shared script.js loaded at end of body so document.body is available -->
 <script src="/js/script.js"></script>
+
+<!-- Tab switching & Accordion (replaces Baumeister modules.min.js behavior) -->
+<script>
+(function () {
+    /* ── TABS ──────────────────────────────────────────────────────── */
+    document.querySelectorAll('.mkd-tabs').forEach(function (tabsEl) {
+        var navItems   = tabsEl.querySelectorAll('.mkd-tabs-nav li');
+        var navLinks   = tabsEl.querySelectorAll('.mkd-tabs-nav a');
+        var containers = tabsEl.querySelectorAll('.mkd-tab-container');
+
+        /* Show only the first tab panel on load */
+        containers.forEach(function (c, i) {
+            c.style.display = i === 0 ? 'block' : 'none';
+        });
+        if (navItems.length) navItems[0].classList.add('active');
+
+        navLinks.forEach(function (link) {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                var targetId = this.getAttribute('href').replace('#', '');
+
+                /* hide all panels */
+                containers.forEach(function (c) { c.style.display = 'none'; });
+                /* deactivate all tabs */
+                navItems.forEach(function (li) { li.classList.remove('active'); });
+
+                /* show matched panel */
+                var target = tabsEl.querySelector('#' + targetId);
+                if (target) target.style.display = 'block';
+
+                /* activate clicked tab */
+                this.parentElement.classList.add('active');
+            });
+        });
+    });
+
+    /* ── ACCORDION ─────────────────────────────────────────────────── */
+    document.querySelectorAll('.mkd-accordion-holder').forEach(function (holder) {
+        var titles = holder.querySelectorAll('.mkd-accordion-title');
+
+        /* Collapse all panels initially */
+        titles.forEach(function (title) {
+            var content = title.nextElementSibling;
+            if (content && content.classList.contains('mkd-accordion-content')) {
+                content.style.display = 'none';
+            }
+            title.style.cursor = 'pointer';
+
+            title.addEventListener('click', function () {
+                var content = this.nextElementSibling;
+                var isOpen  = content && content.style.display !== 'none';
+
+                /* Close all panels in this holder */
+                holder.querySelectorAll('.mkd-accordion-content').forEach(function (c) {
+                    c.style.display = 'none';
+                });
+                holder.querySelectorAll('.mkd-accordion-title').forEach(function (t) {
+                    t.classList.remove('mkd-accordion-title-active');
+                });
+
+                /* Open clicked panel if it was closed */
+                if (!isOpen && content) {
+                    content.style.display = 'block';
+                    this.classList.add('mkd-accordion-title-active');
+                }
+            });
+        });
+    });
+})();
+</script>
 
 </body>
 
