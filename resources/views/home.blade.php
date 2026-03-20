@@ -27,7 +27,9 @@
 <link rel="alternate" type="application/rss+xml" title="Baumeister &raquo; Feed" href="https://baumeister.qodeinteractive.com/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Baumeister &raquo; Comments Feed" href="https://baumeister.qodeinteractive.com/comments/feed/" />
 
-@vite(['resources/css/app.css'])
+@if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
+    @vite(['resources/css/app.css'])
+@endif
 <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all" />
 <style>
 /* Fallback: hiện slider ngay cả khi RevSlider JS chưa load */
