@@ -293,7 +293,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 														<li id="nav-menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-services/" class=""><span class="item_outer"><span class="item_text">Our Services</span></span></a></li>
 														<li id="nav-menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/pricing-plans/" class=""><span class="item_outer"><span class="item_text">Pricing Plans</span></span></a></li>
 														<li id="nav-menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-clients/" class=""><span class="item_outer"><span class="item_text">Our Clients</span></span></a></li>
-														<li id="nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contact-us/" class=""><span class="item_outer"><span class="item_text">Contact Us</span></span></a></li>
+														<li id="nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Contact Us</span></span></a></li>
 														<li id="nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/faq-page/" class=""><span class="item_outer"><span class="item_text">FAQ Page</span></span></a></li>
 														<li id="nav-menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/coming-soon/" class=""><span class="item_outer"><span class="item_text">Coming Soon</span></span></a></li>
 													</ul>
@@ -537,7 +537,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 															<li id="sticky-nav-menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-services/" class=""><span class="item_outer"><span class="item_text">Our Services</span><span class="plus"></span></span></a></li>
 															<li id="sticky-nav-menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/pricing-plans/" class=""><span class="item_outer"><span class="item_text">Pricing Plans</span><span class="plus"></span></span></a></li>
 															<li id="sticky-nav-menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-clients/" class=""><span class="item_outer"><span class="item_text">Our Clients</span><span class="plus"></span></span></a></li>
-															<li id="sticky-nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contact-us/" class=""><span class="item_outer"><span class="item_text">Contact Us</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Contact Us</span><span class="plus"></span></span></a></li>
 															<li id="sticky-nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/faq-page/" class=""><span class="item_outer"><span class="item_text">FAQ Page</span><span class="plus"></span></span></a></li>
 															<li id="sticky-nav-menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/coming-soon/" class=""><span class="item_outer"><span class="item_text">Coming Soon</span><span class="plus"></span></span></a></li>
 														</ul>
@@ -798,7 +798,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 										<li id="mobile-menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-services/" class=""><span>Our Services</span></a></li>
 										<li id="mobile-menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/pricing-plans/" class=""><span>Pricing Plans</span></a></li>
 										<li id="mobile-menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-clients/" class=""><span>Our Clients</span></a></li>
-										<li id="mobile-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contact-us/" class=""><span>Contact Us</span></a></li>
+										<li id="mobile-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/contact-us" class=""><span>Contact Us</span></a></li>
 										<li id="mobile-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/faq-page/" class=""><span>FAQ Page</span></a></li>
 										<li id="mobile-menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/coming-soon/" class=""><span>Coming Soon</span></a></li>
 									</ul>
@@ -1349,7 +1349,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 										<div class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex mkd-content-aligment-center">
 											<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-md-offset-0 vc_col-sm-offset-0 vc_col-xs-12">
 												<div class="vc_column-inner">
-													<div class="wpb_wrapper"><a itemprop="url" href="https://baumeister.qodeinteractive.com/contact-us/" target="_self" class="mkd-btn mkd-btn-full-width mkd-btn-solid">
+													<div class="wpb_wrapper"><a itemprop="url" href="/contact-us" target="_self" class="mkd-btn mkd-btn-full-width mkd-btn-solid">
 															<span class="mkd-btn-text" style="font-size: 60px;font-family: Oswald;letter-spacing: 0;height: 200px">Liên Hệ Ngay!</span>
 															<span class="mkd-btn-icon"></span>
 														</a></div>
