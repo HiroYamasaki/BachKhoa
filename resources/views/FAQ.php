@@ -497,44 +497,189 @@ header.mkd-page-header .mkd-position-right {
 
 				<!-- ===== STICKY HEADER ===== -->
 				<div class="mkd-sticky-header">
-					<div class="mkd-sticky-holder mkd-menu-center">
-						<div class="mkd-grid">
+				<div class="mkd-sticky-holder mkd-menu-center">
+					<div class="mkd-grid">
 						<div class="mkd-vertical-align-containers">
 							<div class="mkd-position-left">
 								<div class="mkd-position-left-inner">
-									<div class="mkd-logo-wrapper" style="display:none!important"></div>
-									<a href="/" style="display:none">
-										<img src="/images/logo.jpg" alt="Bach Khoa Digital" class="bkd-logo">
-									</a>
+									<div class="mkd-logo-wrapper">
+										<a href="/" style="height: 25px;">
+											<img class="mkd-normal-logo" src="/images/logo.jpg" alt="Bach Khoa Digital">
+											<img class="mkd-dark-logo" src="/images/logo.jpg" alt="Bach Khoa Digital">
+											<img class="mkd-light-logo" src="/images/logo.jpg" alt="Bach Khoa Digital">
+										</a>
+									</div>
 								</div>
 							</div>
 							<div class="mkd-position-center">
 								<div class="mkd-position-center-inner">
 
-									<nav class="mkd-main-menu mkd-drop-down mkd-sticky-nav">
-										<ul id="menu-main-menu-navigation-1" class="clearfix">
-											<li id="sticky-nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Home</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-												<div class="second">
-													<div class="inner">
-														<ul>
-															<li id="sticky-nav-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="/" class=""><span class="item_outer"><span class="item_text">Main Home</span><span class="plus"></span></span></a></li>
-														</ul>
-													</div>
-												</div>
-											</li>
-											<li id="sticky-nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkd-active-item has_sub narrow"><a href="#" class=" current "><span class="item_outer"><span class="item_text">Pages</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-												<div class="second">
-													<div class="inner">
-														<ul>
-															<li id="sticky-nav-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/about-us" class=""><span class="item_outer"><span class="item_text">About Us</span><span class="plus"></span></span></a></li>
-															<li id="sticky-nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Contact Us</span><span class="plus"></span></span></a></li>
-															<li id="sticky-nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-113 current_page_item "><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ Page</span><span class="plus"></span></span></a></li>
-														</ul>
-													</div>
-												</div>
-											</li>
-										</ul>
-									</nav>
+<nav class="mkd-main-menu mkd-drop-down mkd-sticky-nav">
+	<ul id="menu-main-menu-navigation-1" class="clearfix">
+		<li id="sticky-nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Home</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+			<div class="second"><div class="inner"><ul>
+				<li id="sticky-nav-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="/" class=""><span class="item_outer"><span class="item_text">Main Home</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/energy-home/" class=""><span class="item_outer"><span class="item_text">Energy Home</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contractor-home/" class=""><span class="item_outer"><span class="item_text">Contractor Home</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/builder-home/" class=""><span class="item_outer"><span class="item_text">Builder Home</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/tool-shop-home/" class=""><span class="item_outer"><span class="item_text">Tool Shop Home</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-722" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/steelwork-home/" class=""><span class="item_outer"><span class="item_text">Steelwork Home</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-2165" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-showcase/" class=""><span class="item_outer"><span class="item_text">Product Showcase</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-972" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/sawmill-home/" class=""><span class="item_outer"><span class="item_text">Sawmill Home</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-903" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/transport-home/" class=""><span class="item_outer"><span class="item_text">Transport Home</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-3068" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/landing/" class=""><span class="item_outer"><span class="item_text">Landing</span><span class="plus"></span></span></a></li>
+			</ul></div></div>
+		</li>
+		<li id="sticky-nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkd-active-item has_sub narrow"><a href="#" class=" current "><span class="item_outer"><span class="item_text">Pages</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+			<div class="second"><div class="inner"><ul>
+				<li id="sticky-nav-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/about-us" class=""><span class="item_outer"><span class="item_text">About Us</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-team/" class=""><span class="item_outer"><span class="item_text">Our Team</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/meet-the-crew/" class=""><span class="item_outer"><span class="item_text">Meet the Crew</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-services/" class=""><span class="item_outer"><span class="item_text">Our Services</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/pricing-plans/" class=""><span class="item_outer"><span class="item_text">Pricing Plans</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-clients/" class=""><span class="item_outer"><span class="item_text">Our Clients</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Contact Us</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-113 current_page_item "><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ Page</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/coming-soon/" class=""><span class="item_outer"><span class="item_text">Coming Soon</span><span class="plus"></span></span></a></li>
+			</ul></div></div>
+		</li>
+		<li id="sticky-nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+			<div class="second"><div class="inner"><ul>
+				<li id="sticky-nav-menu-item-2364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2366" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2418" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2414" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-in-grid/" class=""><span class="item_outer"><span class="item_text">Joined/In Grid</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2417" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2415" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-wide/" class=""><span class="item_outer"><span class="item_text">Joined/Wide</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-2423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Masonry</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2422" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2803" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-in-grid/" class=""><span class="item_outer"><span class="item_text">Joined/In Grid</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2421" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2802" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-wide/" class=""><span class="item_outer"><span class="item_text">Joined/Wide</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Layouts</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2407" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns/" class=""><span class="item_outer"><span class="item_text">3 Columns</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2406" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns-wide/" class=""><span class="item_outer"><span class="item_text">3 Columns Wide</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2412" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns/" class=""><span class="item_outer"><span class="item_text">4 Columns</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2411" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">4 Columns Wide</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2419" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">5 Columns Wide</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-2541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Single</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2558" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/innovative-project/" class=""><span class="item_outer"><span class="item_text">Small Images</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2560" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/construction-sites/" class=""><span class="item_outer"><span class="item_text">Small Slider</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2554" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/new-structures/" class=""><span class="item_outer"><span class="item_text">Big Images</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2555" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/heavy-equipment/" class=""><span class="item_outer"><span class="item_text">Big Slider</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2556" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/frame-construction/" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2557" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/wood-flooring/" class=""><span class="item_outer"><span class="item_text">Masonry</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+			</ul></div></div>
+		</li>
+		<li id="sticky-nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Blog</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+			<div class="second"><div class="inner"><ul>
+				<li id="sticky-nav-menu-item-2597" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/masonry-list/" class=""><span class="item_outer"><span class="item_text">Masonry List</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-3139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Standard List</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2598" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/standard-list/" class=""><span class="item_outer"><span class="item_text">Right Sidebar</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-3137" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/left-sidebar/" class=""><span class="item_outer"><span class="item_text">Left Sidebar</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-3138" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/no-sidebar/" class=""><span class="item_outer"><span class="item_text">No Sidebar</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-2600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Post Types</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2601" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/10-different-sizes/" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2602" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/expensive-buildings-projects/" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2604" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/buildings-under-construction/" class=""><span class="item_outer"><span class="item_text">Link</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2605" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/industry/" class=""><span class="item_outer"><span class="item_text">Quote</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2607" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/details-roof-structure/" class=""><span class="item_outer"><span class="item_text">Audio</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2606" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/simplified-building/" class=""><span class="item_outer"><span class="item_text">Video</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+			</ul></div></div>
+		</li>
+		<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+			<div class="second"><div class="inner"><ul>
+				<li id="sticky-nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://baumeister.qodeinteractive.com/product/electric-drill/" class=""><span class="item_outer"><span class="item_text">Single Product</span><span class="plus"></span></span></a></li>
+				<li id="sticky-nav-menu-item-1198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop Layouts</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-1196" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/three-columns/" class=""><span class="item_outer"><span class="item_text">3 Columns</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1195" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/four-columns/" class=""><span class="item_outer"><span class="item_text">4 Columns</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1194" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/full-width/" class=""><span class="item_outer"><span class="item_text">Full Width</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-1199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop Pages</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-1208" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/my-account/" class=""><span class="item_outer"><span class="item_text">My Account</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1207" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/cart/" class=""><span class="item_outer"><span class="item_text">Cart</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1206" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/checkout/" class=""><span class="item_outer"><span class="item_text">Checkout</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+			</ul></div></div>
+		</li>
+		<li id="sticky-nav-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide"><a href="#" class=""><span class="item_outer"><span class="item_text">Elements</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+			<div class="second"><div class="inner"><ul>
+				<li id="sticky-nav-menu-item-1991" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Classic</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-1337" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/accordions/" class=""><span class="item_outer"><span class="item_text">Accordions</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1335" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/tabs/" class=""><span class="item_outer"><span class="item_text">Tabs</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1336" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/buttons/" class=""><span class="item_outer"><span class="item_text">Buttons</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1432" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-with-text/" class=""><span class="item_outer"><span class="item_text">Icon With Text</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1479" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/contact-form/" class=""><span class="item_outer"><span class="item_text">Contact Form</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2370" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/call-to-action/" class=""><span class="item_outer"><span class="item_text">Call To Action</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2079" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/blog-list/" class=""><span class="item_outer"><span class="item_text">Blog List</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-1992" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Presentation</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-1852" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/image-with-text-slider/" class=""><span class="item_outer"><span class="item_text">Image With Text Slider</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1853" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/interactive-box/" class=""><span class="item_outer"><span class="item_text">Interactive Box</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1851" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/team/" class=""><span class="item_outer"><span class="item_text">Team</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1478" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/testimonials/" class=""><span class="item_outer"><span class="item_text">Testimonials</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2371" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/portfolio-list/" class=""><span class="item_outer"><span class="item_text">Portfolio List</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/carousel/" class=""><span class="item_outer"><span class="item_text">Carousel</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-1993" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Infographic</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-1624" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pricing-table/" class=""><span class="item_outer"><span class="item_text">Pricing Table</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1623" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/progress-bar/" class=""><span class="item_outer"><span class="item_text">Progress Bar</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1621" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pie-charts/" class=""><span class="item_outer"><span class="item_text">Pie Charts</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1622" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/counters/" class=""><span class="item_outer"><span class="item_text">Counters</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1660" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/countdown/" class=""><span class="item_outer"><span class="item_text">Countdown</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1620" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/process-item/" class=""><span class="item_outer"><span class="item_text">Process Item</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1450" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/google-maps/" class=""><span class="item_outer"><span class="item_text">Google Maps</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-1994" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Typography</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2062" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/headings/" class=""><span class="item_outer"><span class="item_text">Headings</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/highlights/" class=""><span class="item_outer"><span class="item_text">Highlights</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/columns/" class=""><span class="item_outer"><span class="item_text">Columns</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1679" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/dropcaps/" class=""><span class="item_outer"><span class="item_text">Dropcaps</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2373" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/section-title/" class=""><span class="item_outer"><span class="item_text">Section Title</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1849" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/custom-font/" class=""><span class="item_outer"><span class="item_text">Custom Font</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-1850" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-list-item/" class=""><span class="item_outer"><span class="item_text">Icon List Item</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+			</ul></div></div>
+		</li>
+	</ul>
+</nav>
 
 								</div>
 							</div>
@@ -551,9 +696,9 @@ header.mkd-page-header .mkd-position-right {
 								</div>
 							</div>
 						</div>
-						</div>
 					</div>
 				</div>
+			</div>
 
 				<!-- ===== SEARCH COVER ===== -->
 				<form action="/" class="mkd-search-cover" method="get">
