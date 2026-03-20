@@ -232,6 +232,9 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 			<!-- ===== TOP BAR ===== -->
 			<div class="mkd-top-bar">
+				
+				<div class="mkd-grid">
+				
 				<div class="mkd-vertical-align-containers">
 					<div class="mkd-position-left">
 						<div class="mkd-position-left-inner">
@@ -280,19 +283,28 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 						</div>
 					</div>
 				</div>
+				
+				</div>
+				
 			</div>
 
 			<!-- ===== HEADER ===== -->
 			<header class="mkd-page-header">
-				<div class="mkd-menu-area mkd-menu-left">
+				
+				<div class="mkd-grid">
+				
+				<div class="mkd-menu-area mkd-menu-center">
 					<div class="mkd-vertical-align-containers">
 						<div class="mkd-position-left">
 							<div class="mkd-position-left-inner">
-								<div class="mkd-logo-wrapper">
-									<a itemprop="url" href="/" style="height: 25px;">
-										<img itemprop="image" class="mkd-normal-logo" src="/images/logo.jpg" alt="logo" />
-										<img itemprop="image" class="mkd-dark-logo" src="/images/logo.jpg" alt="dark logo" /> <img itemprop="image" class="mkd-light-logo" src="/images/logo.jpg" alt="light logo" /> </a>
-								</div>
+								<div class="mkd-logo-wrapper" style="display:none!important"></div>
+								<a href="/" style="display:inline-flex;align-items:center;height:100%">
+									<img src="/images/logo.jpg" alt="Bach Khoa Digital" class="bkd-logo">
+								</a>
+							</div>
+						</div>
+						<div class="mkd-position-center">
+							<div class="mkd-position-center-inner">
 
 								<nav class="mkd-main-menu mkd-drop-down mkd-default-nav">
 									<ul id="menu-main-menu-navigation" class="clearfix">
@@ -515,18 +527,24 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 						</div>
 					</div>
 				</div>
+				
+				</div>
 
 				<!-- ===== STICKY HEADER ===== -->
 				<div class="mkd-sticky-header">
-					<div class="mkd-sticky-holder mkd-menu-left">
+					<div class="mkd-sticky-holder mkd-menu-center">
+						<div class="mkd-grid">
 						<div class="mkd-vertical-align-containers">
 							<div class="mkd-position-left">
 								<div class="mkd-position-left-inner">
-									<div class="mkd-logo-wrapper">
-										<a itemprop="url" href="/" style="height: 25px;">
-											<img itemprop="image" class="mkd-normal-logo" src="/images/logo.jpg" alt="logo" />
-											<img itemprop="image" class="mkd-dark-logo" src="/images/logo.jpg" alt="dark logo" /> <img itemprop="image" class="mkd-light-logo" src="/images/logo.jpg" alt="light logo" /> </a>
-									</div>
+									<div class="mkd-logo-wrapper" style="display:none!important"></div>
+									<a href="/" style="display:none">
+										<img src="/images/logo.jpg" alt="Bach Khoa Digital" class="bkd-logo">
+									</a>
+								</div>
+							</div>
+							<div class="mkd-position-center">
+								<div class="mkd-position-center-inner">
 
 									<nav class="mkd-main-menu mkd-drop-down mkd-sticky-nav">
 										<ul id="menu-main-menu-navigation-1" class="clearfix">
@@ -566,6 +584,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 									</a>
 								</div>
 							</div>
+						</div>
 						</div>
 					</div>
 				</div>
