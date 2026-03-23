@@ -1611,6 +1611,10 @@ document.addEventListener('DOMContentLoaded', function() {
     body.page-id-521 .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
 
     /* ── Header: logo + nav dịch sát trái ── */
+    body.page-id-521 .mkd-page-header .mkd-grid {
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
     body.page-id-521 .mkd-page-header .mkd-menu-area .mkd-vertical-align-containers {
         display: flex !important;
         justify-content: flex-start !important;
