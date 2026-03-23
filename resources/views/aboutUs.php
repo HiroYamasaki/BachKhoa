@@ -1610,33 +1610,42 @@ document.addEventListener('DOMContentLoaded', function() {
     body.page-id-521 .mkd-footer-top-holder a:hover,
     body.page-id-521 .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
 
-    /* ── Header: dịch logo + menu sang trái ── */
-    body.page-id-521 .mkd-menu-area.mkd-menu-center .mkd-vertical-align-containers {
+    /* ── Header: logo + nav dịch sát trái ── */
+    body.page-id-521 .mkd-page-header .mkd-menu-area .mkd-vertical-align-containers {
         justify-content: flex-start !important;
     }
-    body.page-id-521 .mkd-menu-area.mkd-menu-center .mkd-position-left {
+    body.page-id-521 .mkd-page-header .mkd-menu-area .mkd-position-left {
         flex: 0 0 auto !important;
+        width: auto !important;
     }
-    body.page-id-521 .mkd-menu-area.mkd-menu-center .mkd-position-center {
+    body.page-id-521 .mkd-page-header .mkd-menu-area .mkd-position-center {
         flex: 0 1 auto !important;
+        width: auto !important;
+        text-align: left !important;
         margin-right: auto !important;
     }
-    body.page-id-521 .mkd-menu-area.mkd-menu-center .mkd-position-right {
+    body.page-id-521 .mkd-page-header .mkd-menu-area .mkd-position-right {
         flex: 0 0 auto !important;
+        width: auto !important;
         margin-left: auto !important;
     }
-    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder.mkd-menu-center .mkd-vertical-align-containers {
+    /* Sticky header cùng kiểu */
+    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder .mkd-vertical-align-containers {
         justify-content: flex-start !important;
     }
-    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder.mkd-menu-center .mkd-position-left {
+    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder .mkd-position-left {
         flex: 0 0 auto !important;
+        width: auto !important;
     }
-    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder.mkd-menu-center .mkd-position-center {
+    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder .mkd-position-center {
         flex: 0 1 auto !important;
+        width: auto !important;
+        text-align: left !important;
         margin-right: auto !important;
     }
-    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder.mkd-menu-center .mkd-position-right {
+    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder .mkd-position-right {
         flex: 0 0 auto !important;
+        width: auto !important;
         margin-left: auto !important;
     }
 </style>
