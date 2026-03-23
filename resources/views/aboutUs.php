@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -374,11 +374,11 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 												</div>
 											</div>
 										</li>
-										<li id="nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+										<li id="nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Shop</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 											<div class="second">
 												<div class="inner">
 													<ul>
-														<li id="nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span></span></a></li>
+														<li id="nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/shop" class=""><span class="item_outer"><span class="item_text">Product List</span></span></a></li>
 														<li id="nav-menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://baumeister.qodeinteractive.com/product/electric-drill/" class=""><span class="item_outer"><span class="item_text">Single Product</span></span></a></li>
 														<li id="nav-menu-item-1198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop Layouts</span></span></a>
 															<ul>
@@ -619,11 +619,11 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 													</div>
 												</div>
 											</li>
-											<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+											<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Shop</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 												<div class="second">
 													<div class="inner">
 														<ul>
-															<li id="sticky-nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span><span class="plus"></span></span></a></li>
+															<li id="sticky-nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/shop" class=""><span class="item_outer"><span class="item_text">Product List</span><span class="plus"></span></span></a></li>
 															<li id="sticky-nav-menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://baumeister.qodeinteractive.com/product/electric-drill/" class=""><span class="item_outer"><span class="item_text">Single Product</span><span class="plus"></span></span></a></li>
 															<li id="sticky-nav-menu-item-1198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop Layouts</span><span class="plus"></span></span></a>
 																<ul>
@@ -871,9 +871,9 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 										</li>
 									</ul>
 								</li>
-								<li id="mobile-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Shop</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+								<li id="mobile-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="/shop" class=" mkd-mobile-no-link"><span>Shop</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
 									<ul class="sub_menu">
-										<li id="mobile-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/" class=""><span>Product List</span></a></li>
+										<li id="mobile-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/shop" class=""><span>Product List</span></a></li>
 										<li id="mobile-menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://baumeister.qodeinteractive.com/product/electric-drill/" class=""><span>Single Product</span></a></li>
 										<li id="mobile-menu-item-1198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Shop Layouts</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
 											<ul class="sub_menu">
