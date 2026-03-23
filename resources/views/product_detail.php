@@ -1668,31 +1668,132 @@ document.addEventListener('DOMContentLoaded', function() {
         flex: 1 !important;
     }
 
+    /* ── Tab panels: hide all, show only active ── */
+    body.single-product .woocommerce-Tabs-panel {
+        display: none !important;
+    }
+    body.single-product .woocommerce-Tabs-panel.bkd-tab-active {
+        display: block !important;
+    }
+
     /* ── Reviews section ── */
     body.single-product .woocommerce-Reviews .commentlist {
         list-style: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    body.single-product .woocommerce-Reviews .commentlist .review {
+        margin-bottom: 0 !important;
         padding: 0 !important;
     }
     body.single-product .woocommerce-Reviews .comment_container {
         display: flex !important;
         gap: 15px !important;
-        margin-bottom: 25px !important;
-        padding-bottom: 25px !important;
+        padding: 20px 0 !important;
+        margin: 0 !important;
         border-bottom: 1px solid #eee !important;
     }
     body.single-product .woocommerce-Reviews .comment_container > img {
         border-radius: 50% !important;
         flex-shrink: 0 !important;
+        width: 60px !important;
+        height: 60px !important;
+        object-fit: cover !important;
+    }
+    body.single-product .woocommerce-Reviews .comment-text {
+        flex: 1 !important;
+    }
+    body.single-product .woocommerce-Reviews .comment-text .meta {
+        margin: 5px 0 10px !important;
+        font-size: 13px !important;
+        color: #888 !important;
+    }
+    body.single-product .woocommerce-Reviews .comment-text .meta strong {
+        color: #1b1b1b !important;
+        font-size: 14px !important;
+    }
+    body.single-product .woocommerce-Reviews .comment-text .description p {
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+        color: #555 !important;
+        margin: 0 !important;
+    }
+    body.single-product .woocommerce-Reviews-title {
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+        padding-bottom: 15px !important;
+        border-bottom: 1px solid #eee !important;
+    }
+
+    /* ── Review form ── */
+    body.single-product #review_form_wrapper {
+        margin-top: 30px !important;
+        padding-top: 20px !important;
+        border-top: 1px solid #eee !important;
+    }
+    body.single-product .comment-reply-title {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        display: block !important;
+        margin-bottom: 15px !important;
+    }
+    body.single-product .comment-form label {
+        display: block !important;
+        font-size: 14px !important;
+        margin-bottom: 5px !important;
+        font-weight: 600 !important;
+    }
+    body.single-product .comment-form input[type="text"],
+    body.single-product .comment-form input[type="email"],
+    body.single-product .comment-form textarea {
+        width: 100% !important;
+        padding: 10px !important;
+        border: 1px solid #ddd !important;
+        font-size: 14px !important;
+        box-sizing: border-box !important;
+        margin-bottom: 15px !important;
+    }
+    body.single-product .comment-form textarea {
+        resize: vertical !important;
+        min-height: 120px !important;
+    }
+    body.single-product .comment-form select {
+        padding: 8px 12px !important;
+        border: 1px solid #ddd !important;
+        font-size: 14px !important;
+        margin-bottom: 15px !important;
+    }
+    body.single-product .comment-form .comment-form-cookies-consent {
+        display: flex !important;
+        align-items: flex-start !important;
+        gap: 8px !important;
+        font-size: 13px !important;
+    }
+    body.single-product .comment-form .comment-form-cookies-consent input {
+        margin-top: 3px !important;
     }
     body.single-product #review_form .submit {
         background-color: #E8612D !important;
         border: none !important;
         color: #fff !important;
-        padding: 10px 25px !important;
+        padding: 12px 30px !important;
         cursor: pointer !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 1px !important;
+        transition: background-color 0.3s ease !important;
     }
     body.single-product #review_form .submit:hover {
         background-color: #C0392B !important;
+    }
+    body.single-product .comment-form-rating {
+        margin-bottom: 15px !important;
+    }
+    body.single-product .comment-notes {
+        font-size: 13px !important;
+        color: #888 !important;
+        margin-bottom: 15px !important;
     }
 
     /* ── Responsive ── */
@@ -1707,6 +1808,35 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 </style>
+
+<!-- TAB SWITCHING JS -->
+<script>
+(function(){
+    var tabs = document.querySelectorAll('.woocommerce-tabs .tabs.wc-tabs li');
+    var panels = document.querySelectorAll('.woocommerce-tabs .woocommerce-Tabs-panel');
+    if (!tabs.length || !panels.length) return;
+
+    // Activate first tab by default
+    tabs[0].classList.add('active');
+    panels[0].classList.add('bkd-tab-active');
+
+    tabs.forEach(function(tab){
+        tab.addEventListener('click', function(e){
+            e.preventDefault();
+            var target = tab.querySelector('a').getAttribute('href').replace('#','');
+
+            // Deactivate all
+            tabs.forEach(function(t){ t.classList.remove('active'); });
+            panels.forEach(function(p){ p.classList.remove('bkd-tab-active'); });
+
+            // Activate clicked
+            tab.classList.add('active');
+            var panel = document.getElementById(target);
+            if (panel) panel.classList.add('bkd-tab-active');
+        });
+    });
+})();
+</script>
 
 <!-- CUSTOM CURSOR -->
 <div id="bk-cursor-dot"></div>
