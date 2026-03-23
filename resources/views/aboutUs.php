@@ -256,11 +256,10 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 							<div class="mkd-position-left-inner">
 
 
-								<div class="mkd-logo-wrapper">
-									<a itemprop="url" href="/" style="height: 25px;">
-										<img itemprop="image" class="mkd-normal-logo" src="/images/logo.jpg" alt="logo" />
-										<img itemprop="image" class="mkd-dark-logo" src="/images/logo.jpg" alt="dark logo" /> <img itemprop="image" class="mkd-light-logo" src="/images/logo.jpg" alt="light logo" /> </a>
-								</div>
+								<div class="mkd-logo-wrapper" style="display:none!important"></div>
+								<a href="/" style="display:inline-flex;align-items:center;height:100%">
+									<img src="/images/logo.jpg" alt="Bach Khoa Digital" class="bkd-logo">
+								</a>
 
 
 								<nav class="mkd-main-menu mkd-drop-down mkd-default-nav">
