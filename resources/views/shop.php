@@ -1368,9 +1368,10 @@ document.addEventListener('DOMContentLoaded', function() {
     body.woocommerce-shop .mkd-footer-bottom-holder { background-color: #2B2B2B !important; }
     body.woocommerce-shop .mkd-footer-top-holder *,
     body.woocommerce-shop .mkd-footer-bottom-holder * { color: #cccccc !important; }
-    body.woocommerce-shop .mkd-widget-title,
+    body.woocommerce-shop .mkd-footer-top-holder .mkd-widget-title,
     body.woocommerce-shop .mkd-footer-top-holder h4,
     body.woocommerce-shop .mkd-footer-bottom-holder h4 { color: #ffffff !important; }
+    body.woocommerce-shop .mkd-sidebar .mkd-widget-title { color: #1b1b1b !important; }
     body.woocommerce-shop .mkd-footer-top-holder a:hover,
     body.woocommerce-shop .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
 
