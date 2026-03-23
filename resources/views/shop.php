@@ -1363,6 +1363,8 @@ document.addEventListener('DOMContentLoaded', function() {
     body.woocommerce-shop .mkd-back-to-top a,
     body.woocommerce-shop #mkd-back-to-top a { background-color: #E8612D !important; }
 
+    body.woocommerce-shop .mkd-container { padding-top: 50px; }
+
     body.woocommerce-shop .mkd-page-footer,
     body.woocommerce-shop .mkd-footer-top-holder,
     body.woocommerce-shop .mkd-footer-bottom-holder { background-color: #2B2B2B !important; }
