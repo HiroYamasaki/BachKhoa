@@ -1610,10 +1610,17 @@ document.addEventListener('DOMContentLoaded', function() {
     body.page-id-521 .mkd-footer-top-holder a:hover,
     body.page-id-521 .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
 
-    /* ── Header: logo + nav dịch sát trái ── */
+    /* ── Header: logo + nav dịch sát trái, 3 nút dịch sát phải ── */
     body.page-id-521 .mkd-page-header .mkd-grid {
         padding-left: 0 !important;
+        padding-right: 0 !important;
         margin-left: 0 !important;
+        margin-right: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    body.page-id-521 .mkd-page-header .mkd-menu-area {
+        width: 100% !important;
     }
     body.page-id-521 .mkd-page-header .mkd-menu-area .mkd-vertical-align-containers {
         display: flex !important;
@@ -1648,6 +1655,17 @@ document.addEventListener('DOMContentLoaded', function() {
         margin-left: auto !important;
     }
     /* Sticky header cùng kiểu */
+    body.page-id-521 .mkd-sticky-header .mkd-grid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder {
+        width: 100% !important;
+    }
     body.page-id-521 .mkd-sticky-header .mkd-sticky-holder .mkd-vertical-align-containers {
         display: flex !important;
         justify-content: flex-start !important;
