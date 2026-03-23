@@ -17,3 +17,7 @@ Route::get('/contact-us', function () {
 Route::get('/faq', function () {
     return view('FAQ');
 });
+
+Route::get('/shop', function () {
+    return view('shop');
+});
