@@ -1653,6 +1653,7 @@ document.addEventListener('DOMContentLoaded', function() {
         flex: 0 0 auto !important;
         width: auto !important;
         margin-left: auto !important;
+        margin-right: 30px !important;
     }
     /* Sticky header cùng kiểu */
     body.page-id-521 .mkd-sticky-header .mkd-grid {
@@ -1697,6 +1698,7 @@ document.addEventListener('DOMContentLoaded', function() {
         flex: 0 0 auto !important;
         width: auto !important;
         margin-left: auto !important;
+        margin-right: 30px !important;
     }
 </style>
 
