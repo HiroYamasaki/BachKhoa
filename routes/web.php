@@ -21,3 +21,7 @@ Route::get('/faq', function () {
 Route::get('/shop', function () {
     return view('shop');
 });
+
+Route::get('/product-detail', function () {
+    return view('product_detail');
+});
