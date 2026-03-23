@@ -1612,7 +1612,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     /* ── Header: logo + nav dịch sát trái, 3 nút dịch sát phải ── */
     body.page-id-521 .mkd-page-header .mkd-grid {
-        padding-left: 0 !important;
+        padding-left: 30px !important;
         padding-right: 0 !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
@@ -1657,7 +1657,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     /* Sticky header cùng kiểu */
     body.page-id-521 .mkd-sticky-header .mkd-grid {
-        padding-left: 0 !important;
+        padding-left: 30px !important;
         padding-right: 0 !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
