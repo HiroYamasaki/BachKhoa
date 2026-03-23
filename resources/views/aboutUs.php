@@ -1609,6 +1609,36 @@ document.addEventListener('DOMContentLoaded', function() {
     body.page-id-521 .mkd-footer-bottom-holder h4 { color: #ffffff !important; }
     body.page-id-521 .mkd-footer-top-holder a:hover,
     body.page-id-521 .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
+
+    /* ── Header: dịch logo + menu sang trái ── */
+    body.page-id-521 .mkd-menu-area.mkd-menu-center .mkd-vertical-align-containers {
+        justify-content: flex-start !important;
+    }
+    body.page-id-521 .mkd-menu-area.mkd-menu-center .mkd-position-left {
+        flex: 0 0 auto !important;
+    }
+    body.page-id-521 .mkd-menu-area.mkd-menu-center .mkd-position-center {
+        flex: 0 1 auto !important;
+        margin-right: auto !important;
+    }
+    body.page-id-521 .mkd-menu-area.mkd-menu-center .mkd-position-right {
+        flex: 0 0 auto !important;
+        margin-left: auto !important;
+    }
+    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder.mkd-menu-center .mkd-vertical-align-containers {
+        justify-content: flex-start !important;
+    }
+    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder.mkd-menu-center .mkd-position-left {
+        flex: 0 0 auto !important;
+    }
+    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder.mkd-menu-center .mkd-position-center {
+        flex: 0 1 auto !important;
+        margin-right: auto !important;
+    }
+    body.page-id-521 .mkd-sticky-header .mkd-sticky-holder.mkd-menu-center .mkd-position-right {
+        flex: 0 0 auto !important;
+        margin-left: auto !important;
+    }
 </style>
 
 <!-- CUSTOM CURSOR -->
