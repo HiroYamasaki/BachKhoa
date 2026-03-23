@@ -1373,6 +1373,28 @@ document.addEventListener('DOMContentLoaded', function() {
     body.woocommerce-shop .mkd-footer-bottom-holder h4 { color: #ffffff !important; }
     body.woocommerce-shop .mkd-footer-top-holder a:hover,
     body.woocommerce-shop .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
+
+    /* ── Star rating: dùng Unicode ★ thay icon font WooCommerce (tránh lỗi CORS) ── */
+    body.woocommerce-shop .star-rating {
+        font-family: Arial, Georgia, serif !important;
+        letter-spacing: 2px;
+        width: 6em !important;
+    }
+    body.woocommerce-shop .star-rating::before {
+        content: "★★★★★" !important;
+        color: #ddd !important;
+        font-family: Arial, Georgia, serif !important;
+        letter-spacing: 2px;
+    }
+    body.woocommerce-shop .star-rating span {
+        padding-top: 1.2em !important;
+    }
+    body.woocommerce-shop .star-rating span::before {
+        content: "★★★★★" !important;
+        color: #E8612D !important;
+        font-family: Arial, Georgia, serif !important;
+        letter-spacing: 2px;
+    }
 </style>
 
 <!-- CUSTOM CURSOR -->
