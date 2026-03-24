@@ -1041,23 +1041,12 @@ if ($product->price == 0):
 </div>
 
 	
-	<div class="cart">
-			<div class="mkd-quantity-buttons quantity">
-				<label class="screen-reader-text" for="bkd-qty"><?php echo htmlspecialchars($product->name); ?> quantity</label>
-		<span class="mkd-quantity-minus" id="bkd-qty-minus">&minus;</span>
-		<input
-			type="text"
-			id="bkd-qty"
-			class="input-text qty text mkd-quantity-input"
-			name="quantity"
-			value="1"
-			title="Qty"
-			size="4"
-			pattern="[0-9]*"
-			inputmode="numeric" />
-		<span class="mkd-quantity-plus" id="bkd-qty-plus">&plus;</span>
-			</div>
-	
+	<div class="bkd-cart-row">
+		<div class="bkd-qty-wrap">
+			<button type="button" class="bkd-qty-btn" id="bkd-qty-minus">&#8722;</button>
+			<span class="bkd-qty-value" id="bkd-qty-value">1</span>
+			<button type="button" class="bkd-qty-btn" id="bkd-qty-plus">&#43;</button>
+		</div>
 		<button type="button" class="single_add_to_cart_button button alt">Liên hệ đặt hàng</button>
 	</div>
 
@@ -1626,44 +1615,46 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     /* ── Quantity + Add to cart row ── */
-    body.single-product .cart {
+    .bkd-cart-row {
         display: flex !important;
         align-items: center !important;
         gap: 10px !important;
         margin: 20px 0 !important;
     }
-    body.single-product .mkd-quantity-buttons {
+    .bkd-qty-wrap {
         display: flex !important;
         align-items: center !important;
         border: 1px solid #ddd !important;
+        border-radius: 3px !important;
     }
-    body.single-product .mkd-quantity-input {
-        width: 60px !important;
+    .bkd-qty-btn {
+        width: 36px !important;
         height: 40px !important;
-        text-align: center !important;
         border: none !important;
-        border-left: 1px solid #ddd !important;
-        border-right: 1px solid #ddd !important;
-        font-size: 16px !important;
-        color: #1b1b1b !important;
-        background: #fff !important;
-        -webkit-appearance: none !important;
-        -moz-appearance: textfield !important;
-        outline: none !important;
-        line-height: 40px !important;
-    }
-    body.single-product .mkd-quantity-minus,
-    body.single-product .mkd-quantity-plus {
+        background: #f5f5f5 !important;
         cursor: pointer !important;
-        padding: 8px 14px !important;
         font-size: 18px !important;
         color: #333 !important;
-        user-select: none;
         line-height: 1 !important;
+        user-select: none;
+        transition: color 0.2s, background 0.2s !important;
     }
-    body.single-product .mkd-quantity-minus:hover,
-    body.single-product .mkd-quantity-plus:hover {
+    .bkd-qty-btn:hover {
         color: #E8612D !important;
+        background: #eee !important;
+    }
+    .bkd-qty-value {
+        display: inline-block !important;
+        width: 50px !important;
+        height: 40px !important;
+        line-height: 40px !important;
+        text-align: center !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        color: #1b1b1b !important;
+        background: #fff !important;
+        border-left: 1px solid #ddd !important;
+        border-right: 1px solid #ddd !important;
     }
     body.single-product .single_add_to_cart_button {
         background-color: #1b1b1b !important;
@@ -1924,22 +1915,18 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- QUANTITY BUTTONS JS -->
 <script>
 (function(){
-    var input = document.getElementById('bkd-qty');
+    var span  = document.getElementById('bkd-qty-value');
     var minus = document.getElementById('bkd-qty-minus');
     var plus  = document.getElementById('bkd-qty-plus');
-    if (!input || !minus || !plus) return;
+    if (!span || !minus || !plus) return;
 
     minus.addEventListener('click', function(){
-        var val = parseInt(input.value, 10) || 1;
-        if (val > 1) input.value = val - 1;
+        var val = parseInt(span.textContent, 10) || 1;
+        if (val > 1) span.textContent = val - 1;
     });
     plus.addEventListener('click', function(){
-        var val = parseInt(input.value, 10) || 1;
-        input.value = val + 1;
-    });
-    input.addEventListener('change', function(){
-        var val = parseInt(input.value, 10);
-        if (isNaN(val) || val < 1) input.value = 1;
+        var val = parseInt(span.textContent, 10) || 1;
+        span.textContent = val + 1;
     });
 })();
 </script>
