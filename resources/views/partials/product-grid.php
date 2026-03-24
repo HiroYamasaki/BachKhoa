@@ -1,3 +1,4 @@
+<div class="mkd-pl-main-holder"><ul class="products columns-4">
 <?php foreach ($products as $index => $product): ?>
 <?php
     $position = $index % 4;
@@ -31,3 +32,5 @@
 	<p style="font-size:16px;color:#888;">Không tìm thấy sản phẩm nào.</p>
 </li>
 <?php endif; ?>
+</ul>
+</div>
