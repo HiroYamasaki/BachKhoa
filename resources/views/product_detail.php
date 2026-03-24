@@ -1041,31 +1041,25 @@ if ($product->price == 0):
 </div>
 
 	
-	<form class="cart" action="https://baumeister.qodeinteractive.com/product/electric-drill/" method="post" enctype='multipart/form-data'>
-		
+	<div class="cart">
 			<div class="mkd-quantity-buttons quantity">
-				<label class="screen-reader-text" for="quantity_69c0d8669d038">Electric Drill quantity</label>
-		<span class="mkd-quantity-minus icon_minus-06"></span>
+				<label class="screen-reader-text" for="bkd-qty"><?php echo htmlspecialchars($product->name); ?> quantity</label>
+		<span class="mkd-quantity-minus" id="bkd-qty-minus">&minus;</span>
 		<input
 			type="text"
-			id="quantity_69c0d8669d038"
+			id="bkd-qty"
 			class="input-text qty text mkd-quantity-input"
-			data-step="1"
-			data-min="1"
-			data-max=""
 			name="quantity"
 			value="1"
 			title="Qty"
 			size="4"
-			placeholder=""
 			pattern="[0-9]*"
 			inputmode="numeric" />
-		<span class="mkd-quantity-plus icon_plus"></span>
+		<span class="mkd-quantity-plus" id="bkd-qty-plus">&plus;</span>
 			</div>
 	
-		<button type="submit" name="add-to-cart" value="253" class="single_add_to_cart_button button alt">Add to cart</button>
-
-			</form>
+		<button type="button" class="single_add_to_cart_button button alt">Liên hệ đặt hàng</button>
+	</div>
 
 	
 <div class="product_meta">
@@ -1915,29 +1909,22 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- QUANTITY BUTTONS JS -->
 <script>
 (function(){
-    document.querySelectorAll('.mkd-quantity-buttons').forEach(function(wrapper){
-        var input = wrapper.querySelector('.mkd-quantity-input');
-        var minus = wrapper.querySelector('.mkd-quantity-minus');
-        var plus  = wrapper.querySelector('.mkd-quantity-plus');
-        if (!input) return;
+    var input = document.getElementById('bkd-qty');
+    var minus = document.getElementById('bkd-qty-minus');
+    var plus  = document.getElementById('bkd-qty-plus');
+    if (!input || !minus || !plus) return;
 
-        minus.addEventListener('click', function(){
-            var val  = parseInt(input.value, 10) || 1;
-            var min  = parseInt(input.getAttribute('data-min'), 10) || 1;
-            if (val > min) input.value = val - 1;
-        });
-
-        plus.addEventListener('click', function(){
-            var val  = parseInt(input.value, 10) || 1;
-            var max  = parseInt(input.getAttribute('data-max'), 10);
-            if (!max || val < max) input.value = val + 1;
-        });
-
-        input.addEventListener('change', function(){
-            var val = parseInt(input.value, 10);
-            var min = parseInt(input.getAttribute('data-min'), 10) || 1;
-            if (isNaN(val) || val < min) input.value = min;
-        });
+    minus.addEventListener('click', function(){
+        var val = parseInt(input.value, 10) || 1;
+        if (val > 1) input.value = val - 1;
+    });
+    plus.addEventListener('click', function(){
+        var val = parseInt(input.value, 10) || 1;
+        input.value = val + 1;
+    });
+    input.addEventListener('change', function(){
+        var val = parseInt(input.value, 10);
+        if (isNaN(val) || val < 1) input.value = 1;
     });
 })();
 </script>
