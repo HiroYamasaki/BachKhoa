@@ -132,64 +132,13 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 header.mkd-page-header .mkd-position-right {
     right: 30px !important;
 }
+<?php include resource_path('views/partials/auth-styles.php'); ?>
 </style>
 </head>
 
 <body class="page-template page-template-blog-masonry page page-id-2570 theme-baumeister mkd-core-1.2.3 woocommerce-no-js baumeister-ver-1.6 mkd-grid-1300 mkd-disable-global-padding-bottom mkd-sticky-header-on-scroll-down-up mkd-dropdown-animate-height mkd-header-standard mkd-menu-area-shadow-disable mkd-menu-area-in-grid-shadow-disable mkd-menu-area-border-disable mkd-menu-area-in-grid-border-disable mkd-logo-area-border-disable mkd-logo-area-in-grid-border-disable mkd-header-vertical-shadow-disable mkd-header-vertical-border-disable mkd-side-menu-slide-from-right mkd-woocommerce-columns-3 mkd-woo-normal-space mkd-woo-pl-info-below-image mkd-woo-single-thumb-below-image mkd-woo-single-has-pretty-photo mkd-default-mobile-header mkd-sticky-up-mobile-header mkd-header-top-enabled mkd-search-covers-header wpb-js-composer js-comp-ver-6.10.0 vc_responsive" itemscope itemtype="http://schema.org/WebPage">
 	<!-- ===== SIDE MENU ===== -->
-	<section class="mkd-side-menu">
-		<div class="mkd-close-side-menu-holder">
-			<a class="mkd-close-side-menu" href="#" target="_self">
-				<span aria-hidden="true" class="mkd-icon-font-elegant icon_close "></span> </a>
-		</div>
-		<div id="media_image-4" class="widget mkd-sidearea widget_media_image"><img width="217" height="38" src="/images/logo.jpg" class="image wp-image-3390  attachment-full size-full" alt="a" loading="lazy" style="max-width: 100%; height: auto;" /></div>
-		<div id="text-7" class="widget mkd-sidearea widget_text">
-			<div class="textwidget">
-				<p>BachKhoa Digital - Giải pháp công nghệ thông tin toàn diện cho doanh nghiệp.</p>
-			</div>
-		</div>
-		<div id="text-8" class="widget mkd-sidearea widget_text">
-			<div class="mkd-widget-title-holder">
-				<h4 class="mkd-widget-title">Contact</h4>
-			</div>
-			<div class="textwidget"></div>
-		</div>
-		<a class="mkd-icon-widget-holder" href="#"
-			target="_self" style="margin: -20px 0 0 0">
-			<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.8, TP.HCM,</span></span> </a>
-
-		<a class="mkd-icon-widget-holder" href="#"
-			target="_self" style="margin: -20px 0 0 20px">
-			<span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">Việt Nam</span></span> </a>
-
-		<a class="mkd-icon-widget-holder" href="tel:+84903646288"
-			target="_self" style="margin: 20px 0px 0">
-			<span class="mkd-icon-text mkd-no-icon fa fa-phone      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">0903 646 288</span></span> </a>
-
-		<a class="mkd-icon-widget-holder" href="#"
-			target="_self" style="margin: 0 0 20px 28px">
-			<span class="mkd-icon-text mkd-no-icon      " style="font-size: 15px"><span class="mkd-icon-text-inner" style="color: #fff">T2-T7, 8:00 - 17:30</span></span> </a>
-
-		<a class="mkd-icon-widget-holder" href="mailto:info@bachkhoadigital.com" target="_self" style="margin: 0 0 50px 0">
-			<span class="mkd-icon-text mkd-no-icon fa fa-envelope-o      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">info@bachkhoadigital.com</span></span> </a>
-		<div id="text-9" class="widget mkd-sidearea widget_text">
-			<div class="mkd-widget-title-holder">
-				<h4 class="mkd-widget-title">Share</h4>
-			</div>
-			<div class="textwidget"></div>
-		</div>
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 0 0;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
-			<span class="mkd-social-icon-widget fa fa-facebook     "></span> </a>
-
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 18px 0px;" href="https://plus.google.com/" target="_blank">
-			<span class="mkd-social-icon-widget fa fa-google-plus     "></span> </a>
-
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 0 0;" href="https://www.instagram.com/qodeinteractive/" target="_blank">
-			<span class="mkd-social-icon-widget fa fa-instagram     "></span> </a>
-
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 0 0 20px;" href="https://www.pinterest.com/qodeinteractive/" target="_blank">
-			<span class="mkd-social-icon-widget fa fa-pinterest     "></span> </a>
-	</section>
+	<?php include resource_path('views/partials/side-menu.php'); ?>
 
 	<!-- ===== WRAPPER ===== -->
 	<div class="mkd-wrapper">
