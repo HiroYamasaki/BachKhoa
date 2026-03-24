@@ -1401,6 +1401,37 @@ document.addEventListener('DOMContentLoaded', function() {
         font-family: Arial, Georgia, serif !important;
         letter-spacing: 2px;
     }
+
+    /* ── Uniform product image sizing ── */
+    body.woocommerce-shop .products .mkd-pl-image {
+        position: relative !important;
+        overflow: hidden !important;
+        padding-top: 100% !important; /* 1:1 square aspect ratio */
+        background: #f5f5f5;
+    }
+    body.woocommerce-shop .products .mkd-pl-image > img {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important;
+        object-position: center center !important;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+    body.woocommerce-shop .products .mkd-pl-image .mkd-pl-text,
+    body.woocommerce-shop .products .mkd-pl-image .mkd-onsale,
+    body.woocommerce-shop .products .mkd-pl-image .mkd-out-of-stock {
+        position: absolute !important;
+        z-index: 2;
+    }
+    body.woocommerce-shop .products .mkd-pl-image .mkd-pl-text {
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
 </style>
 
 <!-- CUSTOM CURSOR -->
