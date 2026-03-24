@@ -21,9 +21,7 @@ Route::get('/faq', function () {
 
 Route::get('/shop', [ProductController::class, 'index']);
 
-Route::get('/product-detail', function () {
-    return view('product_detail');
-});
+Route::get('/product-detail', [ProductController::class, 'show']);
 
 Route::get('/blog', function () {
     return view('blog');

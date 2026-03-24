@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
-	<title>Electric Drill &#8211; BachKhoa Digital</title>
+	<title><?php echo htmlspecialchars($product->name); ?> &#8211; BachKhoa Digital</title>
 	<meta name='robots' content='max-image-preview:large' />
 
 	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
@@ -988,29 +988,60 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 	<div class="mkd-container">
 		<div class="mkd-container-inner clearfix">
-			<div class="woocommerce-notices-wrapper"></div><div id="product-253" class="product type-product post-253 status-publish first instock product_cat-power-tools product_tag-home product_tag-service product_tag-technology has-post-thumbnail shipping-taxable purchasable product-type-simple">
+			<div class="woocommerce-notices-wrapper"></div><div id="product-<?php echo $product->id; ?>" class="product type-product status-publish instock has-post-thumbnail shipping-taxable purchasable product-type-simple">
 
 	<div class="mkd-single-product-content"><div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-3 images" data-columns="3" style="opacity: 1; transition: opacity .25s ease-in-out;">
-	<figure class="woocommerce-product-gallery__wrapper">
-		<div data-thumb="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-150x150.jpg" data-thumb-alt="a" class="woocommerce-product-gallery__image"><a href="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1.jpg"><img width="635" height="754" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1.jpg" class="wp-post-image" alt="a" loading="lazy" title="shop-img-1" data-caption="" data-src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1.jpg" data-large_image="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1.jpg" data-large_image_width="800" data-large_image_height="950" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1.jpg 800w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-253x300.jpg 253w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-768x912.jpg 768w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-635x755.jpg 635w" sizes="(max-width: 635px) 100vw, 635px" /></a></div><div data-thumb="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-3-195x195.jpg" class="woocommerce-product-gallery__image"><a href="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-3.jpg"><img width="195" height="195" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-3-195x195.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="a" loading="lazy" title="shop-img-1-gallery-3" data-caption="" data-src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-3.jpg" data-large_image="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-3.jpg" data-large_image_width="600" data-large_image_height="713" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-3-195x195.jpg 195w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-3-150x150.jpg 150w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-3-550x550.jpg 550w" sizes="(max-width: 195px) 100vw, 195px" /></a></div><div data-thumb="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-2-195x195.jpg" class="woocommerce-product-gallery__image"><a href="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-2.jpg"><img width="195" height="195" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-2-195x195.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="a" loading="lazy" title="shop-img-1-gallery-2" data-caption="" data-src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-2.jpg" data-large_image="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-2.jpg" data-large_image_width="600" data-large_image_height="713" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-2-195x195.jpg 195w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-2-150x150.jpg 150w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-2-550x550.jpg 550w" sizes="(max-width: 195px) 100vw, 195px" /></a></div><div data-thumb="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-1-195x195.jpg" class="woocommerce-product-gallery__image"><a href="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-1.jpg"><img width="195" height="195" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-1-195x195.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="a" loading="lazy" title="shop-img-1-gallery-1" data-caption="" data-src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-1.jpg" data-large_image="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-1.jpg" data-large_image_width="600" data-large_image_height="713" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-1-195x195.jpg 195w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-1-150x150.jpg 150w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-1-gallery-1-550x550.jpg 550w" sizes="(max-width: 195px) 100vw, 195px" /></a></div>	</figure>
+<figure class="woocommerce-product-gallery__wrapper">
+<?php
+$galleryImages = array_values(array_filter([
+$product->image,
+$product->image1 ?? null,
+$product->image2 ?? null,
+$product->image3 ?? null,
+]));
+$mainImg = $galleryImages[0];
+?>
+<div data-thumb="<?php echo htmlspecialchars($mainImg); ?>" class="woocommerce-product-gallery__image">
+<a href="<?php echo htmlspecialchars($mainImg); ?>">
+<img width="635" height="635" src="<?php echo htmlspecialchars($mainImg); ?>" class="wp-post-image" alt="<?php echo htmlspecialchars($product->name); ?>" loading="lazy" data-src="<?php echo htmlspecialchars($mainImg); ?>" data-large_image="<?php echo htmlspecialchars($mainImg); ?>" />
+</a>
+</div>
+<?php foreach (array_slice($galleryImages, 1) as $thumb): ?>
+<div data-thumb="<?php echo htmlspecialchars($thumb); ?>" class="woocommerce-product-gallery__image">
+<a href="<?php echo htmlspecialchars($thumb); ?>">
+<img width="195" height="195" src="<?php echo htmlspecialchars($thumb); ?>" class="attachment-shop_thumbnail size-shop_thumbnail" alt="<?php echo htmlspecialchars($product->name); ?>" loading="lazy" data-src="<?php echo htmlspecialchars($thumb); ?>" data-large_image="<?php echo htmlspecialchars($thumb); ?>" />
+</a>
+</div>
+<?php endforeach; ?>
+</figure>
 </div>
 <div class="mkd-single-product-summary">
 	<div class="summary entry-summary">
-		<h3  itemprop="name" class="mkd-single-product-title">Electric Drill</h3>
+		<h3 itemprop="name" class="mkd-single-product-title"><?php echo htmlspecialchars($product->name); ?></h3>
 	<div class="woocommerce-product-rating">
 		<div class="star-rating" role="img" aria-label="Rated 3.50 out of 5"><span style="width:70%">Rated <strong class="rating">3.50</strong> out of 5 based on <span class="rating">2</span> customer ratings</span></div>								<a href="#reviews" class="woocommerce-review-link" rel="nofollow">(<span class="count">2</span> customer reviews)</a>
 						</div>
 
-<p class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>199</bdi></span></p>
+<?php $hasSale = $product->sale_price > 0 && $product->sale_price < $product->price; ?>
+<p class="price">
+<?php if ($product->price == 0): ?>
+	<span class="woocommerce-Price-amount amount"><bdi>Liên hệ</bdi></span>
+<?php elseif ($hasSale): ?>
+	<del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($product->price, 0, ',', '.'); ?>₫</bdi></span></del>
+	<ins><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($product->sale_price, 0, ',', '.'); ?>₫</bdi></span></ins>
+<?php else: ?>
+	<span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($product->price, 0, ',', '.'); ?>₫</bdi></span>
+<?php endif; ?>
+</p>
 <div class="woocommerce-product-details__short-description">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in.</p>
+	<p><?php echo nl2br(htmlspecialchars($product->short_description ?? '')); ?></p>
 </div>
 
 	
 	<form class="cart" action="https://baumeister.qodeinteractive.com/product/electric-drill/" method="post" enctype='multipart/form-data'>
 		
 			<div class="mkd-quantity-buttons quantity">
-				<label class="screen-reader-text" for="quantity_69c0d8669d038">Electric Drill quantity</label>
+				<label class="screen-reader-text" for="quantity_69c0d8669d038"><?php echo htmlspecialchars($product->name); ?> quantity</label>
 		<span class="mkd-quantity-minus icon_minus-06"></span>
 		<input
 			type="text"
@@ -1029,21 +1060,23 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 		<span class="mkd-quantity-plus icon_plus"></span>
 			</div>
 	
-		<button type="submit" name="add-to-cart" value="253" class="single_add_to_cart_button button alt">Add to cart</button>
+		<button type="submit" name="add-to-cart" value="<?php echo $product->id; ?>" class="single_add_to_cart_button button alt">Thêm vào giỏ</button>
 
 			</form>
 
 	
 <div class="product_meta">
-
-	
-	
-		<span class="sku_wrapper">SKU: <span class="sku">01</span></span>
-
-	
-	<span class="posted_in">Category: <a href="https://baumeister.qodeinteractive.com/product-category/power-tools/" rel="tag">Power Tools</a></span>
-	<span class="tagged_as">Tags: <a href="https://baumeister.qodeinteractive.com/product-tag/home/" rel="tag">Home</a>, <a href="https://baumeister.qodeinteractive.com/product-tag/service/" rel="tag">Service</a>, <a href="https://baumeister.qodeinteractive.com/product-tag/technology/" rel="tag">Technology</a></span>
-	
+	<span class="sku_wrapper">SKU: <span class="sku"><?php echo htmlspecialchars($product->sku ?? ''); ?></span></span>
+	<?php if ($product->category): ?>
+	<span class="posted_in">Danh mục: <a href="/shop?category=<?php echo urlencode($product->category); ?>" rel="tag"><?php echo htmlspecialchars($product->category); ?></a></span>
+	<?php endif; ?>
+	<?php if ($product->tag): ?>
+	<span class="tagged_as">Tags: <?php
+		$_tags = array_map('trim', explode(',', $product->tag));
+		$_tagLinks = array_map(fn($t) => '<a href="/shop?tag='.urlencode($t).'" rel="tag">'.htmlspecialchars($t).'</a>', $_tags);
+		echo implode(', ', $_tagLinks);
+	?></span>
+	<?php endif; ?>
 </div>
 <div class="mkd-woo-social-share-holder"><span>Share:</span><div class="mkd-social-share-holder mkd-list">
 		<ul>
@@ -1078,9 +1111,8 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 					</ul>
 					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
 				
-	<h2>Description</h2>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in.</p>
+	<h2>Mô tả sản phẩm</h2>
+	<div><?php echo nl2br(htmlspecialchars($product->long_description ?? $product->short_description ?? 'Chưa có mô tả.')); ?></div>
 			</div>
 					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--additional_information panel entry-content wc-tab" id="tab-additional_information" role="tabpanel" aria-labelledby="tab-title-additional_information">
 				
@@ -1181,31 +1213,51 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 	</div>
 
 	</div></div>
-	<section class="related products">
-
-					<h2>Related products</h2>
-				
-		<ul class="products columns-4">
-
-			
-					<li class="product type-product post-1127 status-publish first instock product_cat-power-tools product_tag-safety product_tag-storage has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="mkd-pl-inner"><div class="mkd-pl-image"><img width="800" height="800" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-12-800x800.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="a" loading="lazy" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-12-800x800.jpg 800w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-12-150x150.jpg 150w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-12-195x195.jpg 195w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-12-550x550.jpg 550w" sizes="(max-width: 800px) 100vw, 800px" /><div class="mkd-pl-text"><div class="mkd-pl-text-outer"><div class="mkd-pl-text-inner"><a href="?add-to-cart=1127" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="1127" data-product_sku="12" aria-label="Add &ldquo;Safety Gloves&rdquo; to your cart" rel="nofollow">Add to cart</a></div></div></div></div><a href="https://baumeister.qodeinteractive.com/product/safety-gloves/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a></div><div class="mkd-pl-text-wrapper"><div class="mkd-pl-title-price-holder"><h5 class="mkd-product-list-title"><a href="https://baumeister.qodeinteractive.com/product/safety-gloves/">Safety Gloves</a></h5>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>120</bdi></span></span>
-</div><div class="mkd-pl-categories"><a href="https://baumeister.qodeinteractive.com/product-category/power-tools/" rel="tag">Power Tools</a></div><div class="mkd-pl-rating-holder"><div class="star-rating" role="img" aria-label="Rated 3.00 out of 5"><span style="width:60%">Rated <strong class="rating">3.00</strong> out of 5</span></div></div></div></li>
-			
-					<li class="product type-product post-1114 status-publish instock product_cat-power-tools product_tag-home product_tag-service product_tag-technology has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="mkd-pl-inner"><div class="mkd-pl-image"><img width="800" height="800" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-4-800x800.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="a" loading="lazy" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-4-800x800.jpg 800w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-4-150x150.jpg 150w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-4-195x195.jpg 195w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-4-550x550.jpg 550w" sizes="(max-width: 800px) 100vw, 800px" /><div class="mkd-pl-text"><div class="mkd-pl-text-outer"><div class="mkd-pl-text-inner"><a href="?add-to-cart=1114" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="1114" data-product_sku="04" aria-label="Add &ldquo;Digital Multimeter&rdquo; to your cart" rel="nofollow">Add to cart</a></div></div></div></div><a href="https://baumeister.qodeinteractive.com/product/digital-multimeter/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a></div><div class="mkd-pl-text-wrapper"><div class="mkd-pl-title-price-holder"><h5 class="mkd-product-list-title"><a href="https://baumeister.qodeinteractive.com/product/digital-multimeter/">Digital Multimeter</a></h5>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>300</bdi></span></span>
-</div><div class="mkd-pl-categories"><a href="https://baumeister.qodeinteractive.com/product-category/power-tools/" rel="tag">Power Tools</a></div><div class="mkd-pl-rating-holder"><div class="star-rating" role="img" aria-label="Rated 4.00 out of 5"><span style="width:80%">Rated <strong class="rating">4.00</strong> out of 5</span></div></div></div></li>
-			
-					<li class="product type-product post-1151 status-publish instock product_cat-power-tools product_tag-home product_tag-storage has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="mkd-pl-inner"><div class="mkd-pl-image"><img width="800" height="800" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-15-800x800.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="a" loading="lazy" srcset="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-15-800x800.jpg 800w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-15-150x150.jpg 150w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-15-195x195.jpg 195w, https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-img-15-550x550.jpg 550w" sizes="(max-width: 800px) 100vw, 800px" /><div class="mkd-pl-text"><div class="mkd-pl-text-outer"><div class="mkd-pl-text-inner"><a href="?add-to-cart=1151" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="1151" data-product_sku="15" aria-label="Add &ldquo;Storage Box&rdquo; to your cart" rel="nofollow">Add to cart</a></div></div></div></div><a href="https://baumeister.qodeinteractive.com/product/storage-box/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a></div><div class="mkd-pl-text-wrapper"><div class="mkd-pl-title-price-holder"><h5 class="mkd-product-list-title"><a href="https://baumeister.qodeinteractive.com/product/storage-box/">Storage Box</a></h5>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>120</bdi></span></span>
-</div><div class="mkd-pl-categories"><a href="https://baumeister.qodeinteractive.com/product-category/power-tools/" rel="tag">Power Tools</a></div><div class="mkd-pl-rating-holder"><div class="star-rating" role="img" aria-label="Rated 3.00 out of 5"><span style="width:60%">Rated <strong class="rating">3.00</strong> out of 5</span></div></div></div></li>
-			
-		</ul>
-
-	</section>
+<section class="related products">
+<h2>Sản phẩm liên quan</h2>
+<ul class="products columns-4">
+<?php foreach ($related as $index => $rel): ?>
+<?php
+$relPos = $index % 4;
+$relPosClass = '';
+if ($relPos === 0) $relPosClass = 'first';
+if ($relPos === 3) $relPosClass = 'last';
+$relHasSale = $rel->sale_price > 0 && $rel->sale_price < $rel->price;
+$relStock = $rel->quantity > 0 ? 'instock' : 'outofstock';
+?>
+<li class="product type-product status-publish <?php echo $relPosClass; ?> <?php echo $relStock; ?> <?php echo $relHasSale ? 'sale' : ''; ?> has-post-thumbnail shipping-taxable purchasable product-type-simple">
+<div class="mkd-pl-inner">
+<div class="mkd-pl-image">
+<?php if ($relHasSale): ?><span class="mkd-onsale">Sale</span><?php endif; ?>
+<img width="800" height="800" src="<?php echo htmlspecialchars($rel->image); ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="<?php echo htmlspecialchars($rel->name); ?>" loading="lazy" />
+<div class="mkd-pl-text"><div class="mkd-pl-text-outer"><div class="mkd-pl-text-inner">
+<a href="/product-detail?id=<?php echo $rel->id; ?>" class="button product_type_simple add_to_cart_button" rel="nofollow">Xem chi tiết</a>
+</div></div></div>
+</div>
+<a href="/product-detail?id=<?php echo $rel->id; ?>" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+</div>
+<div class="mkd-pl-text-wrapper">
+<div class="mkd-pl-title-price-holder">
+<h5 class="mkd-product-list-title"><a href="/product-detail?id=<?php echo $rel->id; ?>"><?php echo htmlspecialchars($rel->name); ?></a></h5>
+<span class="price">
+<?php if ($rel->price == 0): ?>
+<span class="woocommerce-Price-amount amount"><bdi>Liên hệ</bdi></span>
+<?php elseif ($relHasSale): ?>
+<del><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($rel->price, 0, ',', '.'); ?>₫</bdi></span></del>
+<ins><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($rel->sale_price, 0, ',', '.'); ?>₫</bdi></span></ins>
+<?php else: ?>
+<span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($rel->price, 0, ',', '.'); ?>₫</bdi></span>
+<?php endif; ?>
+</span>
+</div>
+<?php if ($rel->category): ?>
+<div class="mkd-pl-categories"><a href="/shop?category=<?php echo urlencode($rel->category); ?>" rel="tag"><?php echo htmlspecialchars($rel->category); ?></a></div>
+<?php endif; ?>
+</div>
+</li>
+<?php endforeach; ?>
+</ul>
+</section>
 	</div>
 
 		</div>

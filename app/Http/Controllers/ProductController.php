@@ -120,4 +120,30 @@ class ProductController extends Controller
 
         return $query;
     }
+
+    public function show(Request $request)
+    {
+        $id = $request->get('id');
+        if (!$id) {
+            abort(404);
+        }
+
+        $product = Product::findOrFail($id);
+
+        // Related: same category, else random
+        if ($product->category) {
+            $related = Product::where('category', $product->category)
+                ->where('id', '!=', $product->id)
+                ->inRandomOrder()
+                ->limit(4)
+                ->get();
+        } else {
+            $related = Product::where('id', '!=', $product->id)
+                ->inRandomOrder()
+                ->limit(4)
+                ->get();
+        }
+
+        return view('product_detail', compact('product', 'related'));
+    }
 }
