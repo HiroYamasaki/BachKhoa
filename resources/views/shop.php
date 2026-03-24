@@ -990,14 +990,10 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 		<div class="mkd-container-inner clearfix">
 			<div class="mkd-grid-row">
 				<div class="mkd-page-content-holder mkd-grid-col-9">
-					<div class="woocommerce-notices-wrapper"></div><p class="woocommerce-result-count">
-	Showing <?php echo $products->firstItem(); ?>&ndash;<?php echo $products->lastItem(); ?> of <?php echo $products->total(); ?> results</p>
+					<div class="woocommerce-notices-wrapper"></div><p class="woocommerce-result-count" id="bkd-result-count">
+	<?php if ($products->total() > 0): ?>Showing <?php echo $products->firstItem(); ?>&ndash;<?php echo $products->lastItem(); ?> of <?php echo $products->total(); ?> results<?php else: ?>No products found<?php endif; ?></p>
 <form class="woocommerce-ordering" method="get" action="/shop">
-	<?php if ($search): ?><input type="hidden" name="s" value="<?php echo htmlspecialchars($search); ?>" /><?php endif; ?>
-	<?php if ($category): ?><input type="hidden" name="category" value="<?php echo htmlspecialchars($category); ?>" /><?php endif; ?>
-	<?php if ($minPrice): ?><input type="hidden" name="min_price" value="<?php echo htmlspecialchars($minPrice); ?>" /><?php endif; ?>
-	<?php if ($maxPrice): ?><input type="hidden" name="max_price" value="<?php echo htmlspecialchars($maxPrice); ?>" /><?php endif; ?>
-	<select name="orderby" class="orderby" aria-label="Shop order" onchange="this.form.submit()">
+	<select name="orderby" class="orderby" id="bkd-orderby" aria-label="Shop order">
 					<option value="default" <?php echo $orderby == 'default' ? "selected='selected'" : ''; ?>>Default sorting</option>
 					<option value="date" <?php echo $orderby == 'date' ? "selected='selected'" : ''; ?>>Sort by latest</option>
 					<option value="price" <?php echo $orderby == 'price' ? "selected='selected'" : ''; ?>>Sort by price: low to high</option>
@@ -1006,90 +1002,22 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 					<option value="name-desc" <?php echo $orderby == 'name-desc' ? "selected='selected'" : ''; ?>>Sort by name: Z to A</option>
 	</select>
 </form>
-<div class="mkd-pl-main-holder"><ul class="products columns-4">
-<?php foreach ($products as $index => $product): ?>
-<?php
-    $position = $index % 4;
-    $posClass = '';
-    if ($position === 0) $posClass = 'first';
-    if ($position === 3) $posClass = 'last';
-    $hasSale = $product->sale_price > 0 && $product->sale_price < $product->price;
-    $stockClass = $product->quantity > 0 ? 'instock' : 'outofstock';
-?>
-<li class="product type-product status-publish <?php echo $posClass; ?> <?php echo $stockClass; ?> <?php echo $hasSale ? 'sale' : ''; ?> has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="mkd-pl-inner"><div class="mkd-pl-image">
-	<?php if ($hasSale): ?><span class="mkd-onsale">Sale</span><?php endif; ?>
-	<img width="800" height="800" src="<?php echo htmlspecialchars($product->image); ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="<?php echo htmlspecialchars($product->name); ?>" loading="lazy" /><?php if ($product->quantity <= 0): ?><span class="mkd-out-of-stock">Sold</span><?php endif; ?>
-	<div class="mkd-pl-text"><div class="mkd-pl-text-outer"><div class="mkd-pl-text-inner">
-	<a href="/product-detail?id=<?php echo $product->id; ?>" class="button product_type_simple add_to_cart_button" data-product_id="<?php echo $product->id; ?>" data-product_sku="<?php echo htmlspecialchars($product->sku); ?>" rel="nofollow">Xem chi tiết</a>
-	</div></div></div></div><a href="/product-detail?id=<?php echo $product->id; ?>" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a></div><div class="mkd-pl-text-wrapper"><div class="mkd-pl-title-price-holder"><h5 class="mkd-product-list-title"><a href="/product-detail?id=<?php echo $product->id; ?>"><?php echo htmlspecialchars($product->name); ?></a></h5>
-	<span class="price">
-	<?php if ($product->price == 0): ?>
-		<span class="woocommerce-Price-amount amount"><bdi>Liên hệ</bdi></span>
-	<?php elseif ($hasSale): ?>
-		<del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($product->price, 0, ',', '.'); ?>₫</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($product->sale_price, 0, ',', '.'); ?>₫</bdi></span></ins>
-	<?php else: ?>
-		<span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($product->price, 0, ',', '.'); ?>₫</bdi></span>
-	<?php endif; ?>
-	</span>
-</div><?php if ($product->category): ?><div class="mkd-pl-categories"><a href="/shop" rel="tag"><?php echo htmlspecialchars($product->category); ?></a></div><?php endif; ?></div>
-</li>
-<?php endforeach; ?>
-</ul>
-</div>
-<?php if ($products->lastPage() > 1): ?>
-<?php
-    $cur   = $products->currentPage();
-    $last  = $products->lastPage();
-    $delta = 2; // pages shown around current
-    $pages = [];
-    $prev  = null;
-    for ($i = 1; $i <= $last; $i++) {
-        if ($i <= 2 || $i >= $last - 1 || abs($i - $cur) <= $delta) {
-            if ($prev !== null && $i - $prev > 1) {
-                $pages[] = '...';
-            }
-            $pages[] = $i;
-            $prev = $i;
-        }
-    }
-?>
-<div class="mkd-woo-pagination-holder"><div class="mkd-woo-pagination-inner"><nav class="woocommerce-pagination">
-	<ul class='page-numbers'>
-	<?php if ($cur > 1): ?>
-	<li><a class="prev page-numbers" href="<?php echo htmlspecialchars($products->previousPageUrl()); ?>">&larr;</a></li>
-	<?php endif; ?>
-	<?php foreach ($pages as $p): ?>
-	<?php if ($p === '...'): ?>
-	<li><span class="page-numbers dots">&hellip;</span></li>
-	<?php elseif ($p == $cur): ?>
-	<li><span aria-current="page" class="page-numbers current"><?php echo $p; ?></span></li>
-	<?php else: ?>
-	<li><a class="page-numbers" href="<?php echo htmlspecialchars($products->url($p)); ?>"><?php echo $p; ?></a></li>
-	<?php endif; ?>
-	<?php endforeach; ?>
-	<?php if ($products->hasMorePages()): ?>
-	<li><a class="next page-numbers" href="<?php echo htmlspecialchars($products->nextPageUrl()); ?>">&rarr;</a></li>
-	<?php endif; ?>
-</ul>
-</nav>
-</div></div>
-<?php endif; ?>
+<div id="bkd-products"><?php echo view('partials.product-grid', compact('products'))->render(); ?></div>
+<div id="bkd-pagination"><?php echo view('partials.pagination', compact('products'))->render(); ?></div>
 				</div>
 									<div class="mkd-sidebar-holder mkd-grid-col-3">
 						<aside class="mkd-sidebar">
-	<div class="widget woocommerce widget_product_search"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Tìm kiếm</h4></div><form role="search" method="get" class="woocommerce-product-search" action="/shop">
-    <label class="screen-reader-text">Tìm kiếm:</label>
+	<div class="widget woocommerce widget_product_search"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Search</h4></div>
     <div class="input-holder clearfix">
-        <input type="search" class="search-field" placeholder="Tìm sản phẩm..." value="<?php echo htmlspecialchars($search); ?>" name="s" title="Tìm kiếm:"/>
-	    <button type="submit" class="mkd-woo-search-widget-button"><i class="mkd-icon-font-awesome fa fa-long-arrow-right " ></i></button>
+        <input type="search" class="search-field" id="bkd-search" placeholder="Search Products..." value="" title="Search for:"/>
+	    <button type="button" class="mkd-woo-search-widget-button" id="bkd-search-btn"><i class="mkd-icon-font-awesome fa fa-long-arrow-right " ></i></button>
     </div>
-</form></div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
+</div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-style: solid;margin-top: 17px"></div>
 </div>
-</div><div class="widget woocommerce widget_product_categories"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Danh mục</h4></div><ul class="product-categories"><li class="cat-item <?php echo !$category ? 'current-cat' : ''; ?>"><a href="/shop">Tất cả</a></li>
+</div><div class="widget woocommerce widget_product_categories"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Categories</h4></div><ul class="product-categories" id="bkd-categories">
 <?php foreach ($categories as $cat): ?>
-<li class="cat-item <?php echo $category == $cat->category ? 'current-cat' : ''; ?>"><a href="/shop?category=<?php echo urlencode($cat->category); ?>"><?php echo htmlspecialchars($cat->category); ?></a> <span class="count">(<?php echo $cat->count; ?>)</span></li>
+<li class="cat-item"><a href="#" data-category="<?php echo htmlspecialchars($cat->category); ?>"><?php echo htmlspecialchars($cat->category); ?> <span class="count">(<?php echo $cat->count; ?>)</span></a></li>
 <?php endforeach; ?>
 </ul></div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-style: solid;margin-top: 22px"></div>
@@ -1097,42 +1025,39 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 </div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-style: solid;margin-top: 1px"></div>
 </div>
-</div><div class="widget woocommerce widget_price_filter"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Lọc theo giá</h4></div>
-<form method="get" action="/shop">
-	<?php if ($search): ?><input type="hidden" name="s" value="<?php echo htmlspecialchars($search); ?>" /><?php endif; ?>
-	<?php if ($category): ?><input type="hidden" name="category" value="<?php echo htmlspecialchars($category); ?>" /><?php endif; ?>
-	<?php if ($orderby != 'default'): ?><input type="hidden" name="orderby" value="<?php echo htmlspecialchars($orderby); ?>" /><?php endif; ?>
+</div><div class="widget woocommerce widget_price_filter"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Filter by price</h4></div>
 	<div class="price_slider_wrapper">
-		<div class="price_slider" style="display:none;"></div>
-		<div class="price_slider_amount" data-step="1000000">
-			<label class="screen-reader-text" for="min_price">Giá tối thiểu</label>
-			<input type="text" id="min_price" name="min_price" value="<?php echo $minPrice ?: ($priceRange ? $priceRange->min_price : 0); ?>" data-min="<?php echo $priceRange ? $priceRange->min_price : 0; ?>" placeholder="Giá tối thiểu" />
-			<label class="screen-reader-text" for="max_price">Giá tối đa</label>
-			<input type="text" id="max_price" name="max_price" value="<?php echo $maxPrice ?: ($priceRange ? $priceRange->max_price : 0); ?>" data-max="<?php echo $priceRange ? $priceRange->max_price : 0; ?>" placeholder="Giá tối đa" />
-						<button type="submit" class="button">Lọc</button>
-			<div class="price_label" style="display:none;">
-				Giá: <span class="from"></span> &mdash; <span class="to"></span>
-			</div>
+		<div class="price_slider_amount">
+			<label for="bkd_min_price">Min (₫)</label>
+			<input type="number" id="bkd_min_price" name="min_price" value="0" min="0" max="<?php echo $maxPrice; ?>" placeholder="0" style="width:100%;margin-bottom:8px"/>
+			<label for="bkd_max_price">Max (₫)</label>
+			<input type="number" id="bkd_max_price" name="max_price" value="<?php echo $maxPrice; ?>" min="0" max="<?php echo $maxPrice; ?>" placeholder="<?php echo number_format($maxPrice, 0, ',', '.'); ?>" style="width:100%;margin-bottom:8px"/>
+			<button type="button" class="button" id="bkd-price-filter-btn">Filter</button>
 			<div class="clear"></div>
 		</div>
 	</div>
-</form>
-
 </div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-style: solid;margin-top: 17px"></div>
 </div>
+</div><div class="widget woocommerce widget_product_tag_cloud"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Tags</h4></div><div class="tagcloud" id="bkd-tags">
+<?php foreach ($tags as $tagName => $tagCount): ?>
+<a href="#" class="tag-cloud-link" data-tag="<?php echo htmlspecialchars($tagName); ?>"><?php echo htmlspecialchars($tagName); ?> (<?php echo $tagCount; ?>)</a>
+<?php endforeach; ?>
+</div></div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
+	<div class="mkd-separator" style="border-style: solid;margin-top: 15px"></div>
+</div>
 </div>		
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 0 0;" href="#" target="_blank">
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 0 0;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
 			<span class="mkd-social-icon-widget fa fa-facebook     "></span>		</a>
 				
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 20px 0px 20px;" href="#" target="_blank">
-			<span class="mkd-social-icon-widget fa fa-youtube     "></span>		</a>
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 20px 0px 20px;" href="https://plus.google.com/" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-google-plus     "></span>		</a>
 				
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 20px 0 0;" href="#" target="_blank">
-			<span class="mkd-social-icon-widget fa fa-linkedin     "></span>		</a>
-				
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 0 0;" href="#" target="_blank">
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 20px 0 0;" href="https://www.instagram.com/qodeinteractive/" target="_blank">
 			<span class="mkd-social-icon-widget fa fa-instagram     "></span>		</a>
+				
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 0 0;" href="https://www.pinterest.com/qodeinteractive/" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-pinterest     "></span>		</a>
 		</aside>					</div>
 							</div>
 		</div>
@@ -1292,6 +1217,168 @@ var woocommerce_price_slider_params = {"currency_format_num_decimals":"0","curre
 <!-- Force xóa toàn bộ màu vàng #fdb913/#e7a022 bằng JS sau khi tất cả CSS/JS theme đã load -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    /* ===== BKD AJAX SHOP FILTER ===== */
+    var currentFilters = {
+        orderby: '<?php echo addslashes($orderby); ?>',
+        s: '',
+        category: '',
+        tag: '',
+        min_price: '',
+        max_price: '',
+        page: 1
+    };
+    var isLoading = false;
+
+    function bkdFetchProducts() {
+        if (isLoading) return;
+        isLoading = true;
+
+        var params = [];
+        for (var k in currentFilters) {
+            if (currentFilters[k] !== '' && currentFilters[k] !== null) {
+                params.push(encodeURIComponent(k) + '=' + encodeURIComponent(currentFilters[k]));
+            }
+        }
+        var url = '/shop?' + params.join('&');
+
+        // Update browser URL
+        var stateUrl = '/shop';
+        var visibleParams = params.filter(function(p) { return p.indexOf('page=1') !== 0 || currentFilters.page !== 1; });
+        if (visibleParams.length) stateUrl += '?' + visibleParams.join('&');
+        history.pushState(null, '', stateUrl);
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        xhr.setRequestHeader('Accept', 'application/json');
+        xhr.onload = function() {
+            isLoading = false;
+            if (xhr.status === 200) {
+                try {
+                    var data = JSON.parse(xhr.responseText);
+                    document.getElementById('bkd-products').innerHTML = data.html;
+                    document.getElementById('bkd-pagination').innerHTML = data.pagination;
+                    document.getElementById('bkd-result-count').innerHTML = data.result_count;
+                    bkdBindPagination();
+                    // Scroll to top of products
+                    var target = document.querySelector('.mkd-page-content-holder');
+                    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                } catch(e) {}
+            }
+        };
+        xhr.onerror = function() { isLoading = false; };
+        xhr.send();
+    }
+
+    // Sort dropdown
+    var orderbyEl = document.getElementById('bkd-orderby');
+    if (orderbyEl) {
+        orderbyEl.addEventListener('change', function(e) {
+            e.preventDefault();
+            currentFilters.orderby = this.value;
+            currentFilters.page = 1;
+            bkdFetchProducts();
+        });
+        // Prevent form submit
+        var orderForm = orderbyEl.closest('form');
+        if (orderForm) orderForm.addEventListener('submit', function(e) { e.preventDefault(); });
+    }
+
+    // Search
+    var searchEl = document.getElementById('bkd-search');
+    var searchBtn = document.getElementById('bkd-search-btn');
+    function doSearch() {
+        currentFilters.s = searchEl ? searchEl.value.trim() : '';
+        currentFilters.page = 1;
+        bkdFetchProducts();
+    }
+    if (searchBtn) searchBtn.addEventListener('click', function(e) { e.preventDefault(); doSearch(); });
+    if (searchEl) searchEl.addEventListener('keydown', function(e) { if (e.key === 'Enter') { e.preventDefault(); doSearch(); } });
+
+    // Category
+    document.getElementById('bkd-categories').addEventListener('click', function(e) {
+        var a = e.target.closest('a[data-category]');
+        if (!a) return;
+        e.preventDefault();
+        var cat = a.getAttribute('data-category');
+        // Toggle: click active category to deselect
+        if (currentFilters.category === cat) {
+            currentFilters.category = '';
+            a.closest('li').classList.remove('active');
+        } else {
+            // Remove active from all
+            this.querySelectorAll('li').forEach(function(li) { li.classList.remove('active'); });
+            currentFilters.category = cat;
+            a.closest('li').classList.add('active');
+        }
+        currentFilters.page = 1;
+        bkdFetchProducts();
+    });
+
+    // Tags
+    document.getElementById('bkd-tags').addEventListener('click', function(e) {
+        var a = e.target.closest('a[data-tag]');
+        if (!a) return;
+        e.preventDefault();
+        var tag = a.getAttribute('data-tag');
+        if (currentFilters.tag === tag) {
+            currentFilters.tag = '';
+            a.classList.remove('active');
+        } else {
+            this.querySelectorAll('a').forEach(function(el) { el.classList.remove('active'); });
+            currentFilters.tag = tag;
+            a.classList.add('active');
+        }
+        currentFilters.page = 1;
+        bkdFetchProducts();
+    });
+
+    // Price filter
+    var priceBtn = document.getElementById('bkd-price-filter-btn');
+    if (priceBtn) {
+        priceBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            var minEl = document.getElementById('bkd_min_price');
+            var maxEl = document.getElementById('bkd_max_price');
+            currentFilters.min_price = minEl ? minEl.value : '';
+            currentFilters.max_price = maxEl ? maxEl.value : '';
+            currentFilters.page = 1;
+            bkdFetchProducts();
+        });
+    }
+
+    // Pagination
+    function bkdBindPagination() {
+        var pag = document.getElementById('bkd-pagination');
+        if (!pag) return;
+        pag.addEventListener('click', function(e) {
+            var a = e.target.closest('a[data-page]');
+            if (!a) return;
+            e.preventDefault();
+            var page = parseInt(a.getAttribute('data-page'), 10);
+            if (page && page > 0) {
+                currentFilters.page = page;
+                bkdFetchProducts();
+            }
+        });
+    }
+    bkdBindPagination();
+
+    // Handle browser back/forward
+    window.addEventListener('popstate', function() {
+        var params = new URLSearchParams(window.location.search);
+        currentFilters.orderby = params.get('orderby') || 'default';
+        currentFilters.s = params.get('s') || '';
+        currentFilters.category = params.get('category') || '';
+        currentFilters.tag = params.get('tag') || '';
+        currentFilters.min_price = params.get('min_price') || '';
+        currentFilters.max_price = params.get('max_price') || '';
+        currentFilters.page = parseInt(params.get('page'), 10) || 1;
+        // Update UI
+        if (orderbyEl) orderbyEl.value = currentFilters.orderby;
+        if (searchEl) searchEl.value = currentFilters.s;
+        bkdFetchProducts();
+    });
     document.querySelectorAll('.mkd-btn-solid').forEach(function(btn) {
         btn.style.setProperty('background-color', '#E8612D', 'important');
         btn.style.setProperty('background-image', 'linear-gradient(135deg, #E8612D 0%, #C0392B 100%)', 'important');
@@ -1393,6 +1480,15 @@ document.addEventListener('DOMContentLoaded', function() {
     body.woocommerce-shop .mkd-footer-top-holder h4,
     body.woocommerce-shop .mkd-footer-bottom-holder h4 { color: #ffffff !important; }
     body.woocommerce-shop .mkd-sidebar .mkd-widget-title { color: #1b1b1b !important; }
+
+    /* ── Active filter states ── */
+    body.woocommerce-shop #bkd-categories li.active > a { color: #E8612D !important; font-weight: 600; }
+    body.woocommerce-shop #bkd-tags a.active { background: #E8612D !important; color: #fff !important; border-radius: 3px; padding: 2px 8px; }
+    body.woocommerce-shop .widget_price_filter label { display: block; font-size: 13px; margin-bottom: 4px; color: #666; }
+    body.woocommerce-shop .widget_price_filter input[type="number"] { border: 1px solid #ddd; padding: 6px 8px; font-size: 14px; }
+    body.woocommerce-shop .widget_price_filter .button { background: #E8612D !important; color: #fff !important; border: none; padding: 8px 20px; cursor: pointer; margin-top: 4px; }
+    body.woocommerce-shop .widget_price_filter .button:hover { background: #C0392B !important; }
+
     body.woocommerce-shop .mkd-footer-top-holder a:hover,
     body.woocommerce-shop .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
 
