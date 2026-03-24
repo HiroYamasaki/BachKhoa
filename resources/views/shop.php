@@ -993,6 +993,10 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 					<div class="woocommerce-notices-wrapper"></div><p class="woocommerce-result-count">
 	Showing <?php echo $products->firstItem(); ?>&ndash;<?php echo $products->lastItem(); ?> of <?php echo $products->total(); ?> results</p>
 <form class="woocommerce-ordering" method="get" action="/shop">
+	<?php if ($search): ?><input type="hidden" name="s" value="<?php echo htmlspecialchars($search); ?>" /><?php endif; ?>
+	<?php if ($category): ?><input type="hidden" name="category" value="<?php echo htmlspecialchars($category); ?>" /><?php endif; ?>
+	<?php if ($minPrice): ?><input type="hidden" name="min_price" value="<?php echo htmlspecialchars($minPrice); ?>" /><?php endif; ?>
+	<?php if ($maxPrice): ?><input type="hidden" name="max_price" value="<?php echo htmlspecialchars($maxPrice); ?>" /><?php endif; ?>
 	<select name="orderby" class="orderby" aria-label="Shop order" onchange="this.form.submit()">
 					<option value="default" <?php echo $orderby == 'default' ? "selected='selected'" : ''; ?>>Default sorting</option>
 					<option value="date" <?php echo $orderby == 'date' ? "selected='selected'" : ''; ?>>Sort by latest</option>
@@ -1074,40 +1078,42 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 				</div>
 									<div class="mkd-sidebar-holder mkd-grid-col-3">
 						<aside class="mkd-sidebar">
-	<div class="widget woocommerce widget_product_search"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Search</h4></div><form role="search" method="get" class="woocommerce-product-search" action="https://baumeister.qodeinteractive.com/">
-    <label class="screen-reader-text">Search for:</label>
+	<div class="widget woocommerce widget_product_search"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Tìm kiếm</h4></div><form role="search" method="get" class="woocommerce-product-search" action="/shop">
+    <label class="screen-reader-text">Tìm kiếm:</label>
     <div class="input-holder clearfix">
-        <input type="search" class="search-field" placeholder="Search Products..." value="" name="s" title="Search for:"/>
+        <input type="search" class="search-field" placeholder="Tìm sản phẩm..." value="<?php echo htmlspecialchars($search); ?>" name="s" title="Tìm kiếm:"/>
 	    <button type="submit" class="mkd-woo-search-widget-button"><i class="mkd-icon-font-awesome fa fa-long-arrow-right " ></i></button>
-        <input type="hidden" name="post_type" value="product"/>
     </div>
 </form></div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-style: solid;margin-top: 17px"></div>
 </div>
-</div><div class="widget woocommerce widget_product_categories"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Categories</h4></div><ul class="product-categories"><li class="cat-item cat-item-55"><a href="https://baumeister.qodeinteractive.com/product-category/construction/">Construction</a></li>
-<li class="cat-item cat-item-16"><a href="https://baumeister.qodeinteractive.com/product-category/power-tools/">Power Tools</a></li>
-<li class="cat-item cat-item-56"><a href="https://baumeister.qodeinteractive.com/product-category/safety/">Safety</a></li>
-<li class="cat-item cat-item-61"><a href="https://baumeister.qodeinteractive.com/product-category/uncategorized/">Uncategorized</a></li>
+</div><div class="widget woocommerce widget_product_categories"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Danh mục</h4></div><ul class="product-categories"><li class="cat-item <?php echo !$category ? 'current-cat' : ''; ?>"><a href="/shop">Tất cả</a></li>
+<?php foreach ($categories as $cat): ?>
+<li class="cat-item <?php echo $category == $cat->category ? 'current-cat' : ''; ?>"><a href="/shop?category=<?php echo urlencode($cat->category); ?>"><?php echo htmlspecialchars($cat->category); ?></a> <span class="count">(<?php echo $cat->count; ?>)</span></li>
+<?php endforeach; ?>
 </ul></div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-style: solid;margin-top: 22px"></div>
 </div>
 </div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-style: solid;margin-top: 1px"></div>
 </div>
-</div><div class="widget woocommerce widget_price_filter"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Filter by price</h4></div>
-<form method="get" action="https://baumeister.qodeinteractive.com/product-list/">
+</div><div class="widget woocommerce widget_price_filter"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Lọc theo giá</h4></div>
+<form method="get" action="/shop">
+	<?php if ($search): ?><input type="hidden" name="s" value="<?php echo htmlspecialchars($search); ?>" /><?php endif; ?>
+	<?php if ($category): ?><input type="hidden" name="category" value="<?php echo htmlspecialchars($category); ?>" /><?php endif; ?>
+	<?php if ($orderby != 'default'): ?><input type="hidden" name="orderby" value="<?php echo htmlspecialchars($orderby); ?>" /><?php endif; ?>
 	<div class="price_slider_wrapper">
 		<div class="price_slider" style="display:none;"></div>
-		<div class="price_slider_amount" data-step="10">
-			<label class="screen-reader-text" for="min_price">Min price</label>
-			<input type="text" id="min_price" name="min_price" value="10" data-min="10" placeholder="Min price" />
-			<label class="screen-reader-text" for="max_price">Max price</label>
-			<input type="text" id="max_price" name="max_price" value="5000" data-max="5000" placeholder="Max price" />
-						<button type="submit" class="button">Filter</button>
+		<div class="price_slider_amount" data-step="1000000">
+			<label class="screen-reader-text" for="min_price">Giá tối thiểu</label>
+			<input type="text" id="min_price" name="min_price" value="<?php echo $minPrice ?: ($priceRange ? $priceRange->min_price : 0); ?>" data-min="<?php echo $priceRange ? $priceRange->min_price : 0; ?>" placeholder="Giá tối thiểu" />
+			<label class="screen-reader-text" for="max_price">Giá tối đa</label>
+			<input type="text" id="max_price" name="max_price" value="<?php echo $maxPrice ?: ($priceRange ? $priceRange->max_price : 0); ?>" data-max="<?php echo $priceRange ? $priceRange->max_price : 0; ?>" placeholder="Giá tối đa" />
+						<button type="submit" class="button">Lọc</button>
 			<div class="price_label" style="display:none;">
-				Price: <span class="from"></span> &mdash; <span class="to"></span>
+				Giá: <span class="from"></span> &mdash; <span class="to"></span>
 			</div>
-			<input type="hidden" name="_gl" value="1*ycdx1i*_gcl_au*NjUzNzc2NjA1LjE3NzM3MjEyNzM." /><input type="hidden" name="_ga" value="2.194129773.1745420685.1774237210-749197518.1773721273" />			<div class="clear"></div>
+			<div class="clear"></div>
 		</div>
 	</div>
 </form>
@@ -1115,26 +1121,18 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 </div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
 	<div class="mkd-separator" style="border-style: solid;margin-top: 17px"></div>
 </div>
-</div><div class="widget woocommerce widget_product_tag_cloud"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Tags</h4></div><div class="tagcloud"><a href="https://baumeister.qodeinteractive.com/product-tag/home/" class="tag-cloud-link tag-link-21 tag-link-position-1" style="font-size: 22pt;" aria-label="Home (10 products)">Home</a>
-<a href="https://baumeister.qodeinteractive.com/product-tag/outdoor/" class="tag-cloud-link tag-link-17 tag-link-position-2" style="font-size: 15.954545454545pt;" aria-label="Outdoor (6 products)">Outdoor</a>
-<a href="https://baumeister.qodeinteractive.com/product-tag/safety/" class="tag-cloud-link tag-link-32 tag-link-position-3" style="font-size: 11.181818181818pt;" aria-label="Safety (4 products)">Safety</a>
-<a href="https://baumeister.qodeinteractive.com/product-tag/service/" class="tag-cloud-link tag-link-18 tag-link-position-4" style="font-size: 22pt;" aria-label="Service (10 products)">Service</a>
-<a href="https://baumeister.qodeinteractive.com/product-tag/storage/" class="tag-cloud-link tag-link-20 tag-link-position-5" style="font-size: 8pt;" aria-label="Storage (3 products)">Storage</a>
-<a href="https://baumeister.qodeinteractive.com/product-tag/technology/" class="tag-cloud-link tag-link-19 tag-link-position-6" style="font-size: 22pt;" aria-label="Technology (10 products)">Technology</a></div></div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
-	<div class="mkd-separator" style="border-style: solid;margin-top: 15px"></div>
-</div>
 </div>		
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 0 0;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 0 0;" href="#" target="_blank">
 			<span class="mkd-social-icon-widget fa fa-facebook     "></span>		</a>
 				
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 20px 0px 20px;" href="https://plus.google.com/" target="_blank">
-			<span class="mkd-social-icon-widget fa fa-google-plus     "></span>		</a>
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 20px 0px 20px;" href="#" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-youtube     "></span>		</a>
 				
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 20px 0 0;" href="https://www.instagram.com/qodeinteractive/" target="_blank">
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 20px 0 0;" href="#" target="_blank">
+			<span class="mkd-social-icon-widget fa fa-linkedin     "></span>		</a>
+				
+		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 0 0;" href="#" target="_blank">
 			<span class="mkd-social-icon-widget fa fa-instagram     "></span>		</a>
-				
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 0 0;" href="https://www.pinterest.com/qodeinteractive/" target="_blank">
-			<span class="mkd-social-icon-widget fa fa-pinterest     "></span>		</a>
 		</aside>					</div>
 							</div>
 		</div>
