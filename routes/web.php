@@ -29,3 +29,7 @@ Route::get('/product-detail', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+
+Route::get('/blog-detail', function () {
+    return view('blog_detail');
+});
