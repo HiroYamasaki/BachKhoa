@@ -11,7 +11,7 @@
 <li class="product type-product status-publish <?php echo $posClass; ?> <?php echo $stockClass; ?> <?php echo $hasSale ? 'sale' : ''; ?> has-post-thumbnail shipping-taxable purchasable product-type-simple">
 	<div class="mkd-pl-inner"><div class="mkd-pl-image">
 	<?php if ($hasSale): ?><span class="mkd-onsale">Sale</span><?php endif; ?>
-	<img width="800" height="800" src="<?php echo htmlspecialchars($product->image); ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="<?php echo htmlspecialchars($product->name); ?>" loading="lazy" /><?php if ($product->quantity <= 0): ?><span class="mkd-out-of-stock">Sold</span><?php endif; ?>
+	<a href="/product-detail?id=<?php echo $product->id; ?>"><img width="800" height="800" src="<?php echo htmlspecialchars($product->image); ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="<?php echo htmlspecialchars($product->name); ?>" loading="lazy" /></a><?php if ($product->quantity <= 0): ?><span class="mkd-out-of-stock">Sold</span><?php endif; ?>
 	<div class="mkd-pl-text"><div class="mkd-pl-text-outer"><div class="mkd-pl-text-inner">
 	<a href="/product-detail?id=<?php echo $product->id; ?>" class="button product_type_simple add_to_cart_button" data-product_id="<?php echo $product->id; ?>" data-product_sku="<?php echo htmlspecialchars($product->sku); ?>" rel="nofollow">Xem chi tiết</a>
 	</div></div></div></div><a href="/product-detail?id=<?php echo $product->id; ?>" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a></div><div class="mkd-pl-text-wrapper"><div class="mkd-pl-title-price-holder"><h5 class="mkd-product-list-title"><a href="/product-detail?id=<?php echo $product->id; ?>"><?php echo htmlspecialchars($product->name); ?></a></h5>
