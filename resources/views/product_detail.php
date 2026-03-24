@@ -1026,7 +1026,11 @@ if ($product->price == 0):
 <?php endif; ?>
 </p>
 <div class="woocommerce-product-details__short-description">
-	<p><?php echo $product->short_description ? nl2br(htmlspecialchars($product->short_description)) : ''; ?></p>
+	<p><?php
+    $shortDesc = $product->short_description ?? '';
+    $shortDesc = strip_tags($shortDesc, '<br><strong><em><b><i>');
+    echo html_entity_decode($shortDesc, ENT_QUOTES, 'UTF-8');
+    ?></p>
 </div>
 
 	
@@ -1113,7 +1117,23 @@ if ($product->price == 0):
 				
 	<h2>Description</h2>
 
-<p><?php echo $product->long_description ? nl2br(htmlspecialchars($product->long_description)) : ($product->short_description ? nl2br(htmlspecialchars($product->short_description)) : 'Chưa có mô tả.'); ?></p>
+<?php
+$descContent = $product->long_description ?: $product->short_description;
+if ($descContent) {
+    // Strip chat wrapper divs but keep basic formatting tags
+    $descContent = strip_tags($descContent, '<p><br><strong><em><ul><ol><li><b><i>');
+    // Decode HTML entities
+    $descContent = html_entity_decode($descContent, ENT_QUOTES, 'UTF-8');
+    // Remove excessive blank lines
+    $descContent = preg_replace('/(\s*\n){3,}/', "\n\n", trim($descContent));
+    // Remove lines that are only whitespace/non-breaking spaces
+    $descContent = preg_replace('/^\s*$/m', '', $descContent);
+    $descContent = preg_replace('/\n{3,}/', "\n\n", $descContent);
+    echo $descContent;
+} else {
+    echo '<p>Chưa có mô tả.</p>';
+}
+?>
 			</div>
 					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--additional_information panel entry-content wc-tab" id="tab-additional_information" role="tabpanel" aria-labelledby="tab-title-additional_information">
 				
