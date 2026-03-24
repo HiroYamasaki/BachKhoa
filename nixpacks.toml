@@ -1,2 +1,5 @@
+[phases.build]
+cmds = ["composer install --optimize-autoloader --no-scripts --no-interaction", "php artisan event:cache || true", "php artisan route:cache || true", "php artisan view:cache || true"]
+
 [start]
-cmd = "php artisan migrate --force && caddy run --config /Caddyfile --adapter caddyfile"
+cmd = "php artisan config:clear && php artisan migrate --force && caddy run --config /Caddyfile --adapter caddyfile"
