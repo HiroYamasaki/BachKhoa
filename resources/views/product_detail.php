@@ -1726,6 +1726,21 @@ document.addEventListener('DOMContentLoaded', function() {
     body.single-product .related.products ul.products li.product {
         flex: 1 !important;
     }
+    body.single-product .related.products .mkd-pl-image {
+        position: relative !important;
+        width: 100% !important;
+        padding-top: 100% !important;
+        overflow: hidden !important;
+        background: #f8f8f8 !important;
+    }
+    body.single-product .related.products .mkd-pl-image > img {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important;
+    }
 
     /* ── Tab panels: hide all, show only active ── */
     body.single-product .woocommerce-Tabs-panel {
