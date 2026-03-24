@@ -1912,6 +1912,36 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 </style>
 
+<!-- QUANTITY BUTTONS JS -->
+<script>
+(function(){
+    document.querySelectorAll('.mkd-quantity-buttons').forEach(function(wrapper){
+        var input = wrapper.querySelector('.mkd-quantity-input');
+        var minus = wrapper.querySelector('.mkd-quantity-minus');
+        var plus  = wrapper.querySelector('.mkd-quantity-plus');
+        if (!input) return;
+
+        minus.addEventListener('click', function(){
+            var val  = parseInt(input.value, 10) || 1;
+            var min  = parseInt(input.getAttribute('data-min'), 10) || 1;
+            if (val > min) input.value = val - 1;
+        });
+
+        plus.addEventListener('click', function(){
+            var val  = parseInt(input.value, 10) || 1;
+            var max  = parseInt(input.getAttribute('data-max'), 10);
+            if (!max || val < max) input.value = val + 1;
+        });
+
+        input.addEventListener('change', function(){
+            var val = parseInt(input.value, 10);
+            var min = parseInt(input.getAttribute('data-min'), 10) || 1;
+            if (isNaN(val) || val < min) input.value = min;
+        });
+    });
+})();
+</script>
+
 <!-- GALLERY SWITCHER JS -->
 <script>
 (function(){
