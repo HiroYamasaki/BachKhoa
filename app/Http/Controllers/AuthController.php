@@ -17,8 +17,26 @@ class AuthController extends Controller
         if (Auth::attempt($credentials, $request->boolean('remember'))) {
             $request->session()->regenerate();
 
+            if ($request->expectsJson()) {
+                $user = Auth::user();
+                return response()->json([
+                    'success' => true,
+                    'user' => [
+                        'name'  => $user->name,
+                        'email' => $user->email,
+                    ],
+                ]);
+            }
+
             $redirect = $request->input('redirect', '/');
             return redirect()->intended($redirect);
+        }
+
+        if ($request->expectsJson()) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Email hoặc mật khẩu không đúng.',
+            ], 422);
         }
 
         return back()->withErrors([
@@ -31,6 +49,13 @@ class AuthController extends Controller
         Auth::logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
+
+        if ($request->expectsJson()) {
+            return response()->json([
+                'success' => true,
+                'csrf' => csrf_token(),
+            ]);
+        }
 
         return redirect($request->input('redirect', '/'));
     }

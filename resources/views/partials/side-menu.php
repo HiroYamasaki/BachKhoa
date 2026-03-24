@@ -1,7 +1,7 @@
 <?php
-// Side Menu with Login/User Info (plain PHP version)
-$currentUrl = url()->current();
+// Side Menu with AJAX Login/User Info (plain PHP version)
 $authUser = auth()->user();
+$csrfToken = csrf_token();
 ?>
 <section class="mkd-side-menu">
 	<div class="mkd-close-side-menu-holder">
@@ -12,36 +12,27 @@ $authUser = auth()->user();
 
 	<!-- ── Login / User Info Section ── -->
 	<div class="bkd-auth-section widget mkd-sidearea">
-		<?php if ($authUser): ?>
-		<div class="bkd-user-info">
+		<div class="bkd-user-info" style="<?php echo $authUser ? '' : 'display:none'; ?>">
 			<div class="bkd-user-avatar">
 				<i class="fa fa-user-circle"></i>
 			</div>
 			<div class="bkd-user-details">
 				<span class="bkd-user-greeting">Xin chào,</span>
-				<span class="bkd-user-name"><?php echo htmlspecialchars($authUser->name); ?></span>
-				<span class="bkd-user-email"><?php echo htmlspecialchars($authUser->email); ?></span>
+				<span class="bkd-user-name"><?php echo htmlspecialchars($authUser ? $authUser->name : ''); ?></span>
+				<span class="bkd-user-email"><?php echo htmlspecialchars($authUser ? $authUser->email : ''); ?></span>
 			</div>
-			<form method="POST" action="<?php echo route('logout'); ?>" class="bkd-logout-form">
-				<input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
-				<input type="hidden" name="redirect" value="<?php echo htmlspecialchars($currentUrl); ?>">
-				<button type="submit" class="bkd-logout-btn">
-					<i class="fa fa-sign-out"></i> Đăng xuất
-				</button>
-			</form>
+			<button type="button" class="bkd-logout-btn" id="bkd-logout-btn">
+				<i class="fa fa-sign-out"></i> Đăng xuất
+			</button>
 		</div>
-		<?php else: ?>
-		<div class="bkd-login-box">
+
+		<div class="bkd-login-box" style="<?php echo $authUser ? 'display:none' : ''; ?>">
 			<div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Đăng nhập</h4></div>
-			<?php if ($errors->has('email')): ?>
-			<div class="bkd-login-error"><?php echo $errors->first('email'); ?></div>
-			<?php endif; ?>
-			<form method="POST" action="<?php echo route('login'); ?>" class="bkd-login-form">
-				<input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
-				<input type="hidden" name="redirect" value="<?php echo htmlspecialchars($currentUrl); ?>">
+			<div class="bkd-login-error" style="display:none"></div>
+			<form class="bkd-login-form" id="bkd-login-form">
 				<div class="bkd-form-group">
 					<i class="fa fa-envelope"></i>
-					<input type="email" name="email" placeholder="Email" value="<?php echo htmlspecialchars(old('email', '')); ?>" required>
+					<input type="email" name="email" placeholder="Email" required>
 				</div>
 				<div class="bkd-form-group">
 					<i class="fa fa-lock"></i>
@@ -53,7 +44,6 @@ $authUser = auth()->user();
 				<button type="submit" class="bkd-login-btn">Đăng nhập</button>
 			</form>
 		</div>
-		<?php endif; ?>
 	</div>
 
 	<div id="text-7" class="widget mkd-sidearea widget_text">
@@ -88,3 +78,87 @@ $authUser = auth()->user();
 	<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 0 0 20px;" href="https://www.pinterest.com/qodeinteractive/" target="_blank">
 		<span class="mkd-social-icon-widget fa fa-pinterest     "></span> </a>
 </section>
+
+<script>
+(function(){
+    var csrfToken = '<?php echo $csrfToken; ?>';
+
+    // ── LOGIN ──
+    var loginForm = document.getElementById('bkd-login-form');
+    if (loginForm) {
+        loginForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            var btn = loginForm.querySelector('.bkd-login-btn');
+            var errBox = loginForm.closest('.bkd-login-box').querySelector('.bkd-login-error');
+            btn.disabled = true;
+            btn.textContent = 'Đang đăng nhập...';
+            errBox.style.display = 'none';
+
+            var fd = new FormData(loginForm);
+            fd.append('_token', csrfToken);
+
+            fetch('/login', {
+                method: 'POST',
+                headers: { 'X-Requested-With': 'XMLHttpRequest', 'Accept': 'application/json' },
+                body: fd,
+                credentials: 'same-origin'
+            })
+            .then(function(r) { return r.json().then(function(d) { return {ok: r.ok, data: d}; }); })
+            .then(function(res) {
+                if (res.ok && res.data.success) {
+                    var section = document.querySelector('.bkd-auth-section');
+                    var userInfo = section.querySelector('.bkd-user-info');
+                    var loginBox = section.querySelector('.bkd-login-box');
+                    userInfo.querySelector('.bkd-user-name').textContent = res.data.user.name;
+                    userInfo.querySelector('.bkd-user-email').textContent = res.data.user.email;
+                    loginBox.style.display = 'none';
+                    userInfo.style.display = '';
+                    loginForm.reset();
+                } else {
+                    errBox.textContent = res.data.message || 'Email hoặc mật khẩu không đúng.';
+                    errBox.style.display = 'block';
+                }
+            })
+            .catch(function() {
+                errBox.textContent = 'Lỗi kết nối. Vui lòng thử lại.';
+                errBox.style.display = 'block';
+            })
+            .finally(function() {
+                btn.disabled = false;
+                btn.textContent = 'Đăng nhập';
+            });
+        });
+    }
+
+    // ── LOGOUT ──
+    var logoutBtn = document.getElementById('bkd-logout-btn');
+    if (logoutBtn) {
+        logoutBtn.addEventListener('click', function() {
+            logoutBtn.disabled = true;
+
+            var fd = new FormData();
+            fd.append('_token', csrfToken);
+
+            fetch('/logout', {
+                method: 'POST',
+                headers: { 'X-Requested-With': 'XMLHttpRequest', 'Accept': 'application/json' },
+                body: fd,
+                credentials: 'same-origin'
+            })
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                if (data.csrf) csrfToken = data.csrf;
+                var section = document.querySelector('.bkd-auth-section');
+                section.querySelector('.bkd-user-info').style.display = 'none';
+                section.querySelector('.bkd-login-box').style.display = '';
+            })
+            .catch(function() {
+                window.location.reload();
+            })
+            .finally(function() {
+                logoutBtn.disabled = false;
+            });
+        });
+    }
+})();
+</script>

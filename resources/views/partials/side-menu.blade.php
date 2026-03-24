@@ -1,4 +1,4 @@
-{{-- Side Menu with Login/User Info --}}
+{{-- Side Menu with AJAX Login/User Info --}}
 <section class="mkd-side-menu">
 	<div class="mkd-close-side-menu-holder">
 		<a class="mkd-close-side-menu" href="#" target="_self">
@@ -8,36 +8,27 @@
 
 	{{-- ── Login / User Info Section ── --}}
 	<div class="bkd-auth-section widget mkd-sidearea">
-		@auth
-		<div class="bkd-user-info">
+		<div class="bkd-user-info" style="{{ Auth::check() ? '' : 'display:none' }}">
 			<div class="bkd-user-avatar">
 				<i class="fa fa-user-circle"></i>
 			</div>
 			<div class="bkd-user-details">
 				<span class="bkd-user-greeting">Xin chào,</span>
-				<span class="bkd-user-name">{{ Auth::user()->name }}</span>
-				<span class="bkd-user-email">{{ Auth::user()->email }}</span>
+				<span class="bkd-user-name">{{ Auth::user()?->name }}</span>
+				<span class="bkd-user-email">{{ Auth::user()?->email }}</span>
 			</div>
-			<form method="POST" action="{{ route('logout') }}" class="bkd-logout-form">
-				@csrf
-				<input type="hidden" name="redirect" value="{{ url()->current() }}">
-				<button type="submit" class="bkd-logout-btn">
-					<i class="fa fa-sign-out"></i> Đăng xuất
-				</button>
-			</form>
+			<button type="button" class="bkd-logout-btn" id="bkd-logout-btn">
+				<i class="fa fa-sign-out"></i> Đăng xuất
+			</button>
 		</div>
-		@else
-		<div class="bkd-login-box">
+
+		<div class="bkd-login-box" style="{{ Auth::check() ? 'display:none' : '' }}">
 			<div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Đăng nhập</h4></div>
-			@if($errors->has('email'))
-			<div class="bkd-login-error">{{ $errors->first('email') }}</div>
-			@endif
-			<form method="POST" action="{{ route('login') }}" class="bkd-login-form">
-				@csrf
-				<input type="hidden" name="redirect" value="{{ url()->current() }}">
+			<div class="bkd-login-error" style="display:none"></div>
+			<form class="bkd-login-form" id="bkd-login-form">
 				<div class="bkd-form-group">
 					<i class="fa fa-envelope"></i>
-					<input type="email" name="email" placeholder="Email" value="{{ old('email') }}" required>
+					<input type="email" name="email" placeholder="Email" required>
 				</div>
 				<div class="bkd-form-group">
 					<i class="fa fa-lock"></i>
@@ -49,7 +40,6 @@
 				<button type="submit" class="bkd-login-btn">Đăng nhập</button>
 			</form>
 		</div>
-		@endauth
 	</div>
 
 	<div id="text-7" class="widget mkd-sidearea widget_text"><div class="textwidget"><p>Bach Khoa Digital — Đối tác chuyển đổi số tin cậy của doanh nghiệp Việt Nam.</p></div></div>
@@ -74,3 +64,87 @@
 		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px;margin: -45px 0 0 20px;" href="https://www.pinterest.com/qodeinteractive/" target="_blank">
 			<span class="mkd-social-icon-widget fa fa-pinterest     "></span>		</a>
 </section>
+
+<script>
+(function(){
+    var csrfToken = '{{ csrf_token() }}';
+
+    // ── LOGIN ──
+    var loginForm = document.getElementById('bkd-login-form');
+    if (loginForm) {
+        loginForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            var btn = loginForm.querySelector('.bkd-login-btn');
+            var errBox = loginForm.closest('.bkd-login-box').querySelector('.bkd-login-error');
+            btn.disabled = true;
+            btn.textContent = 'Đang đăng nhập...';
+            errBox.style.display = 'none';
+
+            var fd = new FormData(loginForm);
+            fd.append('_token', csrfToken);
+
+            fetch('/login', {
+                method: 'POST',
+                headers: { 'X-Requested-With': 'XMLHttpRequest', 'Accept': 'application/json' },
+                body: fd,
+                credentials: 'same-origin'
+            })
+            .then(function(r) { return r.json().then(function(d) { return {ok: r.ok, data: d}; }); })
+            .then(function(res) {
+                if (res.ok && res.data.success) {
+                    var section = document.querySelector('.bkd-auth-section');
+                    var userInfo = section.querySelector('.bkd-user-info');
+                    var loginBox = section.querySelector('.bkd-login-box');
+                    userInfo.querySelector('.bkd-user-name').textContent = res.data.user.name;
+                    userInfo.querySelector('.bkd-user-email').textContent = res.data.user.email;
+                    loginBox.style.display = 'none';
+                    userInfo.style.display = '';
+                    loginForm.reset();
+                } else {
+                    errBox.textContent = res.data.message || 'Email hoặc mật khẩu không đúng.';
+                    errBox.style.display = 'block';
+                }
+            })
+            .catch(function() {
+                errBox.textContent = 'Lỗi kết nối. Vui lòng thử lại.';
+                errBox.style.display = 'block';
+            })
+            .finally(function() {
+                btn.disabled = false;
+                btn.textContent = 'Đăng nhập';
+            });
+        });
+    }
+
+    // ── LOGOUT ──
+    var logoutBtn = document.getElementById('bkd-logout-btn');
+    if (logoutBtn) {
+        logoutBtn.addEventListener('click', function() {
+            logoutBtn.disabled = true;
+
+            var fd = new FormData();
+            fd.append('_token', csrfToken);
+
+            fetch('/logout', {
+                method: 'POST',
+                headers: { 'X-Requested-With': 'XMLHttpRequest', 'Accept': 'application/json' },
+                body: fd,
+                credentials: 'same-origin'
+            })
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                if (data.csrf) csrfToken = data.csrf;
+                var section = document.querySelector('.bkd-auth-section');
+                section.querySelector('.bkd-user-info').style.display = 'none';
+                section.querySelector('.bkd-login-box').style.display = '';
+            })
+            .catch(function() {
+                window.location.reload();
+            })
+            .finally(function() {
+                logoutBtn.disabled = false;
+            });
+        });
+    }
+})();
+</script>
