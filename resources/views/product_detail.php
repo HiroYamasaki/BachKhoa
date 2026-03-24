@@ -1005,7 +1005,7 @@ $alt = htmlspecialchars($product->name);
 	<!-- Thumbnails -->
 	<?php if (!empty($thumbImages)): ?>
 	<div class="bkd-gallery__thumbs">
-		<?php foreach ($thumbImages as $img): ?>
+		<?php foreach ($thumbImages as $i => $img): ?>
 		<div class="bkd-thumb" data-full="<?php echo htmlspecialchars($img); ?>">
 			<img src="<?php echo htmlspecialchars($img); ?>" alt="<?php echo $alt; ?>" loading="lazy" />
 		</div>
@@ -1593,10 +1593,10 @@ document.addEventListener('DOMContentLoaded', function() {
     body.single-product .bkd-gallery__thumbs {
         display: flex !important;
         gap: 8px !important;
-        flex-wrap: wrap !important;
+        flex-wrap: nowrap !important;
     }
     body.single-product .bkd-thumb {
-        flex: 0 0 calc(33.333% - 6px) !important;
+        flex: 1 1 0 !important;
         max-width: calc(33.333% - 6px) !important;
         border: 2px solid #ddd !important;
         cursor: pointer !important;
