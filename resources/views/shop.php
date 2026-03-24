@@ -1006,59 +1006,74 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 <div id="bkd-pagination"><?php echo view('partials.pagination', compact('products'))->render(); ?></div>
 				</div>
 									<div class="mkd-sidebar-holder mkd-grid-col-3">
-						<aside class="mkd-sidebar">
-	<div class="widget woocommerce widget_product_search"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Search</h4></div>
-    <div class="input-holder clearfix">
-        <input type="search" class="search-field" id="bkd-search" placeholder="Search Products..." value="" title="Search for:"/>
-	    <button type="button" class="mkd-woo-search-widget-button" id="bkd-search-btn"><i class="mkd-icon-font-awesome fa fa-long-arrow-right " ></i></button>
-    </div>
-</div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
-	<div class="mkd-separator" style="border-style: solid;margin-top: 17px"></div>
-</div>
-</div><div class="widget woocommerce widget_product_categories"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Categories</h4></div><ul class="product-categories" id="bkd-categories">
-<?php foreach ($categories as $cat): ?>
-<li class="cat-item"><a href="#" data-category="<?php echo htmlspecialchars($cat->category); ?>"><?php echo htmlspecialchars($cat->category); ?> <span class="count">(<?php echo $cat->count; ?>)</span></a></li>
-<?php endforeach; ?>
-</ul></div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
-	<div class="mkd-separator" style="border-style: solid;margin-top: 22px"></div>
-</div>
-</div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
-	<div class="mkd-separator" style="border-style: solid;margin-top: 1px"></div>
-</div>
-</div><div class="widget woocommerce widget_price_filter"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Filter by price</h4></div>
-	<div class="price_slider_wrapper">
-		<div class="price_slider_amount">
-			<label for="bkd_min_price">Min (₫)</label>
-			<input type="number" id="bkd_min_price" name="min_price" value="0" min="0" max="<?php echo $maxPrice; ?>" placeholder="0" style="width:100%;margin-bottom:8px"/>
-			<label for="bkd_max_price">Max (₫)</label>
-			<input type="number" id="bkd_max_price" name="max_price" value="<?php echo $maxPrice; ?>" min="0" max="<?php echo $maxPrice; ?>" placeholder="<?php echo number_format($maxPrice, 0, ',', '.'); ?>" style="width:100%;margin-bottom:8px"/>
-			<button type="button" class="button" id="bkd-price-filter-btn">Filter</button>
-			<div class="clear"></div>
+						<aside class="mkd-sidebar bkd-sidebar">
+
+	<!-- SEARCH -->
+	<div class="bkd-widget bkd-widget--search">
+		<h4 class="bkd-widget-title">Tìm kiếm</h4>
+		<div class="bkd-search-row">
+			<input type="search" class="bkd-input" id="bkd-search" placeholder="Tìm sản phẩm..." value="" autocomplete="off"/>
+			<button type="button" class="bkd-search-btn" id="bkd-search-btn" aria-label="Search"><i class="fa fa-search"></i></button>
 		</div>
 	</div>
-</div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
-	<div class="mkd-separator" style="border-style: solid;margin-top: 17px"></div>
-</div>
-</div><div class="widget woocommerce widget_product_tag_cloud"><div class="mkd-widget-title-holder"><h4 class="mkd-widget-title">Tags</h4></div><div class="tagcloud" id="bkd-tags">
-<?php foreach ($tags as $tagName => $tagCount): ?>
-<a href="#" class="tag-cloud-link" data-tag="<?php echo htmlspecialchars($tagName); ?>"><?php echo htmlspecialchars($tagName); ?> (<?php echo $tagCount; ?>)</a>
+
+	<!-- CATEGORIES -->
+	<div class="bkd-widget bkd-widget--categories">
+		<h4 class="bkd-widget-title">Danh mục</h4>
+		<ul class="bkd-cat-list" id="bkd-categories">
+<?php if ($categories->isEmpty()): ?>
+			<li class="bkd-cat-empty">Chưa có danh mục</li>
+<?php else: ?>
+<?php foreach ($categories as $cat): ?>
+			<li class="bkd-cat-item"><a href="#" data-category="<?php echo htmlspecialchars($cat->category); ?>"><?php echo htmlspecialchars($cat->category); ?><span class="bkd-cat-count"><?php echo $cat->count; ?></span></a></li>
 <?php endforeach; ?>
-</div></div><div class="widget mkd-separator-widget"><div class="mkd-separator-holder clearfix  mkd-separator-center mkd-separator-normal">
-	<div class="mkd-separator" style="border-style: solid;margin-top: 15px"></div>
-</div>
-</div>		
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 0 0;" href="https://www.facebook.com/QodeInteractive/" target="_blank">
-			<span class="mkd-social-icon-widget fa fa-facebook     "></span>		</a>
-				
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 20px 0px 20px;" href="https://plus.google.com/" target="_blank">
-			<span class="mkd-social-icon-widget fa fa-google-plus     "></span>		</a>
-				
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 20px 0 0;" href="https://www.instagram.com/qodeinteractive/" target="_blank">
-			<span class="mkd-social-icon-widget fa fa-instagram     "></span>		</a>
-				
-		<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#E8612D" style="color: #1b1b1b;;font-size: 14px;margin: -28px 0 0;" href="https://www.pinterest.com/qodeinteractive/" target="_blank">
-			<span class="mkd-social-icon-widget fa fa-pinterest     "></span>		</a>
-		</aside>					</div>
+<?php endif; ?>
+		</ul>
+	</div>
+
+	<!-- PRICE FILTER -->
+	<div class="bkd-widget bkd-widget--price">
+		<h4 class="bkd-widget-title">Lọc theo giá</h4>
+		<div class="bkd-price-row">
+			<div class="bkd-price-col">
+				<label class="bkd-price-label" for="bkd_min_price">Từ (₫)</label>
+				<input type="number" class="bkd-input" id="bkd_min_price" name="min_price" value="0" min="0" max="<?php echo $maxPrice; ?>" placeholder="0"/>
+			</div>
+			<span class="bkd-price-sep">&mdash;</span>
+			<div class="bkd-price-col">
+				<label class="bkd-price-label" for="bkd_max_price">Đến (₫)</label>
+				<input type="number" class="bkd-input" id="bkd_max_price" name="max_price" value="<?php echo $maxPrice; ?>" min="0" max="<?php echo $maxPrice; ?>" placeholder="<?php echo number_format($maxPrice, 0, ',', '.'); ?>"/>
+			</div>
+		</div>
+		<button type="button" class="bkd-filter-btn" id="bkd-price-filter-btn"><i class="fa fa-filter"></i> Lọc giá</button>
+	</div>
+
+	<!-- TAGS -->
+	<div class="bkd-widget bkd-widget--tags">
+		<h4 class="bkd-widget-title">Tags</h4>
+		<div class="bkd-tagcloud" id="bkd-tags">
+<?php if ($tags->isEmpty()): ?>
+			<span class="bkd-cat-empty">Chưa có tag</span>
+<?php else: ?>
+<?php foreach ($tags as $tagName => $tagCount): ?>
+			<a href="#" class="bkd-tag" data-tag="<?php echo htmlspecialchars($tagName); ?>"><?php echo htmlspecialchars($tagName); ?></a>
+<?php endforeach; ?>
+<?php endif; ?>
+		</div>
+	</div>
+
+	<!-- SOCIAL -->
+	<div class="bkd-widget bkd-widget--social">
+		<h4 class="bkd-widget-title">Theo dõi</h4>
+		<div class="bkd-social-row">
+			<a class="bkd-social-link" href="#" target="_blank" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+			<a class="bkd-social-link" href="#" target="_blank" aria-label="YouTube"><i class="fa fa-youtube-play"></i></a>
+			<a class="bkd-social-link" href="#" target="_blank" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+			<a class="bkd-social-link" href="#" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+		</div>
+	</div>
+
+	</aside>					</div>
 							</div>
 		</div>
 	</div>
@@ -1301,15 +1316,16 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!a) return;
         e.preventDefault();
         var cat = a.getAttribute('data-category');
+        var li = a.closest('.bkd-cat-item');
         // Toggle: click active category to deselect
         if (currentFilters.category === cat) {
             currentFilters.category = '';
-            a.closest('li').classList.remove('active');
+            if (li) li.classList.remove('active');
         } else {
             // Remove active from all
-            this.querySelectorAll('li').forEach(function(li) { li.classList.remove('active'); });
+            this.querySelectorAll('.bkd-cat-item').forEach(function(el) { el.classList.remove('active'); });
             currentFilters.category = cat;
-            a.closest('li').classList.add('active');
+            if (li) li.classList.add('active');
         }
         currentFilters.page = 1;
         bkdFetchProducts();
@@ -1325,7 +1341,7 @@ document.addEventListener('DOMContentLoaded', function() {
             currentFilters.tag = '';
             a.classList.remove('active');
         } else {
-            this.querySelectorAll('a').forEach(function(el) { el.classList.remove('active'); });
+            this.querySelectorAll('.bkd-tag').forEach(function(el) { el.classList.remove('active'); });
             currentFilters.tag = tag;
             a.classList.add('active');
         }
@@ -1481,13 +1497,185 @@ document.addEventListener('DOMContentLoaded', function() {
     body.woocommerce-shop .mkd-footer-bottom-holder h4 { color: #ffffff !important; }
     body.woocommerce-shop .mkd-sidebar .mkd-widget-title { color: #1b1b1b !important; }
 
-    /* ── Active filter states ── */
-    body.woocommerce-shop #bkd-categories li.active > a { color: #E8612D !important; font-weight: 600; }
-    body.woocommerce-shop #bkd-tags a.active { background: #E8612D !important; color: #fff !important; border-radius: 3px; padding: 2px 8px; }
-    body.woocommerce-shop .widget_price_filter label { display: block; font-size: 13px; margin-bottom: 4px; color: #666; }
-    body.woocommerce-shop .widget_price_filter input[type="number"] { border: 1px solid #ddd; padding: 6px 8px; font-size: 14px; }
-    body.woocommerce-shop .widget_price_filter .button { background: #E8612D !important; color: #fff !important; border: none; padding: 8px 20px; cursor: pointer; margin-top: 4px; }
-    body.woocommerce-shop .widget_price_filter .button:hover { background: #C0392B !important; }
+    /* ── BKD Sidebar redesign ── */
+    body.woocommerce-shop .bkd-sidebar { padding: 0; }
+    body.woocommerce-shop .bkd-widget {
+        background: #fff;
+        border: 1px solid #ebebeb;
+        border-radius: 8px;
+        padding: 22px 20px 18px;
+        margin-bottom: 18px;
+        box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    }
+    body.woocommerce-shop .bkd-widget-title {
+        font-family: 'Oswald', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #1b1b1b;
+        margin: 0 0 16px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #E8612D;
+    }
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #1b1b1b;
+        margin: 0 0 16px;
+        padding-bottom: 12px;
+        border-bottom: 2px solid #E8612D;
+    }
+    /* Search */
+    body.woocommerce-shop .bkd-search-row {
+        display: flex;
+        align-items: center;
+        border: 1.5px solid #ddd;
+        border-radius: 6px;
+        overflow: hidden;
+        transition: border-color .2s;
+    }
+    body.woocommerce-shop .bkd-search-row:focus-within { border-color: #E8612D; }
+    body.woocommerce-shop .bkd-input {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        font-size: 13px;
+        color: #333;
+        padding: 9px 12px;
+        width: 100%;
+        flex: 1;
+        -moz-appearance: textfield;
+    }
+    body.woocommerce-shop .bkd-input::-webkit-inner-spin-button,
+    body.woocommerce-shop .bkd-input::-webkit-outer-spin-button { -webkit-appearance: none; }
+    body.woocommerce-shop .bkd-search-btn {
+        background: #E8612D;
+        border: none;
+        color: #fff;
+        padding: 9px 14px;
+        cursor: pointer;
+        font-size: 13px;
+        transition: background .2s;
+        flex-shrink: 0;
+    }
+    body.woocommerce-shop .bkd-search-btn:hover { background: #C0392B; }
+    /* Categories */
+    body.woocommerce-shop .bkd-cat-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    body.woocommerce-shop .bkd-cat-item { border-bottom: 1px solid #f2f2f2; }
+    body.woocommerce-shop .bkd-cat-item:last-child { border-bottom: none; }
+    body.woocommerce-shop .bkd-cat-item > a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 9px 4px;
+        font-size: 13px;
+        color: #444;
+        text-decoration: none;
+        transition: color .2s, padding-left .2s;
+    }
+    body.woocommerce-shop .bkd-cat-item > a:hover,
+    body.woocommerce-shop .bkd-cat-item.active > a { color: #E8612D; padding-left: 8px; font-weight: 600; }
+    body.woocommerce-shop .bkd-cat-count {
+        background: #f4f4f4;
+        border-radius: 20px;
+        font-size: 11px;
+        color: #888;
+        padding: 2px 8px;
+        font-weight: 400;
+        min-width: 24px;
+        text-align: center;
+    }
+    body.woocommerce-shop .bkd-cat-item.active .bkd-cat-count { background: rgba(232,97,45,.12); color: #E8612D; }
+    body.woocommerce-shop .bkd-cat-empty { font-size: 13px; color: #aaa; font-style: italic; }
+    /* Price filter */
+    body.woocommerce-shop .bkd-price-row {
+        display: flex;
+        align-items: flex-end;
+        gap: 8px;
+        margin-bottom: 14px;
+    }
+    body.woocommerce-shop .bkd-price-col { flex: 1; }
+    body.woocommerce-shop .bkd-price-sep {
+        font-size: 16px;
+        color: #bbb;
+        padding-bottom: 10px;
+        flex-shrink: 0;
+    }
+    body.woocommerce-shop .bkd-price-label {
+        display: block;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        color: #888;
+        margin-bottom: 5px;
+    }
+    body.woocommerce-shop .bkd-price-col .bkd-input {
+        border: 1.5px solid #ddd !important;
+        border-radius: 6px !important;
+        padding: 8px 10px !important;
+        width: 100% !important;
+        font-size: 13px;
+        transition: border-color .2s;
+    }
+    body.woocommerce-shop .bkd-price-col .bkd-input:focus { border-color: #E8612D !important; }
+    body.woocommerce-shop .bkd-filter-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        width: 100%;
+        background: #E8612D;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        padding: 10px 16px;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: .5px;
+        cursor: pointer;
+        transition: background .2s, transform .1s;
+        text-transform: uppercase;
+    }
+    body.woocommerce-shop .bkd-filter-btn:hover { background: #C0392B; transform: translateY(-1px); }
+    body.woocommerce-shop .bkd-filter-btn:active { transform: translateY(0); }
+    /* Tags */
+    body.woocommerce-shop .bkd-tagcloud { display: flex; flex-wrap: wrap; gap: 7px; }
+    body.woocommerce-shop .bkd-tag {
+        display: inline-block;
+        background: #f4f4f4;
+        color: #555;
+        font-size: 12px;
+        padding: 4px 11px;
+        border-radius: 20px;
+        border: 1.5px solid transparent;
+        text-decoration: none;
+        transition: background .2s, color .2s, border-color .2s;
+        cursor: pointer;
+    }
+    body.woocommerce-shop .bkd-tag:hover { background: rgba(232,97,45,.08); color: #E8612D; border-color: #E8612D; }
+    body.woocommerce-shop .bkd-tag.active { background: #E8612D; color: #fff; border-color: #E8612D; }
+    /* Social */
+    body.woocommerce-shop .bkd-social-row { display: flex; gap: 10px; flex-wrap: wrap; }
+    body.woocommerce-shop .bkd-social-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px; height: 36px;
+        border-radius: 50%;
+        border: 1.5px solid #e0e0e0;
+        color: #555;
+        font-size: 14px;
+        text-decoration: none;
+        transition: background .2s, color .2s, border-color .2s;
+    }
+    body.woocommerce-shop .bkd-social-link:hover { background: #E8612D; color: #fff !important; border-color: #E8612D; }
 
     body.woocommerce-shop .mkd-footer-top-holder a:hover,
     body.woocommerce-shop .mkd-footer-bottom-holder a:hover { color: #E8612D !important; }
