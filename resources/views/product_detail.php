@@ -990,21 +990,29 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 		<div class="mkd-container-inner clearfix">
 			<div class="woocommerce-notices-wrapper"></div><div id="product-<?php echo $product->id; ?>" class="product type-product status-publish first <?php echo $product->quantity > 0 ? 'instock' : 'outofstock'; ?> has-post-thumbnail shipping-taxable purchasable product-type-simple">
 
-	<div class="mkd-single-product-content"><div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-3 images" data-columns="3" style="opacity: 1; transition: opacity .25s ease-in-out;">
-	<figure class="woocommerce-product-gallery__wrapper">
+	<div class="mkd-single-product-content"><div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-3 images bkd-gallery" data-columns="3" style="opacity: 1; transition: opacity .25s ease-in-out;">
 <?php
-$galleryImages = array_filter([$product->image, $product->image1, $product->image2, $product->image3]);
+$galleryImages = array_values(array_filter([$product->image, $product->image1, $product->image2, $product->image3]));
 if (empty($galleryImages)) $galleryImages = ['https://via.placeholder.com/800x800?text=No+Image'];
-$isFirst = true;
-foreach ($galleryImages as $img):
-	$alt = htmlspecialchars($product->name);
-	if ($isFirst):
+$alt = htmlspecialchars($product->name);
+$mainImg = $galleryImages[0];
 ?>
-		<div data-thumb="<?php echo htmlspecialchars($img); ?>" data-thumb-alt="<?php echo $alt; ?>" class="woocommerce-product-gallery__image"><a href="<?php echo htmlspecialchars($img); ?>"><img width="635" height="754" src="<?php echo htmlspecialchars($img); ?>" class="wp-post-image" alt="<?php echo $alt; ?>" loading="lazy" data-src="<?php echo htmlspecialchars($img); ?>" data-large_image="<?php echo htmlspecialchars($img); ?>" data-large_image_width="800" data-large_image_height="950" /></a></div>
-<?php $isFirst = false; else: ?>
-		<div data-thumb="<?php echo htmlspecialchars($img); ?>" class="woocommerce-product-gallery__image"><a href="<?php echo htmlspecialchars($img); ?>"><img width="195" height="195" src="<?php echo htmlspecialchars($img); ?>" class="attachment-shop_thumbnail size-shop_thumbnail" alt="<?php echo $alt; ?>" loading="lazy" data-src="<?php echo htmlspecialchars($img); ?>" data-large_image="<?php echo htmlspecialchars($img); ?>" data-large_image_width="600" data-large_image_height="713" /></a></div>
-<?php endif; endforeach; ?>
-	</figure>
+	<!-- Main image -->
+	<div class="bkd-gallery__main">
+		<a href="<?php echo htmlspecialchars($mainImg); ?>" id="bkd-main-link" data-rel="prettyPhoto[woo_single_pretty_photo]">
+			<img id="bkd-main-img" src="<?php echo htmlspecialchars($mainImg); ?>" alt="<?php echo $alt; ?>" class="wp-post-image" loading="lazy" />
+		</a>
+	</div>
+	<!-- Thumbnails -->
+	<?php if (count($galleryImages) > 1): ?>
+	<div class="bkd-gallery__thumbs">
+		<?php foreach ($galleryImages as $i => $img): ?>
+		<div class="bkd-thumb <?php echo $i === 0 ? 'bkd-thumb--active' : ''; ?>" data-full="<?php echo htmlspecialchars($img); ?>">
+			<img src="<?php echo htmlspecialchars($img); ?>" alt="<?php echo $alt; ?>" loading="lazy" />
+		</div>
+		<?php endforeach; ?>
+	</div>
+	<?php endif; ?>
 </div>
 <div class="mkd-single-product-summary">
 	<div class="summary entry-summary">
@@ -1566,26 +1574,48 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     /* ── Gallery: main image + thumbnails row below ── */
-    body.single-product .woocommerce-product-gallery__wrapper {
+    body.single-product .bkd-gallery {
         display: flex !important;
-        flex-wrap: wrap !important;
+        flex-direction: column !important;
         gap: 10px !important;
     }
-    body.single-product .woocommerce-product-gallery__image:first-child {
-        flex: 0 0 100% !important;
-        max-width: 100% !important;
+    body.single-product .bkd-gallery__main {
+        width: 100% !important;
+        border: 1px solid #eee !important;
+        background: #f8f8f8 !important;
+        overflow: hidden !important;
     }
-    body.single-product .woocommerce-product-gallery__image:first-child img {
+    body.single-product .bkd-gallery__main img {
         width: 100% !important;
         height: auto !important;
+        display: block !important;
+        transition: opacity 0.2s ease !important;
     }
-    body.single-product .woocommerce-product-gallery__image:not(:first-child) {
-        flex: 0 0 calc(33.333% - 7px) !important;
-        max-width: calc(33.333% - 7px) !important;
+    body.single-product .bkd-gallery__thumbs {
+        display: flex !important;
+        gap: 8px !important;
+        flex-wrap: wrap !important;
     }
-    body.single-product .woocommerce-product-gallery__image:not(:first-child) img {
+    body.single-product .bkd-thumb {
+        flex: 0 0 calc(33.333% - 6px) !important;
+        max-width: calc(33.333% - 6px) !important;
+        border: 2px solid #ddd !important;
+        cursor: pointer !important;
+        overflow: hidden !important;
+        background: #f8f8f8 !important;
+        transition: border-color 0.2s !important;
+    }
+    body.single-product .bkd-thumb img {
         width: 100% !important;
         height: auto !important;
+        display: block !important;
+        transition: transform 0.2s !important;
+    }
+    body.single-product .bkd-thumb:hover img {
+        transform: scale(1.05) !important;
+    }
+    body.single-product .bkd-thumb--active {
+        border-color: #E8612D !important;
     }
 
     /* ── Product title ── */
@@ -1882,6 +1912,35 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 </style>
+
+<!-- GALLERY SWITCHER JS -->
+<script>
+(function(){
+    var mainImg  = document.getElementById('bkd-main-img');
+    var mainLink = document.getElementById('bkd-main-link');
+    var thumbs   = document.querySelectorAll('.bkd-thumb');
+    if (!mainImg || !thumbs.length) return;
+
+    thumbs.forEach(function(thumb){
+        thumb.addEventListener('click', function(){
+            var full = thumb.getAttribute('data-full');
+            if (!full) return;
+
+            // Fade out, swap, fade in
+            mainImg.style.opacity = '0';
+            setTimeout(function(){
+                mainImg.src = full;
+                if (mainLink) mainLink.href = full;
+                mainImg.style.opacity = '1';
+            }, 150);
+
+            // Active state
+            thumbs.forEach(function(t){ t.classList.remove('bkd-thumb--active'); });
+            thumb.classList.add('bkd-thumb--active');
+        });
+    });
+})();
+</script>
 
 <!-- TAB SWITCHING JS -->
 <script>
