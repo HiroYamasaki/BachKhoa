@@ -123,14 +123,10 @@ class ProductController extends Controller
 
     public function show(Request $request)
     {
-        $id = $request->get('id');
-        if (!$id) {
-            abort(404);
-        }
-
+        $id = (int) $request->get('id', 0);
         $product = Product::findOrFail($id);
 
-        // Related: same category, else random
+        // Related products: same category if available, otherwise random
         if ($product->category) {
             $related = Product::where('category', $product->category)
                 ->where('id', '!=', $product->id)

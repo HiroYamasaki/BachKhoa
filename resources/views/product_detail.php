@@ -980,7 +980,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 		<div class="mkd-title-wrapper" style="height: 521px">
 		<div class="mkd-title-inner">
 			<div class="mkd-grid">
-									<h1 class="mkd-page-title entry-title" >Product List</h1>
+									<h1 class="mkd-page-title entry-title" ><?php echo htmlspecialchars($product->name); ?></h1>
 											</div>
 	    </div>
 	</div>
@@ -988,60 +988,52 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 	<div class="mkd-container">
 		<div class="mkd-container-inner clearfix">
-			<div class="woocommerce-notices-wrapper"></div><div id="product-<?php echo $product->id; ?>" class="product type-product status-publish instock has-post-thumbnail shipping-taxable purchasable product-type-simple">
+			<div class="woocommerce-notices-wrapper"></div><div id="product-<?php echo $product->id; ?>" class="product type-product status-publish first <?php echo $product->quantity > 0 ? 'instock' : 'outofstock'; ?> has-post-thumbnail shipping-taxable purchasable product-type-simple">
 
 	<div class="mkd-single-product-content"><div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-3 images" data-columns="3" style="opacity: 1; transition: opacity .25s ease-in-out;">
-<figure class="woocommerce-product-gallery__wrapper">
+	<figure class="woocommerce-product-gallery__wrapper">
 <?php
-$galleryImages = array_values(array_filter([
-$product->image,
-$product->image1 ?? null,
-$product->image2 ?? null,
-$product->image3 ?? null,
-]));
-$mainImg = $galleryImages[0];
+$galleryImages = array_filter([$product->image, $product->image1, $product->image2, $product->image3]);
+if (empty($galleryImages)) $galleryImages = ['https://via.placeholder.com/800x800?text=No+Image'];
+$isFirst = true;
+foreach ($galleryImages as $img):
+	$alt = htmlspecialchars($product->name);
+	if ($isFirst):
 ?>
-<div data-thumb="<?php echo htmlspecialchars($mainImg); ?>" class="woocommerce-product-gallery__image">
-<a href="<?php echo htmlspecialchars($mainImg); ?>">
-<img width="635" height="635" src="<?php echo htmlspecialchars($mainImg); ?>" class="wp-post-image" alt="<?php echo htmlspecialchars($product->name); ?>" loading="lazy" data-src="<?php echo htmlspecialchars($mainImg); ?>" data-large_image="<?php echo htmlspecialchars($mainImg); ?>" />
-</a>
-</div>
-<?php foreach (array_slice($galleryImages, 1) as $thumb): ?>
-<div data-thumb="<?php echo htmlspecialchars($thumb); ?>" class="woocommerce-product-gallery__image">
-<a href="<?php echo htmlspecialchars($thumb); ?>">
-<img width="195" height="195" src="<?php echo htmlspecialchars($thumb); ?>" class="attachment-shop_thumbnail size-shop_thumbnail" alt="<?php echo htmlspecialchars($product->name); ?>" loading="lazy" data-src="<?php echo htmlspecialchars($thumb); ?>" data-large_image="<?php echo htmlspecialchars($thumb); ?>" />
-</a>
-</div>
-<?php endforeach; ?>
-</figure>
+		<div data-thumb="<?php echo htmlspecialchars($img); ?>" data-thumb-alt="<?php echo $alt; ?>" class="woocommerce-product-gallery__image"><a href="<?php echo htmlspecialchars($img); ?>"><img width="635" height="754" src="<?php echo htmlspecialchars($img); ?>" class="wp-post-image" alt="<?php echo $alt; ?>" loading="lazy" data-src="<?php echo htmlspecialchars($img); ?>" data-large_image="<?php echo htmlspecialchars($img); ?>" data-large_image_width="800" data-large_image_height="950" /></a></div>
+<?php $isFirst = false; else: ?>
+		<div data-thumb="<?php echo htmlspecialchars($img); ?>" class="woocommerce-product-gallery__image"><a href="<?php echo htmlspecialchars($img); ?>"><img width="195" height="195" src="<?php echo htmlspecialchars($img); ?>" class="attachment-shop_thumbnail size-shop_thumbnail" alt="<?php echo $alt; ?>" loading="lazy" data-src="<?php echo htmlspecialchars($img); ?>" data-large_image="<?php echo htmlspecialchars($img); ?>" data-large_image_width="600" data-large_image_height="713" /></a></div>
+<?php endif; endforeach; ?>
+	</figure>
 </div>
 <div class="mkd-single-product-summary">
 	<div class="summary entry-summary">
-		<h3 itemprop="name" class="mkd-single-product-title"><?php echo htmlspecialchars($product->name); ?></h3>
+		<h3  itemprop="name" class="mkd-single-product-title"><?php echo htmlspecialchars($product->name); ?></h3>
 	<div class="woocommerce-product-rating">
 		<div class="star-rating" role="img" aria-label="Rated 3.50 out of 5"><span style="width:70%">Rated <strong class="rating">3.50</strong> out of 5 based on <span class="rating">2</span> customer ratings</span></div>								<a href="#reviews" class="woocommerce-review-link" rel="nofollow">(<span class="count">2</span> customer reviews)</a>
 						</div>
 
-<?php $hasSale = $product->sale_price > 0 && $product->sale_price < $product->price; ?>
 <p class="price">
-<?php if ($product->price == 0): ?>
+<?php
+$hasSale = $product->sale_price > 0 && $product->sale_price < $product->price;
+if ($product->price == 0):
+?>
 	<span class="woocommerce-Price-amount amount"><bdi>Liên hệ</bdi></span>
 <?php elseif ($hasSale): ?>
-	<del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($product->price, 0, ',', '.'); ?>₫</bdi></span></del>
-	<ins><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($product->sale_price, 0, ',', '.'); ?>₫</bdi></span></ins>
+	<del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($product->price, 0, ',', '.'); ?>₫</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($product->sale_price, 0, ',', '.'); ?>₫</bdi></span></ins>
 <?php else: ?>
 	<span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($product->price, 0, ',', '.'); ?>₫</bdi></span>
 <?php endif; ?>
 </p>
 <div class="woocommerce-product-details__short-description">
-	<p><?php echo nl2br(htmlspecialchars($product->short_description ?? '')); ?></p>
+	<p><?php echo $product->short_description ? nl2br(htmlspecialchars($product->short_description)) : ''; ?></p>
 </div>
 
 	
 	<form class="cart" action="https://baumeister.qodeinteractive.com/product/electric-drill/" method="post" enctype='multipart/form-data'>
 		
 			<div class="mkd-quantity-buttons quantity">
-				<label class="screen-reader-text" for="quantity_69c0d8669d038"><?php echo htmlspecialchars($product->name); ?> quantity</label>
+				<label class="screen-reader-text" for="quantity_69c0d8669d038">Electric Drill quantity</label>
 		<span class="mkd-quantity-minus icon_minus-06"></span>
 		<input
 			type="text"
@@ -1060,23 +1052,31 @@ $mainImg = $galleryImages[0];
 		<span class="mkd-quantity-plus icon_plus"></span>
 			</div>
 	
-		<button type="submit" name="add-to-cart" value="<?php echo $product->id; ?>" class="single_add_to_cart_button button alt">Thêm vào giỏ</button>
+		<button type="submit" name="add-to-cart" value="253" class="single_add_to_cart_button button alt">Add to cart</button>
 
 			</form>
 
 	
 <div class="product_meta">
-	<span class="sku_wrapper">SKU: <span class="sku"><?php echo htmlspecialchars($product->sku ?? ''); ?></span></span>
+
+	
+	
+		<span class="sku_wrapper">SKU: <span class="sku"><?php echo htmlspecialchars($product->sku); ?></span></span>
+
 	<?php if ($product->category): ?>
-	<span class="posted_in">Danh mục: <a href="/shop?category=<?php echo urlencode($product->category); ?>" rel="tag"><?php echo htmlspecialchars($product->category); ?></a></span>
+	<span class="posted_in">Category: <a href="/shop?category=<?php echo urlencode($product->category); ?>" rel="tag"><?php echo htmlspecialchars($product->category); ?></a></span>
 	<?php endif; ?>
 	<?php if ($product->tag): ?>
 	<span class="tagged_as">Tags: <?php
-		$_tags = array_map('trim', explode(',', $product->tag));
-		$_tagLinks = array_map(fn($t) => '<a href="/shop?tag='.urlencode($t).'" rel="tag">'.htmlspecialchars($t).'</a>', $_tags);
-		echo implode(', ', $_tagLinks);
+		$tags = array_map('trim', explode(',', $product->tag));
+		$tagLinks = [];
+		foreach ($tags as $t) {
+			$tagLinks[] = '<a href="/shop?tag=' . urlencode($t) . '" rel="tag">' . htmlspecialchars($t) . '</a>';
+		}
+		echo implode(', ', $tagLinks);
 	?></span>
 	<?php endif; ?>
+	
 </div>
 <div class="mkd-woo-social-share-holder"><span>Share:</span><div class="mkd-social-share-holder mkd-list">
 		<ul>
@@ -1111,8 +1111,9 @@ $mainImg = $galleryImages[0];
 					</ul>
 					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
 				
-	<h2>Mô tả sản phẩm</h2>
-	<div><?php echo nl2br(htmlspecialchars($product->long_description ?? $product->short_description ?? 'Chưa có mô tả.')); ?></div>
+	<h2>Description</h2>
+
+<p><?php echo $product->long_description ? nl2br(htmlspecialchars($product->long_description)) : ($product->short_description ? nl2br(htmlspecialchars($product->short_description)) : 'Chưa có mô tả.'); ?></p>
 			</div>
 					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--additional_information panel entry-content wc-tab" id="tab-additional_information" role="tabpanel" aria-labelledby="tab-title-additional_information">
 				
@@ -1213,51 +1214,37 @@ $mainImg = $galleryImages[0];
 	</div>
 
 	</div></div>
-<section class="related products">
-<h2>Sản phẩm liên quan</h2>
-<ul class="products columns-4">
-<?php foreach ($related as $index => $rel): ?>
-<?php
-$relPos = $index % 4;
-$relPosClass = '';
-if ($relPos === 0) $relPosClass = 'first';
-if ($relPos === 3) $relPosClass = 'last';
-$relHasSale = $rel->sale_price > 0 && $rel->sale_price < $rel->price;
-$relStock = $rel->quantity > 0 ? 'instock' : 'outofstock';
+	<section class="related products">
+
+					<h2>Sản phẩm liên quan</h2>
+				
+		<ul class="products columns-4">
+<?php foreach ($related as $index => $rp):
+	$rPos = $index % 4;
+	$rPosClass = '';
+	if ($rPos === 0) $rPosClass = 'first';
+	if ($rPos === 3) $rPosClass = 'last';
+	$rHasSale = $rp->sale_price > 0 && $rp->sale_price < $rp->price;
 ?>
-<li class="product type-product status-publish <?php echo $relPosClass; ?> <?php echo $relStock; ?> <?php echo $relHasSale ? 'sale' : ''; ?> has-post-thumbnail shipping-taxable purchasable product-type-simple">
-<div class="mkd-pl-inner">
-<div class="mkd-pl-image">
-<?php if ($relHasSale): ?><span class="mkd-onsale">Sale</span><?php endif; ?>
-<img width="800" height="800" src="<?php echo htmlspecialchars($rel->image); ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="<?php echo htmlspecialchars($rel->name); ?>" loading="lazy" />
-<div class="mkd-pl-text"><div class="mkd-pl-text-outer"><div class="mkd-pl-text-inner">
-<a href="/product-detail?id=<?php echo $rel->id; ?>" class="button product_type_simple add_to_cart_button" rel="nofollow">Xem chi tiết</a>
-</div></div></div>
-</div>
-<a href="/product-detail?id=<?php echo $rel->id; ?>" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
-</div>
-<div class="mkd-pl-text-wrapper">
-<div class="mkd-pl-title-price-holder">
-<h5 class="mkd-product-list-title"><a href="/product-detail?id=<?php echo $rel->id; ?>"><?php echo htmlspecialchars($rel->name); ?></a></h5>
-<span class="price">
-<?php if ($rel->price == 0): ?>
-<span class="woocommerce-Price-amount amount"><bdi>Liên hệ</bdi></span>
-<?php elseif ($relHasSale): ?>
-<del><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($rel->price, 0, ',', '.'); ?>₫</bdi></span></del>
-<ins><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($rel->sale_price, 0, ',', '.'); ?>₫</bdi></span></ins>
-<?php else: ?>
-<span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($rel->price, 0, ',', '.'); ?>₫</bdi></span>
-<?php endif; ?>
-</span>
-</div>
-<?php if ($rel->category): ?>
-<div class="mkd-pl-categories"><a href="/shop?category=<?php echo urlencode($rel->category); ?>" rel="tag"><?php echo htmlspecialchars($rel->category); ?></a></div>
-<?php endif; ?>
-</div>
-</li>
+			<li class="product type-product status-publish <?php echo $rPosClass; ?> instock has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<div class="mkd-pl-inner"><div class="mkd-pl-image">
+	<?php if ($rHasSale): ?><span class="mkd-onsale">Sale</span><?php endif; ?>
+	<img width="800" height="800" src="<?php echo htmlspecialchars($rp->image); ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="<?php echo htmlspecialchars($rp->name); ?>" loading="lazy" />
+	<div class="mkd-pl-text"><div class="mkd-pl-text-outer"><div class="mkd-pl-text-inner"><a href="/product-detail?id=<?php echo $rp->id; ?>" class="button product_type_simple add_to_cart_button" data-product_id="<?php echo $rp->id; ?>" data-product_sku="<?php echo htmlspecialchars($rp->sku); ?>" rel="nofollow">Xem chi tiết</a></div></div></div></div><a href="/product-detail?id=<?php echo $rp->id; ?>" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a></div><div class="mkd-pl-text-wrapper"><div class="mkd-pl-title-price-holder"><h5 class="mkd-product-list-title"><a href="/product-detail?id=<?php echo $rp->id; ?>"><?php echo htmlspecialchars($rp->name); ?></a></h5>
+	<span class="price">
+	<?php if ($rp->price == 0): ?>
+		<span class="woocommerce-Price-amount amount"><bdi>Liên hệ</bdi></span>
+	<?php elseif ($rHasSale): ?>
+		<del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($rp->price, 0, ',', '.'); ?>₫</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($rp->sale_price, 0, ',', '.'); ?>₫</bdi></span></ins>
+	<?php else: ?>
+		<span class="woocommerce-Price-amount amount"><bdi><?php echo number_format($rp->price, 0, ',', '.'); ?>₫</bdi></span>
+	<?php endif; ?>
+	</span>
+</div><?php if ($rp->category): ?><div class="mkd-pl-categories"><a href="/shop?category=<?php echo urlencode($rp->category); ?>" rel="tag"><?php echo htmlspecialchars($rp->category); ?></a></div><?php endif; ?></div></li>
 <?php endforeach; ?>
-</ul>
-</section>
+		</ul>
+
+	</section>
 	</div>
 
 		</div>
