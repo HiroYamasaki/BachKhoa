@@ -1705,9 +1705,13 @@ document.addEventListener('DOMContentLoaded', function() {
     /* ── Uniform product image sizing ── */
     body.woocommerce-shop .products .mkd-pl-image {
         position: relative !important;
+        display: block !important;
         overflow: hidden !important;
         padding-top: 100% !important; /* 1:1 square aspect ratio */
         background: #f5f5f5;
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
     }
     body.woocommerce-shop .products .mkd-pl-image > img {
         position: absolute !important;
