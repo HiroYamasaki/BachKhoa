@@ -992,10 +992,9 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 	<div class="mkd-single-product-content"><div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-3 images bkd-gallery" data-columns="3" style="opacity: 1; transition: opacity .25s ease-in-out;">
 <?php
-$galleryImages = array_values(array_filter([$product->image, $product->image1, $product->image2, $product->image3]));
-if (empty($galleryImages)) $galleryImages = ['https://via.placeholder.com/800x800?text=No+Image'];
+$mainImg = $product->image ?: 'https://via.placeholder.com/800x800?text=No+Image';
+$thumbImages = array_values(array_filter([$product->image1, $product->image2, $product->image3]));
 $alt = htmlspecialchars($product->name);
-$mainImg = $galleryImages[0];
 ?>
 	<!-- Main image -->
 	<div class="bkd-gallery__main">
@@ -1004,10 +1003,10 @@ $mainImg = $galleryImages[0];
 		</a>
 	</div>
 	<!-- Thumbnails -->
-	<?php if (count($galleryImages) > 1): ?>
+	<?php if (!empty($thumbImages)): ?>
 	<div class="bkd-gallery__thumbs">
-		<?php foreach ($galleryImages as $i => $img): ?>
-		<div class="bkd-thumb <?php echo $i === 0 ? 'bkd-thumb--active' : ''; ?>" data-full="<?php echo htmlspecialchars($img); ?>">
+		<?php foreach ($thumbImages as $img): ?>
+		<div class="bkd-thumb" data-full="<?php echo htmlspecialchars($img); ?>">
 			<img src="<?php echo htmlspecialchars($img); ?>" alt="<?php echo $alt; ?>" loading="lazy" />
 		</div>
 		<?php endforeach; ?>
