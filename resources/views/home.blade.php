@@ -1299,7 +1299,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 				</rs-module>
 			</rs-module-wrap>
 			<!-- END REVOLUTION SLIDER -->
-</div><div class="mkd-row-grid-section-wrapper mkd-content-aligment-center" ><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1511953772720" ><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center " style="background-color: #ffffff" data-item-class="mkd-eh-custom-1017">
+</div><div class="mkd-row-grid-section-wrapper mkd-content-aligment-center" ><div class="mkd-row-grid-section"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1511953772720" ><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center " data-item-class="mkd-eh-custom-1017">
 
 	<div class="mkd-eh-item-inner">
 
@@ -1311,7 +1311,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 	</div>
 
-    </div></div><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item    " style="background-color: #ffffff" data-item-class="mkd-eh-custom-2277" data-768-1024="0 15%" data-680-768="0 8%" data-680="0 5%">
+    </div></div><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item    " data-item-class="mkd-eh-custom-2277" data-768-1024="0 15%" data-680-768="0 8%" data-680="0 5%">
 
 	<div class="mkd-eh-item-inner">
 
@@ -1327,7 +1327,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 	</div>
 
-    </div></div><div class="vc_empty_space"   style="height: 33px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " style="background-color: #ffffff"><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-3038">
+    </div></div><div class="vc_empty_space"   style="height: 33px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 "><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-3038">
 
 	<div class="mkd-eh-item-inner">
 
@@ -1339,7 +1339,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 	</div>
 
-    </div></div><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center " style="background-color: #ffffff" data-item-class="mkd-eh-custom-6709" data-768-1024="0 15%" data-680-768="0 8%" data-680="0 5%">
+    </div></div><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center " data-item-class="mkd-eh-custom-6709" data-768-1024="0 15%" data-680-768="0 8%" data-680="0 5%">
 
 	<div class="mkd-eh-item-inner">
 
@@ -1355,7 +1355,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 	</div>
 
-    </div></div><div class="vc_empty_space"   style="height: 33px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " style="background-color: #ffffff"><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-5244">
+    </div></div><div class="vc_empty_space"   style="height: 33px"><span class="vc_empty_space_inner"></span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 "><div class="mkd-eh-item   mkd-horizontal-alignment-center "  data-item-class="mkd-eh-custom-5244">
 
 	<div class="mkd-eh-item-inner">
 
@@ -1367,7 +1367,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 
 	</div>
 
-    </div></div><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center " style="background-color: #ffffff" data-item-class="mkd-eh-custom-7352" data-768-1024="0 15%" data-680-768="0 8%" data-680="0 5%">
+    </div></div><div class="mkd-elements-holder   mkd-one-column  mkd-responsive-mode-768 " ><div class="mkd-eh-item   mkd-horizontal-alignment-center " data-item-class="mkd-eh-custom-7352" data-768-1024="0 15%" data-680-768="0 8%" data-680="0 5%">
 
 	<div class="mkd-eh-item-inner">
 
@@ -1481,7 +1481,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 			<div class="mkd-section-title-holder  mkd-st-standard mkd-st-title-left mkd-st-normal-space mkd-st-disable-title-break" style="text-align: left">
 	<div class="mkd-st-inner">
 					<h2 class="mkd-st-title" style="color: #ffffff">
-				Giải Pháp Chuyển Đổi Số<br /> Toàn Diện			</h2>
+				Giải Pháp Chuyển Đổi Số Toàn Diện			</h2>
 							<p class="mkd-st-text" style="margin-top: 34px">
 				Bach Khoa Digital cung cấp nền tảng công nghệ đồng bộ từ hạ tầng Cloud, ứng dụng AI đến bảo mật dữ liệu — giúp doanh nghiệp tăng hàng suất, giảm chi phí và bứt phá tăng trưởng bền vững.			</p>
 			</div>

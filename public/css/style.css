@@ -798,3 +798,9 @@ html body .mkd-btn.mkd-btn-full-width.mkd-btn-solid:hover {
 .vc_custom_1512375951932 { padding-top: 140px !important; padding-bottom: 150px !important; }
 .vc_custom_1512391623363 { padding-top: 150px !important; padding-bottom: 102px !important; }
 .vc_custom_1511340999306 { padding-right: 0px !important; padding-left: 0px !important; }
+
+/* === Equal-height white cards (Chat Luong Cao / Chuyen Doi So / Trien Khai Nhanh) === */
+.vc_custom_1511953772720 { display: flex !important; align-items: stretch !important; }
+.vc_custom_1511953772720 > .wpb_column { display: flex !important; flex-direction: column !important; }
+.vc_custom_1511953772720 > .wpb_column > .vc_column-inner { flex: 1 !important; display: flex !important; flex-direction: column !important; }
+.vc_custom_1511953772720 > .wpb_column > .vc_column-inner > .wpb_wrapper { flex: 1 !important; display: flex !important; flex-direction: column !important; background-color: #ffffff !important; }
