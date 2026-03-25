@@ -402,13 +402,14 @@ header.mkd-page-header .mkd-position-right {
 						<div class="mkd-grid">
 							<ul id="menu-main-menu-navigation-2" class="">
 								<li id="mobile-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span>Giới thiệu</span></a></li>
-								<li id="mobile-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span>FAQ</span></a></li>
-								<li id="mobile-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children mkd-active-item has_sub"><a href="/projects" class=" current  mkd-mobile-no-link"><span>Tài Nguyên</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+								<li id="mobile-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_sub"><a href="/shop" class=""><span>Cửa Hàng</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
 									<ul class="sub_menu">
-										<li id="mobile-menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item "><a href="/projects" class=""><span>In Grid</span></a></li>
+										<li id="mobile-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/projects" class=""><span>Dự án</span></a></li>
 									</ul>
 								</li>
 								<li id="mobile-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/blog" class=""><span>Tin Tức</span></a></li>
+								<li id="mobile-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span>FAQ</span></a></li>
+								<li id="mobile-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/contact-us" class=""><span>Liên Hệ</span></a></li>
 							</ul>
 						</div>
 					</nav>
