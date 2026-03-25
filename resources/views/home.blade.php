@@ -710,26 +710,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
                                     
 <nav class="mkd-main-menu mkd-drop-down mkd-default-nav">
     <ul id="menu-main-menu-navigation" class="clearfix"><li id="nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span></span></a></li>
-<li id="nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-<div class="second"><div class="inner"><ul>
-	<li id="nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/shop" class=""><span class="item_outer"><span class="item_text">Product List</span></span></a></li>
-	<li id="nav-menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://baumeister.qodeinteractive.com/product/electric-drill/" class=""><span class="item_outer"><span class="item_text">Single Product</span></span></a></li>
-	<li id="nav-menu-item-1198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop Layouts</span></span></a>
-	<ul>
-		<li id="nav-menu-item-1196" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/three-columns/" class=""><span class="item_outer"><span class="item_text">3 Columns</span></span></a></li>
-		<li id="nav-menu-item-1195" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/four-columns/" class=""><span class="item_outer"><span class="item_text">4 Columns</span></span></a></li>
-		<li id="nav-menu-item-1194" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/full-width/" class=""><span class="item_outer"><span class="item_text">Full Width</span></span></a></li>
-	</ul>
-</li>
-	<li id="nav-menu-item-1199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop Pages</span></span></a>
-	<ul>
-		<li id="nav-menu-item-1208" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/my-account/" class=""><span class="item_outer"><span class="item_text">My Account</span></span></a></li>
-		<li id="nav-menu-item-1207" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/cart/" class=""><span class="item_outer"><span class="item_text">Cart</span></span></a></li>
-		<li id="nav-menu-item-1206" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/checkout/" class=""><span class="item_outer"><span class="item_text">Checkout</span></span></a></li>
-	</ul>
-</li>
-</ul></div></div>
-</li>
+<li id="nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span></span></a></li>
 <li id="nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/blog" class=""><span class="item_outer"><span class="item_text">Tin Tức</span></span></a></li>
 <li id="nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tài Nguyên</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 <div class="second"><div class="inner"><ul>
@@ -840,26 +821,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
                                 
 <nav class="mkd-main-menu mkd-drop-down mkd-sticky-nav">
     <ul id="menu-main-menu-navigation-1" class="clearfix"><li id="sticky-nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span><span class="plus"></span></span></a></li>
-<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-<div class="second"><div class="inner"><ul>
-	<li id="sticky-nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/shop" class=""><span class="item_outer"><span class="item_text">Product List</span><span class="plus"></span></span></a></li>
-	<li id="sticky-nav-menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://baumeister.qodeinteractive.com/product/electric-drill/" class=""><span class="item_outer"><span class="item_text">Single Product</span><span class="plus"></span></span></a></li>
-	<li id="sticky-nav-menu-item-1198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop Layouts</span><span class="plus"></span></span></a>
-	<ul>
-		<li id="sticky-nav-menu-item-1196" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/three-columns/" class=""><span class="item_outer"><span class="item_text">3 Columns</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1195" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/four-columns/" class=""><span class="item_outer"><span class="item_text">4 Columns</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1194" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/full-width/" class=""><span class="item_outer"><span class="item_text">Full Width</span><span class="plus"></span></span></a></li>
-	</ul>
-</li>
-	<li id="sticky-nav-menu-item-1199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Shop Pages</span><span class="plus"></span></span></a>
-	<ul>
-		<li id="sticky-nav-menu-item-1208" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/my-account/" class=""><span class="item_outer"><span class="item_text">My Account</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1207" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/cart/" class=""><span class="item_outer"><span class="item_text">Cart</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1206" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/checkout/" class=""><span class="item_outer"><span class="item_text">Checkout</span><span class="plus"></span></span></a></li>
-	</ul>
-</li>
-</ul></div></div>
-</li>
+<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span><span class="plus"></span></span></a></li>
 <li id="sticky-nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/blog" class=""><span class="item_outer"><span class="item_text">Tin Tức</span><span class="plus"></span></span></a></li>
 <li id="sticky-nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tài Nguyên</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 <div class="second"><div class="inner"><ul>
@@ -1000,17 +962,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 	<li id="mobile-menu-item-3068" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/landing/" class=""><span>Landing</span></a></li>
 </ul>
 </li>
-<li id="mobile-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="/shop" class=" mkd-mobile-no-link"><span>Cửa Hàng</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-	<li id="mobile-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/shop" class=""><span>Product List</span></a></li>
-	<li id="mobile-menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://baumeister.qodeinteractive.com/product/electric-drill/" class=""><span>Single Product</span></a></li>
-	<li id="mobile-menu-item-1198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Shop Layouts</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-	<ul class="sub_menu">
-		<li id="mobile-menu-item-1196" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/three-columns/" class=""><span>3 Columns</span></a></li>
-		<li id="mobile-menu-item-1195" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/four-columns/" class=""><span>4 Columns</span></a></li>
-		<li id="mobile-menu-item-1194" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-list/full-width/" class=""><span>Full Width</span></a></li>
-	</ul>
-</li>
+<li id="mobile-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/shop" class=""><span>Cửa Hàng</span></a></li>
 	<li id="mobile-menu-item-1199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Shop Pages</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
 	<ul class="sub_menu">
 		<li id="mobile-menu-item-1208" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/my-account/" class=""><span>My Account</span></a></li>
