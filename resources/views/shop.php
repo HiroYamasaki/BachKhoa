@@ -214,7 +214,15 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 								<nav class="mkd-main-menu mkd-drop-down mkd-default-nav">
 									<ul id="menu-main-menu-navigation" class="clearfix">
 										<li id="nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span></span></a></li>
-										<li id="nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span></span></a></li>
+										<li id="nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second">
+<div class="inner">
+<ul>
+<li id="nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/products" class=""><span class="item_outer"><span class="item_text">Projects</span></span></a></li>
+</ul>
+</div>
+</div>
+</li>
 										<li id="nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/blog" class=""><span class="item_outer"><span class="item_text">Tin Tức</span></span></a></li>
 										<li id="nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tài Nguyên</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 											<div class="second">
@@ -327,7 +335,15 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 									<nav class="mkd-main-menu mkd-drop-down mkd-sticky-nav">
 										<ul id="menu-main-menu-navigation-1" class="clearfix">
 											<li id="sticky-nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span><span class="plus"></span></span></a></li>
-											<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span><span class="plus"></span></span></a></li>
+											<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second">
+<div class="inner">
+<ul>
+<li id="sticky-nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/products" class=""><span class="item_outer"><span class="item_text">Projects</span><span class="plus"></span></span></a></li>
+</ul>
+</div>
+</div>
+</li>
 											<li id="sticky-nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/blog" class=""><span class="item_outer"><span class="item_text">Tin Tức</span><span class="plus"></span></span></a></li>
 											<li id="sticky-nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tài Nguyên</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 												<div class="second">
@@ -476,7 +492,11 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 										<li id="mobile-menu-item-3068" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/landing/" class=""><span>Landing</span></a></li>
 									</ul>
 								</li>
-								<li id="mobile-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/shop" class=""><span>Cửa Hàng</span></a></li>
+								<li id="mobile-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Cửa Hàng</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+<li id="mobile-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/products" class=""><span>Projects</span></a></li>
+</ul>
+</li>
 										<li id="mobile-menu-item-1199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Shop Pages</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
 											<ul class="sub_menu">
 												<li id="mobile-menu-item-1208" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/my-account/" class=""><span>My Account</span></a></li>
