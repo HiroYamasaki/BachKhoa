@@ -809,5 +809,6 @@ html body .mkd-btn.mkd-btn-full-width.mkd-btn-solid:hover {
 /* Mobile: stack cards vertically */
 @media (max-width: 767px) {
     .vc_custom_1511953772720 { flex-wrap: wrap !important; margin-top: 0 !important; }
-    .vc_custom_1511953772720 > .wpb_column { flex: 0 0 100% !important; max-width: 100% !important; width: 100% !important; margin-left: 0 !important; }
+    .vc_custom_1511953772720 > .wpb_column { flex: 0 0 100% !important; max-width: 100% !important; width: 100% !important; margin-left: 0 !important; margin-bottom: 24px !important; }
+    .vc_custom_1511953772720 > .wpb_column:last-child { margin-bottom: 0 !important; }
 }
