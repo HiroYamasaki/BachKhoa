@@ -215,7 +215,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 									<ul id="menu-main-menu-navigation" class="clearfix">
 										<li id="nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span></span></a></li>
 										<li id="nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ</span></span></a></li>
-										<li id="nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+										<li id="nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tài Nguyên</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 											<div class="second">
 												<div class="inner">
 													<ul>
@@ -264,7 +264,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 												</div>
 											</div>
 										</li>
-										<li id="nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Blog</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+										<li id="nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tin Tức</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 											<div class="second">
 												<div class="inner">
 													<ul>
@@ -290,7 +290,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 												</div>
 											</div>
 										</li>
-										<li id="nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Shop</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+										<li id="nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 											<div class="second">
 												<div class="inner">
 													<ul>
@@ -376,7 +376,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 										<ul id="menu-main-menu-navigation-1" class="clearfix">
 											<li id="sticky-nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span><span class="plus"></span></span></a></li>
 											<li id="sticky-nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ</span><span class="plus"></span></span></a></li>
-											<li id="sticky-nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+											<li id="sticky-nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tài Nguyên</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 												<div class="second">
 													<div class="inner">
 														<ul>
@@ -425,7 +425,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 													</div>
 												</div>
 											</li>
-											<li id="sticky-nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Blog</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+											<li id="sticky-nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tin Tức</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 												<div class="second">
 													<div class="inner">
 														<ul>
@@ -451,7 +451,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 													</div>
 												</div>
 											</li>
-											<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Shop</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+											<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 												<div class="second">
 													<div class="inner">
 														<ul>
@@ -573,7 +573,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 									</ul>
 								</li>
 								<li id="mobile-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span>FAQ</span></a></li>
-								<li id="mobile-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Portfolio</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+								<li id="mobile-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Tài Nguyên</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
 									<ul class="sub_menu">
 										<li id="mobile-menu-item-2364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Standard</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
 											<ul class="sub_menu">
@@ -618,7 +618,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 										</li>
 									</ul>
 								</li>
-								<li id="mobile-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Blog</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+								<li id="mobile-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Tin Tức</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
 									<ul class="sub_menu">
 										<li id="mobile-menu-item-2597" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/masonry-list/" class=""><span>Masonry List</span></a></li>
 										<li id="mobile-menu-item-3139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Standard List</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
@@ -640,7 +640,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 										</li>
 									</ul>
 								</li>
-								<li id="mobile-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="/shop" class=" mkd-mobile-no-link"><span>Shop</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+								<li id="mobile-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="/shop" class=" mkd-mobile-no-link"><span>Cửa Hàng</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
 									<ul class="sub_menu">
 										<li id="mobile-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/shop" class=""><span>Product List</span></a></li>
 										<li id="mobile-menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://baumeister.qodeinteractive.com/product/electric-drill/" class=""><span>Single Product</span></a></li>

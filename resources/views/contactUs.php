@@ -265,7 +265,7 @@ header.mkd-page-header .mkd-position-right {
 									<ul id="menu-main-menu-navigation" class="clearfix">
 										<li id="nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span></span></a></li>
 										<li id="nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ</span></span></a></li>
-										<li id="nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+										<li id="nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tài Nguyên</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 											<div class="second">
 												<div class="inner">
 													<ul>
@@ -314,7 +314,7 @@ header.mkd-page-header .mkd-position-right {
 												</div>
 											</div>
 										</li>
-										<li id="nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Blog</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+										<li id="nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tin Tức</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 											<div class="second">
 												<div class="inner">
 													<ul>
@@ -340,7 +340,7 @@ header.mkd-page-header .mkd-position-right {
 												</div>
 											</div>
 										</li>
-										<li id="nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Shop</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+										<li id="nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 											<div class="second">
 												<div class="inner">
 													<ul>
@@ -424,7 +424,7 @@ header.mkd-page-header .mkd-position-right {
 	<ul id="menu-main-menu-navigation-1" class="clearfix">
 		<li id="sticky-nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span><span class="plus"></span></span></a></li>
 		<li id="sticky-nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+		<li id="sticky-nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tài Nguyên</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 			<div class="second"><div class="inner"><ul>
 				<li id="sticky-nav-menu-item-2364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a>
 					<ul>
@@ -469,7 +469,7 @@ header.mkd-page-header .mkd-position-right {
 				</li>
 			</ul></div></div>
 		</li>
-		<li id="sticky-nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Blog</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+		<li id="sticky-nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tin Tức</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 			<div class="second"><div class="inner"><ul>
 				<li id="sticky-nav-menu-item-2597" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/masonry-list/" class=""><span class="item_outer"><span class="item_text">Masonry List</span><span class="plus"></span></span></a></li>
 				<li id="sticky-nav-menu-item-3139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Standard List</span><span class="plus"></span></span></a>
@@ -491,7 +491,7 @@ header.mkd-page-header .mkd-position-right {
 				</li>
 			</ul></div></div>
 		</li>
-		<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Shop</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+		<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 			<div class="second"><div class="inner"><ul>
 				<li id="sticky-nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/shop" class=""><span class="item_outer"><span class="item_text">Product List</span><span class="plus"></span></span></a></li>
 				<li id="sticky-nav-menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-product "><a href="https://baumeister.qodeinteractive.com/product/electric-drill/" class=""><span class="item_outer"><span class="item_text">Single Product</span><span class="plus"></span></span></a></li>
