@@ -1,4 +1,4 @@
-﻿/* ── BKD Auth Section in Side Menu ── */
+/* ── BKD Auth Section in Side Menu ── */
 .bkd-auth-section {
     padding: 20px 0 15px;
     border-bottom: 1px solid rgba(255,255,255,0.1);

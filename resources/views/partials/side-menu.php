@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // Side Menu with AJAX Login/User Info (plain PHP version)
 $authUser = auth()->user();
 $csrfToken = csrf_token();

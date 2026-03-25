@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -126,24 +126,35 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
     pointer-events: none;
     z-index: 99997;
 }
+.mkd-top-bar {
+    padding-bottom: 30px !important;
+    margin-bottom: -30px !important;
+    position: relative !important;
+    z-index: 100 !important;
+}
+header.mkd-page-header .mkd-position-right {
+    right: 30px !important;
+}
 <?php include resource_path('views/partials/auth-styles.php'); ?>
 </style>
 </head>
 
-<body class="archive post-type-archive post-type-archive-product theme-baumeister mkd-core-1.2.3 woocommerce-shop woocommerce woocommerce-page woocommerce-no-js baumeister-ver-1.6 mkd-grid-1300 mkd-disable-global-padding-bottom mkd-sticky-header-on-scroll-down-up mkd-dropdown-animate-height mkd-header-standard mkd-menu-area-shadow-disable mkd-menu-area-in-grid-shadow-disable mkd-menu-area-border-disable mkd-menu-area-in-grid-border-disable mkd-logo-area-border-disable mkd-logo-area-in-grid-border-disable mkd-header-vertical-shadow-disable mkd-header-vertical-border-disable mkd-side-menu-slide-from-right mkd-woocommerce-page mkd-woo-main-page mkd-woocommerce-columns-3 mkd-woo-normal-space mkd-woo-pl-info-below-image mkd-woo-single-thumb-below-image mkd-woo-single-has-pretty-photo mkd-default-mobile-header mkd-sticky-up-mobile-header mkd-header-top-enabled mkd-search-covers-header wpb-js-composer js-comp-ver-6.10.0 vc_responsive" itemscope itemtype="http://schema.org/WebPage">
+<body class="archive post-type-archive post-type-archive-product theme-baumeister mkd-core-1.2.3 woocommerce-shop woocommerce woocommerce-page woocommerce-no-js baumeister-ver-1.6 mkd-grid-1300 mkd-disable-global-padding-bottom mkd-sticky-header-on-scroll-down-up mkd-dropdown-animate-height mkd-header-box mkd-menu-area-shadow-disable mkd-menu-area-in-grid-shadow-disable mkd-menu-area-border-disable mkd-menu-area-in-grid-border-disable mkd-logo-area-border-disable mkd-logo-area-in-grid-border-disable mkd-header-vertical-shadow-disable mkd-header-vertical-border-disable mkd-side-menu-slide-from-right mkd-woocommerce-page mkd-woo-main-page mkd-woocommerce-columns-3 mkd-woo-normal-space mkd-woo-pl-info-below-image mkd-woo-single-thumb-below-image mkd-woo-single-has-pretty-photo mkd-default-mobile-header mkd-sticky-up-mobile-header mkd-header-top-enabled mkd-search-covers-header wpb-js-composer js-comp-ver-6.10.0 vc_responsive" itemscope itemtype="http://schema.org/WebPage">
 	<?php include resource_path('views/partials/side-menu.php'); ?>
 	<div class="mkd-wrapper">
 		<div class="mkd-wrapper-inner">
 
 
-			<div class="mkd-top-bar">
-
-
+			<!-- ===== TOP BAR ===== -->
+						<div class="mkd-top-bar-background"></div>
+<div class="mkd-top-bar">
+				
+				<div class="mkd-grid">
+				
 				<div class="mkd-vertical-align-containers">
 					<div class="mkd-position-left">
 						<div class="mkd-position-left-inner">
-
-							<a class="mkd-icon-widget-holder" href="https://www.google.com/maps/place/544+Union+Ave,+Brooklyn,+NY+11211,+USA/@40.7171278,-73.9540194,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2sNew+York,+NY,+USA!3b1!8m2!3d40.7127753!4d-74.0059728!3m4!1s0x89c2595bc660ec21:0x3131cdc6602b7460!8m2!3d40.7171238!4d-73.951"
+							<a class="mkd-icon-widget-holder" href="https://www.google.com/maps/place/105+Tr%E1%BA%A7n+Th%E1%BB%8B+N%C6%A1i,+Qu%E1%BA%ADn+12,+TP.HCM"
 								target="_blank" style="margin: 0 17px 0 0">
 								<span class="mkd-icon-text mkd-no-icon fa fa-map-marker      mkd-icon-has-hover" style="color: #E8612D;font-size: 15px" data-hover-color="#C0392B"><span class="mkd-icon-text-inner" style="color: #fff">105 Trần Thị Nơi, Q.8, TP.HCM</span></span> </a>
 							<div class="widget mkd-separator-widget">
@@ -165,7 +176,6 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 					</div>
 					<div class="mkd-position-right">
 						<div class="mkd-position-right-inner">
-
 							<a class="mkd-social-icon-widget-holder mkd-icon-has-hover" data-hover-color="#C0392B" style="color: #fff;;font-size: 14px" href="https://twitter.com/QodeInteractive" target="_blank">
 								<span class="mkd-social-icon-widget fa fa-twitter     "></span> </a>
 
@@ -189,16 +199,17 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 						</div>
 					</div>
 				</div>
-
-
+				
+				</div>
+				
 			</div>
 
-
+			<!-- ===== HEADER ===== -->
 			<header class="mkd-page-header">
-
+				
 				<div class="mkd-grid">
+				
 				<div class="mkd-menu-area mkd-menu-center">
-
 					<div class="mkd-vertical-align-containers">
 						<div class="mkd-position-left">
 							<div class="mkd-position-left-inner">
@@ -282,21 +293,17 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 						</div>
 						<div class="mkd-position-right">
 							<div class="mkd-position-right-inner">
-
 								<a class="mkd-search-opener mkd-icon-has-hover" href="javascript:void(0)">
 									<span class="mkd-search-opener-wrapper">
 										<i class="mkd-icon-font-awesome fa fa-search "></i> </span>
 								</a>
 								<div class="mkd-shopping-cart-holder" style="padding: 0 24px 0 10px">
 									<div class="mkd-shopping-cart-inner">
-										<a itemprop="url" class="mkd-header-cart"
-											href="https://baumeister.qodeinteractive.com/cart/">
+										<a itemprop="url" class="mkd-header-cart" href="https://baumeister.qodeinteractive.com/cart/">
 											<span class="mkd-cart-icon fa fa-shopping-cart">
-												<span
-													class="mkd-cart-number">0</span>
+												<span class="mkd-cart-number">0</span>
 											</span>
 										</a>
-
 										<div class="mkd-shopping-cart-dropdown">
 											<ul>
 												<li class="mkd-empty-cart">No products in the cart.</li>
@@ -304,38 +311,40 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 										</div>
 									</div>
 								</div>
-
 								<a class="mkd-side-menu-button-opener mkd-icon-has-hover" href="javascript:void(0)">
 									<span class="mkd-side-menu-icon">
 										<i class="mkd-icon-font-awesome fa fa-bars "></i> </span>
 								</a>
+							</div>
 						</div>
 					</div>
-					</div>
 				</div>
-				</div><!-- end mkd-grid -->
+				
+				</div>
 
-
-
+				<!-- ===== STICKY HEADER ===== -->
 				<div class="mkd-sticky-header">
-					<div class="mkd-sticky-holder mkd-menu-center">
-						<div class="mkd-grid">
+				<div class="mkd-sticky-holder mkd-menu-center">
+					<div class="mkd-grid">
 						<div class="mkd-vertical-align-containers">
 							<div class="mkd-position-left">
 								<div class="mkd-position-left-inner">
-									<div class="mkd-logo-wrapper" style="display:none!important"></div>
-									<a href="/" style="display:inline-flex;align-items:center;height:100%">
-										<img src="/images/logo.jpg" alt="Bach Khoa Digital" class="bkd-logo">
-									</a>
+									<div class="mkd-logo-wrapper">
+										<a href="/" style="height: 25px;">
+											<img class="mkd-normal-logo" src="/images/logo.jpg" alt="Bach Khoa Digital">
+											<img class="mkd-dark-logo" src="/images/logo.jpg" alt="Bach Khoa Digital">
+											<img class="mkd-light-logo" src="/images/logo.jpg" alt="Bach Khoa Digital">
+										</a>
+									</div>
 								</div>
 							</div>
 							<div class="mkd-position-center">
 								<div class="mkd-position-center-inner">
 
-									<nav class="mkd-main-menu mkd-drop-down mkd-sticky-nav">
-										<ul id="menu-main-menu-navigation-1" class="clearfix">
-											<li id="sticky-nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span><span class="plus"></span></span></a></li>
-											<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+<nav class="mkd-main-menu mkd-drop-down mkd-sticky-nav">
+	<ul id="menu-main-menu-navigation-1" class="clearfix">
+		<li id="sticky-nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/shop" class=""><span class="item_outer"><span class="item_text">Cửa Hàng</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 <div class="second">
 <div class="inner">
 <ul>
@@ -344,71 +353,65 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 </div>
 </div>
 </li>
-											<li id="sticky-nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/blog" class=""><span class="item_outer"><span class="item_text">Tin Tức</span><span class="plus"></span></span></a></li>
-											<li id="sticky-nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tài Nguyên</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-												<div class="second">
-													<div class="inner">
-														<ul>
-															<li id="sticky-nav-menu-item-2364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a>
-																<ul>
-																	<li id="sticky-nav-menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2366" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span><span class="plus"></span></span></a></li>
-																</ul>
-															</li>
-															<li id="sticky-nav-menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a>
-																<ul>
-																	<li id="sticky-nav-menu-item-2418" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2414" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-in-grid/" class=""><span class="item_outer"><span class="item_text">Joined/In Grid</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2417" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2415" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-wide/" class=""><span class="item_outer"><span class="item_text">Joined/Wide</span><span class="plus"></span></span></a></li>
-																</ul>
-															</li>
-															<li id="sticky-nav-menu-item-2423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Masonry</span><span class="plus"></span></span></a>
-																<ul>
-																	<li id="sticky-nav-menu-item-2422" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2803" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-in-grid/" class=""><span class="item_outer"><span class="item_text">Joined/In Grid</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2421" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2802" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-wide/" class=""><span class="item_outer"><span class="item_text">Joined/Wide</span><span class="plus"></span></span></a></li>
-																</ul>
-															</li>
-															<li id="sticky-nav-menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Layouts</span><span class="plus"></span></span></a>
-																<ul>
-																	<li id="sticky-nav-menu-item-2407" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns/" class=""><span class="item_outer"><span class="item_text">3 Columns</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2406" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns-wide/" class=""><span class="item_outer"><span class="item_text">3 Columns Wide</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2412" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns/" class=""><span class="item_outer"><span class="item_text">4 Columns</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2411" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">4 Columns Wide</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2419" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">5 Columns Wide</span><span class="plus"></span></span></a></li>
-																</ul>
-															</li>
-															<li id="sticky-nav-menu-item-2541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Single</span><span class="plus"></span></span></a>
-																<ul>
-																	<li id="sticky-nav-menu-item-2558" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/innovative-project/" class=""><span class="item_outer"><span class="item_text">Small Images</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2560" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/construction-sites/" class=""><span class="item_outer"><span class="item_text">Small Slider</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2554" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/new-structures/" class=""><span class="item_outer"><span class="item_text">Big Images</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2555" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/heavy-equipment/" class=""><span class="item_outer"><span class="item_text">Big Slider</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2556" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/frame-construction/" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a></li>
-																	<li id="sticky-nav-menu-item-2557" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/wood-flooring/" class=""><span class="item_outer"><span class="item_text">Masonry</span><span class="plus"></span></span></a></li>
-																</ul>
-															</li>
-														</ul>
-													</div>
-												</div>
-											</li>
-											<li id="sticky-nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ</span><span class="plus"></span></span></a></li>
-											<li id="sticky-nav-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Liên Hệ</span><span class="plus"></span></span></a></li>
-										</ul>
-									</nav>
+		<li id="sticky-nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/blog" class=""><span class="item_outer"><span class="item_text">Tin Tức</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Tài Nguyên</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
+			<div class="second"><div class="inner"><ul>
+				<li id="sticky-nav-menu-item-2364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Standard</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2366" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2418" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2414" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-in-grid/" class=""><span class="item_outer"><span class="item_text">Joined/In Grid</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2417" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2415" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-wide/" class=""><span class="item_outer"><span class="item_text">Joined/Wide</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-2423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Masonry</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2422" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-in-grid/" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2803" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-in-grid/" class=""><span class="item_outer"><span class="item_text">Joined/In Grid</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2421" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-wide/" class=""><span class="item_outer"><span class="item_text">Wide</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2802" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-wide/" class=""><span class="item_outer"><span class="item_text">Joined/Wide</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Layouts</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2407" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns/" class=""><span class="item_outer"><span class="item_text">3 Columns</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2406" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns-wide/" class=""><span class="item_outer"><span class="item_text">3 Columns Wide</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2412" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns/" class=""><span class="item_outer"><span class="item_text">4 Columns</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2411" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns-wide/" class=""><span class="item_outer"><span class="item_text">4 Columns Wide</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2419" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/five-columns-wide/" class=""><span class="item_outer"><span class="item_text">5 Columns Wide</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+				<li id="sticky-nav-menu-item-2541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=""><span class="item_outer"><span class="item_text">Portfolio Single</span><span class="plus"></span></span></a>
+					<ul>
+						<li id="sticky-nav-menu-item-2558" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/innovative-project/" class=""><span class="item_outer"><span class="item_text">Small Images</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2560" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/construction-sites/" class=""><span class="item_outer"><span class="item_text">Small Slider</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2554" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/new-structures/" class=""><span class="item_outer"><span class="item_text">Big Images</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2555" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/heavy-equipment/" class=""><span class="item_outer"><span class="item_text">Big Slider</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2556" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/frame-construction/" class=""><span class="item_outer"><span class="item_text">Gallery</span><span class="plus"></span></span></a></li>
+						<li id="sticky-nav-menu-item-2557" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/wood-flooring/" class=""><span class="item_outer"><span class="item_text">Masonry</span><span class="plus"></span></span></a></li>
+					</ul>
+				</li>
+			</ul></div></div>
+		</li>
+		<li id="sticky-nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ</span><span class="plus"></span></span></a></li>
+		<li id="sticky-nav-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Liên Hệ</span><span class="plus"></span></span></a></li>
+	</ul>
+</nav>
 
 								</div>
 							</div>
 							<div class="mkd-position-right">
 								<div class="mkd-position-right-inner">
-
 									<a style="margin: 0 24px 4px 0;" class="mkd-search-opener mkd-icon-has-hover" href="javascript:void(0)">
 										<span class="mkd-search-opener-wrapper">
 											<i class="mkd-icon-font-awesome fa fa-search "></i> </span>
 									</a>
-
 									<a class="mkd-side-menu-button-opener mkd-icon-has-hover" href="javascript:void(0)">
 										<span class="mkd-side-menu-icon">
 											<i class="mkd-icon-font-awesome fa fa-bars "></i> </span>
@@ -416,12 +419,12 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 								</div>
 							</div>
 						</div>
-						</div><!-- end mkd-grid -->
 					</div>
 				</div>
+			</div>
 
-
-				<form action="https://baumeister.qodeinteractive.com/" class="mkd-search-cover" method="get">
+				<!-- ===== SEARCH COVER ===== -->
+				<form action="/" class="mkd-search-cover" method="get">
 					<div class="mkd-container">
 						<div class="mkd-container-inner clearfix">
 							<div class="mkd-form-holder-outer">
@@ -440,9 +443,8 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 				</form>
 			</header>
 
-
+			<!-- ===== MOBILE HEADER ===== -->
 			<header class="mkd-mobile-header">
-
 				<div class="mkd-mobile-header-inner">
 					<div class="mkd-mobile-header-holder">
 						<div class="mkd-grid">
@@ -456,14 +458,11 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 									</div>
 									<div class="mkd-position-center">
 										<div class="mkd-position-center-inner">
-
-
 											<div class="mkd-mobile-logo-wrapper">
 												<a itemprop="url" href="/" style="height: 25px">
 													<img itemprop="image" src="/images/logo.jpg" alt="Mobile Logo" />
 												</a>
 											</div>
-
 										</div>
 									</div>
 									<div class="mkd-position-right">
@@ -478,136 +477,38 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 					<nav class="mkd-mobile-nav">
 						<div class="mkd-grid">
 							<ul id="menu-main-menu-navigation-2" class="">
-								<li id="mobile-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Home</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-									<ul class="sub_menu">
-										<li id="mobile-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="/" class=""><span>Main Home</span></a></li>
-										<li id="mobile-menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/energy-home/" class=""><span>Energy Home</span></a></li>
-										<li id="mobile-menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contractor-home/" class=""><span>Contractor Home</span></a></li>
-										<li id="mobile-menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/builder-home/" class=""><span>Builder Home</span></a></li>
-										<li id="mobile-menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/tool-shop-home/" class=""><span>Tool Shop Home</span></a></li>
-										<li id="mobile-menu-item-722" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/steelwork-home/" class=""><span>Steelwork Home</span></a></li>
-										<li id="mobile-menu-item-2165" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-showcase/" class=""><span>Product Showcase</span></a></li>
-										<li id="mobile-menu-item-972" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/sawmill-home/" class=""><span>Sawmill Home</span></a></li>
-										<li id="mobile-menu-item-903" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/transport-home/" class=""><span>Transport Home</span></a></li>
-										<li id="mobile-menu-item-3068" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/landing/" class=""><span>Landing</span></a></li>
-									</ul>
-								</li>
-								<li id="mobile-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Cửa Hàng</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li id="mobile-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/projects" class=""><span>Dự án</span></a></li>
-</ul>
-</li>
-										<li id="mobile-menu-item-1199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Shop Pages</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-1208" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/my-account/" class=""><span>My Account</span></a></li>
-												<li id="mobile-menu-item-1207" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/cart/" class=""><span>Cart</span></a></li>
-												<li id="mobile-menu-item-1206" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/checkout/" class=""><span>Checkout</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li id="mobile-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/blog" class=""><span>Tin Tức</span></a></li>
-										<li id="mobile-menu-item-2600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Post Types</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-2601" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/10-different-sizes/" class=""><span>Standard</span></a></li>
-												<li id="mobile-menu-item-2602" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/expensive-buildings-projects/" class=""><span>Gallery</span></a></li>
-												<li id="mobile-menu-item-2604" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/buildings-under-construction/" class=""><span>Link</span></a></li>
-												<li id="mobile-menu-item-2605" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/industry/" class=""><span>Quote</span></a></li>
-												<li id="mobile-menu-item-2607" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/details-roof-structure/" class=""><span>Audio</span></a></li>
-												<li id="mobile-menu-item-2606" class="menu-item menu-item-type-post_type menu-item-object-post "><a href="https://baumeister.qodeinteractive.com/simplified-building/" class=""><span>Video</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li id="mobile-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Tài Nguyên</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-									<ul class="sub_menu">
-										<li id="mobile-menu-item-2364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Standard</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-in-grid/" class=""><span>In Grid</span></a></li>
-												<li id="mobile-menu-item-2366" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/standard-wide/" class=""><span>Wide</span></a></li>
-											</ul>
-										</li>
-										<li id="mobile-menu-item-2404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Gallery</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-2418" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-in-grid/" class=""><span>In Grid</span></a></li>
-												<li id="mobile-menu-item-2414" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-in-grid/" class=""><span>Joined/In Grid</span></a></li>
-												<li id="mobile-menu-item-2417" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-wide/" class=""><span>Wide</span></a></li>
-												<li id="mobile-menu-item-2415" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/gallery-joined-wide/" class=""><span>Joined/Wide</span></a></li>
-											</ul>
-										</li>
-										<li id="mobile-menu-item-2423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Masonry</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-2422" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-in-grid/" class=""><span>In Grid</span></a></li>
-												<li id="mobile-menu-item-2803" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-in-grid/" class=""><span>Joined/In Grid</span></a></li>
-												<li id="mobile-menu-item-2421" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-wide/" class=""><span>Wide</span></a></li>
-												<li id="mobile-menu-item-2802" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/masonry-joined-wide/" class=""><span>Joined/Wide</span></a></li>
-											</ul>
-										</li>
-										<li id="mobile-menu-item-2405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Portfolio Layouts</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-2407" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns/" class=""><span>3 Columns</span></a></li>
-												<li id="mobile-menu-item-2406" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/three-columns-wide/" class=""><span>3 Columns Wide</span></a></li>
-												<li id="mobile-menu-item-2412" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns/" class=""><span>4 Columns</span></a></li>
-												<li id="mobile-menu-item-2411" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/four-columns-wide/" class=""><span>4 Columns Wide</span></a></li>
-												<li id="mobile-menu-item-2419" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/portfolio/five-columns-wide/" class=""><span>5 Columns Wide</span></a></li>
-											</ul>
-										</li>
-										<li id="mobile-menu-item-2541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Portfolio Single</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-											<ul class="sub_menu">
-												<li id="mobile-menu-item-2558" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/innovative-project/" class=""><span>Small Images</span></a></li>
-												<li id="mobile-menu-item-2560" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/construction-sites/" class=""><span>Small Slider</span></a></li>
-												<li id="mobile-menu-item-2554" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/new-structures/" class=""><span>Big Images</span></a></li>
-												<li id="mobile-menu-item-2555" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/heavy-equipment/" class=""><span>Big Slider</span></a></li>
-												<li id="mobile-menu-item-2556" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/frame-construction/" class=""><span>Gallery</span></a></li>
-												<li id="mobile-menu-item-2557" class="menu-item menu-item-type-post_type menu-item-object-portfolio-item "><a href="https://baumeister.qodeinteractive.com/portfolio-item/wood-flooring/" class=""><span>Masonry</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
+								<li id="mobile-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span>Giới thiệu</span></a></li>
 								<li id="mobile-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span>FAQ</span></a></li>
-								<li id="mobile-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/contact-us" class=""><span>Liên Hệ</span></a></li>
 							</ul>
 						</div>
 					</nav>
 
 				</div>
+			</header>
 
-				<form action="https://baumeister.qodeinteractive.com/" class="mkd-search-cover" method="get">
-					<div class="mkd-container">
-						<div class="mkd-container-inner clearfix">
-							<div class="mkd-form-holder-outer">
-								<div class="mkd-form-holder">
-									<div class="mkd-form-holder-inner">
-										<input type="text" placeholder="Search" name="s" class="mkd_search_field" autocomplete="off" />
-										<div class="mkd-search-close">
-											<a href="#">
-												<i class="mkd-icon-font-awesome fa fa-times "></i> </a>
-										</div>
-									</div>
+			<!-- ===== BACK TO TOP ===== -->
+			<a id='mkd-back-to-top' href='#'>
+                <span class="mkd-icon-stack">
+                     <i class="mkd-icon-font-awesome fa fa-long-arrow-up "></i>
+                </span>
+			</a>
+
+			<!-- ===== MAIN CONTENT ===== -->
+			<div class="mkd-content" style="margin-top: -80px">
+				<div class="mkd-content-inner">
+
+					<div class="mkd-title-holder mkd-standard-type mkd-preload-background mkd-has-bg-image mkd-bg-parallax" style="height: 521px;background-image:url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-title-background-img.jpg);" data-height="521">
+						<div class="mkd-title-image">
+							<img itemprop="image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-title-background-img.jpg" alt="a" />
+						</div>
+						<div class="mkd-title-wrapper" style="height: 521px;padding-top: 80px">
+							<div class="mkd-title-inner">
+								<div class="mkd-grid">
+									<h1 class="mkd-page-title entry-title" style="color: #ffffff">Sản Phẩm</h1>
 								</div>
 							</div>
 						</div>
 					</div>
-				</form>
-			</header>
-
-			<a id='mkd-back-to-top' href='#'>
-				<span class="mkd-icon-stack">
-					<i class="mkd-icon-font-awesome fa fa-long-arrow-up "></i> </span>
-			</a>
-
-<div class="mkd-title-holder mkd-standard-type mkd-preload-background mkd-has-bg-image mkd-bg-parallax" style="height: 521px;background-image:url(https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-title-background-img.jpg);" data-height="521">
-			<div class="mkd-title-image">
-			<img itemprop="image" src="https://baumeister.qodeinteractive.com/wp-content/uploads/2017/11/shop-title-background-img.jpg" alt="a" />
-		</div>
-		<div class="mkd-title-wrapper" style="height: 521px">
-		<div class="mkd-title-inner">
-			<div class="mkd-grid">
-									<h1 class="mkd-page-title entry-title" >Sản Phẩm</h1>
-											</div>
-	    </div>
-	</div>
-</div>
 
 	<div class="mkd-container">
 		<div class="mkd-container-inner clearfix">
@@ -700,8 +601,8 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 							</div>
 		</div>
 	</div>
-</div> <!-- close div.content_inner -->
-	</div> <!-- close div.content -->
+			</div> <!-- close div.mkd-content-inner -->
+			</div> <!-- close div.mkd-content -->
 			<footer class="mkd-page-footer">
 				<div class="mkd-footer-top-holder">
 					<div class="mkd-footer-top-inner mkd-grid">
