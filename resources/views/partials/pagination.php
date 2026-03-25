@@ -1,4 +1,4 @@
-<?php if ($products->lastPage() > 1): ?>
+﻿<?php if ($products->lastPage() > 1): ?>
 <?php
     $cur   = $products->currentPage();
     $last  = $products->lastPage();

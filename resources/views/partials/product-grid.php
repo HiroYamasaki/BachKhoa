@@ -1,4 +1,4 @@
-<div class="mkd-pl-main-holder"><ul class="products columns-4">
+﻿<div class="mkd-pl-main-holder"><ul class="products columns-4">
 <?php foreach ($products as $index => $product): ?>
 <?php
     $position = $index % 4;

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
@@ -222,24 +222,7 @@ header.mkd-page-header .mkd-position-right {
 
 								<nav class="mkd-main-menu mkd-drop-down mkd-default-nav">
 									<ul id="menu-main-menu-navigation" class="clearfix">
-										<li id="nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Home</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-											<div class="second">
-												<div class="inner">
-													<ul>
-														<li id="nav-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="/" class=""><span class="item_outer"><span class="item_text">Main Home</span></span></a></li>
-														<li id="nav-menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/energy-home/" class=""><span class="item_outer"><span class="item_text">Energy Home</span></span></a></li>
-														<li id="nav-menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/contractor-home/" class=""><span class="item_outer"><span class="item_text">Contractor Home</span></span></a></li>
-														<li id="nav-menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/builder-home/" class=""><span class="item_outer"><span class="item_text">Builder Home</span></span></a></li>
-														<li id="nav-menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/tool-shop-home/" class=""><span class="item_outer"><span class="item_text">Tool Shop Home</span></span></a></li>
-														<li id="nav-menu-item-722" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/steelwork-home/" class=""><span class="item_outer"><span class="item_text">Steelwork Home</span></span></a></li>
-														<li id="nav-menu-item-2165" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/product-showcase/" class=""><span class="item_outer"><span class="item_text">Product Showcase</span></span></a></li>
-														<li id="nav-menu-item-972" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/sawmill-home/" class=""><span class="item_outer"><span class="item_text">Sawmill Home</span></span></a></li>
-														<li id="nav-menu-item-903" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/transport-home/" class=""><span class="item_outer"><span class="item_text">Transport Home</span></span></a></li>
-														<li id="nav-menu-item-3068" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/landing/" class=""><span class="item_outer"><span class="item_text">Landing</span></span></a></li>
-													</ul>
-												</div>
-											</div>
-										</li>
+										<li id="nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span></span></a></li>
 										<li id="nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Pages</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 											<div class="second">
 												<div class="inner">
@@ -398,11 +381,7 @@ header.mkd-page-header .mkd-position-right {
 
 <nav class="mkd-main-menu mkd-drop-down mkd-sticky-nav">
 	<ul id="menu-main-menu-navigation-1" class="clearfix">
-		<li id="sticky-nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Home</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-			<div class="second"><div class="inner"><ul>
-				<li id="sticky-nav-menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="/" class=""><span class="item_outer"><span class="item_text">Main Home</span><span class="plus"></span></span></a></li>
-			</ul></div></div>
-		</li>
+		<li id="sticky-nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span><span class="plus"></span></span></a></li>
 		<li id="sticky-nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Pages</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 			<div class="second"><div class="inner"><ul>
 				<li id="sticky-nav-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/about-us" class=""><span class="item_outer"><span class="item_text">About Us</span><span class="plus"></span></span></a></li>

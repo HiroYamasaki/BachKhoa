@@ -1,4 +1,4 @@
-{{-- Side Menu with AJAX Login/User Info --}}
+﻿{{-- Side Menu with AJAX Login/User Info --}}
 <section class="mkd-side-menu">
 	<div class="mkd-close-side-menu-holder">
 		<a class="mkd-close-side-menu" href="#" target="_self">
