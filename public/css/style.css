@@ -806,3 +806,8 @@ html body .mkd-btn.mkd-btn-full-width.mkd-btn-solid:hover {
 .vc_custom_1511953772720 > .wpb_column { display: flex !important; flex-direction: column !important; }
 .vc_custom_1511953772720 > .wpb_column > .vc_column-inner { flex: 1 !important; display: flex !important; flex-direction: column !important; }
 .vc_custom_1511953772720 > .wpb_column > .vc_column-inner > .wpb_wrapper { flex: 1 !important; display: flex !important; flex-direction: column !important; background-color: #ffffff !important; }
+/* Mobile: stack cards vertically */
+@media (max-width: 767px) {
+    .vc_custom_1511953772720 { flex-wrap: wrap !important; margin-top: 0 !important; }
+    .vc_custom_1511953772720 > .wpb_column { flex: 0 0 100% !important; max-width: 100% !important; width: 100% !important; margin-left: 0 !important; }
+}
