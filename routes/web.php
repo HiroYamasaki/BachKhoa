@@ -39,6 +39,10 @@ Route::get('/projects', function () {
     return view('projects');
 });
 
+Route::get('/project-detail', function () {
+    return view('project_detail');
+});
+
 // TEMPORARY DEBUG - remove after diagnosing
 Route::get('/debug-db', function () {
     try {
