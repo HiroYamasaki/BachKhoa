@@ -498,11 +498,10 @@ header.mkd-page-header .mkd-position-right {
 									</div>
 									<div class="mkd-position-center">
 										<div class="mkd-position-center-inner">
-											<div class="mkd-mobile-logo-wrapper">
-												<a itemprop="url" href="/" style="height: 25px">
-													<img itemprop="image" src="/images/logo.jpg" alt="Mobile Logo" />
-												</a>
-											</div>
+											<div class="mkd-mobile-logo-wrapper" style="display:none!important"></div>
+											<a href="/" style="display:inline-flex;align-items:center;height:100%">
+												<img src="/images/logo.jpg" alt="Bach Khoa Digital" class="bkd-mobile-logo">
+											</a>
 										</div>
 									</div>
 									<div class="mkd-position-right">
