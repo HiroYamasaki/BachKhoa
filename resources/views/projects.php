@@ -223,23 +223,7 @@ header.mkd-page-header .mkd-position-right {
 								<nav class="mkd-main-menu mkd-drop-down mkd-default-nav">
 									<ul id="menu-main-menu-navigation" class="clearfix">
 										<li id="nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span></span></a></li>
-										<li id="nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Pages</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-											<div class="second">
-												<div class="inner">
-													<ul>
-														<li id="nav-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/about-us" class=""><span class="item_outer"><span class="item_text">About Us</span></span></a></li>
-														<li id="nav-menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-team/" class=""><span class="item_outer"><span class="item_text">Our Team</span></span></a></li>
-														<li id="nav-menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/meet-the-crew/" class=""><span class="item_outer"><span class="item_text">Meet the Crew</span></span></a></li>
-														<li id="nav-menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-services/" class=""><span class="item_outer"><span class="item_text">Our Services</span></span></a></li>
-														<li id="nav-menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/pricing-plans/" class=""><span class="item_outer"><span class="item_text">Pricing Plans</span></span></a></li>
-														<li id="nav-menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/our-clients/" class=""><span class="item_outer"><span class="item_text">Our Clients</span></span></a></li>
-														<li id="nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Contact Us</span></span></a></li>
-														<li id="nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ Page</span></span></a></li>
-														<li id="nav-menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/coming-soon/" class=""><span class="item_outer"><span class="item_text">Coming Soon</span></span></a></li>
-													</ul>
-												</div>
-											</div>
-										</li>
+										<li id="nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ</span></span></a></li>
 										<li id="nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children mkd-active-item has_sub narrow"><a href="/projects" class=" current "><span class="item_outer"><span class="item_text">Portfolio</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 											<div class="second">
 												<div class="inner">
@@ -331,13 +315,7 @@ header.mkd-page-header .mkd-position-right {
 <nav class="mkd-main-menu mkd-drop-down mkd-sticky-nav">
 	<ul id="menu-main-menu-navigation-1" class="clearfix">
 		<li id="sticky-nav-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span class="item_outer"><span class="item_text">Giới thiệu</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><span class="item_outer"><span class="item_text">Pages</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-			<div class="second"><div class="inner"><ul>
-				<li id="sticky-nav-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/about-us" class=""><span class="item_outer"><span class="item_text">About Us</span><span class="plus"></span></span></a></li>
-				<li id="sticky-nav-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Contact Us</span><span class="plus"></span></span></a></li>
-				<li id="sticky-nav-menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ Page</span><span class="plus"></span></span></a></li>
-			</ul></div></div>
-		</li>
+		<li id="sticky-nav-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span class="item_outer"><span class="item_text">FAQ</span><span class="plus"></span></span></a></li>
 		<li id="sticky-nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children mkd-active-item has_sub narrow"><a href="/projects" class=" current "><span class="item_outer"><span class="item_text">Portfolio</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 			<div class="second"><div class="inner"><ul>
 				<li id="sticky-nav-menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item "><a href="/projects" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
@@ -431,12 +409,7 @@ header.mkd-page-header .mkd-position-right {
 						<div class="mkd-grid">
 							<ul id="menu-main-menu-navigation-2" class="">
 								<li id="mobile-menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/about-us" class=""><span>Giới thiệu</span></a></li>
-								<li id="mobile-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Pages</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-									<ul class="sub_menu">
-										<li id="mobile-menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/about-us" class=""><span>About Us</span></a></li>
-										<li id="mobile-menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/contact-us" class=""><span>Contact Us</span></a></li>
-									</ul>
-								</li>
+								<li id="mobile-menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/faq" class=""><span>FAQ</span></a></li>
 								<li id="mobile-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children mkd-active-item has_sub"><a href="/projects" class=" current  mkd-mobile-no-link"><span>Portfolio</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
 									<ul class="sub_menu">
 										<li id="mobile-menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item "><a href="/projects" class=""><span>In Grid</span></a></li>
