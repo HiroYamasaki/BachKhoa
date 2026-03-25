@@ -810,54 +810,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 </li>
 </ul></div></div>
 </li>
-<li id="nav-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide"><a href="#" class=""><span class="item_outer"><span class="item_text">Elements</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-<div class="second"><div class="inner"><ul>
-	<li id="nav-menu-item-1991" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Classic</span></span></a>
-	<ul>
-		<li id="nav-menu-item-1337" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/accordions/" class=""><span class="item_outer"><span class="item_text">Accordions</span></span></a></li>
-		<li id="nav-menu-item-1335" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/tabs/" class=""><span class="item_outer"><span class="item_text">Tabs</span></span></a></li>
-		<li id="nav-menu-item-1336" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/buttons/" class=""><span class="item_outer"><span class="item_text">Buttons</span></span></a></li>
-		<li id="nav-menu-item-1432" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-with-text/" class=""><span class="item_outer"><span class="item_text">Icon With Text</span></span></a></li>
-		<li id="nav-menu-item-1479" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/contact-form/" class=""><span class="item_outer"><span class="item_text">Contact Form</span></span></a></li>
-		<li id="nav-menu-item-2370" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/call-to-action/" class=""><span class="item_outer"><span class="item_text">Call To Action</span></span></a></li>
-		<li id="nav-menu-item-2079" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/blog-list/" class=""><span class="item_outer"><span class="item_text">Blog List</span></span></a></li>
-	</ul>
-</li>
-	<li id="nav-menu-item-1992" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Presentation</span></span></a>
-	<ul>
-		<li id="nav-menu-item-1852" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/image-with-text-slider/" class=""><span class="item_outer"><span class="item_text">Image With Text Slider</span></span></a></li>
-		<li id="nav-menu-item-1853" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/interactive-box/" class=""><span class="item_outer"><span class="item_text">Interactive Box</span></span></a></li>
-		<li id="nav-menu-item-1851" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/team/" class=""><span class="item_outer"><span class="item_text">Team</span></span></a></li>
-		<li id="nav-menu-item-1478" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/testimonials/" class=""><span class="item_outer"><span class="item_text">Testimonials</span></span></a></li>
-		<li id="nav-menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span></span></a></li>
-		<li id="nav-menu-item-2371" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/portfolio-list/" class=""><span class="item_outer"><span class="item_text">Portfolio List</span></span></a></li>
-		<li id="nav-menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/carousel/" class=""><span class="item_outer"><span class="item_text">Carousel</span></span></a></li>
-	</ul>
-</li>
-	<li id="nav-menu-item-1993" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Infographic</span></span></a>
-	<ul>
-		<li id="nav-menu-item-1624" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pricing-table/" class=""><span class="item_outer"><span class="item_text">Pricing Table</span></span></a></li>
-		<li id="nav-menu-item-1623" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/progress-bar/" class=""><span class="item_outer"><span class="item_text">Progress Bar</span></span></a></li>
-		<li id="nav-menu-item-1621" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pie-charts/" class=""><span class="item_outer"><span class="item_text">Pie Charts</span></span></a></li>
-		<li id="nav-menu-item-1622" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/counters/" class=""><span class="item_outer"><span class="item_text">Counters</span></span></a></li>
-		<li id="nav-menu-item-1660" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/countdown/" class=""><span class="item_outer"><span class="item_text">Countdown</span></span></a></li>
-		<li id="nav-menu-item-1620" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/process-item/" class=""><span class="item_outer"><span class="item_text">Process Item</span></span></a></li>
-		<li id="nav-menu-item-1450" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/google-maps/" class=""><span class="item_outer"><span class="item_text">Google Maps</span></span></a></li>
-	</ul>
-</li>
-	<li id="nav-menu-item-1994" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Typography</span></span></a>
-	<ul>
-		<li id="nav-menu-item-2062" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/headings/" class=""><span class="item_outer"><span class="item_text">Headings</span></span></a></li>
-		<li id="nav-menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/highlights/" class=""><span class="item_outer"><span class="item_text">Highlights</span></span></a></li>
-		<li id="nav-menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/columns/" class=""><span class="item_outer"><span class="item_text">Columns</span></span></a></li>
-		<li id="nav-menu-item-1679" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/dropcaps/" class=""><span class="item_outer"><span class="item_text">Dropcaps</span></span></a></li>
-		<li id="nav-menu-item-2373" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/section-title/" class=""><span class="item_outer"><span class="item_text">Section Title</span></span></a></li>
-		<li id="nav-menu-item-1849" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/custom-font/" class=""><span class="item_outer"><span class="item_text">Custom Font</span></span></a></li>
-		<li id="nav-menu-item-1850" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-list-item/" class=""><span class="item_outer"><span class="item_text">Icon List Item</span></span></a></li>
-	</ul>
-</li>
-</ul></div></div>
-</li>
+<li id="nav-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Liên Hệ</span></span></a></li>
 </ul></nav>
 
                                 </div>
@@ -1020,54 +973,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 </li>
 </ul></div></div>
 </li>
-<li id="sticky-nav-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide"><a href="#" class=""><span class="item_outer"><span class="item_text">Elements</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-<div class="second"><div class="inner"><ul>
-	<li id="sticky-nav-menu-item-1991" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Classic</span><span class="plus"></span></span></a>
-	<ul>
-		<li id="sticky-nav-menu-item-1337" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/accordions/" class=""><span class="item_outer"><span class="item_text">Accordions</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1335" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/tabs/" class=""><span class="item_outer"><span class="item_text">Tabs</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1336" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/buttons/" class=""><span class="item_outer"><span class="item_text">Buttons</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1432" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-with-text/" class=""><span class="item_outer"><span class="item_text">Icon With Text</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1479" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/contact-form/" class=""><span class="item_outer"><span class="item_text">Contact Form</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-2370" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/call-to-action/" class=""><span class="item_outer"><span class="item_text">Call To Action</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-2079" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/blog-list/" class=""><span class="item_outer"><span class="item_text">Blog List</span><span class="plus"></span></span></a></li>
-	</ul>
-</li>
-	<li id="sticky-nav-menu-item-1992" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Presentation</span><span class="plus"></span></span></a>
-	<ul>
-		<li id="sticky-nav-menu-item-1852" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/image-with-text-slider/" class=""><span class="item_outer"><span class="item_text">Image With Text Slider</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1853" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/interactive-box/" class=""><span class="item_outer"><span class="item_text">Interactive Box</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1851" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/team/" class=""><span class="item_outer"><span class="item_text">Team</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1478" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/testimonials/" class=""><span class="item_outer"><span class="item_text">Testimonials</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/product-list/" class=""><span class="item_outer"><span class="item_text">Product List</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-2371" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/portfolio-list/" class=""><span class="item_outer"><span class="item_text">Portfolio List</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/carousel/" class=""><span class="item_outer"><span class="item_text">Carousel</span><span class="plus"></span></span></a></li>
-	</ul>
-</li>
-	<li id="sticky-nav-menu-item-1993" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Infographic</span><span class="plus"></span></span></a>
-	<ul>
-		<li id="sticky-nav-menu-item-1624" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pricing-table/" class=""><span class="item_outer"><span class="item_text">Pricing Table</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1623" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/progress-bar/" class=""><span class="item_outer"><span class="item_text">Progress Bar</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1621" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pie-charts/" class=""><span class="item_outer"><span class="item_text">Pie Charts</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1622" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/counters/" class=""><span class="item_outer"><span class="item_text">Counters</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1660" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/countdown/" class=""><span class="item_outer"><span class="item_text">Countdown</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1620" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/process-item/" class=""><span class="item_outer"><span class="item_text">Process Item</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1450" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/google-maps/" class=""><span class="item_outer"><span class="item_text">Google Maps</span><span class="plus"></span></span></a></li>
-	</ul>
-</li>
-	<li id="sticky-nav-menu-item-1994" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><a href="#" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Typography</span><span class="plus"></span></span></a>
-	<ul>
-		<li id="sticky-nav-menu-item-2062" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/headings/" class=""><span class="item_outer"><span class="item_text">Headings</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/highlights/" class=""><span class="item_outer"><span class="item_text">Highlights</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/columns/" class=""><span class="item_outer"><span class="item_text">Columns</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1679" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/dropcaps/" class=""><span class="item_outer"><span class="item_text">Dropcaps</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-2373" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/section-title/" class=""><span class="item_outer"><span class="item_text">Section Title</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1849" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/custom-font/" class=""><span class="item_outer"><span class="item_text">Custom Font</span><span class="plus"></span></span></a></li>
-		<li id="sticky-nav-menu-item-1850" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-list-item/" class=""><span class="item_outer"><span class="item_text">Icon List Item</span><span class="plus"></span></span></a></li>
-	</ul>
-</li>
-</ul></div></div>
-</li>
+<li id="sticky-nav-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/contact-us" class=""><span class="item_outer"><span class="item_text">Liên Hệ</span><span class="plus"></span></span></a></li>
 </ul></nav>
 
                             </div>
@@ -1260,54 +1166,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 </li>
 </ul>
 </li>
-<li id="mobile-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Elements</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-	<li id="mobile-menu-item-1991" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h6><span>Classic</span></h6><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-	<ul class="sub_menu">
-		<li id="mobile-menu-item-1337" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/accordions/" class=""><span>Accordions</span></a></li>
-		<li id="mobile-menu-item-1335" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/tabs/" class=""><span>Tabs</span></a></li>
-		<li id="mobile-menu-item-1336" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/buttons/" class=""><span>Buttons</span></a></li>
-		<li id="mobile-menu-item-1432" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-with-text/" class=""><span>Icon With Text</span></a></li>
-		<li id="mobile-menu-item-1479" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/contact-form/" class=""><span>Contact Form</span></a></li>
-		<li id="mobile-menu-item-2370" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/call-to-action/" class=""><span>Call To Action</span></a></li>
-		<li id="mobile-menu-item-2079" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/blog-list/" class=""><span>Blog List</span></a></li>
-	</ul>
-</li>
-	<li id="mobile-menu-item-1992" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h6><span>Presentation</span></h6><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-	<ul class="sub_menu">
-		<li id="mobile-menu-item-1852" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/image-with-text-slider/" class=""><span>Image With Text Slider</span></a></li>
-		<li id="mobile-menu-item-1853" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/interactive-box/" class=""><span>Interactive Box</span></a></li>
-		<li id="mobile-menu-item-1851" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/team/" class=""><span>Team</span></a></li>
-		<li id="mobile-menu-item-1478" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/testimonials/" class=""><span>Testimonials</span></a></li>
-		<li id="mobile-menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/product-list/" class=""><span>Product List</span></a></li>
-		<li id="mobile-menu-item-2371" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/portfolio-list/" class=""><span>Portfolio List</span></a></li>
-		<li id="mobile-menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/carousel/" class=""><span>Carousel</span></a></li>
-	</ul>
-</li>
-	<li id="mobile-menu-item-1993" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h6><span>Infographic</span></h6><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-	<ul class="sub_menu">
-		<li id="mobile-menu-item-1624" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pricing-table/" class=""><span>Pricing Table</span></a></li>
-		<li id="mobile-menu-item-1623" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/progress-bar/" class=""><span>Progress Bar</span></a></li>
-		<li id="mobile-menu-item-1621" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/pie-charts/" class=""><span>Pie Charts</span></a></li>
-		<li id="mobile-menu-item-1622" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/counters/" class=""><span>Counters</span></a></li>
-		<li id="mobile-menu-item-1660" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/countdown/" class=""><span>Countdown</span></a></li>
-		<li id="mobile-menu-item-1620" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/process-item/" class=""><span>Process Item</span></a></li>
-		<li id="mobile-menu-item-1450" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/google-maps/" class=""><span>Google Maps</span></a></li>
-	</ul>
-</li>
-	<li id="mobile-menu-item-1994" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h6><span>Typography</span></h6><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-	<ul class="sub_menu">
-		<li id="mobile-menu-item-2062" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/headings/" class=""><span>Headings</span></a></li>
-		<li id="mobile-menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/highlights/" class=""><span>Highlights</span></a></li>
-		<li id="mobile-menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/columns/" class=""><span>Columns</span></a></li>
-		<li id="mobile-menu-item-1679" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/dropcaps/" class=""><span>Dropcaps</span></a></li>
-		<li id="mobile-menu-item-2373" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/section-title/" class=""><span>Section Title</span></a></li>
-		<li id="mobile-menu-item-1849" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/custom-font/" class=""><span>Custom Font</span></a></li>
-		<li id="mobile-menu-item-1850" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/elements/icon-list-item/" class=""><span>Icon List Item</span></a></li>
-	</ul>
-</li>
-</ul>
-</li>
+<li id="mobile-menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/contact-us" class=""><span>Liên Hệ</span></a></li>
 </ul>        </div>
     </nav>
 
