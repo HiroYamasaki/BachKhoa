@@ -252,7 +252,7 @@ header.mkd-page-header .mkd-position-right {
 <div class="second">
 <div class="inner">
 <ul>
-<li id="nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/products" class=""><span class="item_outer"><span class="item_text">Projects</span></span></a></li>
+<li id="nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/projects" class=""><span class="item_outer"><span class="item_text">Dự án</span></span></a></li>
 </ul>
 </div>
 </div>
@@ -371,7 +371,7 @@ header.mkd-page-header .mkd-position-right {
 <div class="second">
 <div class="inner">
 <ul>
-<li id="sticky-nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/products" class=""><span class="item_outer"><span class="item_text">Projects</span><span class="plus"></span></span></a></li>
+<li id="sticky-nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/projects" class=""><span class="item_outer"><span class="item_text">Dự án</span><span class="plus"></span></span></a></li>
 </ul>
 </div>
 </div>

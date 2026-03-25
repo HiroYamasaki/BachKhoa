@@ -714,7 +714,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 <div class="second">
 <div class="inner">
 <ul>
-<li id="nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/products" class=""><span class="item_outer"><span class="item_text">Projects</span></span></a></li>
+<li id="nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/projects" class=""><span class="item_outer"><span class="item_text">Dự án</span></span></a></li>
 </ul>
 </div>
 </div>
@@ -833,7 +833,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 <div class="second">
 <div class="inner">
 <ul>
-<li id="sticky-nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/products" class=""><span class="item_outer"><span class="item_text">Projects</span><span class="plus"></span></span></a></li>
+<li id="sticky-nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/projects" class=""><span class="item_outer"><span class="item_text">Dự án</span><span class="plus"></span></span></a></li>
 </ul>
 </div>
 </div>
@@ -980,7 +980,7 @@ body.cursor--img #bk-cursor-ring { width: 80px; height: 80px; border-color: rgba
 </li>
 <li id="mobile-menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Cửa Hàng</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
 <ul class="sub_menu">
-<li id="mobile-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/products" class=""><span>Projects</span></a></li>
+<li id="mobile-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/projects" class=""><span>Dự án</span></a></li>
 </ul>
 </li>
 	<li id="mobile-menu-item-1199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=" mkd-mobile-no-link"><span>Shop Pages</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
