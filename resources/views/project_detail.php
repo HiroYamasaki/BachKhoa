@@ -232,15 +232,7 @@ header.mkd-page-header .mkd-position-right {
 												</div>
 											</div>
 										</li>
-										<li id="nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_sub narrow"><a href="/blog" class=""><span class="item_outer"><span class="item_text">Tin Tức</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-											<div class="second">
-												<div class="inner">
-													<ul>
-														<li id="nav-menu-item-2597" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/masonry-list/" class=""><span class="item_outer"><span class="item_text">Masonry List</span></span></a></li>
-													</ul>
-												</div>
-											</div>
-										</li>
+										<li id="nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/blog" class=""><span class="item_outer"><span class="item_text">Tin Tức</span></span></a></li>
 										<li id="nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children mkd-active-item has_sub narrow"><a href="/projects" class=" current "><span class="item_outer"><span class="item_text">Tài Nguyên</span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 											<div class="second">
 												<div class="inner">
@@ -320,11 +312,7 @@ header.mkd-page-header .mkd-position-right {
 				<li id="sticky-nav-menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/shop" class=""><span class="item_outer"><span class="item_text">Product List</span><span class="plus"></span></span></a></li>
 			</ul></div></div>
 		</li>
-		<li id="sticky-nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_sub narrow"><a href="/blog" class=""><span class="item_outer"><span class="item_text">Tin Tức</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
-			<div class="second"><div class="inner"><ul>
-				<li id="sticky-nav-menu-item-2597" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/masonry-list/" class=""><span class="item_outer"><span class="item_text">Masonry List</span><span class="plus"></span></span></a></li>
-			</ul></div></div>
-		</li>
+		<li id="sticky-nav-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/blog" class=""><span class="item_outer"><span class="item_text">Tin Tức</span><span class="plus"></span></span></a></li>
 		<li id="sticky-nav-menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children mkd-active-item has_sub narrow"><a href="/projects" class=" current "><span class="item_outer"><span class="item_text">Tài Nguyên</span><span class="plus"></span><i class="mkd-menu-arrow fa fa-angle-down"></i></span></a>
 			<div class="second"><div class="inner"><ul>
 				<li id="sticky-nav-menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/projects" class=""><span class="item_outer"><span class="item_text">In Grid</span><span class="plus"></span></span></a></li>
@@ -415,11 +403,7 @@ header.mkd-page-header .mkd-position-right {
 										<li id="mobile-menu-item-2367" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="/projects" class=""><span>In Grid</span></a></li>
 									</ul>
 								</li>
-								<li id="mobile-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_sub"><a href="/blog" class=""><span>Tin Tức</span></a><span class="mobile_arrow"><i class="mkd-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-									<ul class="sub_menu">
-										<li id="mobile-menu-item-2597" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://baumeister.qodeinteractive.com/masonry-list/" class=""><span>Masonry List</span></a></li>
-									</ul>
-								</li>
+								<li id="mobile-menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/blog" class=""><span>Tin Tức</span></a></li>
 							</ul>
 						</div>
 					</nav>
