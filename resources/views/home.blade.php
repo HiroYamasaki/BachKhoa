@@ -2,12 +2,20 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-				
-			<!-- <meta property="og:url" content="https://baumeister.qodeinteractive.com/"/> -->
-			<meta property="og:type" content="article"/>
-			<meta property="og:title" content="Main Home"/>
+			<!-- Open Graph / Facebook -->
+			<meta property="og:type" content="website"/>
+			<meta property="og:site_name" content="BachKhoa Digital"/>
+			<meta property="og:url" content="{{ url('/') }}"/>
+			<meta property="og:title" content="BachKhoa Digital – Giải Pháp Công Nghệ"/>
 			<meta property="og:description" content="Cung cấp giải pháp công nghệ mang lại hiệu quả cho Khách hàng"/>
-			<meta property="og:image" content=""/>
+			<meta property="og:image" content="{{ asset('images/share.jpg') }}"/>
+			<meta property="og:image:width" content="1200"/>
+			<meta property="og:image:height" content="630"/>
+			<!-- Twitter Card -->
+			<meta name="twitter:card" content="summary_large_image"/>
+			<meta name="twitter:title" content="BachKhoa Digital – Giải Pháp Công Nghệ"/>
+			<meta name="twitter:description" content="Cung cấp giải pháp công nghệ mang lại hiệu quả cho Khách hàng"/>
+			<meta name="twitter:image" content="{{ asset('images/share.jpg') }}"/>
 		
 				
 		<meta charset="UTF-8"/>

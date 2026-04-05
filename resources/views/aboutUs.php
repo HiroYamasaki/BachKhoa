@@ -4,7 +4,22 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
-	<title>About Us &#8211; BachKhoa Digital</title>
+	<title>Giới Thiệu &#8211; BachKhoa Digital</title>
+	<?php $ogBase = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . ($_SERVER['HTTP_HOST'] ?? 'localhost'); ?>
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website"/>
+	<meta property="og:site_name" content="BachKhoa Digital"/>
+	<meta property="og:url" content="<?php echo $ogBase; ?>/about-us"/>
+	<meta property="og:title" content="Giới Thiệu – BachKhoa Digital"/>
+	<meta property="og:description" content="Tìm hiểu về BachKhoa Digital – đơn vị cung cấp giải pháp công nghệ uy tín cho doanh nghiệp."/>
+	<meta property="og:image" content="<?php echo $ogBase; ?>/images/share.jpg"/>
+	<meta property="og:image:width" content="1200"/>
+	<meta property="og:image:height" content="630"/>
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:title" content="Giới Thiệu – BachKhoa Digital"/>
+	<meta name="twitter:description" content="Tìm hiểu về BachKhoa Digital – đơn vị cung cấp giải pháp công nghệ uy tín cho doanh nghiệp."/>
+	<meta name="twitter:image" content="<?php echo $ogBase; ?>/images/share.jpg"/>
 	<meta name='robots' content='max-image-preview:large' />
 
 	<link rel='dns-prefetch' href='//fonts.googleapis.com' />

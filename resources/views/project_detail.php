@@ -5,6 +5,21 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 	<title>Chi Tiết Dự Án &#8211; BachKhoa Digital</title>
+	<?php $ogBase = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . ($_SERVER['HTTP_HOST'] ?? 'localhost'); ?>
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="article"/>
+	<meta property="og:site_name" content="BachKhoa Digital"/>
+	<meta property="og:url" content="<?php echo $ogBase . $_SERVER['REQUEST_URI']; ?>"/>
+	<meta property="og:title" content="Chi Tiết Dự Án – BachKhoa Digital"/>
+	<meta property="og:description" content="Xem chi tiết dự án đã được BachKhoa Digital triển khai thành công."/>
+	<meta property="og:image" content="<?php echo $ogBase; ?>/images/share.jpg"/>
+	<meta property="og:image:width" content="1200"/>
+	<meta property="og:image:height" content="630"/>
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:title" content="Chi Tiết Dự Án – BachKhoa Digital"/>
+	<meta name="twitter:description" content="Xem chi tiết dự án đã được BachKhoa Digital triển khai thành công."/>
+	<meta name="twitter:image" content="<?php echo $ogBase; ?>/images/share.jpg"/>
 	<meta name='robots' content='max-image-preview:large' />
 
 	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
