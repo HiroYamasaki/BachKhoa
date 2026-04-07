@@ -1,3 +1,7 @@
+[phases.setup]
+aptPkgs = ["libicu-dev"]
+cmds = ["docker-php-ext-install intl"]
+
 [phases.build]
 cmds = [
     "composer install --optimize-autoloader --no-scripts --no-interaction",
@@ -9,4 +13,4 @@ cmds = [
 ]
 
 [start]
-cmd = "php artisan config:clear && php artisan migrate --force && caddy run --config /Caddyfile --adapter caddyfile"
+cmd = "php artisan config:clear && php artisan migrate --force && php artisan db:seed --class=RolePermissionSeeder --force && caddy run --config /Caddyfile --adapter caddyfile"
