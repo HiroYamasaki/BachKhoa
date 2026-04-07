@@ -136,3 +136,26 @@
     border-color: #E8612D;
     color: #E8612D;
 }
+
+/* Admin Panel Link */
+.bkd-admin-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 9px 24px;
+    background: #E8612D;
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background 0.3s;
+}
+.bkd-admin-link:hover {
+    background: #C0392B;
+    color: #fff !important;
+}
+.bkd-admin-link i {
+    margin-right: 6px;
+}

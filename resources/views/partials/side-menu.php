@@ -24,6 +24,9 @@ $csrfToken = csrf_token();
 			<button type="button" class="bkd-logout-btn" id="bkd-logout-btn">
 				<i class="fa fa-sign-out"></i> Đăng xuất
 			</button>
+			<a href="/admin" class="bkd-admin-link" id="bkd-admin-link" style="<?php echo ($authUser && $authUser->hasAnyRole(['admin','emp'])) ? '' : 'display:none'; ?>">
+				<i class="fa fa-cogs"></i> Quản trị hệ thống
+			</a>
 		</div>
 
 		<div class="bkd-login-box" style="<?php echo $authUser ? 'display:none' : ''; ?>">
@@ -114,6 +117,12 @@ $csrfToken = csrf_token();
                     loginBox.style.display = 'none';
                     userInfo.style.display = '';
                     loginForm.reset();
+                    // Show admin link if user has admin or emp role
+                    var adminLink = document.getElementById('bkd-admin-link');
+                    if (adminLink) {
+                        var roles = res.data.user.roles || [];
+                        adminLink.style.display = (roles.indexOf('admin') !== -1 || roles.indexOf('emp') !== -1) ? '' : 'none';
+                    }
                 } else {
                     errBox.textContent = res.data.message || 'Email hoặc mật khẩu không đúng.';
                     errBox.style.display = 'block';
@@ -151,6 +160,8 @@ $csrfToken = csrf_token();
                 var section = document.querySelector('.bkd-auth-section');
                 section.querySelector('.bkd-user-info').style.display = 'none';
                 section.querySelector('.bkd-login-box').style.display = '';
+                var adminLink = document.getElementById('bkd-admin-link');
+                if (adminLink) adminLink.style.display = 'none';
             })
             .catch(function() {
                 window.location.reload();
