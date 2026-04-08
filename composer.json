@@ -87,6 +87,7 @@
         "platform": {
             "php": "8.2.30",
             "ext-gd": "1.0",
+            "ext-intl": "1.0",
             "ext-zip": "1.0"
         }
     },
